@@ -1,9 +1,9 @@
 ﻿---
-title: Harmony 3 Aerospace Package
+title: Harmony 3 GFX Package
 nav_order: 1
 ---
 
-# MPLAB® Harmony 3 Aerospace
+# MPLAB® Harmony 3 GFX
 
 MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating
 embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller
@@ -15,23 +15,23 @@ and microprocessor devices.  Refer to the following links for more information.
 - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
 - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
 
-This repository contains the MPLAB® Harmony 3 Aerospace solutions and example applications.
+This repository contains the MPLAB® Harmony 3 GFX solutions and example applications.
 Quickly incorporate connectivity to your designs with Aerospace ICs, modules, software and development kits that make connecting effortless for your customers.
 Our comprehensive Aerospace portfolio has the technology to meet your range, data rate, interoperability, frequency and topology needs. Refer to
 the following links for release notes, training materials, and interface reference information.
 
 - [Release Notes](release_notes.md)
 - [MPLAB® Harmony License](mplab_harmony_license.md)
-- [MPLAB® Harmony 3 Aerospace Wiki](https://github.com/Microchip-MPLAB-Harmony/aerospace/wiki)
-- [MPLAB® Harmony 3 Aerospace API Help](https://microchip-mplab-harmony.github.io/aerospace)
+- [MPLAB® Harmony 3 GFX Wiki](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki)
+- [MPLAB® Harmony 3 GFX API Help](https://automaate.github.io/gen2_wiki_sandbox/)
 
 # Contents Summary
 
 | Folder     | Description                                               |
 | ---        | ---                                                       |
 | apps       | Example applications for Aerospace library components     |
-| config     | Aerospace module configuration file                       |
-| docs       | Aerospace library help documentation                      |
+| config     | GFX module configuration file                       |
+| docs       | GFX library help documentation                      |
 | peripheral | Peripheral library templates and configuration data       |
 
 ## Code Examples
