@@ -40,7 +40,7 @@ The following applications are provided to demonstrate the typical or interestin
 
 | Legato Flash Examples | Status |
 | --- | :---: |
-| [legato_flash on SAM E54 CPRO Parallel](apps/legato_flash/legato_fl_e54_cult_cpro_parallel/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [legato_flash on SAM E54 CPRO Parallel](apps/ip1553/ip1553_bc_operation_interrupt/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 | [IP1553 Bus Controller operation interrupt](apps/ip1553/ip1553_bc_operation_interrupt/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 | [IP1553 Remote Terminal operation blocking](apps/ip1553/ip1553_rt_operation_blocking/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 | [IP1553 Remote Terminal operation interrupt](apps/ip1553/ip1553_rt_operation_interrupt/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
