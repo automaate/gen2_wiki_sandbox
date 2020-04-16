@@ -1,29 +1,29 @@
-ï»¿---
+---
 title: Harmony 3 Aerospace Package
 nav_order: 1
 ---
 
-# MPLABÂ® Harmony 3 Aerospace
+# MPLAB® Harmony 3 Aerospace
 
-MPLABÂ® Harmony 3 is an extension of the MPLABÂ® ecosystem for creating
-embedded firmware solutions for Microchip 32-bit SAM and PICÂ® microcontroller
+MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating
+embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller
 and microprocessor devices.  Refer to the following links for more information.
 
 - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit)
 - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus)
 - [Microchip MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide)
-- [Microchip MPLABÂ® Harmony](https://www.microchip.com/mplab/mplab-harmony)
-- [Microchip MPLABÂ® Harmony Pages](https://microchip-mplab-harmony.github.io/)
+- [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
+- [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
 
-This repository contains the MPLABÂ® Harmony 3 Aerospace solutions and example applications.
+This repository contains the MPLAB® Harmony 3 Aerospace solutions and example applications.
 Quickly incorporate connectivity to your designs with Aerospace ICs, modules, software and development kits that make connecting effortless for your customers.
 Our comprehensive Aerospace portfolio has the technology to meet your range, data rate, interoperability, frequency and topology needs. Refer to
 the following links for release notes, training materials, and interface reference information.
 
 - [Release Notes](release_notes.md)
-- [MPLABÂ® Harmony License](mplab_harmony_license.md)
-- [MPLABÂ® Harmony 3 Aerospace Wiki](https://github.com/Microchip-MPLAB-Harmony/aerospace/wiki)
-- [MPLABÂ® Harmony 3 Aerospace API Help](https://microchip-mplab-harmony.github.io/aerospace)
+- [MPLAB® Harmony License](mplab_harmony_license.md)
+- [MPLAB® Harmony 3 Aerospace Wiki](https://github.com/Microchip-MPLAB-Harmony/aerospace/wiki)
+- [MPLAB® Harmony 3 Aerospace API Help](https://microchip-mplab-harmony.github.io/aerospace)
 
 # Contents Summary
 
@@ -38,9 +38,9 @@ the following links for release notes, training materials, and interface referen
 
 The following applications are provided to demonstrate the typical or interesting usage models of one or more Peripheral libraries.
 
-| MIL1553 Examples | Status |
+| Legato Flash Examples | Status |
 | --- | :---: |
-| [IP1553 Bus Controller operation blocking](apps/ip1553/ip1553_bc_operation_blocking/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [legato_flash on SAM E54 CPRO Parallel](apps/legato_flash/legato_fl_e54_cult_cpro_parallel/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 | [IP1553 Bus Controller operation interrupt](apps/ip1553/ip1553_bc_operation_interrupt/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 | [IP1553 Remote Terminal operation blocking](apps/ip1553/ip1553_rt_operation_blocking/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 | [IP1553 Remote Terminal operation interrupt](apps/ip1553/ip1553_rt_operation_interrupt/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
