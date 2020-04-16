@@ -64,18 +64,16 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 
 The following applications are provided to demonstrate the typical or interesting usage models of one or more Peripheral libraries.
 
-| Legato | Status |
+| Legato Examples | Status |
 | --- | :---: |
-| [IP1553 Bus Controller operation blocking](apps/ip1553/ip1553_bc_operation_blocking/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
-| [IP1553 Bus Controller operation interrupt](apps/ip1553/ip1553_bc_operation_interrupt/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
-| [IP1553 Remote Terminal operation blocking](apps/ip1553/ip1553_rt_operation_blocking/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
-| [IP1553 Remote Terminal operation interrupt](apps/ip1553/ip1553_rt_operation_interrupt/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [legato_flash](apps/legato_flash/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [legato_quickstart](apps/legato_quickstart/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [legato_quickstart_ext_res](apps/legato_quickstart_ext_res/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
 
 | Blank Examples | Status |
 | --- | :---: |
-| [SpaceWire Loopback](apps/spw/spw_loopback/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
-| [SpaceWire RMAP Loopback](apps/spw/spw_rmap_loopback/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [blank_quickstart](apps/blank_quickstart/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
 ## Graphics libraries
 
@@ -83,22 +81,18 @@ The following applications are provided to demonstrate the typical or interestin
 
 | Library | Status |
 | --- | :---: |
-| [IP1553](peripheral/ip1553_44127/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [ICM](peripheral/icm_11105/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [FLEXRAMECC](peripheral/flexramecc_44124/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [TCMECC](peripheral/tcmecc_44125/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [SpaceWire](peripheral/spw_44126/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| [Legato](middleware/legato/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 
 ## Graphics Drivers
 
 | Driver | Status |
 | --- | :---: |
-| [IP1553](peripheral/ip1553_44127/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [ICM](peripheral/icm_11105/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [FLEXRAMECC](peripheral/flexramecc_44124/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [TCMECC](peripheral/tcmecc_44125/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [SpaceWire](peripheral/spw_44126/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-
+| [external_controller](middleware/legato/driver/controller/external_controller/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| [glcd](middleware/legato/driver/controller/glcd/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| [2dgpu](middleware/legato/driver/processor/2dgpu/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| [generic_touch](input/driver/touch/generic_touch/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| [maxtouch](input/driver/touch/maxtouch/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| [ptc](input/driver/touch/ptc/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 
 ____
 
