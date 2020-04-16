@@ -1,10 +1,10 @@
-﻿---
-parent: Examples applications
-title: IP1553 Bus Controller operation blocking Example
+---
+parent: Legato Flash Applications
+title: Legato Flash legato_fl_e54_cult_cpro_parallel.X Example
 nav_order: 1
 ---
 
-# IP1553 Bus Controller operation blocking Example
+# Legato Flash legato_fl_e54_cult_cpro_parallel.X Example
 
 This example shows how start the IP1553 module in Bus Controller mode and issue data transfer commands in a blocking manner. The CPU polls the peripheral register continuously to manage the transfer. It performs BC to RT01 data transfer, RT01 to BC data transfer and BC to RTs broadcast data transfer.
 
