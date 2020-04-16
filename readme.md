@@ -1,106 +1,70 @@
----
-title: Harmony 3 Graphics  Package
+ï»¿---
+title: Harmony 3 Aerospace Package
 nav_order: 1
 ---
 
-# ![Microchip Technology](images/mhgs.png) MPLAB® Harmony 3 Graphics
+# MPLABÂ® Harmony 3 Aerospace
 
-MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC microcontroller and microprocessor devices. Refer to the following links for more information:
+MPLABÂ® Harmony 3 is an extension of the MPLABÂ® ecosystem for creating
+embedded firmware solutions for Microchip 32-bit SAM and PICÂ® microcontroller
+and microprocessor devices.  Refer to the following links for more information.
 
 - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit)
 - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus)
 - [Microchip MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide)
-- [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
-- [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
+- [Microchip MPLABÂ® Harmony](https://www.microchip.com/mplab/mplab-harmony)
+- [Microchip MPLABÂ® Harmony Pages](https://microchip-mplab-harmony.github.io/)
 
-This repository contains the MPLAB® Harmony Graphics Suite.  The
-suite supports a free fast to market, graphics software development environment for Microchip MPLAB® 32-bit SAM and PIC microprocessor devices.  Refer to
-the following graphics links for release notes, home page, training materials, framework and application help.
-Find multiple graphics application examples in the [gfx_apps](https://github.com/Microchip-MPLAB-Harmony/gfx_apps/tree/master/apps) repository.
+This repository contains the MPLABÂ® Harmony 3 Aerospace solutions and example applications.
+Quickly incorporate connectivity to your designs with Aerospace ICs, modules, software and development kits that make connecting effortless for your customers.
+Our comprehensive Aerospace portfolio has the technology to meet your range, data rate, interoperability, frequency and topology needs. Refer to
+the following links for release notes, training materials, and interface reference information.
 
- - [Release Notes](./release_notes.md)
- - [MPLAB® Harmony License](mplab_harmony_license.md)
- - [MPLAB® Harmony 3 Graphics Wiki](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki)
- - [MPLAB® Harmony 3 Graphics Videos](https://www.youtube.com/playlist?list=PL9B4edd-p2ag5xsIIHhja-caKYY7AKPxe)
- - [MPLAB® Harmony 3 Graphics User Guide](https://microchip-mplab-harmony.github.io/gfx)
- - [MPLAB® Harmony 3 Graphics Applications User Guide](https://microchip-mplab-harmony.github.io/gfx_apps)
- - [MPLAB® Harmony 3 Graphics Apps Repository](https://bitbucket.microchip.com/projects/MH3/repos/gfx_apps/browse)
-
-# Features
-
-The key features of the MPLAB® Harmony Graphics Suite are the following:
-
-- Hardware optimized for use with Microchip 32-bit SAM and PIC devices
-- Compatible component for use with Microchip Harmony 3 Configurator (MHC)
-- Written in C with MISRA C (Mandatory) compliancy
-- RTOS and non-RTOS support
-- Configurable widget building blocks buttons, labels, lists, sliders, and images
-- Rich tool set: Heap Estimator, Event Manager, Palette generator, Asset Manager, String and Font interface, DDR memory organizer
-- Hardware integrated for Microchip GPU and display controller peripherals
-- Support for single and double frame buffers
-- Multi-language font support
-- External input support for use with capacitive, resistive and other devices
-- UI design editor for what-you-see-what-you-get (WYSWYG) graphics layouts
-- Fluid-UI support for alpha-blending, animations, scaling
-- Pixel format support for RGBA8888, RGB888, RGB565, RGB5551, RGB332, GS8
-- Multi-image support for industry standard formats, compression choices, external memory accessibility
-- Fully functional demonstrations and quick-starts to enable new development
-- Low memory and low power configurable
+- [Release Notes](release_notes.md)
+- [MPLABÂ® Harmony License](mplab_harmony_license.md)
+- [MPLABÂ® Harmony 3 Aerospace Wiki](https://github.com/Microchip-MPLAB-Harmony/aerospace/wiki)
+- [MPLABÂ® Harmony 3 Aerospace API Help](https://microchip-mplab-harmony.github.io/aerospace)
 
 # Contents Summary
 
-| Folder     | Description                                  |
-|------------|----------------------------------------------|
-| apps       | Example quickstart and utility applications |
-| display    | Supported displays |
-| doc        | Microsoft Compiled (CHM) help documentation |
-| docs       | HTML Help documentation                   |
-| input      | Input System and its associated drivers and services |
-| middleware | Supported User Interface (UI) libraries |
-| driver     | Display controller and graphics processor unit drivers |
+| Folder     | Description                                               |
+| ---        | ---                                                       |
+| apps       | Example applications for Aerospace library components     |
+| config     | Aerospace module configuration file                       |
+| docs       | Aerospace library help documentation                      |
+| peripheral | Peripheral library templates and configuration data       |
 
 ## Code Examples
 
 The following applications are provided to demonstrate the typical or interesting usage models of one or more Peripheral libraries.
 
-| Legato Examples | Status |
+| MIL1553 Examples | Status |
 | --- | :---: |
-| [legato_flash](apps/ip1553/ip1553_bc_operation_interrupt/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
-| [legato_quickstart](apps/ip1553/ip1553_bc_operation_interrupt/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
-| [legato_quickstart_ext_res](apps/ip1553/ip1553_rt_operation_blocking/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [IP1553 Bus Controller operation blocking](apps/ip1553/ip1553_bc_operation_blocking/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [IP1553 Bus Controller operation interrupt](apps/ip1553/ip1553_bc_operation_interrupt/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [IP1553 Remote Terminal operation blocking](apps/ip1553/ip1553_rt_operation_blocking/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [IP1553 Remote Terminal operation interrupt](apps/ip1553/ip1553_rt_operation_interrupt/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
-| Blank Examples | Status |
+| ICM with ECC errors injections Example | Status |
 | --- | :---: |
-| [blank_quickstart](apps/ip1553/ip1553_bc_operation_blocking/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [ICM with ECC errors injections](apps/icm_with_ecc_error_injection/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
-
-## Graphics Libraries
-
-### Legato
-
-| Library | Status |
+| SpaceWire Examples | Status |
 | --- | :---: |
-| [Legato](peripheral/ip1553_44127/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| [SpaceWire Loopback](apps/spw/spw_loopback/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [SpaceWire RMAP Loopback](apps/spw/spw_rmap_loopback/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
-## Graphics Drivers
+## Peripheral libraries
 
-### Display Drivers
+### SAMRH71
 
-| Driver | Status |
+| PLIB | Status |
 | --- | :---: |
-| [external_controller](peripheral/ip1553_44127/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [glcd](peripheral/ip1553_44127/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [ili9488](peripheral/ip1553_44127/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [lcc](peripheral/ip1553_44127/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [ssd1963](peripheral/ip1553_44127/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-
-### Touch Drivers
-
-| Driver | Status |
-| --- | :---: |
-| [maXTouch](peripheral/ip1553_44127/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [ptc](peripheral/ip1553_44127/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [generic_touch](peripheral/ip1553_44127/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| [IP1553](peripheral/ip1553_44127/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| [ICM](peripheral/icm_11105/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| [FLEXRAMECC](peripheral/flexramecc_44124/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| [TCMECC](peripheral/tcmecc_44125/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| [SpaceWire](peripheral/spw_44126/docs/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 
 ____
 
