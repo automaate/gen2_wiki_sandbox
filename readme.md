@@ -1,11 +1,13 @@
 ---
-title: Harmony 3 Graphics Package
+title: Harmony 3 Aerospace Package
 nav_order: 1
 ---
 
 # MPLAB® Harmony 3 Graphics
 
-MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC microcontroller and microprocessor devices. Refer to the following links for more information:
+MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating
+embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller
+and microprocessor devices.  Refer to the following links for more information.
 
 - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit)
 - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus)
