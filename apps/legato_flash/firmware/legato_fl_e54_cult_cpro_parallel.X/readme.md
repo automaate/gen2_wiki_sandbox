@@ -1,5 +1,5 @@
 ---
-parent: Legato Flash Applications
+parent: Examples applications
 title: Legato Flash legato_fl_e54_cult_cpro_parallel.X Example
 nav_order: 1
 ---
