@@ -1,7 +1,7 @@
 ---
-title: Harmony 3 Graphics Package
+title: Harmony 3 Aerospace Package
 nav_order: 1
 ---
 
-# MPLAB® Harmony 3 Graphics
+# MPLAB® Harmony 3 Aerospace
 
