@@ -65,7 +65,7 @@ The following applications are provided to demonstrate the typical or interestin
 
 | Legato Examples | Status |
 | --- | :---: |
-| [legato_flash](apps/legato_flash\firmware\legato_fl_e54_cult_cpro_parallel.X/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [legato_flash](apps/ip1553/ip1553_bc_operation_interrupt/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 | [legato_quickstart](apps/ip1553/ip1553_bc_operation_interrupt/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 | [legato_quickstart_ext_res](apps/ip1553/ip1553_rt_operation_blocking/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
