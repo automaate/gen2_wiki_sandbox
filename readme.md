@@ -70,14 +70,11 @@ The following applications are provided to demonstrate the typical or interestin
 | [legato_quickstart](apps/legato_quickstart/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 | [legato_quickstart_ext_res](apps/legato_quickstart_ext_res/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
-
 | Blank Examples | Status |
 | --- | :---: |
 | [blank_quickstart](apps/blank_quickstart/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
 ## Graphics libraries
-
-### Legato
 
 | Library | Status |
 | --- | :---: |
