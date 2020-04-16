@@ -1,9 +1,9 @@
 ---
-title: Harmony 3 Aerospace Package
+title: Harmony 3 Graphics Package
 nav_order: 1
 ---
 
-# MPLAB® Harmony 3 Aerospace
+# MPLAB® Harmony 3 Graphics
 
 MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating
 embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller
@@ -15,15 +15,15 @@ and microprocessor devices.  Refer to the following links for more information.
 - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
 - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
 
-This repository contains the MPLAB® Harmony 3 Aerospace solutions and example applications.
+This repository contains the MPLAB® Harmony 3 Graphics solutions and example applications.
 Quickly incorporate connectivity to your designs with Aerospace ICs, modules, software and development kits that make connecting effortless for your customers.
 Our comprehensive Aerospace portfolio has the technology to meet your range, data rate, interoperability, frequency and topology needs. Refer to
 the following links for release notes, training materials, and interface reference information.
 
 - [Release Notes](release_notes.md)
 - [MPLAB® Harmony License](mplab_harmony_license.md)
-- [MPLAB® Harmony 3 Aerospace Wiki](https://github.com/Microchip-MPLAB-Harmony/aerospace/wiki)
-- [MPLAB® Harmony 3 Aerospace API Help](https://microchip-mplab-harmony.github.io/aerospace)
+- [MPLAB® Harmony 3 Graphics Wiki](https://github.com/Microchip-MPLAB-Harmony/aerospace/wiki)
+- [MPLAB® Harmony 3 Graphics API Help](https://microchip-mplab-harmony.github.io/aerospace)
 
 # Contents Summary
 
