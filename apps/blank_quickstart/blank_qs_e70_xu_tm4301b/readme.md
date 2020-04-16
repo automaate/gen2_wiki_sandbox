@@ -1,10 +1,10 @@
 ﻿---
-parent: Examples applications
-title: IP1553 Bus Controller operation blocking Example
+parent: Examples and Demonstrations
+title: blank_qs_e70_xu_tm4301b Example
 nav_order: 1
 ---
 
-# IP1553 Bus Controller operation blocking Example
+# blank_qs_e70_xu_tm4301b Example
 
 This example shows how start the IP1553 module in Bus Controller mode and issue data transfer commands in a blocking manner. The CPU polls the peripheral register continuously to manage the transfer. It performs BC to RT01 data transfer, RT01 to BC data transfer and BC to RTs broadcast data transfer.
 
