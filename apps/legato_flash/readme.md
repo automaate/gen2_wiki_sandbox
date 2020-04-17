@@ -14,4 +14,4 @@ market:
 
 The following applications are provided to demonstrate the typical or interesting usage models of the Suite.
 
-* [legato_fl_e54_cult_cpro_parallel](legato_flash/legato_fl_e54_cult_cpro_parallel/readme.md)
+* [legato_fl_e54_cult_cpro_parallel](legato_fl_e54_cult_cpro_parallel/readme.md)
