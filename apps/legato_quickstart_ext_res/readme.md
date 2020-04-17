@@ -14,4 +14,4 @@ market:
 
 The following applications are provided to demonstrate the typical or interesting usage models of the Suite.
 
-* [legato_qs_x_r_e54_cult_cpro_parallel](legato_quickstart_ext_res/legato_qs_x_r_e54_cult_cpro_parallel/readme.md)
+* [legato_qs_x_r_e54_cult_cpro_parallel](legato_qs_x_r_e54_cult_cpro_parallel/readme.md)
