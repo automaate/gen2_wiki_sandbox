@@ -3,7 +3,7 @@ parent: Legato Quickstart Applications
 title: Legato Flash SAME54 Curiosity Pro Parallel
 has_children: true
 has_toc: false
-nav_order: 1
+nav_order: 3
 
 family: SAMRH71
 market:
