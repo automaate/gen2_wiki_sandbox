@@ -3,7 +3,7 @@ parent: Legato Quickstart Applications
 title: Legato Quickstart SAME54 Curiosity Ultra Pro Parallel
 has_children: true
 has_toc: false
-nav_order: 6
+nav_order: 3
 
 family: SAMRH71
 market:
