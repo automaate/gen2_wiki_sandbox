@@ -1,27 +1,17 @@
 ---
-title: Examples applications
+parent: Examples and Demonstrations
+title: Legato Quickstart External Resource Applications
 has_children: true
 has_toc: false
 nav_order: 2
 
 family: SAMRH71
 market:
-  - aerospace
+  - graphics
 ---
 
-# Examples applications
+# Legato Quickstart External Resource Applications
 
-The following applications are provided to demonstrate the typical or interesting usage models of one or more Peripheral libraries.
+The following applications are provided to demonstrate the typical or interesting usage models of the Suite.
 
-## MIL1553 Examples
-* [IP1553 Bus Controller operation blocking](./ip1553/ip1553_bc_operation_blocking/readme.md)
-* [IP1553 Bus Controller operation interrupt](./ip1553/ip1553_bc_operation_interrupt/readme.md)
-* [IP1553 Remote Terminal operation blocking](./ip1553/ip1553_rt_operation_blocking/readme.md)
-* [IP1553 Remote Terminal operation interrupt](./ip1553/ip1553_rt_operation_interrupt/readme.md)
-
-## ICM with ECC errors injections Example
-* [ICM with ECC errors injections](./icm_with_ecc_error_injection/readme.md)
-
-## SpaceWire Examples
-* [SpaceWire Loopback](./spw/spw_loopback/readme.md)
-* [SpaceWire RMAP Loopback](./spw/spw_rmap_loopback/readme.md)
+* [legato_qs_x_r_e54_cult_cpro_parallel](legato_quickstart_ext_res/legato_qs_x_r_e54_cult_cpro_parallel/readme.md)
