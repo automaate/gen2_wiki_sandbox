@@ -23,7 +23,7 @@ Find multiple graphics application examples in the [gfx_apps](https://github.com
  - [MPLAB® Harmony 3 Graphics Videos](https://www.youtube.com/playlist?list=PL9B4edd-p2ag5xsIIHhja-caKYY7AKPxe)
  - [MPLAB® Harmony 3 Graphics User Guide](https://microchip-mplab-harmony.github.io/gfx)
  - [MPLAB® Harmony 3 Graphics Applications User Guide](https://microchip-mplab-harmony.github.io/gfx_apps)
- - [MPLAB® Harmony 3 Graphics Apps Repository](docs/html/index.html)
+ - [MPLAB® Harmony 3 Graphics Apps Repository](api.md)
 
 # Features
 
