@@ -1,9 +1,8 @@
 ---
 parent: Legato Quickstart Applications
 title: Legato Quickstart PIC32MZ EF MEB2 480x272 Application
-has_children: true
 has_toc: false
-nav_order: 3
+nav_order: 4
 
 family: SAMRH71
 market:
