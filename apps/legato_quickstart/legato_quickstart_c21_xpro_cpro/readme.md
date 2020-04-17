@@ -1,9 +1,8 @@
 ---
 parent: Legato Quickstart Applications
 title: Legato Quickstart SAMC21 Xplained Pro Curiosity Pro Application
-has_children: true
 has_toc: false
-nav_order: 3
+nav_order: 4
 
 family: SAMRH71
 market:
