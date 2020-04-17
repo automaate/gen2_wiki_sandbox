@@ -14,5 +14,5 @@ market:
 
 The following applications are provided to demonstrate the typical or interesting usage models of the Suite.
 
-* [blank_qs_e70_xu_tm4301b](blank_quickstart/blank_qs_e70_xu_tm4301b/readme.md)
+* [blank_qs_e70_xu_tm4301b](blank_qs_e70_xu_tm4301b/readme.md)
 
