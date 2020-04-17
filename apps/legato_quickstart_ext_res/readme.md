@@ -3,7 +3,7 @@ parent: Examples and Demonstrations
 title: Legato Quickstart External Resource Applications
 has_children: true
 has_toc: false
-nav_order: 2
+nav_order: 4
 
 family: SAMRH71
 market:
