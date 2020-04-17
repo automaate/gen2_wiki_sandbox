@@ -3,7 +3,7 @@ parent: Legato Quickstart Applications
 title: Legato Quickstart PICMZ DA Internal DDR MEB2 480x272 Application
 has_children: true
 has_toc: false
-nav_order: 9
+nav_order: 3
 
 family: SAMRH71
 market:
