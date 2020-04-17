@@ -1,9 +1,8 @@
 ---
 parent: Legato Quickstart Applications
 title: Legato Quickstart SAME54 Curiosity 480x272 SSD1963
-has_children: true
 has_toc: false
-nav_order: 3
+nav_order: 4
 
 family: SAMRH71
 market:
