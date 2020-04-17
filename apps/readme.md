@@ -14,23 +14,31 @@ market:
 The following applications are provided to demonstrate the typical or interesting usage models of the Suite.
 
 ## Legato Applications
-### [legato_flash](legato_flash/readme.md) This demonstration provides a touch-enabled starting point for reading images, string, and multiple fonts from both internal and external non-volatile memory (NVM).
+### [legato_flash](legato_flash/readme.md) 
+
+This demonstration provides a touch-enabled starting point for reading images, string, and multiple fonts from both internal and external non-volatile memory (NVM).
 
 ![](../imaages/aria_quickstart_x_r_e70_xu_tm4301b_run1.png)
 
-### [legato_quickstart](legato_quickstart/readme.md) This demonstration provides a touch-enabled starting point for the legato graphics library.
+### [legato_quickstart](legato_quickstart/readme.md) 
+
+This demonstration provides a touch-enabled starting point for the legato graphics library.
 
 ![](../imaages/aria_quickstart_x_r_e70_xu_tm4301b_run1.png)
 
 
-### [legato_quickstart_ext_res](legato_quickstart_ext_res/readme.md) This demonstration provides a touch-enabled starting point for reading images, string, and multiple fonts from both internal and external non-volatile memory (NVM).
+### [legato_quickstart_ext_res](legato_quickstart_ext_res/readme.md) 
+
+This demonstration provides a touch-enabled starting point for reading images, string, and multiple fonts from both internal and external non-volatile memory (NVM).
 
 ![](../imaages/aria_quickstart_x_r_e70_xu_tm4301b_run1.png)
 
 
 ## Blank Applications
 
-### [blank_quickstart](blank_quickstart/readme.md) This demonstration provides a starting point to integrate a third-party graphics library with MPLAB Harmony Graphics Suite.
+### [blank_quickstart](blank_quickstart/readme.md) 
+
+This demonstration provides a starting point to integrate a third-party graphics library with MPLAB Harmony Graphics Suite.
 
 ![](../imaages/aria_quickstart_x_r_e70_xu_tm4301b_run1.png)
 
