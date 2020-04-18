@@ -18,7 +18,7 @@ The following applications are provided to demonstrate the typical or interestin
 
 This demonstration provides a touch-enabled starting point for reading images, string, and multiple fonts from both internal and external non-volatile memory (NVM).
 
-![microchip](../../images/aria_quickstart_x_r_e70_xu_tm4301b_run1.png)
+![microchip](../../../images/aria_quickstart_x_r_e70_xu_tm4301b_run1.png)
 
 ### [legato_quickstart](legato_quickstart/readme.md) 
 
@@ -31,7 +31,7 @@ This demonstration provides a touch-enabled starting point for the legato graphi
 
 This demonstration provides a touch-enabled starting point for reading images, string, and multiple fonts from both internal and external non-volatile memory (NVM).
 
-![microchip](../images/aria_quickstart_x_r_e70_xu_tm4301b_run1.PNG)
+![microchip](../../../../images/aria_quickstart_x_r_e70_xu_tm4301b_run1.PNG)
 
 
 ## Blank Applications
@@ -40,5 +40,5 @@ This demonstration provides a touch-enabled starting point for reading images, s
 
 This demonstration provides a starting point to integrate a third-party graphics library with MPLAB Harmony Graphics Suite.
 
-![microchip](../images/aria_quickstart_x_r_e70_xu_tm4301b_run1.png)
+![microchip](aria_quickstart_x_r_e70_xu_tm4301b_run1.png)
 
