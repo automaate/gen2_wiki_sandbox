@@ -22,6 +22,8 @@ This demonstration provides a touch-enabled starting point for reading images, s
 
 ![microchip](https://github.com/automaate/gen2_wiki_sandbox/blob/master/images/aria_quickstart_x_r_e70_xu_tm4301b_run1.png)
 
+![microchip](https://github.com/automaate/gen2_wiki_sandbox/blob/master/images/aria_quickstart_x_r_e70_xu_tm4301b_run1.PNG)
+
 ### [legato_quickstart](legato_quickstart/readme.md) 
 
 This demonstration provides a touch-enabled starting point for the legato graphics library.
