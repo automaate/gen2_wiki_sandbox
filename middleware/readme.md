@@ -5,7 +5,7 @@ has_toc: false
 nav_order: 3
 ---
 
-# Graphics libraries
+# Graphics Libraries
 
 Graphics rendering is made available through a graphic library. The graphic libraries in Microchip Harmony Graphics Suite are 2-Dimensional (2D) raster paint engines which support the drawing of a complete UI design on display modules using specific display controllers. The libraries are specifically built to run in low-powered low-resource environments. Each library contains some or more of the following components: 
 
