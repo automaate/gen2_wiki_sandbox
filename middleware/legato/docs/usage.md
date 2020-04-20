@@ -10,7 +10,7 @@ nav_order: 1
 
 ## Configuring the library
 
-All settings are managed through the Graphics Composer (Legato) Tool. This tool can be lanuched through the MHC->Tools->Legato Graphics Composer menu selection. Once launched, select Project->Project Settings.
+All settings are managed through the Graphics Composer (Legato) Tool. This tool can be launched through the *MHC->Tools->Legato Graphics Composer* menu selection. Once launched, select *Project->Project Settings* to configure library options.
 
 * Assets
 * Display
