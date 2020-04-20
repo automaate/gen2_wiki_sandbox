@@ -1,15 +1,14 @@
 ---
-title: Peripheral libraries
+parent: Graphics Drivers
+title: Graphics Controller Drivers
 has_children: true
 has_toc: false
-nav_order: 3
+nav_order: 4
 ---
 
-# Peripheral libraries
+# Graphics Controller Drivers
 
 ## SAMRH71
-* [IP1553](./ip1553_44127/docs/readme.md)
-* [ICM](./icm_11105/docs/readme.md)
-* [FLEXRAMECC](./flexramecc_44124/docs/readme.md)
-* [TCMECC](./tcmecc_44125/docs/readme.md)
-* [SpaceWire](./spw_44126/docs/readme.md)
+* [external_controller](./external_controller/docs/readme.md)
+* [glcd](./glcd/docs/readme.md)
+* [lcc](./lcc/docs/readme.md)
