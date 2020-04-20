@@ -16,22 +16,16 @@ nav_order: 2
 {:toc}
 
 ---
-
-**Summary**
-
- This file defines the common macros and definitions used by the gfx definition and implementation headers.
-
-**Description**
-
- This file defines the common macros and definitions used by the gfx definition and the implementation header.
-
-**Remarks**
-
- The directory in which this file resides should be added to the compiler's search path for header files.
  
-## Data Types and Constants
-
-### Common
+## Common API
+## Core API
+## DataStructure API
+## Font API
+## Image API
+## Memory API
+## Renderer API
+## String API
+## Widget API
 
 ```c
 // *****************************************************************************
