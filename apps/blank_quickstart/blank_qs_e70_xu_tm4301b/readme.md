@@ -4,62 +4,68 @@ title: blank_qs_e70_xu_tm4301b Example
 nav_order: 4
 ---
 
-# blank_qs_e70_xu_tm4301b Example
+# Blank Quickstart on SAM E70 Xplained Ultra with 480x272 Display
 
-This example shows how start the IP1553 module in Bus Controller mode and issue data transfer commands in a blocking manner. The CPU polls the peripheral register continuously to manage the transfer. It performs BC to RT01 data transfer, RT01 to BC data transfer and BC to RTs broadcast data transfer.
+## Defining the Architecture
 
-## Building The Application
-The parent folder for all the MPLAB X IDE projects for this application is given below:
+![](https://microchip-mplab-harmony.github.io/gfx/APPS%20GFX%20aria_quickstart%20block%20diagram.png)
 
-**Application Path** : aerospace\apps\ip1553\ip1553_bc_operation_blocking\firmware
+In this configuration, a 16-bit RGB565 frame buffer is stored in the internal SRAM. These configurations use the Low Cost Controller-less (LCC) display driver to manage the DMA that transfers the framebuffer contents to the display. 
 
-To build the application, refer the below table and open the appropriate project file in MPLABX IDE.
+User touch input on the display panel is received thru the PCAP capacitive touch controller, which sends a notification to the Touch Input Driver. The Touch Input Driver reads the touch information over I2C and sends the touch event to the Graphics Library thru the Input System Service. 
 
-| Project Name  | Description   |
-| ------------- |:-------------:|
-| sam_rh71_ek.X | SAM RH71 Evaluation Kit board |
+Demonstration Features 
+
+* 3rd-Party graphics library driver abstraction API
+* DMA System Service
+* Low-Cost Controllerless (LCC) graphics driver
+* 16-bit RGB565 color depth support (65535 unique colors)
+* RAW image stored in internal flash
+
+##  Creating the Project Graph
+
+![](https://microchip-mplab-harmony.github.io/gfx/blank_qs_e70_xu_tm4301b.X_pj.png)
+
+The Project Graph diagram shows the Harmony components that are included in this application. Lines between components are drawn to satisfy components that depend on a capability that another component provides. 
+
+Adding the “SAM E70 XPlained Ultra BSP” and “Legato Graphics w/ PDA TM4301B Display” Graphics Template component into the project graph will automatically add the components needed for a graphics project and resolve their dependencies. It will also configure the pins needed to drive the external peripherals like the display and the touch controller. 
+
+##  Building the Application
+
+The parent directory for this application is gfx/apps/blank_quickstart. To build this application, use MPLABX IDE to open the gfx/apps/blank_quickstart/firmware/blank_qs_e70_xu_tm4301b.X project file. 
+
+The following table lists configuration properties: 
 
 
-## MPLAB Harmony Configurations
+| Project Name  | BSP Used |Graphics Template Used | Description |
+|---------------| ---------|---------------| ---------|
+|  blank_qs_e70_xu_tm4301b.X  |  sam_E70_xplained_ultra  | PDA TM4301b display | SAM E70 Xplained Ultra board with PDA TM4301B 480x272 (WQVGA) display |
 
-Refer to the MHC project graph for the components used and the respective configuration options.
+ 
+> **_NOTE:_**  This application may contain custom code that is marked by the comments // START OF CUSTOM CODE ... and // END OF CUSTOM CODE. When using the MPLAB Harmony Configurator to regenerate the application code, use the "ALL" merging strategy and do not remove or replace the custom code. 
 
-## Hardware Setup
+##  Configuring the Hardware
 
-1. Project sam_rh71_xult.X
-    * Hardware Used
-        * SAM RH71 Evaluation Kit
-        * MIL1553 Exerciser and Cables
-    * Hardware Setup
-        * Connect the debugger probe to J33.
-        * Connect the USB port on the board to the computer using a mini USB cable.
-        * Connect the MIL1553 exerciser on 1553_BUSA or 1553_BUSB connectors.
-    * Exerciser configuration
-        * Configure RT01 to reply to data transfer command form BC to RT01 buffer 1 of 1 word.
-        * Configure RT01 to reply to data transfer command form RT01 buffer 3 to BC buffer 1 of 3 words.
-        * Configure RT01 to reply to broadcast data transfer command form BC to RTs buffer 3 of 32 words.
+This section describes how to configure the supported hardware. 
 
-## Running The Application
+The final hardware setup should be:
 
-1. Open the Terminal application (Ex.:Tera term) on the computer.
-2. Connect to the EDBG Virtual COM port and configure the serial settings as follows:
-    * Baud : 115200
-    * Data : 8 Bits
-    * Parity : None
-    * Stop : 1 Bit
-    * Flow Control : None
-3. Build and Program the application using the MPLAB X IDE.
-4. See the following message in the console.
+![](https://microchip-mplab-harmony.github.io/gfx/APPS%20GFX%20aria_benchmark%20Final%20Setup.png)
 
-```
------------------------------------------------------------
+Configuring the 4.3” WQVGA Display requires disconnecting the ribbon cable that connects the display to the interposer board. 
 
-  IP1553 - BC mode blocking operation example
+![](https://microchip-mplab-harmony.github.io/gfx/APPS%20GFX%20aria_benchmark%20Bottom%20of%20WQVGA%20Display.png)
 
------------------------------------------------------------
- Press '1' to send one data from TX buffer 0 to RT1, on Bus A
- Press '2' to receive one data in buffer 3 from RT1, on bus A
- Press '3' to broadcast for RTs, from buffer 1, on bus A
-```
+First, release the ribbon cable from the interposer board. Next, release the black clamp on the E70’s J2 connector and turn the display over. Finally, insert the ribbon cable into J2 and close the clamp. 
 
-1. Type one of the menu characters in the terminal. It will echo back the chosen option and the result of the 1553 BC command (status word and received data if applicable).
+![](https://microchip-mplab-harmony.github.io/gfx/APPS%20GFX%20aria_benchmark%20Connecting%20Ribbon%20Cable.png)
+
+The board and display are powered by a Micro B – USB A cable from PC to the “Debug USB” port on the E70 board. The ICD4 Debugger and ICD4/PICKit4 Adapter Board are connected as shown above. 
+
+
+## Running the Demonstration
+
+When power-on is successful, the demonstration will display a similar menu to that shown in the following figure (different configurations may have slight variation in the screen aspect ratio): 
+
+![](https://microchip-mplab-harmony.github.io/gfx/blank_quickstart_565.png)
+ 
