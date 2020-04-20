@@ -18,6 +18,14 @@ nav_order: 2
 ---
  
 ## Common API
+### Color
+### Common
+### Error
+### Math
+### PixelBuffer
+### Rect
+### RTOS
+### Utils
 ## Core API
 ## DataStructure API
 ## Font API
