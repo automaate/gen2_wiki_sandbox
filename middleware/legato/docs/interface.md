@@ -1,12 +1,12 @@
 ---
-grand_parent: Peripheral libraries
-parent: FLEXRAMECC Peripheral Library
-title: FLEXRAMECC Peripheral Library Interface
+grand_parent: Graphics Libraries
+parent: Graphics Library
+title: Legato Graphics Library Interface
 has_toc: true
 nav_order: 2
 ---
 
-# Peripheral Library Interface
+# Legato Graphics Library Interface
 {: .no_toc }
 
 ## Table of contents
@@ -17,419 +17,260 @@ nav_order: 2
 
 ---
 
-## Data Types and Constants
-
-### FLEXRAMECC_STATUS
-
-```c
-typedef enum
-{
-    FLEXRAMECC_STATUS_MEM_FIX = FLEXRAMECC_SR_MEM_FIX_Msk,
-    FLEXRAMECC_STATUS_CPT_FIX_MASK = FLEXRAMECC_SR_CPT_FIX_Msk,
-    FLEXRAMECC_STATUS_OVER_FIX = FLEXRAMECC_SR_OVER_FIX_Msk,
-    FLEXRAMECC_STATUS_MEM_NOFIX = FLEXRAMECC_SR_MEM_NOFIX_Msk,
-    FLEXRAMECC_STATUS_CPT_NOFIX_MASK = FLEXRAMECC_SR_CPT_NOFIX_Msk,
-    FLEXRAMECC_STATUS_OVER_NOFIX = FLEXRAMECC_SR_OVER_NOFIX_Msk,
-    FLEXRAMECC_STATUS_HES_MASK = FLEXRAMECC_SR_HES_Msk,
-    FLEXRAMECC_STATUS_TYPE = FLEXRAMECC_SR_TYPE_Msk,
-    /* Force the compiler to reserve 32-bit memory for enum */
-    FLEXRAMECC_STATUS_INVALID = 0xFFFFFFFF
-} FLEXRAMECC_STATUS;
-```
-
 **Summary**
 
- Identifies the FLEXRAMECC current status
+ This file defines the common macros and definitions used by the gfx definition and implementation headers.
 
 **Description**
 
- This data type identifies the FLEXRAMECC status
-
----
-
-### FLEXRAMECC_CALLBACK
-
-```c
-typedef void (*FLEXRAMECC_CALLBACK) (uintptr_t contextHandle);
-```
-
-**Summary**
-
-FLEXRAMECC Callback Function Pointer.
-
-**Description**
-
-This data type defines the required function signature for the FLEXRAMECC callback function.
-Application must register a pointer to a callback function whose function signature (parameter and return value types) match the types specified by this function pointer in order to receive callback from the PLIB.
-The parameters and return values are described here and a partial example implementation is provided.
-
-**Parameters**
-
-*contextHandle* Value identifying the context of the application that registered the callback function
+ This file defines the common macros and definitions used by the gfx definition and the implementation header.
 
 **Remarks**
 
-The context parameter contains the a handle to the client context, provided at the time the callback function was registered using the CallbackRegister function.
-This context handle value is passed back to the client as the "context" parameter.
-It can be any value (such as a pointer to the client's data) necessary to identify the client context or instance of the client that made the data transfer request.
+ The directory in which this file resides should be added to the compiler's search path for header files.
+ 
+## Data Types and Constants
 
-The callback function executes in the PLIB's interrupt context. It is recommended of the application to not perform process intensive or blocking operations with in this function.
-
-**Example**
+### Common
 
 ```c
-void APP_FLEXRAMECC_FixHandler(uintptr_t context)
+// *****************************************************************************
+/* Enumeration:
+    leResult
+
+  Summary:
+    legato results (success and failure codes).
+
+  Description:
+    Various definitions for success and failure codes.
+
+  Remarks:
+    None.
+*/
+typedef enum leResult
 {
-    //Fixable error has occurred
-}
+    LE_FAILURE = -1,
+    LE_SUCCESS = 0
+} leResult;
 
-FLEXRAMECC_FixCallbackRegister(&APP_FLEXRAMECC_FixHandler, (uintptr_t)NULL);
-```
+// *****************************************************************************
+/* Enumeration:
+    leBool
 
----
+  Summary:
+    legato bool values
 
-### FLEXRAMECC_OBJ
+  Description:
+    legato bool values
 
-```c
-typedef struct
+  Remarks:
+    None.
+*/
+typedef enum leBool
 {
-    /* Transfer Event Callback for Fixable Error interrupt*/
-    FLEXRAMECC_CALLBACK fix_callback;
+    LE_FALSE = 0,
+    LE_TRUE
+} leBool;
 
-    /* Transfer Event Callback Context for Fixable Error interrupt*/
-    uintptr_t fix_context;
+// *****************************************************************************
+/* Enumeration:
+    leVAlignment
 
-    /* Transfer Event Callback for NoFixable Error interrupt*/
-    FLEXRAMECC_CALLBACK nofix_callback;
+  Summary:
+    legato vertical alignment values
 
-    /* Transfer Event Callback Context for NoFixable Error interrupt*/
-    uintptr_t nofix_context;
-} FLEXRAMECC_OBJ;
+  Description:
+    legato vertical alignment values
+
+  Remarks:
+    None.
+*/
+typedef enum
+{
+    LE_VALIGN_TOP,
+    LE_VALIGN_MIDDLE,
+    LE_VALIGN_BOTTOM
+} leVAlignment;
+
+// *****************************************************************************
+/* Enumeration:
+    leHAlignment
+
+  Summary:
+    legato horizontal alignment values
+
+  Description:
+    legato horizontal alignment values
+
+  Remarks:
+    None.
+*/
+typedef enum
+{
+    LE_HALIGN_LEFT,
+    LE_HALIGN_CENTER,
+    LE_HALIGN_RIGHT
+} leHAlignment;
+
+// *****************************************************************************
+/* Enumeration:
+    leMargin
+
+  Summary:
+    legato margin values
+
+  Description:
+    legato margin values
+
+  Remarks:
+    None.
+*/
+typedef struct leMargin
+{
+    uint8_t left;
+    uint8_t top;
+    uint8_t right;
+    uint8_t bottom;
+} leMargin;
+
+static const leMargin leMargin_Zero = {0, 0, 0, 0};
+
+// *****************************************************************************
+/* Enumeration:
+    leDirection
+
+  Summary:
+    legato direction values
+
+  Description:
+    legato direction values
+
+  Remarks:
+    None.
+*/
+typedef enum leDirection
+{
+  LE_DIRECTION_RIGHT,
+  LE_DIRECTION_DOWN,
+  LE_DIRECTION_LEFT,
+  LE_DIRECTION_UP
+} leDirection;
+
+// *****************************************************************************
+/* Structure:
+    leRotationDirection
+
+  Summary:
+    Describes rotational direction
+
+  Description:
+    Describes rotational direction
+
+  Remarks:
+    None.
+*/
+typedef enum leRotationDirection
+{
+    LE_COUNTER_CLOCKWISE,
+    LE_CLOCKWISE,
+} leRotationDirection;
+
+// *****************************************************************************
+/* Enumeration:
+    leRelativePosition
+
+  Summary:
+    legato relative position values
+
+  Description:
+    legato relative position values
+
+  Remarks:
+    None.
+*/
+typedef enum leRelativePosition
+{
+    LE_RELATIVE_POSITION_LEFTOF,
+    LE_RELATIVE_POSITION_ABOVE,
+    LE_RELATIVE_POSITION_RIGHTOF,
+    LE_RELATIVE_POSITION_BELOW,
+    LE_RELATIVE_POSITION_BEHIND
+} leRelativePosition;
+
+// *****************************************************************************
+/* Enumeration:
+    leOrientation
+
+  Summary:
+    legato orientation values
+
+  Description:
+    legato orientation values
+
+  Remarks:
+    None.
+*/
+typedef enum leOrientation
+{
+  LE_ORIENTATION_HORIZONTAL,
+  LE_ORIENTATION_VERTICAL,
+} leOrientation;
+
+// *****************************************************************************
+/* Structure:
+    lePoint
+
+  Summary:
+    A two dimensional Cartesian point.
+*/
+typedef struct lePoint
+{
+    int32_t x;
+    int32_t y;
+} lePoint;
+
+static const lePoint lePoint_Zero = {0, 0};
+
+// *****************************************************************************
+/* Structure:
+    leSize
+
+  Summary:
+    A two dimensional indication of size.  Values are signed but should never be
+    negative.
+*/
+typedef struct leSize
+{
+    int32_t width;
+    int32_t height;
+} leSize;
+
+static const leSize leSize_Zero = {0, 0};
+
+// *****************************************************************************
+/* Structure:
+    leRect
+
+  Summary:
+    A rectangle definition.  
+*/
+typedef struct leRect
+{
+    int16_t x;
+    int16_t y;
+    int16_t width;
+    int16_t height;
+} leRect;
+
+typedef void* leBuffer;
+
+/* library configuration flags */
+typedef uint16_t leChar;
+#define LE_UNKNOWN_GLYPH  0xFFFF
+
 ```
 
-**Summary**
-
- FLEXRAMECC PLib Object structure.
-
-**Description**
-
- This data structure defines the FLEXRAMECC PLib Instance Object.
 
 ---
 
-## Initialization functions
 
-### FLEXRAMECC_Initialize
-
-```c
-    void FLEXRAMECC_Initialize(void)
-```
-
-**Summary**
-
- Initializes given instance of the FLEXRAMECC peripheral.
-
-**Preconditions**
-
- None
-
-**Parameters**
-
- None
-
-**Returns**
-
- None
-
----
-
-## Setup functions
-
-### FLEXRAMECC_ResetCounters
-
-```c
-void FLEXRAMECC_ResetCounters(void)
-```
-
-**Summary**
-
- Reset Fix and NoFix error counters of the FLEXRAMECC peripheral.
-
-**Preconditions**
-
- None
-
-**Parameters**
-
- None
-
-**Returns**
-
- None
-
----
-
-### FLEXRAMECC_FixCallbackRegister
-
-```c
-void FLEXRAMECC_FixCallbackRegister(FLEXRAMECC_CALLBACK callback, uintptr_t context)
-```
-
-**Summary**
-
- Sets the pointer to the function (and it's context) to be called when the given FLEXRAMECC's ECC Fixable Error interrupt events occur.
-
-**Description**
-
- This function sets the pointer to a client function to be called "back" when the given FLEXRAMECC's interrupt events occur. It also passes a context value (usually a pointer to a context structure) that is passed into the function when it is called. The specified callback function will be called from the peripheral interrupt context.
-
-**Preconditions**
-
- FLEXRAMECC_Initialize must have been called for the associated FLEXRAMECC instance.
-
-**Parameters**
-
-  *callback*
-    A pointer to a function with a calling signature defined by the FLEXRAMECC_CALLBACK data type.
-    Setting this to NULL disables the callback feature.
-  *contextHandle*
-    A value (usually a pointer) passed (unused) into the function identified by the callback parameter.
-
-**Returns**
-
- None
-
-**Example**
-
-Refer to the description of the [FLEXRAMECC_CALLBACK](#flexramecc_callback) data type for example usage.
-
----
-
-### FLEXRAMECC_NoFixCallbackRegister
-
-```c
-void FLEXRAMECC_NoFixCallbackRegister(FLEXRAMECC_CALLBACK callback, uintptr_t context)
-```
-
-**Summary**
-
- Sets the pointer to the function (and it's context) to be called when the given FLEXRAMECC's ECC Not Fixable Error interrupt events occur.
-
-**Description**
-
- This function sets the pointer to a client function to be called "back" when the given FLEXRAMECC's interrupt events occur. It also passes a context value (usually a pointer to a context structure) that is passed into the function when it is called. The specified callback function will be called from the peripheral interrupt context.
-
-**Preconditions**
-
- FLEXRAMECC_Initialize must have been called for the associated FLEXRAMECC instance.
-
-**Parameters**
-
-  *callback*
-    A pointer to a function with a calling signature defined by the FLEXRAMECC_CALLBACK data type.
-    Setting this to NULL disables the callback feature.
-  *contextHandle*
-    A value (usually a pointer) passed (unused) into the function identified by the callback parameter.
-
-**Returns**
-
- None
-
-**Example**
-
-Refer to the description of the [FLEXRAMECC_CALLBACK](#flexramecc_callback) data type for example usage.
-
----
-
-## Status functions
-
-### FLEXRAMECC_StatusGet
-
-```c
-FLEXRAMECC_STATUS FLEXRAMECC_StatusGet(void)
-```
-
-**Summary**
-
- Get the status of the FLEXRAMECC peripheral.
-
-**Preconditions**
-
- None
-
-**Parameters**
-
- None
-
-**Returns**
-
- Current status of the FLEXRAMECC peripheral.
-
----
-
-### FLEXRAMECC_GetFailAddress
-
-```c
-uint32_t FLEXRAMECC_GetFailAddress(void)
-```
-
-**Summary**
-
- Get the last fail address were ECC error occurs in FLEXRAM memory.
-
-**Preconditions**
-
- None
-
-**Parameters**
-
- None
-
-**Returns**
-
- Fail address were fixable or unfixable error occured in FLEXRAM memory.
-
----
-
-### FLEXRAMECC_TestModeReadEnable
-
-```c
-void FLEXRAMECC_TestModeReadEnable(void)
-```
-
-**Summary**
-
- Enable the FLEXRAMECC peripheral test mode Read. When enabled the ECC check bit value read is updated in TESTCB1 register at each FLEXRAM data read.
-
-**Preconditions**
-
- None
-
-**Parameters**
-
- None
-
-**Returns**
-
- None
-
----
-
-### FLEXRAMECC_TestModeReadDisable
-
-```c
-void FLEXRAMECC_TestModeReadDisable(void)
-```
-
-**Summary**
-
- Disable the FLEXRAMECC peripheral test mode Read.
-
-**Preconditions**
-
- None
-
-**Parameters**
-
- None
-
-**Returns**
-
- None
-
----
-
-### FLEXRAMECC_TestModeWriteEnable
-
-```c
-void FLEXRAMECC_TestModeWriteEnable(void)
-```
-
-**Summary**
-
- Enable the FLEXRAMECC peripheral test mode Write. When enabled the ECC check bit value in TESTCB1 register is write in memory at each FLEXRAM data write instead of calculated check bit.
-
-**Preconditions**
-
- None
-
-**Parameters**
-
- None
-
-**Returns**
-
- None
-
----
-
-### FLEXRAMECC_TestModeWriteDisable
-
-```c
-void FLEXRAMECC_TestModeWriteDisable(void)
-```
-
-**Summary**
-
- Disable the FLEXRAMECC peripheral test mode Write.
-
-**Preconditions**
-
- None
-
-**Parameters**
-
- None
-
-**Returns**
-
- None
-
----
-
-### FLEXRAMECC_TestModeGetCbValue
-
-```c
-uint8_t FLEXRAMECC_TestModeGetCbValue(void)
-```
-
-**Summary**
-
- Get the FLEXRAMECC peripheral test mode check bit values.
-
-**Preconditions**
-
- None
-
-**Parameters**
-
- None
-
-**Returns**
-
- Test check bit value.
-
----
-
-### FLEXRAMECC_TestModeSetCbValue
-
-```c
-void FLEXRAMECC_TestModeSetCbValue(uint8_t tcb1)
-```
-
-**Summary**
-
- Set the FLEXRAMECC peripheral test mode check bit values.
-
-**Preconditions**
-
- None
-
-**Parameters**
-
-  *tcb1*
-    Test check bit value to set.
-
-**Returns**
-
- None
