@@ -5,14 +5,16 @@ The `common` module contains the common macros, definitions, and functions used 
 
  Submodules                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`submodule `[`color`](#submodule-color)    |  
-`submodule `[`common`](#submodule-common)    | 
-`submodule `[`error`](#submodule-error)    | 
-`submodule `[`math`](#submodule-math)    | 
-`submodule `[`pixelbuffer`](#submodule-pixelbuffer)    | 
-`submodule `[`rect`](#submodule-rect)    | 
-`submodule `[`rtos`](#submodule-rtos)    | 
-`submodule `[`utils`](#submodule-utils)    | 
+`submodule `[`color`](#submodule-color)    |  Contains functions for color information and manipulation operations
+`submodule `[`common`](#submodule-common)    | This file defines the common macros and definitions used by the gfx
+    definition and implementation headers
+`submodule `[`error`](#submodule-error)    | Defines library assert macros.
+`submodule `[`math`](#submodule-math)    | Contains some general purpose math functions
+`submodule `[`pixelbuffer`](#submodule-pixelbuffer)    | Defines a general purpose pixel buffer construct
+`submodule `[`rect`](#submodule-rect)    | Defines general purposes rectangle functions.
+`submodule `[`rtos`](#submodule-rtos)    | This header file contains prototypes of the RTOS extensions of the aria 
+    library top level APIs
+`submodule `[`utils`](#submodule-utils)    | General internal utilities for the library
 
 ## submodule `Color` 
 
