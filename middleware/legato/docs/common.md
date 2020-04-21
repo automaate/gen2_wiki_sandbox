@@ -1,11 +1,9 @@
-
 ---
 parent: Legato Graphics Library
 title: Legato Graphics Common Module
-has_children: true
+has_children: false
 has_toc: false
-nav_order: 3
-
+nav_order: 5
 ---
 
 # Module <!-- group --> Legato Graphics `common`
