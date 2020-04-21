@@ -1,5 +1,5 @@
 ---
-parent: Legato Graphics Library
+parent: Legato Graphics Library Interface
 title: Legato Graphics Common Module
 has_children: false
 has_toc: false
