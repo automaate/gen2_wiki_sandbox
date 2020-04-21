@@ -184,7 +184,7 @@ typedef enum leColorName
 } leColorName;
 ```
 
-
+## `Color` Function Summary
 
  Functions                        | Summary                                
 --------------------------------|---------------------------------------------
