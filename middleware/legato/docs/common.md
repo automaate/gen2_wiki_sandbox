@@ -59,7 +59,7 @@ typedef enum leColorMode
 
  Functions                        | Descriptions                                
 --------------------------------|---------------------------------------------
-[`LIB_EXPORT leColor leColorValue(leColorMode mode, leColorName name)`](#function-leColorValue)    | 
+[`LIB_EXPORT leColor leColorValue(`[`leColorMode`]`(#leColorMode) mode, leColorName name`)`](#function-leColorValue)    | 
 [`LIB_EXPORT uint32_t leColorChannelRed(leColor clr, leColorMode mode)`](#function-leColorChannelRed)    | 
 [`LIB_EXPORT uint32_t leColorChannelGreen(leColor clr, leColorMode mode)`](#function-leColorChannelGreen)    | 
 [`LIB_EXPORT uint32_t leColorChannelBlue(leColor clr, leColorMode mode)`](#function-leColorChannelBlue)    | 
@@ -91,8 +91,9 @@ typedef enum leColorMode
   Remarks:
     
 */
-LIB_EXPORT leColor leColorValue([leColorMode](#leColorMode) mode, leColorName name);
-```  
+```
+`LIB_EXPORT leColor leColorValue(`[`leColorMode`]`(#leColorMode) mode, leColorName name`);
+
 
 
 
