@@ -30,7 +30,8 @@ The `common` module contains the common macros, definitions, and functions used 
 `#define RGBA_8888_RED_MASK     0xFF000000`<br/>`#define RGBA_8888_GREEN_MASK   0xFF0000`<br/>`#define RGBA_8888_BLUE_MASK    0xFF00`<br/>`#define RGBA_8888_ALPHA_MASK   0xFF` |
 `#define ARGB_8888_RED_MASK     0xFF0000`<br/> `#define ARGB_8888_GREEN_MASK   0xFF00`<br/>`#define ARGB_8888_BLUE_MASK    0xFF`<br/>`#define ARGB_8888_ALPHA_MASK   0xFF000000` |
  
-#### leColorMode - List of available color modes
+#### leColorMode 
+ List of available color modes
 `
 typedef enum leColorMode
 {
