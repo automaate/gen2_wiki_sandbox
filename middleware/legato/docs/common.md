@@ -26,11 +26,7 @@ The `common` module contains Common integrations.
 --------------------------------|---------------------------------------------
 `typedef uint32_t leColor;`    | 
 `#define LE_COLOR_MAX_SIZE      4`  | This class implements a fake `AudioDeviceModule` that does absolutely nothing.
-`#define RGB_8_BITS             255<br/>
- #define RGB_6_BITS             63<br/>
- #define RGB_5_BITS             31<br/>
- #define RGB_3_BITS             7<br/>
- #define RGB_2_BITS             2`    | 
+`#define RGB_8_BITS             255<br/> #define RGB_6_BITS             63<br/> #define RGB_5_BITS             31<br/>#define RGB_3_BITS             7<br/> #define RGB_2_BITS             2`    | 
 `#define RGB_332_RED_MASK       0xE0<br/>
  #define RGB_332_GREEN_MASK     0x1C<br/>
  #define RGB_332_BLUE_MASK      0x3`   | 
