@@ -189,14 +189,14 @@ typedef enum leColorName
  Functions                        | Summary                                
 --------------------------------|---------------------------------------------
 `LIB_EXPORT leColor `[`leColorValue`](#function-leColorValue)`(`[`leColorMode`](#leColorMode)` mode, leColorName name)`   | Used for getting a color value by name.
-`LIB_EXPORT uint32_t `[`leColorChannelRed`](#function-leColorChannelRed)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | 
-`LIB_EXPORT uint32_t `[`leColorChannelGreen`](#function-leColorChannelGreen)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | 
-`LIB_EXPORT uint32_t `[`leColorChannelBlue`](#function-leColorChannelBlue)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | 
-`LIB_EXPORT uint32_t `[`leColorChannelAlpha`](#function-leColorChannelAlpha)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | 
-`LIB_EXPORT leColor `[`leColorConvert`](#function-leColorConvert)`(leColorMode mode_in,`[`leColorMode`](#leColorMode)` mode, leColor color)`   | 
-`LIB_EXPORT leColor `[`leColorBlend_ARGB_8888`](#function-leColorBlend_ARGB_8888)`(`[`leColorMode`](#leColorMode)` mode_in,` [`leColorMode`](#leColorMode)` mode_out, leColor color)`   | 
-`LIB_EXPORT leColor `[`leColorLerp`](#function-leColorLerp)`(leColor l, leColor r, uint32_t percent,`[`leColorMode`](#leColorMode)` mode)`   | 
-`LIB_EXPORT leColor `[`leColorBilerp`](#function-leColorBilerp)`(leColor c00, leColor c01, leColor c10,leColor c11, uint32_t xper,uint32_t yper,`[`leColorMode`](#leColorMode)` mode)`   | 
+`LIB_EXPORT uint32_t `[`leColorChannelRed`](#function-leColorChannelRed)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | Used for getting the red color channel of a given color value
+`LIB_EXPORT uint32_t `[`leColorChannelGreen`](#function-leColorChannelGreen)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | Used for getting the green color channel of a given color value
+`LIB_EXPORT uint32_t `[`leColorChannelBlue`](#function-leColorChannelBlue)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | Used for getting the blue color channel of a given color value
+`LIB_EXPORT uint32_t `[`leColorChannelAlpha`](#function-leColorChannelAlpha)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | Used for getting the alpha color channel of a given color value
+`LIB_EXPORT leColor `[`leColorConvert`](#function-leColorConvert)`(leColorMode mode_in,`[`leColorMode`](#leColorMode)` mode, leColor color)`   | Converts a color value from one mode to another
+`LIB_EXPORT leColor `[`leColorBlend_ARGB_8888`](#function-leColorBlend_ARGB_8888)`(`[`leColorMode`](#leColorMode)` mode_in,` [`leColorMode`](#leColorMode)` mode_out, leColor color)`   | Blends two RGBA8888 colors together using their alpha channel values
+`LIB_EXPORT leColor `[`leColorLerp`](#function-leColorLerp)`(leColor l, leColor r, uint32_t percent,`[`leColorMode`](#leColorMode)` mode)`   | Linear interpolation between two colors
+`LIB_EXPORT leColor `[`leColorBilerp`](#function-leColorBilerp)`(leColor c00, leColor c01, leColor c10,leColor c11, uint32_t xper,uint32_t yper,`[`leColorMode`](#leColorMode)` mode)`   | Calculates bilinear interpolation between four colors
 
 ## `Color` Function Details
 
