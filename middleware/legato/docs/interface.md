@@ -1,5 +1,5 @@
 ---
-parent: Graphics Libraries
+parent: 	Legato Graphics Library
 title: Legato Graphics Library Interface
 has_toc: true
 nav_order: 4
