@@ -1,9 +1,15 @@
 ---
 parent: 	Legato Graphics Library
 title: Legato Graphics Library Interface
-has_toc: true
+has_children: true
+has_toc: false
 nav_order: 4
+
+family: SAMRH71
+function: ECC
 ---
+
+
 
 # Legato Graphics Library Interface
 {: .no_toc }
