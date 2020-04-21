@@ -9,22 +9,14 @@ nav_order: 2
 # Legato Graphics Library Interface
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ---
  
 ## Modules
-### Common
-### Core API
-### DataStructure API
-### Font API
-### Image API
-### Memory API
-### Renderer API
-### String API
-### Widget API
-
+* [Common API](./common.md)
+* [Core API](./common.md)
+* [Font API](./common.md)
+* [Image API](./common.md)
+* [Memory API](./common.md)
+* [Renderer API](./common.md)
+* [String API](./common.md)
+* [Widget API](./common.md)
