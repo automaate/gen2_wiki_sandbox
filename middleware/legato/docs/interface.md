@@ -1,9 +1,8 @@
 ---
-grand_parent: Graphics Libraries
-parent: Graphics Library
+parent: Graphics Libraries
 title: Legato Graphics Library Interface
 has_toc: true
-nav_order: 2
+nav_order: 4
 ---
 
 # Legato Graphics Library Interface
