@@ -11,7 +11,7 @@ nav_order: 2
 
 ---
  
-## Modules
+## Legato Modules
 * [Common API](./common.md)
 * [Core API](./common.md)
 * [Font API](./common.md)
