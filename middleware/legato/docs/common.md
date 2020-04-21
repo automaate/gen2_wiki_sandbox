@@ -1,5 +1,14 @@
 
-# Module <!-- group --> `common`
+---
+parent: Legato Graphics Library
+title: Legato Graphics Common Module
+has_children: true
+has_toc: false
+nav_order: 3
+
+---
+
+# Module <!-- group --> Legato Graphics `common`
 
 The `common` module contains the common macros, definitions, and functions used by MPLAB Harmony Graphics Suite.
 
