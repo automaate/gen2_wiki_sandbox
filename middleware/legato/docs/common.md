@@ -217,20 +217,11 @@ typedef enum leColorName
     #include "gfx/legato/common/legato_color.h"
     leColor leColorValue(leColorMode mode, leColorName name);
 
-  DESCRIPTION
+   DESCRIPTION
     The leColorValue() function returns a leColorValue for the given *name* and *name*.
     
-  RETURN VALUE
-    On success, this functions return the value of name of the color.
-    
-  Parameters:
-    leColorMode - the color mode for the return type
-    leColorName - the name of the color to retrieve
-    
-  Returns:
-    leColor - the color value of the given name in the specified format
-    
-  Remarks:
+   RETURN VALUE
+    On success, this functions returns the color value of the given name in the specified format.
     
 */
 ```
