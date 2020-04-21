@@ -4,7 +4,7 @@ title: Legato Graphics Common Module
 has_children: false
 has_toc: false
 nav_order: 5
-"github_inject_header_ids": true,
+"github_inject_header_ids": true
 ---
 
 # Module <!-- group --> Legato Graphics `common`
