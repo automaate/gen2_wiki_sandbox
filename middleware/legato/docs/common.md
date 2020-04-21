@@ -4,6 +4,7 @@ title: Legato Graphics Common Module
 has_children: false
 has_toc: false
 nav_order: 5
+"github_inject_header_ids": true,
 ---
 
 # Module <!-- group --> Legato Graphics `common`
@@ -229,7 +230,7 @@ typedef enum leColorName
 
 
 ### function `leColorChannelRed` 
-
+ 
 ```
 /* Function:
     uint32_t leColorChannelRed(leColor clr, leColorMode mode)
