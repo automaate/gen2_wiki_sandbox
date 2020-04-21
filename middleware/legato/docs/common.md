@@ -186,17 +186,17 @@ typedef enum leColorName
 
 
 
- Functions                        | Descriptions                                
+ Functions                        | Summary                                
 --------------------------------|---------------------------------------------
-`LIB_EXPORT leColor `[`leColorValue`](#function-leColorValue)`(`[`leColorMode`](#leColorMode)` mode, leColorName name)`   | 
-`LIB_EXPORT uint32_t `[`leColorChannelRed`](#function-leColorValue)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | 
-`LIB_EXPORT uint32_t `[`leColorChannelGreen`](#function-leColorValue)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | 
-`LIB_EXPORT uint32_t `[`leColorChannelBlue`](#function-leColorValue)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | 
-`LIB_EXPORT uint32_t `[`leColorChannelAlpha`](#function-leColorValue)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | 
-`LIB_EXPORT leColor `[`leColorConvert`](#function-leColorValue)`(leColorMode mode_in,`[`leColorMode`](#leColorMode)` mode, leColor color)`   | 
-`LIB_EXPORT leColor `[`leColorBlend_ARGB_8888`](#function-leColorValue)`(`[`leColorMode`](#leColorMode)` mode_in, [`leColorMode`](#leColorMode)` mode_out, leColor color)`   | 
-`LIB_EXPORT leColor `[`leColorLerp`](#function-leColorValue)`(leColor l, leColor r, uint32_t percent,`[`leColorMode`](#leColorMode)` mode)`   | 
-`LIB_EXPORT leColor `[`leColorBilerp`](#function-leColorValue)`(leColor c00, leColor c01, leColor c10,leColor c11, uint32_t xper,uint32_t yper,`[`leColorMode`](#leColorMode)` mode)`   | 
+`LIB_EXPORT leColor `[`leColorValue`](#function-leColorValue)`(`[`leColorMode`](#leColorMode)` mode, leColorName name)`   | Used for getting a color value by name.
+`LIB_EXPORT uint32_t `[`leColorChannelRed`](#function-leColorChannelRed)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | 
+`LIB_EXPORT uint32_t `[`leColorChannelGreen`](#function-leColorChannelGreen)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | 
+`LIB_EXPORT uint32_t `[`leColorChannelBlue`](#function-leColorChannelBlue)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | 
+`LIB_EXPORT uint32_t `[`leColorChannelAlpha`](#function-leColorChannelAlpha)`(leColor clr,`[`leColorMode`](#leColorMode)` mode)`   | 
+`LIB_EXPORT leColor `[`leColorConvert`](#function-leColorConvert)`(leColorMode mode_in,`[`leColorMode`](#leColorMode)` mode, leColor color)`   | 
+`LIB_EXPORT leColor `[`leColorBlend_ARGB_8888`](#function-leColorBlend_ARGB_8888)`(`[`leColorMode`](#leColorMode)` mode_in,` [`leColorMode`](#leColorMode)` mode_out, leColor color)`   | 
+`LIB_EXPORT leColor `[`leColorLerp`](#function-leColorLerp)`(leColor l, leColor r, uint32_t percent,`[`leColorMode`](#leColorMode)` mode)`   | 
+`LIB_EXPORT leColor `[`leColorBilerp`](#function-leColorBilerp)`(leColor c00, leColor c01, leColor c10,leColor c11, uint32_t xper,uint32_t yper,`[`leColorMode`](#leColorMode)` mode)`   | 
 
 ## `Color` Function Details
 
@@ -223,6 +223,30 @@ typedef enum leColorName
 `LIB_EXPORT leColor leColorValue(`[`leColorMode`](#leColorMode)` mode, leColorName name`);
 
 
+### function `leColorChannelRed` 
+
+```
+/* Function:
+    uint32_t leColorChannelRed(leColor clr, leColorMode mode)
+
+  Summary:
+    Used for getting the red color channel of a given color value.
+
+  Description:
+    
+
+  Parameters:
+    leColor - the source color value
+    leColorMode - the source color mode
+    
+  Returns:
+    uint32_t - the red color channel
+    
+  Remarks:
+    
+*/
+```
+`LIB_EXPORT leColor leColorChannelRed(leColor clr,`[`leColorMode`](#leColorMode)` mode`);
 
 
 
