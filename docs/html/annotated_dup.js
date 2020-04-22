@@ -1,6 +1,14 @@
 var annotated_dup =
 [
     [ "ArcDrawState", "struct_arc_draw_state.html", "struct_arc_draw_state" ],
+    [ "ConvertStage", "struct_convert_stage.html", "struct_convert_stage" ],
+    [ "FrameBufferWriteStage", "struct_frame_buffer_write_stage.html", "struct_frame_buffer_write_stage" ],
+    [ "ImageRenderPostLookupStage", "struct_image_render_post_lookup_stage.html", "struct_image_render_post_lookup_stage" ],
+    [ "ImageWriteStage", "struct_image_write_stage.html", "struct_image_write_stage" ],
+    [ "InternalBlendStage", "struct_internal_blend_stage.html", "struct_internal_blend_stage" ],
+    [ "InternalMaskStage", "struct_internal_mask_stage.html", "struct_internal_mask_stage" ],
+    [ "InternalPaletteStage", "struct_internal_palette_stage.html", "struct_internal_palette_stage" ],
+    [ "InternalReadStage", "struct_internal_read_stage.html", "struct_internal_read_stage" ],
     [ "laExternalEvent_t", "structla_external_event__t.html", "structla_external_event__t" ],
     [ "leArray", "structle_array.html", "structle_array" ],
     [ "leColorModeInfo", "structle_color_mode_info.html", "structle_color_mode_info" ],
@@ -63,5 +71,13 @@ var annotated_dup =
     [ "leWidgetEvent_TouchMove", "structle_widget_event___touch_move.html", "structle_widget_event___touch_move" ],
     [ "leWidgetEvent_TouchUp", "structle_widget_event___touch_up.html", "structle_widget_event___touch_up" ],
     [ "leWidgetEventFilter", "structle_widget_event_filter.html", "structle_widget_event_filter" ],
-    [ "leWidgetVTable", "structle_widget_v_table.html", null ]
+    [ "leWidgetVTable", "structle_widget_v_table.html", null ],
+    [ "PostReadStage", "struct_post_read_stage.html", "struct_post_read_stage" ],
+    [ "RotateBilinearPostReadStage", "struct_rotate_bilinear_post_read_stage.html", "struct_rotate_bilinear_post_read_stage" ],
+    [ "RotateBilinearPreReadStage", "struct_rotate_bilinear_pre_read_stage.html", "struct_rotate_bilinear_pre_read_stage" ],
+    [ "RotateNearestNeighborPreReadStage", "struct_rotate_nearest_neighbor_pre_read_stage.html", "struct_rotate_nearest_neighbor_pre_read_stage" ],
+    [ "ScaleBilinearPostReadStage", "struct_scale_bilinear_post_read_stage.html", "struct_scale_bilinear_post_read_stage" ],
+    [ "ScaleBilinearPreReadStage", "struct_scale_bilinear_pre_read_stage.html", "struct_scale_bilinear_pre_read_stage" ],
+    [ "ScaleNearestNeighborPreReadStage", "struct_scale_nearest_neighbor_pre_read_stage.html", "struct_scale_nearest_neighbor_pre_read_stage" ],
+    [ "SetupStage", "struct_setup_stage.html", "struct_setup_stage" ]
 ];

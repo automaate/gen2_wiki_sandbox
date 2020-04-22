@@ -10,5 +10,6 @@ var legato__rect_8h =
     [ "leRectIntersects", "legato__rect_8h.html#a63557bcfff01c0a7663b43444a004cbf", null ],
     [ "leRectsAreSimilar", "legato__rect_8h.html#a93bff7dab1ccc33fa0ff7f55cb7eac1a", null ],
     [ "leRectSplit", "legato__rect_8h.html#af6f89cdb17acacac6614bda65b431a2a", null ],
-    [ "leRectToPoints", "legato__rect_8h.html#adfd868ea48f4490568ba5c71e4264516", null ]
+    [ "leRectToPoints", "legato__rect_8h.html#adfd868ea48f4490568ba5c71e4264516", null ],
+    [ "leRect_Zero", "legato__rect_8h.html#a0ac46308047b4c56d15ca81c8fd4b7c0", null ]
 ];

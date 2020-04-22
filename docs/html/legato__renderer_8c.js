@@ -2,6 +2,11 @@ var legato__renderer_8c =
 [
     [ "MAX_RECTARRAYS_SZ", "legato__renderer_8c.html#afcc4f80b182be51dc8b8c9bd291ce047", null ],
     [ "SCRACH_BUFFER_SZ", "legato__renderer_8c.html#abe4d985726961d15ab1a629ec85f48b8", null ],
+    [ "_nextRect", "legato__renderer_8c.html#a2a74c9ad13d85d9c6dfab79e2739864e", null ],
+    [ "addDamageRectToList", "legato__renderer_8c.html#aacff61f67b6e642ceef1a959905b90f9", null ],
+    [ "addRectToFrameList", "legato__renderer_8c.html#a1844be6545cda1f8bfd2eab43f7a3e97", null ],
+    [ "findDirtyWidget", "legato__renderer_8c.html#a133f94a2a457aa258de7af3139f4be90", null ],
+    [ "invalidateWidget", "legato__renderer_8c.html#a11d01f6631184dea33e9eb6a6a56b4ed", null ],
     [ "leGetRenderState", "legato__renderer_8c.html#acf4d7d2f8cb00624604cdb1f8807a166", null ],
     [ "leRenderer_ClipDrawRect", "legato__renderer_8c.html#ac36b73cb9733f69bd771a3cdf4131c8c", null ],
     [ "leRenderer_ConvertColor", "legato__renderer_8c.html#af04e1ea8f24c3768e71d64ae9df02901", null ],
@@ -17,7 +22,19 @@ var legato__renderer_8c =
     [ "leRenderer_Paint", "legato__renderer_8c.html#a5fe07fb3c2652107f7037359528d465d", null ],
     [ "leRenderer_SetGlobalPalette", "legato__renderer_8c.html#a7e204cedaa556860878d897e575cc048", null ],
     [ "leRenderer_Shutdown", "legato__renderer_8c.html#a0f1834a956f6419368106f195bd7b97f", null ],
+    [ "paintWidget", "legato__renderer_8c.html#a16bab3573df05ac058d98d5f582e1fd8", null ],
+    [ "postFrame", "legato__renderer_8c.html#acc8cc883ea3b54dd79eee24609013b5a", null ],
+    [ "postLayer", "legato__renderer_8c.html#a08ff0c1e6e80b1ad1d6ad029d0578017", null ],
+    [ "postRect", "legato__renderer_8c.html#a68455e765b4fc558b86bd8f4af06d56d", null ],
+    [ "preFrame", "legato__renderer_8c.html#a5cd18bfc0736c476ce112efa3731a01d", null ],
+    [ "preLayer", "legato__renderer_8c.html#aaea27182f7922856a04b7da325168a54", null ],
+    [ "preRect", "legato__renderer_8c.html#a21dc8d88788b811abb4732fd32d00344", null ],
+    [ "preWidget", "legato__renderer_8c.html#a67c77d8b7d3cf8ac7e738344cd140bfe", null ],
     [ "_rendererState", "legato__renderer_8c.html#a89bc0e9f2bf8777de1bec01206f8c98d", null ],
     [ "debug", "legato__renderer_8c.html#ac3e1795766a80ec63b157951b4b9a7d4", null ],
-    [ "debugFlag", "legato__renderer_8c.html#a2644b2c813dae2dbec6c8fac38d43938", null ]
+    [ "debugFlag", "legato__renderer_8c.html#a2644b2c813dae2dbec6c8fac38d43938", null ],
+    [ "maxScratchPixels", "legato__renderer_8c.html#a945dc35cef9833ada046de2709506240", null ],
+    [ "paintEvt", "legato__renderer_8c.html#a61b095bf5b17ba7e3eb2e105df756036", null ],
+    [ "renderBuffer", "legato__renderer_8c.html#ada0bfd80553342918ffde53dcdd55966", null ],
+    [ "scratchBuffer", "legato__renderer_8c.html#a681d1ba5d80713da0c09290331cab256", null ]
 ];

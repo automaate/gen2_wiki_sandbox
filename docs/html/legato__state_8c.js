@@ -28,5 +28,9 @@ var legato__state_8c =
     [ "leShutdown", "legato__state_8c.html#a224876fe3d279e00a27b6c41e6740442", null ],
     [ "leUpdate", "legato__state_8c.html#a11a4bdc4862590f21a99b906c43ec363", null ],
     [ "leWidgetIsInScene", "legato__state_8c.html#aae117be3102728e25e7b663166073148", null ],
-    [ "_initialized", "legato__state_8c.html#aa65aff927a463e4edfcd0e11a87d40b3", null ]
+    [ "updateWidget", "legato__state_8c.html#a6c1b9f9a11915c9626c9476856408ce5", null ],
+    [ "updateWidgetLanguage", "legato__state_8c.html#aaa80ed34a33d5e2b1d951d0fb29f4fb9", null ],
+    [ "updateWidgets", "legato__state_8c.html#a69acf5f8036ddb99e712b0da000cacfa", null ],
+    [ "_initialized", "legato__state_8c.html#aa65aff927a463e4edfcd0e11a87d40b3", null ],
+    [ "_state", "legato__state_8c.html#a1071bb830df2e0edd215306695190b69", null ]
 ];

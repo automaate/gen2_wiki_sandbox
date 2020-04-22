@@ -1,0 +1,12 @@
+digraph "leVariableHeap_Alloc"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="leVariableHeap_Alloc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="leMalloc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__memory_8h.html#ade65fc8c21fd8519f63b01848a92dd88",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="leRealloc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__memory_8h.html#a51bf085075cd105a0960cbe4e606659e",tooltip=" "];
+}

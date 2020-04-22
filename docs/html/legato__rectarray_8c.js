@@ -1,6 +1,8 @@
 var legato__rectarray_8c =
 [
     [ "STD_RESIZE_AMT", "legato__rectarray_8c.html#aff96e3e0e346d3737fa725d80cb7480c", null ],
+    [ "_shuffleLeft", "legato__rectarray_8c.html#a1640754172f50b09369c551fd7331967", null ],
+    [ "_shuffleRight", "legato__rectarray_8c.html#ac736c326502a6ee9219102d95001ed92", null ],
     [ "leRectArray_Clear", "legato__rectarray_8c.html#aefb5760879c2dc7ed659b1ed78e0138f", null ],
     [ "leRectArray_Copy", "legato__rectarray_8c.html#a9259b7d91575f4f34d7ecd4b705c56e2", null ],
     [ "leRectArray_Create", "legato__rectarray_8c.html#a7ee2cfb52c7b1d96b0f471dd6d8a13f3", null ],

@@ -1,0 +1,48 @@
+digraph "leFont_GetGlyphInfo"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="leFont_GetGlyphInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="_leString_GetCharIndexAt\lPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__tablestring_8c.html#a29532aa0b22fb6db315f6dce40a03874",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="_leString_GetCharRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__tablestring_8c.html#a52c0ef8199357970704e9d38d0bbec75",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="_leString_GetLineRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__tablestring_8c.html#a29cc28e46582b64df30fdcd52e0fed4a",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="drawCString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__string__renderer_8c.html#a213402f8bd6222abaf1651cbf96e8f9b",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="leStringRenderer_DrawCString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__string__renderer_8h.html#a4a4b12fb93ab88a53fe506b4fc800313",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="drawString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__string__renderer_8c.html#aed38757c2c2947fe73f2a1e012c207b3",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="leStringRenderer_DrawString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__string__renderer_8h.html#afd77c367e313ce1f453368e134f2793d",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="_leString_Draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__tablestring_8c.html#ab6b9aed1930b4290afc5a812af56094c",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="drawUString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__string__renderer_8c.html#abc35a33b81b8ca5a104056c233821543",tooltip=" "];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="leStringRenderer_DrawUString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__string__renderer_8h.html#a7b02fe78824d690efd75af51a78d1f87",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="leStringUtils_GetCharIndex\lAtPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__stringutils_8h.html#ae8b2d7bca727982b30fb5597e5346fbe",tooltip=" "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="leStringUtils_GetCharIndex\lAtPointCStr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__stringutils_8h.html#a646176b7da1c91e8322da0161cfb6ea0",tooltip=" "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="leStringUtils_GetCharRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__stringutils_8h.html#a5b56b1c6819a92b4198e3f67daa3c2af",tooltip=" "];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="leStringUtils_GetCharRectCStr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__stringutils_8h.html#abacca36c3befd4df95cc93461cd76498",tooltip=" "];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="leStringUtils_GetLineRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__stringutils_8h.html#a233d327b07840b542a4e157e6fb502aa",tooltip=" "];
+  Node16 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="leStringUtils_GetRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__stringutils_8h.html#ac985af1aa4d9e5402d0c958eda4afc74",tooltip=" "];
+  Node17 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="leStringUtils_GetLineRectCStr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__stringutils_8h.html#a2091fab76f3c38a5209b28ad6fddab0e",tooltip=" "];
+  Node18 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="leStringUtils_GetRectCStr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__stringutils_8h.html#ade2ccfe97aaa5f3a83785ec1b7e1cd8c",tooltip=" "];
+  Node19 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

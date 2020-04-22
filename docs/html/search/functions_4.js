@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['handletouchdown_1877',['handleTouchDown',['../legato__input_8c.html#a4e988a14e073c149954cd553ef2038e5',1,'legato_input.c']]],
-  ['handletouchmoved_1878',['handleTouchMoved',['../legato__input_8c.html#a41df3c64af235e194441e238b5a2b010',1,'legato_input.c']]],
-  ['handletouchup_1879',['handleTouchUp',['../legato__input_8c.html#a797edd82370400c7436a760f9a419663',1,'legato_input.c']]]
+  ['filterevent_2148',['filterEvent',['../legato__widget_8c.html#ae52016bdc8db9d891148e57cda8bc783',1,'legato_widget.c']]],
+  ['finddirtywidget_2149',['findDirtyWidget',['../legato__renderer_8c.html#a133f94a2a457aa258de7af3139f4be90',1,'legato_renderer.c']]]
 ];

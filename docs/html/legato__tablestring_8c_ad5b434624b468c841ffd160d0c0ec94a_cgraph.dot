@@ -1,0 +1,20 @@
+digraph "_leTableString_IsEmpty"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="_leTableString_IsEmpty",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="_leTableString_Length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__tablestring_8c.html#a8c6d85c0152a0294ef4b6af147ca446a",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="leGetState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__state_8c.html#a9db6b16767c48cea14f348e30a6390bc",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="leStringTable_GetStringLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__stringtable_8c.html#ab4ec14ee594e6d736ae100b0d36a963c",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="leDecodeCodePoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__stringutils_8c.html#aa818ae9a308e8fb9d775ec2922779be0",tooltip=" "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="leStringTable_StringLookup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__stringtable_8c.html#a05e9daf9132770df65300793d1146498",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="leStringTable_GetStringOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__stringtable_8c.html#ac311952e52f2b4371eef4b22349c886e",tooltip=" "];
+}

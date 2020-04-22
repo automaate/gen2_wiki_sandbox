@@ -32,5 +32,6 @@ var legato__tablestring_8c =
     [ "_leTableString_SizeInBytes", "legato__tablestring_8c.html#a0f076c8eb30775bad75d6e039c9a8017", null ],
     [ "_leTableString_ToChar", "legato__tablestring_8c.html#a60a8da17630d9c13959b5d4f54b99669", null ],
     [ "leTableString_Constructor", "legato__tablestring_8c.html#a37b2511a16ef262bfa094cb47234d5df", null ],
-    [ "leTableString_New", "legato__tablestring_8c.html#af8d412345909ad86b0d48aa588acffa3", null ]
+    [ "leTableString_New", "legato__tablestring_8c.html#af8d412345909ad86b0d48aa588acffa3", null ],
+    [ "tableStringVTable", "legato__tablestring_8c.html#a7b0ec19397a3d4d592cf6379faf19939", null ]
 ];

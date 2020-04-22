@@ -1,0 +1,20 @@
+digraph "_leEditWidget_Destructor"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="_leEditWidget_Destructor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="_leWidget_Destructor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__editwidget_8c.html#a0a8af55772c9ff5e568a140c5917b973",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="leArray_Clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__array_8c.html#a0300beee6ee7b79357570ecb4c83b89c",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="leGetEditWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__state_8c.html#aa79dc4d4e2c81d44862b7edba456c688",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="leGetFocusWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__state_8c.html#af1a713840621fa409cf8d12281f3eb1e",tooltip=" "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="leSetEditWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__state_8c.html#a81cc3a65d012a4c24da16f31e8202a3f",tooltip=" "];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="leSetFocusWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__state_8c.html#acea130d1af885ccdd7d61eef6e1a1712",tooltip=" "];
+}

@@ -1,0 +1,22 @@
+digraph "stage_BlendRGBA8888"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="stage_BlendRGBA8888",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="leColorBlend_RGBA_8888",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color_8h.html#ae8d7567769600843b3d253ff899b7175",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="calculateBlendColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color__blend_8c.html#acc675bb84491e790558b8d0d464037db",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="lePercent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__math_8c.html#a30dd455230a479c1d82d47a22a6d175e",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="leColorConvert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color_8h.html#a53c185c8a78fff8675a52086fed04f65",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="leRenderer_GetPixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__draw_8c.html#a7f26c2ccb229d4d3d7484ba268c9a235",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="lePixelBufferGet_Unsafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__pixelbuffer_8c.html#af63ae8ca48e5e5b0b38ada5f66575e41",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="lePixelBufferOffsetGet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__pixelbuffer_8c.html#aee34b79e6bf6c88062476f5e1e392c22",tooltip=" "];
+}

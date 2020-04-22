@@ -76,7 +76,12 @@ var legato__widget_8c =
     [ "_leWidget_Translate", "legato__widget_8c.html#aa10f7b411824b39fecdb825e1e16af4b", null ],
     [ "_leWidget_Update", "legato__widget_8c.html#a6735a6f931fb7aed5d656240271355d9", null ],
     [ "_leWidget_ValidateChildren", "legato__widget_8c.html#acc276bf2c766f859de06efc41a7ece1a", null ],
+    [ "filterEvent", "legato__widget_8c.html#ae52016bdc8db9d891148e57cda8bc783", null ],
+    [ "isAncestorOf", "legato__widget_8c.html#ad3407da6f6ad5e849b9060c5c94f3143", null ],
     [ "leWidget_Constructor", "legato__widget_8c.html#ac59d0d9d2e3cdc584c117da199bf55e1", null ],
     [ "leWidget_Delete", "legato__widget_8c.html#aefd920f7e5524ffdcdd620aa3fb69db8", null ],
-    [ "leWidget_New", "legato__widget_8c.html#ab57c7d3abefb97e93909c84450d2d2cb", null ]
+    [ "leWidget_New", "legato__widget_8c.html#ab57c7d3abefb97e93909c84450d2d2cb", null ],
+    [ "_moveEvent", "legato__widget_8c.html#ab257a9820e3cb53a9cddede8520b3241", null ],
+    [ "_resizeEvent", "legato__widget_8c.html#afd10a7527c58155d9fe07693b7fdff85", null ],
+    [ "widgetVTable", "legato__widget_8c.html#a0e5b565746c8e44dbe19ee59fea3889b", null ]
 ];

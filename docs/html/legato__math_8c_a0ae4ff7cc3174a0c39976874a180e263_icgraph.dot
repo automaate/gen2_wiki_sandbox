@@ -1,0 +1,22 @@
+digraph "leLerp"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="leLerp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="lerp_argb8888",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color__lerp_8c.html#a12e1da67f111035225d7f94d32c6526a",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="lerp_gs8",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color__lerp_8c.html#ad7376e959f146323de588d9bc7a726f8",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="lerp_rgb332",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color__lerp_8c.html#ac57fcc890c351f86ef9a63d3ee2b8756",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="lerp_rgb565",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color__lerp_8c.html#a346edaa5e642b2e0adac330c4a0d443d",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="lerp_rgb888",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color__lerp_8c.html#af59e18f791821c454660c2434adfaf4f",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="lerp_rgba5551",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color__lerp_8c.html#a3a040b8ed4b2d66f31c64f86fcaffa60",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="lerp_rgba8888",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color__lerp_8c.html#aafb89e1edbc2944dd10fdb1c3ee74c8a",tooltip=" "];
+}

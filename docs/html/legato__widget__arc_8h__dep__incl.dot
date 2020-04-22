@@ -1,0 +1,13 @@
+digraph "C:/Harmony3/gfx/middleware/legato/library/src/gfx/legato/widget/arc/legato_widget_arc.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="C:/Harmony3/gfx/middleware\l/legato/library/src/gfx\l/legato/widget/arc/legato\l_widget_arc.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="C:/Harmony3/gfx/middleware\l/legato/library/src/gfx\l/legato/widget/arc/legato\l_widget_arc.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__widget__arc_8c.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="C:/Harmony3/gfx/middleware\l/legato/library/src/gfx\l/legato/widget/arc/legato\l_widget_arc_skin_classic.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__widget__arc__skin__classic_8c.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="C:/Harmony3/gfx/middleware\l/legato/library/src/gfx\l/legato/widget/circulargauge\l/legato_widget_circular_gauge.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__widget__circular__gauge_8c.html",tooltip=" "];
+}

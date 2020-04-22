@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "My Project", "index.html", [
+  [ "MPLAB Harmony Graphics Legato Library", "index.html", [
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -51,15 +51,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"legato__color_8h.html#a9a4439f13bbc1ce88017b20a61ec6956",
-"legato__event__rtos_8c.html",
-"legato__input_8c.html#a936c5b753f842c6133ff43613e24a672",
-"legato__math_8h.html#affc053dbf6d4b4c9e3b9665f38605722ad65b1455871ab1cd9d0655696d927c01",
-"legato__state_8c.html#aa65aff927a463e4edfcd0e11a87d40b3",
-"legato__variableheap_8c.html#aec7cfa4cdbc24e92bd9a8a316f984ae0",
-"legato__widget__imagerotate_8h.html",
-"structle_image_decoder.html#a9db8f902391c04b625315f98d7c5ce50",
-"structle_widget___resize_event.html#a2fa10c3c4a4f1068577f375bce680e84"
+"legato__color_8h.html#a7a4d6462701a6d37e1f2341e6b96ecd4",
+"legato__dynamicstring_8h.html#a20fce8feadb3035d0ec6651d37538a55",
+"legato__image__utils_8c.html#a14984f42092a8b4e113481e9e980339c",
+"legato__input_8h.html#a62a87ae69175b75991aca6a6ff7c95b3a5d9c9ba1d8f2c6f6737db37d3f449071",
+"legato__pixelbuffer_8c.html#a7a2124becfd4efc3ff059e4e784cb85f",
+"legato__state_8c.html#adde914336852313d1f6e12b3d09d9247",
+"legato__variableheap_8c.html#a8e9167913bb9a5a0e36549e7f0eaac81",
+"legato__widget__circle_8c.html",
+"struct_internal_read_stage.html#a01738d5d913bb1b4ac9c097c2a4d516f",
+"structle_scheme.html#a1b1e290951432cdbad26f27be7b2f66f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -12,5 +12,6 @@ var legato__image_8c =
     [ "leImage_Resize", "legato__image_8c.html#ad44310592079341621a7fa8d345a0349", null ],
     [ "leImage_ResizeDraw", "legato__image_8c.html#aea71cc5e48303b338313b8a8fc2f2fa1", null ],
     [ "leImage_Rotate", "legato__image_8c.html#ab2422daf639720e2848dc076db0185e1", null ],
-    [ "leImage_RotateDraw", "legato__image_8c.html#a33d74b99de452ff95d20ac1b74f3ca8c", null ]
+    [ "leImage_RotateDraw", "legato__image_8c.html#a33d74b99de452ff95d20ac1b74f3ca8c", null ],
+    [ "decoders", "legato__image_8c.html#a56cb5c875a1be189fc2b5f58a11078f4", null ]
 ];

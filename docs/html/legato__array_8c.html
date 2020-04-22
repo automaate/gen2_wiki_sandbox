@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: datastructure/legato_array.c File Reference</title>
+<title>MPLAB Harmony Graphics Legato Library: C:/Harmony3/gfx/middleware/legato/library/src/gfx/legato/datastructure/legato_array.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="mhgs.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">MPLAB Harmony Graphics Legato Library
    </div>
   </td>
  </tr>
@@ -96,9 +96,11 @@ $(document).ready(function(){initNavTree('legato__array_8c.html',''); initResiza
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for legato_array.c:</div>
 <div class="dyncontent">
-<div class="center"><img src="legato__array_8c__incl.png" border="0" usemap="#datastructure_2legato__array_8c" alt=""/></div>
+<div class="center"><img src="legato__array_8c__incl.png" border="0" usemap="#_c_1_2_harmony3_2gfx_2middleware_2legato_2library_2src_2gfx_2legato_2datastructure_2legato__array_8c" alt=""/></div>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="legato__array_8c_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:aff96e3e0e346d3737fa725d80cb7480c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__array_8c.html#aff96e3e0e346d3737fa725d80cb7480c">STD_RESIZE_AMT</a>&#160;&#160;&#160;5</td></tr>
@@ -106,6 +108,10 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a9fe67dde0d8721a571a3d6b90dc5b64e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__array_8c.html#a9fe67dde0d8721a571a3d6b90dc5b64e">_shuffleRight</a> (<a class="el" href="structle_array.html">leArray</a> *arr, uint32_t idx)</td></tr>
+<tr class="separator:a9fe67dde0d8721a571a3d6b90dc5b64e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae46fbd137193ca7c88469b217cbf8305"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__array_8c.html#ae46fbd137193ca7c88469b217cbf8305">_shuffleLeft</a> (<a class="el" href="structle_array.html">leArray</a> *arr, uint32_t idx)</td></tr>
+<tr class="separator:ae46fbd137193ca7c88469b217cbf8305"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef4da7e98fce2c4494689c87a9e636db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__array_8c.html#aef4da7e98fce2c4494689c87a9e636db">leArray_Create</a> (<a class="el" href="structle_array.html">leArray</a> *arr)</td></tr>
 <tr class="separator:aef4da7e98fce2c4494689c87a9e636db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23f2235dc9dcc09605892c538f44d875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__array_8c.html#a23f2235dc9dcc09605892c538f44d875">leArray_Resize</a> (<a class="el" href="structle_array.html">leArray</a> *arr, uint32_t sz)</td></tr>
@@ -148,9 +154,97 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00035">35</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ae46fbd137193ca7c88469b217cbf8305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae46fbd137193ca7c88469b217cbf8305">&#9670;&nbsp;</a></span>_shuffleLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void _shuffleLeft </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structle_array.html">leArray</a> *&#160;</td>
+          <td class="paramname"><em>arr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00056">56</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_ae46fbd137193ca7c88469b217cbf8305_icgraph.png" border="0" usemap="#legato__array_8c_ae46fbd137193ca7c88469b217cbf8305_icgraph" alt=""/></div>
+</div>
+
+</div>
+</div>
+<a id="a9fe67dde0d8721a571a3d6b90dc5b64e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fe67dde0d8721a571a3d6b90dc5b64e">&#9670;&nbsp;</a></span>_shuffleRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void _shuffleRight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structle_array.html">leArray</a> *&#160;</td>
+          <td class="paramname"><em>arr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00036">36</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_a9fe67dde0d8721a571a3d6b90dc5b64e_icgraph.png" border="0" usemap="#legato__array_8c_a9fe67dde0d8721a571a3d6b90dc5b64e_icgraph" alt=""/></div>
+</div>
+
+</div>
+</div>
 <a id="a0300beee6ee7b79357570ecb4c83b89c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0300beee6ee7b79357570ecb4c83b89c">&#9670;&nbsp;</a></span>leArray_Clear()</h2>
 
@@ -166,6 +260,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00279">279</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_a0300beee6ee7b79357570ecb4c83b89c_icgraph.png" border="0" usemap="#legato__array_8c_a0300beee6ee7b79357570ecb4c83b89c_icgraph" alt=""/></div>
+</div>
 
 </div>
 </div>
@@ -195,6 +296,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00258">258</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_acbbe7fa5794aba58384a2f707c5c2338_cgraph.png" border="0" usemap="#legato__array_8c_acbbe7fa5794aba58384a2f707c5c2338_cgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 <a id="aef4da7e98fce2c4494689c87a9e636db"></a>
@@ -212,6 +320,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00073">73</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_aef4da7e98fce2c4494689c87a9e636db_icgraph.png" border="0" usemap="#legato__array_8c_aef4da7e98fce2c4494689c87a9e636db_icgraph" alt=""/></div>
+</div>
 
 </div>
 </div>
@@ -241,6 +356,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00242">242</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_a0ee4fb0056c8e95dd38ce68d33cf848b_icgraph.png" border="0" usemap="#legato__array_8c_a0ee4fb0056c8e95dd38ce68d33cf848b_icgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 <a id="aedb731b582ce445bee6a70797a789942"></a>
@@ -268,6 +390,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00224">224</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
 
 </div>
 </div>
@@ -303,6 +427,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00174">174</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_a7b4e1d95eadb27b3939444a4e2afac44_cgraph.png" border="0" usemap="#legato__array_8c_a7b4e1d95eadb27b3939444a4e2afac44_cgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 <a id="a07add7957e9490630314cb84a0a338c4"></a>
@@ -321,6 +452,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00164">164</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+
 </div>
 </div>
 <a id="a32f8e91aacf7e755380e0963d9834e4c"></a>
@@ -338,6 +471,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00137">137</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_a32f8e91aacf7e755380e0963d9834e4c_cgraph.png" border="0" usemap="#legato__array_8c_a32f8e91aacf7e755380e0963d9834e4c_cgraph" alt=""/></div>
+</div>
 
 </div>
 </div>
@@ -367,6 +507,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00147">147</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_ae40d3e73611c0c2acc03e4f3dc0ee942_cgraph.png" border="0" usemap="#legato__array_8c_ae40d3e73611c0c2acc03e4f3dc0ee942_cgraph" alt=""/></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_ae40d3e73611c0c2acc03e4f3dc0ee942_icgraph.png" border="0" usemap="#legato__array_8c_ae40d3e73611c0c2acc03e4f3dc0ee942_icgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 <a id="a1a51058e7999426ba637ab17a1ea0fb1"></a>
@@ -394,6 +546,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00119">119</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_a1a51058e7999426ba637ab17a1ea0fb1_cgraph.png" border="0" usemap="#legato__array_8c_a1a51058e7999426ba637ab17a1ea0fb1_cgraph" alt=""/></div>
+</div>
 
 </div>
 </div>
@@ -423,6 +582,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00207">207</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_a37dc1f5655be469d9ef496d23e56af8a_cgraph.png" border="0" usemap="#legato__array_8c_a37dc1f5655be469d9ef496d23e56af8a_cgraph" alt=""/></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_a37dc1f5655be469d9ef496d23e56af8a_icgraph.png" border="0" usemap="#legato__array_8c_a37dc1f5655be469d9ef496d23e56af8a_icgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 <a id="aa05b0d1baa2c8a19559cedf89ef1f6e5"></a>
@@ -451,6 +622,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00197">197</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_aa05b0d1baa2c8a19559cedf89ef1f6e5_cgraph.png" border="0" usemap="#legato__array_8c_aa05b0d1baa2c8a19559cedf89ef1f6e5_cgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 <a id="a23f2235dc9dcc09605892c538f44d875"></a>
@@ -478,6 +656,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00085">85</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__array_8c_a23f2235dc9dcc09605892c538f44d875_icgraph.png" border="0" usemap="#legato__array_8c_a23f2235dc9dcc09605892c538f44d875_icgraph" alt=""/></div>
+</div>
 
 </div>
 </div>
@@ -513,6 +698,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__array_8c_source.html#l00232">232</a> of file <a class="el" href="legato__array_8c_source.html">legato_array.c</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -520,7 +707,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_485def94d9d47ec400cfa3c13f568403.html">datastructure</a></li><li class="navelem"><a class="el" href="legato__array_8c.html">legato_array.c</a></li>
+    <li class="navelem"><a class="el" href="dir_3a924b96366437974edfa9bf6ddad245.html">gfx</a></li><li class="navelem"><a class="el" href="dir_4a20292a2b12992f00d53f7edbd72d5d.html">middleware</a></li><li class="navelem"><a class="el" href="dir_b190f1068f9fbe431bd6ea3e2624de65.html">legato</a></li><li class="navelem"><a class="el" href="dir_b8c5731382094183e5c984a28433d558.html">library</a></li><li class="navelem"><a class="el" href="dir_0100ca59d57b37c13a541787d264e24a.html">src</a></li><li class="navelem"><a class="el" href="dir_1508051434a21666994f289764e37d02.html">gfx</a></li><li class="navelem"><a class="el" href="dir_9f5729dad30c3a99415d090dcffece40.html">legato</a></li><li class="navelem"><a class="el" href="dir_46bb90439f33e84bd3e96ef8140ea852.html">datastructure</a></li><li class="navelem"><a class="el" href="legato__array_8c.html">legato_array.c</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>

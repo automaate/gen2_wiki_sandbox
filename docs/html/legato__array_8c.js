@@ -1,6 +1,8 @@
 var legato__array_8c =
 [
     [ "STD_RESIZE_AMT", "legato__array_8c.html#aff96e3e0e346d3737fa725d80cb7480c", null ],
+    [ "_shuffleLeft", "legato__array_8c.html#ae46fbd137193ca7c88469b217cbf8305", null ],
+    [ "_shuffleRight", "legato__array_8c.html#a9fe67dde0d8721a571a3d6b90dc5b64e", null ],
     [ "leArray_Clear", "legato__array_8c.html#a0300beee6ee7b79357570ecb4c83b89c", null ],
     [ "leArray_Copy", "legato__array_8c.html#acbbe7fa5794aba58384a2f707c5c2338", null ],
     [ "leArray_Create", "legato__array_8c.html#aef4da7e98fce2c4494689c87a9e636db", null ],

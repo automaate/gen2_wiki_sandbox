@@ -31,5 +31,6 @@ var legato__dynamicstring_8c =
     [ "_leString_SetInvalidateCallback", "legato__dynamicstring_8c.html#a736bb11a5f18c2301aed4881b5443498", null ],
     [ "_leString_SetPreInvalidateCallback", "legato__dynamicstring_8c.html#a21713781ad705d467bb685fe335ee4c1", null ],
     [ "leDynamicString_Constructor", "legato__dynamicstring_8c.html#a3e49fea76e67235e5c08a020d212e7b3", null ],
-    [ "leDynamicString_New", "legato__dynamicstring_8c.html#a3e2b7e83086bd19ee83d930ad9e9126f", null ]
+    [ "leDynamicString_New", "legato__dynamicstring_8c.html#a3e2b7e83086bd19ee83d930ad9e9126f", null ],
+    [ "dynamicStringVTable", "legato__dynamicstring_8c.html#a7f4f195684de116450fe086ab6b2300a", null ]
 ];

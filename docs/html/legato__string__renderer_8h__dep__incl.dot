@@ -1,0 +1,13 @@
+digraph "C:/Harmony3/gfx/middleware/legato/library/src/gfx/legato/string/legato_string_renderer.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="C:/Harmony3/gfx/middleware\l/legato/library/src/gfx\l/legato/string/legato_string\l_renderer.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="C:/Harmony3/gfx/middleware\l/legato/library/src/gfx\l/legato/string/legato_string.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__string_8c.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="C:/Harmony3/gfx/middleware\l/legato/library/src/gfx\l/legato/string/legato_string\l_renderer.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__string__renderer_8c.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="C:/Harmony3/gfx/middleware\l/legato/library/src/gfx\l/legato/string/legato_string\l_renderer_stream.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__string__renderer__stream_8c.html",tooltip=" "];
+}

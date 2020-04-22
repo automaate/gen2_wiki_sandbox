@@ -8,5 +8,7 @@ var legato__event_8c =
     [ "leEvent_ProcessEvents", "legato__event_8c.html#a64faed86ab5b1bf21fe973e51f696c14", null ],
     [ "leEvent_SetFilter", "legato__event_8c.html#a50d4a76383cde9f3460df7a42ea49ac4", null ],
     [ "leEvent_Shutdown", "legato__event_8c.html#a0b8428b5392acf302a7ec65918d72d49", null ],
-    [ "leWidgetEvent_Accept", "legato__event_8c.html#a7bec460eb4c10f3b29172cdfd2edf42d", null ]
+    [ "leWidgetEvent_Accept", "legato__event_8c.html#a7bec460eb4c10f3b29172cdfd2edf42d", null ],
+    [ "processEvent", "legato__event_8c.html#a1ca43d24f7dcd4362211e63dfe483827", null ],
+    [ "_state", "legato__event_8c.html#af194acfc87631080fc24dd282fb50873", null ]
 ];

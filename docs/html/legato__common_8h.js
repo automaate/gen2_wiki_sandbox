@@ -57,5 +57,8 @@ var legato__common_8h =
       [ "LE_VALIGN_TOP", "legato__common_8h.html#a169e44baabeda5a3657e3e2e0e7f3c50a7e2ec4dce2d904c23874402d299a127f", null ],
       [ "LE_VALIGN_MIDDLE", "legato__common_8h.html#a169e44baabeda5a3657e3e2e0e7f3c50abdcc493ccdb1b9078d400f48e3520739", null ],
       [ "LE_VALIGN_BOTTOM", "legato__common_8h.html#a169e44baabeda5a3657e3e2e0e7f3c50a87d00cad47f53f3cfdae6cfb95a9409f", null ]
-    ] ]
+    ] ],
+    [ "leMargin_Zero", "legato__common_8h.html#abf9bb24f8954d056041e55f3eb7e5945", null ],
+    [ "lePoint_Zero", "legato__common_8h.html#a6bc56e0f704c50afd9221c51b5227f9f", null ],
+    [ "leSize_Zero", "legato__common_8h.html#a292128b4e76d32ee118e5ef1fd13ada0", null ]
 ];

@@ -11,5 +11,6 @@ var legato__input_8c =
     [ "leInput_InjectTouchMoved", "legato__input_8c.html#a7507cdb5a2e50bc3d93258d4d3417394", null ],
     [ "leInput_InjectTouchUp", "legato__input_8c.html#a17742ed864d121cb5d29defac1a82d6d", null ],
     [ "leInput_SetEnabled", "legato__input_8c.html#a71936ba0c75df1b8c95922a03f63ca65", null ],
-    [ "leInput_Shutdown", "legato__input_8c.html#a936c5b753f842c6133ff43613e24a672", null ]
+    [ "leInput_Shutdown", "legato__input_8c.html#a936c5b753f842c6133ff43613e24a672", null ],
+    [ "_state", "legato__input_8c.html#a35132cbf41319cf80f65eaae071345c2", null ]
 ];

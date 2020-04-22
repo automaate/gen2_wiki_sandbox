@@ -1,0 +1,38 @@
+digraph "_leRawImageDecoder_BlendStage_Internal"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="_leRawImageDecoder\l_BlendStage_Internal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="_leRawImageDecoder\l_InjectStage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__imagedecoder__raw__blend_8c.html#afe19a22091ec64bedbf79fe6f9fdedb2",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="leGetRenderState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__renderer_8c.html#acf4d7d2f8cb00624604cdb1f8807a166",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="stage_BlendARGB8888",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__imagedecoder__raw__blend_8c.html#a3ca42464ef161512a4835fa837b1753c",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="leColorBlend_ARGB_8888",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color_8h.html#af80440ac62c3a61c24da0bcff39e634a",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="calculateBlendColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color__blend_8c.html#acc675bb84491e790558b8d0d464037db",tooltip=" "];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="lePercent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__math_8c.html#a30dd455230a479c1d82d47a22a6d175e",tooltip=" "];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="leColorConvert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color_8h.html#a53c185c8a78fff8675a52086fed04f65",tooltip=" "];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="leRenderer_GetPixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__draw_8c.html#a7f26c2ccb229d4d3d7484ba268c9a235",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="lePixelBufferGet_Unsafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__pixelbuffer_8c.html#af63ae8ca48e5e5b0b38ada5f66575e41",tooltip=" "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="lePixelBufferOffsetGet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__pixelbuffer_8c.html#aee34b79e6bf6c88062476f5e1e392c22",tooltip=" "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="stage_BlendRGBA5551",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__imagedecoder__raw__blend_8c.html#aaa01e9f22d86b482b43c288ef90e19f5",tooltip=" "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="stage_BlendRGBA8888",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__imagedecoder__raw__blend_8c.html#a53560bb3482e05abcb541934600d975c",tooltip=" "];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="leColorBlend_RGBA_8888",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color_8h.html#ae8d7567769600843b3d253ff899b7175",tooltip=" "];
+  Node14 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

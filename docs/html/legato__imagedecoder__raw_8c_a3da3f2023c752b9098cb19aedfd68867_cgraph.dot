@@ -1,0 +1,18 @@
+digraph "_initConvertStage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="_initConvertStage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="_leRawImageDecoder\l_ConvertStage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__imagedecoder__raw_8c.html#a9bfc7c82e7d09a53dddeb08920da87e3",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="_leRawImageDecoder\l_InjectStage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__imagedecoder__raw__convert_8c.html#afe19a22091ec64bedbf79fe6f9fdedb2",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="stage_convertColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__imagedecoder__raw__convert_8c.html#abad62b03516a6c3b689b41046aebecc6",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="leRenderer_ConvertColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__renderer_8c.html#af04e1ea8f24c3768e71d64ae9df02901",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="leColorConvert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__color_8h.html#a53c185c8a78fff8675a52086fed04f65",tooltip=" "];
+}

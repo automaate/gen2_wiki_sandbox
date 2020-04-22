@@ -1,5 +1,15 @@
 var legato__imagedecoder__raw_8c =
 [
+    [ "_copy", "legato__imagedecoder__raw_8c.html#a3efc8acc56e4b69cecaf21356e001828", null ],
+    [ "_decoderCleanup", "legato__imagedecoder__raw_8c.html#a21a57a45be44ce5f9e37146c7dc45110", null ],
+    [ "_decoderExec", "legato__imagedecoder__raw_8c.html#a6a37ee85be274808494b514cf9924372", null ],
+    [ "_decoderIsDone", "legato__imagedecoder__raw_8c.html#a4104c367a2234bb247012b10db1e0f7c", null ],
+    [ "_draw", "legato__imagedecoder__raw_8c.html#a38d60323e8942c33babe19e1b3b3a8e7", null ],
+    [ "_initBlendStage", "legato__imagedecoder__raw_8c.html#ae84e547d671bf4466be0f35934fa0ef1", null ],
+    [ "_initConvertStage", "legato__imagedecoder__raw_8c.html#a3da3f2023c752b9098cb19aedfd68867", null ],
+    [ "_initLookupStage", "legato__imagedecoder__raw_8c.html#a05f5f398ebeace8fa7ecfeafd47e759d", null ],
+    [ "_initMaskStage", "legato__imagedecoder__raw_8c.html#af9d30663fde1d33ec519e356682cf7b2", null ],
+    [ "_initReadStage", "legato__imagedecoder__raw_8c.html#a9824b1b7a536b18f5267b987211dd284", null ],
     [ "_leRawImageDecoder_BlendStage_Internal", "legato__imagedecoder__raw_8c.html#a3cc95cd6305fc9ffd898af05ddfc5b69", null ],
     [ "_leRawImageDecoder_ConvertStage", "legato__imagedecoder__raw_8c.html#a9bfc7c82e7d09a53dddeb08920da87e3", null ],
     [ "_leRawImageDecoder_FrameBufferWriteStage", "legato__imagedecoder__raw_8c.html#aa304548661433ffbc1fa8654237a37f1", null ],
@@ -20,5 +30,13 @@ var legato__imagedecoder__raw_8c =
     [ "_leRawImageDecoder_ScaleBilinearPreReadStage", "legato__imagedecoder__raw_8c.html#a31d5859f5fac67d899f5a79b751da9b1", null ],
     [ "_leRawImageDecoder_ScaleNearestNeighborPreReadStage", "legato__imagedecoder__raw_8c.html#abcfb6c5dd852d5839a3a93efa7ac84b7", null ],
     [ "_leRawImageDecoder_SourceIterateSetupStage", "legato__imagedecoder__raw_8c.html#ae48771936903a1fe442232e37c446297", null ],
-    [ "_leRawImageDecoder_TargetIterateSetupStage", "legato__imagedecoder__raw_8c.html#aeaf5ba9ecef4d37b1d0fd3e826c195a2", null ]
+    [ "_leRawImageDecoder_TargetIterateSetupStage", "legato__imagedecoder__raw_8c.html#aeaf5ba9ecef4d37b1d0fd3e826c195a2", null ],
+    [ "_render", "legato__imagedecoder__raw_8c.html#abfeeb490086c29b49fc5cf918fa21c2e", null ],
+    [ "_resize", "legato__imagedecoder__raw_8c.html#a5c07712cae284305dd4f4569c980dfd9", null ],
+    [ "_resizeDraw", "legato__imagedecoder__raw_8c.html#a2a3bfb63f59758cd47eed17b8697a762", null ],
+    [ "_rotate", "legato__imagedecoder__raw_8c.html#a36b46c194b5397541d9f90cb89247f77", null ],
+    [ "_rotateDraw", "legato__imagedecoder__raw_8c.html#a4c5d939c97978870937bd9988ad8355c", null ],
+    [ "_supportsImage", "legato__imagedecoder__raw_8c.html#a365969106d5b8e30c53ed57966487922", null ],
+    [ "decoder", "legato__imagedecoder__raw_8c.html#a08c03b9abd74c7c52c9a900bd3f38e22", null ],
+    [ "state", "legato__imagedecoder__raw_8c.html#a537539fc620b6b127f1c431e22fe39fd", null ]
 ];

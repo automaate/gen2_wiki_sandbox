@@ -1,0 +1,15 @@
+digraph "leStringUtils_GetLineRect"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="leStringUtils_GetLineRect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="drawUString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__string__renderer_8c.html#abc35a33b81b8ca5a104056c233821543",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="leStringRenderer_DrawUString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__string__renderer_8h.html#a7b02fe78824d690efd75af51a78d1f87",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="leStringUtils_GetRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__stringutils_8h.html#ac985af1aa4d9e5402d0c958eda4afc74",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

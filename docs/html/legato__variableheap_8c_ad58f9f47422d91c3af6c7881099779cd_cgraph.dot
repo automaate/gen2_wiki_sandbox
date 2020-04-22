@@ -1,0 +1,12 @@
+digraph "_combineBlockNext"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="_combineBlockNext",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="_areAdjacent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__variableheap_8c.html#a211c78b4fd99d801ce76f0dc218280f1",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="_createBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__variableheap_8c.html#a796e97911458f2141c3677bfb1333515",tooltip=" "];
+}

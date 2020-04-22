@@ -1,0 +1,28 @@
+digraph "leWidgetEvent_TouchUp"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="leWidgetEvent_TouchUp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" event" ,fontname="Helvetica"];
+  Node2 [label="leWidgetEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structle_widget_event.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" owner" ,fontname="Helvetica"];
+  Node3 [label="leWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structle_widget.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" margin" ,fontname="Helvetica"];
+  Node4 [label="leMargin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structle_margin.html",tooltip=" "];
+  Node3 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" parent" ,fontname="Helvetica"];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fn" ,fontname="Helvetica"];
+  Node5 [label="leWidgetVTable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structle_widget_v_table.html",tooltip=" "];
+  Node6 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" drawFunc" ,fontname="Helvetica"];
+  Node6 [label="void",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" children" ,fontname="Helvetica"];
+  Node7 [label="leArray",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structle_array.html",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" values" ,fontname="Helvetica"];
+  Node8 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rect" ,fontname="Helvetica"];
+  Node8 [label="leRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structle_rect.html",tooltip=" "];
+  Node9 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" scheme" ,fontname="Helvetica"];
+  Node9 [label="leScheme",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structle_scheme.html",tooltip=" "];
+  Node10 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" eventFilters" ,fontname="Helvetica"];
+  Node10 [label="leWidgetEventFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structle_widget_event_filter.html",tooltip=" "];
+  Node6 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+}

@@ -14,5 +14,6 @@ var legato__editwidget_8c =
     [ "_leEditWidget_EditStart", "legato__editwidget_8c.html#a8545162176f7822f0657a040c813683a", null ],
     [ "_leEditWidget_Set", "legato__editwidget_8c.html#a8422d95a23c0fb23bd09507eda7f5df9", null ],
     [ "_leWidget_Destructor", "legato__editwidget_8c.html#a0a8af55772c9ff5e568a140c5917b973", null ],
-    [ "leEditWidget_Constructor", "legato__editwidget_8c.html#adb77d4608966b149403e0e0cdee812a1", null ]
+    [ "leEditWidget_Constructor", "legato__editwidget_8c.html#adb77d4608966b149403e0e0cdee812a1", null ],
+    [ "editWidgetVTable", "legato__editwidget_8c.html#ad657735d40a88da67b7534ac8f758534", null ]
 ];

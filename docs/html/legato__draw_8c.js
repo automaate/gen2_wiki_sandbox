@@ -9,5 +9,7 @@ var legato__draw_8c =
     [ "leRenderer_GetPixel_Safe", "legato__draw_8c.html#a24ee32367c6efff03894b9e9164e1654", null ],
     [ "leRenderer_PutPixel", "legato__draw_8c.html#a5bd8b3cb9a506b9253c8f3dcf1b8df31", null ],
     [ "leRenderer_PutPixel_Safe", "legato__draw_8c.html#ad6ff63d88f2bd640ae5748d03361dcbd", null ],
-    [ "_rendererState", "legato__draw_8c.html#a89bc0e9f2bf8777de1bec01206f8c98d", null ]
+    [ "putPixel", "legato__draw_8c.html#a44d112db78ddddd19c61056a816967f6", null ],
+    [ "_rendererState", "legato__draw_8c.html#a89bc0e9f2bf8777de1bec01206f8c98d", null ],
+    [ "pixelPutFn", "legato__draw_8c.html#ad20e9e2f88be74461b415e11bc5982f4", null ]
 ];

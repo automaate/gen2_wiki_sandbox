@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['copyright_1872',['Copyright',['../_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#ae30bcba8620d62c57561dd7ce2a68612',1,'Copyright(c) 2012 Red Hat:&#160;Liberation Font LICENSE.txt'],['../_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#ad19215793cafa7e50a643ff85668ecfb',1,'copyright(c) 2010 Google Corporation with Reserved Font Arimo:&#160;Liberation Font LICENSE.txt']]]
+  ['adddamagerecttolist_2120',['addDamageRectToList',['../legato__renderer_8c.html#aacff61f67b6e642ceef1a959905b90f9',1,'legato_renderer.c']]],
+  ['addrecttoframelist_2121',['addRectToFrameList',['../legato__renderer_8c.html#a1844be6545cda1f8bfd2eab43f7a3e97',1,'legato_renderer.c']]],
+  ['argb8888_5frgb888_2122',['argb8888_rgb888',['../legato__color__convert_8c.html#a6f9748300a72c062d1a0bec8573f23f4',1,'legato_color_convert.c']]],
+  ['argb8888_5frgba5551_2123',['argb8888_rgba5551',['../legato__color__convert_8c.html#aee6d5d276d0660729a63bd34d9ac3614',1,'legato_color_convert.c']]],
+  ['argb8888_5frgba8888_2124',['argb8888_rgba8888',['../legato__color__convert_8c.html#a20dc46d369a1d9be835bbbb81ada64a3',1,'legato_color_convert.c']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: common/legato_color_blend.c File Reference</title>
+<title>MPLAB Harmony Graphics Legato Library: C:/Harmony3/gfx/middleware/legato/library/src/gfx/legato/common/legato_color_blend.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="mhgs.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">MPLAB Harmony Graphics Legato Library
    </div>
   </td>
  </tr>
@@ -93,17 +93,82 @@ $(document).ready(function(){initNavTree('legato__color__blend_8c.html',''); ini
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for legato_color_blend.c:</div>
 <div class="dyncontent">
-<div class="center"><img src="legato__color__blend_8c__incl.png" border="0" usemap="#common_2legato__color__blend_8c" alt=""/></div>
+<div class="center"><img src="legato__color__blend_8c__incl.png" border="0" usemap="#_c_1_2_harmony3_2gfx_2middleware_2legato_2library_2src_2gfx_2legato_2common_2legato__color__blend_8c" alt=""/></div>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="legato__color__blend_8c_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:acc675bb84491e790558b8d0d464037db"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__color__blend_8c.html#acc675bb84491e790558b8d0d464037db">calculateBlendColor</a> (uint8_t lclr, uint32_t lper, uint8_t rclr, uint32_t rper, uint8_t max)</td></tr>
+<tr class="separator:acc675bb84491e790558b8d0d464037db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac54109d14904d33c6d40f795103af075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__color__blend_8c.html#ac54109d14904d33c6d40f795103af075">leColorBlend_RGBA_8888</a> (<a class="el" href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a> c1, <a class="el" href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a> c2)</td></tr>
 <tr class="separator:ac54109d14904d33c6d40f795103af075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1de3a8d27f206e87d417e0b93f1ec0fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__color__blend_8c.html#a1de3a8d27f206e87d417e0b93f1ec0fd">leColorBlend_ARGB_8888</a> (<a class="el" href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a> c1, <a class="el" href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a> c2)</td></tr>
 <tr class="separator:a1de3a8d27f206e87d417e0b93f1ec0fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="acc675bb84491e790558b8d0d464037db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc675bb84491e790558b8d0d464037db">&#9670;&nbsp;</a></span>calculateBlendColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint8_t calculateBlendColor </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>lclr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>lper</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>rclr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>rper</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__color__blend_8c_source.html#l00030">30</a> of file <a class="el" href="legato__color__blend_8c_source.html">legato_color_blend.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__color__blend_8c_acc675bb84491e790558b8d0d464037db_icgraph.png" border="0" usemap="#legato__color__blend_8c_acc675bb84491e790558b8d0d464037db_icgraph" alt=""/></div>
+</div>
+
+</div>
+</div>
 <a id="a1de3a8d27f206e87d417e0b93f1ec0fd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1de3a8d27f206e87d417e0b93f1ec0fd">&#9670;&nbsp;</a></span>leColorBlend_ARGB_8888()</h2>
 
@@ -129,6 +194,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__color__blend_8c_source.html#l00125">125</a> of file <a class="el" href="legato__color__blend_8c_source.html">legato_color_blend.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__color__blend_8c_a1de3a8d27f206e87d417e0b93f1ec0fd_cgraph.png" border="0" usemap="#legato__color__blend_8c_a1de3a8d27f206e87d417e0b93f1ec0fd_cgraph" alt=""/></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__color__blend_8c_a1de3a8d27f206e87d417e0b93f1ec0fd_icgraph.png" border="0" usemap="#legato__color__blend_8c_a1de3a8d27f206e87d417e0b93f1ec0fd_icgraph" alt=""/></div>
+</div>
 
 </div>
 </div>
@@ -158,6 +235,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__color__blend_8c_source.html#l00077">77</a> of file <a class="el" href="legato__color__blend_8c_source.html">legato_color_blend.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__color__blend_8c_ac54109d14904d33c6d40f795103af075_cgraph.png" border="0" usemap="#legato__color__blend_8c_ac54109d14904d33c6d40f795103af075_cgraph" alt=""/></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__color__blend_8c_ac54109d14904d33c6d40f795103af075_icgraph.png" border="0" usemap="#legato__color__blend_8c_ac54109d14904d33c6d40f795103af075_icgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -165,7 +254,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="legato__color__blend_8c.html">legato_color_blend.c</a></li>
+    <li class="navelem"><a class="el" href="dir_3a924b96366437974edfa9bf6ddad245.html">gfx</a></li><li class="navelem"><a class="el" href="dir_4a20292a2b12992f00d53f7edbd72d5d.html">middleware</a></li><li class="navelem"><a class="el" href="dir_b190f1068f9fbe431bd6ea3e2624de65.html">legato</a></li><li class="navelem"><a class="el" href="dir_b8c5731382094183e5c984a28433d558.html">library</a></li><li class="navelem"><a class="el" href="dir_0100ca59d57b37c13a541787d264e24a.html">src</a></li><li class="navelem"><a class="el" href="dir_1508051434a21666994f289764e37d02.html">gfx</a></li><li class="navelem"><a class="el" href="dir_9f5729dad30c3a99415d090dcffece40.html">legato</a></li><li class="navelem"><a class="el" href="dir_192fb4248a7d7f0c34634334a26d417f.html">common</a></li><li class="navelem"><a class="el" href="legato__color__blend_8c.html">legato_color_blend.c</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>

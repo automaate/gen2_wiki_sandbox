@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: renderer/legato_draw.c File Reference</title>
+<title>MPLAB Harmony Graphics Legato Library: C:/Harmony3/gfx/middleware/legato/library/src/gfx/legato/renderer/legato_draw.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="mhgs.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">MPLAB Harmony Graphics Legato Library
    </div>
   </td>
  </tr>
@@ -94,9 +94,11 @@ $(document).ready(function(){initNavTree('legato__draw_8c.html',''); initResizab
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for legato_draw.c:</div>
 <div class="dyncontent">
-<div class="center"><img src="legato__draw_8c__incl.png" border="0" usemap="#renderer_2legato__draw_8c" alt=""/></div>
+<div class="center"><img src="legato__draw_8c__incl.png" border="0" usemap="#_c_1_2_harmony3_2gfx_2middleware_2legato_2library_2src_2gfx_2legato_2renderer_2legato__draw_8c" alt=""/></div>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="legato__draw_8c_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:acbbaea139e60bbb92702a66691cc5e32"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__draw_8c.html#acbbaea139e60bbb92702a66691cc5e32">PixelPutFn</a>) (int32_t, int32_t, <a class="el" href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a>, uint32_t)</td></tr>
@@ -104,6 +106,8 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a44d112db78ddddd19c61056a816967f6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__draw_8c.html#a44d112db78ddddd19c61056a816967f6">putPixel</a> (int32_t x, int32_t y, <a class="el" href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a> clr, uint32_t)</td></tr>
+<tr class="separator:a44d112db78ddddd19c61056a816967f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f26c2ccb229d4d3d7484ba268c9a235"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__draw_8c.html#a7f26c2ccb229d4d3d7484ba268c9a235">leRenderer_GetPixel</a> (int32_t x, int32_t y)</td></tr>
 <tr class="separator:a7f26c2ccb229d4d3d7484ba268c9a235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24ee32367c6efff03894b9e9164e1654"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__draw_8c.html#a24ee32367c6efff03894b9e9164e1654">leRenderer_GetPixel_Safe</a> (int32_t x, int32_t y, <a class="el" href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a> *clr)</td></tr>
@@ -125,6 +129,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a89bc0e9f2bf8777de1bec01206f8c98d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structle_render_state.html">leRenderState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__draw_8c.html#a89bc0e9f2bf8777de1bec01206f8c98d">_rendererState</a></td></tr>
 <tr class="separator:a89bc0e9f2bf8777de1bec01206f8c98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad20e9e2f88be74461b415e11bc5982f4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="legato__draw_8c.html#acbbaea139e60bbb92702a66691cc5e32">PixelPutFn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__draw_8c.html#ad20e9e2f88be74461b415e11bc5982f4">pixelPutFn</a> = <a class="el" href="legato__draw_8c.html#a44d112db78ddddd19c61056a816967f6">putPixel</a></td></tr>
+<tr class="separator:ad20e9e2f88be74461b415e11bc5982f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="acbbaea139e60bbb92702a66691cc5e32"></a>
@@ -138,6 +144,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__draw_8c_source.html#l00032">32</a> of file <a class="el" href="legato__draw_8c_source.html">legato_draw.c</a>.</p>
 
 </div>
 </div>
@@ -180,6 +188,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__draw_8c_source.html#l00097">97</a> of file <a class="el" href="legato__draw_8c_source.html">legato_draw.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_af81f2f4cfe7f8a0412174677151a41b8_cgraph.png" border="0" usemap="#legato__draw_8c_af81f2f4cfe7f8a0412174677151a41b8_cgraph" alt=""/></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_af81f2f4cfe7f8a0412174677151a41b8_icgraph.png" border="0" usemap="#legato__draw_8c_af81f2f4cfe7f8a0412174677151a41b8_icgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 <a id="ae746106ef1bbf1278848dd60d16a1c7c"></a>
@@ -219,6 +239,18 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__draw_8c_source.html#l00112">112</a> of file <a class="el" href="legato__draw_8c_source.html">legato_draw.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_ae746106ef1bbf1278848dd60d16a1c7c_cgraph.png" border="0" usemap="#legato__draw_8c_ae746106ef1bbf1278848dd60d16a1c7c_cgraph" alt=""/></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_ae746106ef1bbf1278848dd60d16a1c7c_icgraph.png" border="0" usemap="#legato__draw_8c_ae746106ef1bbf1278848dd60d16a1c7c_icgraph" alt=""/></div>
+</div>
 
 </div>
 </div>
@@ -272,6 +304,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__draw_8c_source.html#l00199">199</a> of file <a class="el" href="legato__draw_8c_source.html">legato_draw.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_a6b3d5367444072139d9224ed3b9f6980_cgraph.png" border="0" usemap="#legato__draw_8c_a6b3d5367444072139d9224ed3b9f6980_cgraph" alt=""/></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_a6b3d5367444072139d9224ed3b9f6980_icgraph.png" border="0" usemap="#legato__draw_8c_a6b3d5367444072139d9224ed3b9f6980_icgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 <a id="a3dd58ed1c06bcd5c95a5dfb0151d5d3b"></a>
@@ -324,6 +368,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__draw_8c_source.html#l00242">242</a> of file <a class="el" href="legato__draw_8c_source.html">legato_draw.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_a3dd58ed1c06bcd5c95a5dfb0151d5d3b_cgraph.png" border="0" usemap="#legato__draw_8c_a3dd58ed1c06bcd5c95a5dfb0151d5d3b_cgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 <a id="a7f26c2ccb229d4d3d7484ba268c9a235"></a>
@@ -351,6 +402,18 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__draw_8c_source.html#l00046">46</a> of file <a class="el" href="legato__draw_8c_source.html">legato_draw.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_a7f26c2ccb229d4d3d7484ba268c9a235_cgraph.png" border="0" usemap="#legato__draw_8c_a7f26c2ccb229d4d3d7484ba268c9a235_cgraph" alt=""/></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_a7f26c2ccb229d4d3d7484ba268c9a235_icgraph.png" border="0" usemap="#legato__draw_8c_a7f26c2ccb229d4d3d7484ba268c9a235_icgraph" alt=""/></div>
+</div>
 
 </div>
 </div>
@@ -386,6 +449,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__draw_8c_source.html#l00057">57</a> of file <a class="el" href="legato__draw_8c_source.html">legato_draw.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_a24ee32367c6efff03894b9e9164e1654_cgraph.png" border="0" usemap="#legato__draw_8c_a24ee32367c6efff03894b9e9164e1654_cgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 <a id="a5bd8b3cb9a506b9253c8f3dcf1b8df31"></a>
@@ -419,6 +489,13 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__draw_8c_source.html#l00074">74</a> of file <a class="el" href="legato__draw_8c_source.html">legato_draw.c</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_a5bd8b3cb9a506b9253c8f3dcf1b8df31_icgraph.png" border="0" usemap="#legato__draw_8c_a5bd8b3cb9a506b9253c8f3dcf1b8df31_icgraph" alt=""/></div>
+</div>
 
 </div>
 </div>
@@ -454,6 +531,78 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__draw_8c_source.html#l00084">84</a> of file <a class="el" href="legato__draw_8c_source.html">legato_draw.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_ad6ff63d88f2bd640ae5748d03361dcbd_cgraph.png" border="0" usemap="#legato__draw_8c_ad6ff63d88f2bd640ae5748d03361dcbd_cgraph" alt=""/></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_ad6ff63d88f2bd640ae5748d03361dcbd_icgraph.png" border="0" usemap="#legato__draw_8c_ad6ff63d88f2bd640ae5748d03361dcbd_icgraph" alt=""/></div>
+</div>
+
+</div>
+</div>
+<a id="a44d112db78ddddd19c61056a816967f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44d112db78ddddd19c61056a816967f6">&#9670;&nbsp;</a></span>putPixel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> putPixel </td>
+          <td>(</td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a>&#160;</td>
+          <td class="paramname"><em>clr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__draw_8c_source.html#l00150">150</a> of file <a class="el" href="legato__draw_8c_source.html">legato_draw.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_a44d112db78ddddd19c61056a816967f6_cgraph.png" border="0" usemap="#legato__draw_8c_a44d112db78ddddd19c61056a816967f6_cgraph" alt=""/></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="legato__draw_8c_a44d112db78ddddd19c61056a816967f6_icgraph.png" border="0" usemap="#legato__draw_8c_a44d112db78ddddd19c61056a816967f6_icgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -469,6 +618,32 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="legato__renderer_8c_source.html#l00037">37</a> of file <a class="el" href="legato__renderer_8c_source.html">legato_renderer.c</a>.</p>
+
+</div>
+</div>
+<a id="ad20e9e2f88be74461b415e11bc5982f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad20e9e2f88be74461b415e11bc5982f4">&#9670;&nbsp;</a></span>pixelPutFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="legato__draw_8c.html#acbbaea139e60bbb92702a66691cc5e32">PixelPutFn</a> pixelPutFn = <a class="el" href="legato__draw_8c.html#a44d112db78ddddd19c61056a816967f6">putPixel</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="legato__draw_8c_source.html#l00072">72</a> of file <a class="el" href="legato__draw_8c_source.html">legato_draw.c</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -476,7 +651,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d10aa5f1e26260a914a037377583e9a7.html">renderer</a></li><li class="navelem"><a class="el" href="legato__draw_8c.html">legato_draw.c</a></li>
+    <li class="navelem"><a class="el" href="dir_3a924b96366437974edfa9bf6ddad245.html">gfx</a></li><li class="navelem"><a class="el" href="dir_4a20292a2b12992f00d53f7edbd72d5d.html">middleware</a></li><li class="navelem"><a class="el" href="dir_b190f1068f9fbe431bd6ea3e2624de65.html">legato</a></li><li class="navelem"><a class="el" href="dir_b8c5731382094183e5c984a28433d558.html">library</a></li><li class="navelem"><a class="el" href="dir_0100ca59d57b37c13a541787d264e24a.html">src</a></li><li class="navelem"><a class="el" href="dir_1508051434a21666994f289764e37d02.html">gfx</a></li><li class="navelem"><a class="el" href="dir_9f5729dad30c3a99415d090dcffece40.html">legato</a></li><li class="navelem"><a class="el" href="dir_977386f5bd74067e0b2f13954126b0fc.html">renderer</a></li><li class="navelem"><a class="el" href="legato__draw_8c.html">legato_draw.c</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>

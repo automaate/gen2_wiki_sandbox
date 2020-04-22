@@ -1,0 +1,14 @@
+digraph "leRectArray_RemoveDuplicates"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="leRectArray_RemoveDuplicates",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="preFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__renderer_8c.html#a5cd18bfc0736c476ce112efa3731a01d",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="leRenderer_Paint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__renderer_8h.html#a5fe07fb3c2652107f7037359528d465d",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="leUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$legato__state_8h.html#aef7def9e4241d753aae63092a72f29f0",tooltip=" "];
+}
