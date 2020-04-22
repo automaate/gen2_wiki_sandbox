@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +51,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('globals_vars.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -65,9 +85,6 @@ $(function() {
 &#160;
 
 <h3><a id="index__5F"></a>- _ -</h3><ul>
-<li>_2dgpuGraphicsProcessor
-: <a class="el" href="gfx__canvas_8c.html#a71b5380b06d2a203c13be59a05befe44">gfx_canvas.c</a>
-</li>
 <li>_cosTable
 : <a class="el" href="legato__math_8c.html#a142854f84beeedcc96e79173665506bb">legato_math.c</a>
 </li>
@@ -75,8 +92,8 @@ $(function() {
 : <a class="el" href="legato__state_8c.html#aa65aff927a463e4edfcd0e11a87d40b3">legato_state.c</a>
 </li>
 <li>_rendererState
-: <a class="el" href="legato__draw_8c.html#a89bc0e9f2bf8777de1bec01206f8c98d">legato_draw.c</a>
-, <a class="el" href="legato__draw__arc_8c.html#a89bc0e9f2bf8777de1bec01206f8c98d">legato_draw_arc.c</a>
+: <a class="el" href="legato__draw__arc_8c.html#a89bc0e9f2bf8777de1bec01206f8c98d">legato_draw_arc.c</a>
+, <a class="el" href="legato__draw_8c.html#a89bc0e9f2bf8777de1bec01206f8c98d">legato_draw.c</a>
 , <a class="el" href="legato__renderer_8c.html#a89bc0e9f2bf8777de1bec01206f8c98d">legato_renderer.c</a>
 </li>
 </ul>
@@ -87,33 +104,22 @@ $(function() {
 : <a class="el" href="legato__widget__skin__classic_8c.html#a1264aae9a5f38be0f11d9305ec73de1e">legato_widget_skin_classic.c</a>
 </li>
 <li>at
-: <a class="el" href="_l_i_c_e_n_s_e___o_f_l_8txt.html#aa19e0b91661d7d3dcac191d0a89c1c5d">LICENSE_OFL.txt</a>
-, <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#abe25e0f8102037f841c91efd31359f5e">Liberation Font LICENSE.txt</a>
+: <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#abe25e0f8102037f841c91efd31359f5e">Liberation Font LICENSE.txt</a>
 </li>
 </ul>
 
 
 <h3><a id="index_b"></a>- b -</h3><ul>
 <li>below
-: <a class="el" href="_l_i_c_e_n_s_e___o_f_l_8txt.html#a35876f421a86619a2ea9db76ead6e4c6">LICENSE_OFL.txt</a>
-, <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#a613db26c688bb348b4423220a7b21b81">Liberation Font LICENSE.txt</a>
+: <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#a613db26c688bb348b4423220a7b21b81">Liberation Font LICENSE.txt</a>
 </li>
 <li>bundled
-: <a class="el" href="_l_i_c_e_n_s_e___o_f_l_8txt.html#aa77166f384fabf45930e50fb8514c500">LICENSE_OFL.txt</a>
-, <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#a371a9af6b51f84cbdfb749a60474f485">Liberation Font LICENSE.txt</a>
+: <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#a371a9af6b51f84cbdfb749a60474f485">Liberation Font LICENSE.txt</a>
 </li>
 </ul>
 
 
 <h3><a id="index_c"></a>- c -</h3><ul>
-<li>canvas
-: <a class="el" href="gfx__canvas_8c.html#a61231e4b27c6df14e2d0859333e9cc43">gfx_canvas.c</a>
-, <a class="el" href="gfx__canvas_8h.html#adb164613096ee851225f05f6e69b97a0">gfx_canvas.h</a>
-</li>
-<li>canvasfb
-: <a class="el" href="gfx__canvas_8c.html#a0e227b64d8b95482491e0d5d9d8aae71">gfx_canvas.c</a>
-, <a class="el" href="gfx__canvas__init_8c.html#a5b722ad6629578f3cde02e2fc289a133">gfx_canvas_init.c</a>
-</li>
 <li>color_convert_table
 : <a class="el" href="legato__color__convert_8c.html#a363dc2cde314ae57d82a565a7e9194a1">legato_color_convert.c</a>
 </li>
@@ -121,8 +127,7 @@ $(function() {
 : <a class="el" href="legato__color__lerp_8c.html#a7566995d4b9152f94bb8507a8f29a5d4">legato_color_lerp.c</a>
 </li>
 <li>communities
-: <a class="el" href="_l_i_c_e_n_s_e___o_f_l_8txt.html#abb0288be5607b42224f4c2860ab5bab5">LICENSE_OFL.txt</a>
-, <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#ad51e11aea1e6a10dc3578dec1bd1d69b">Liberation Font LICENSE.txt</a>
+: <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#ad51e11aea1e6a10dc3578dec1bd1d69b">Liberation Font LICENSE.txt</a>
 </li>
 </ul>
 
@@ -138,8 +143,7 @@ $(function() {
 : <a class="el" href="legato__stringutils_8c.html#a6d24e5e129ee1d8d815a1b876732aba9">legato_stringutils.c</a>
 </li>
 <li>derivatives
-: <a class="el" href="_l_i_c_e_n_s_e___o_f_l_8txt.html#a8e269eb95120f604d9e4e401a333bf63">LICENSE_OFL.txt</a>
-, <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#afc93ff2306a006595ca77069c421ba0c">Liberation Font LICENSE.txt</a>
+: <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#afc93ff2306a006595ca77069c421ba0c">Liberation Font LICENSE.txt</a>
 </li>
 <li>drawGlyphRowFn
 : <a class="el" href="legato__font_8c.html#a6fa8b2ba4608424723e2854f066bfba3">legato_font.c</a>
@@ -149,34 +153,19 @@ $(function() {
 
 <h3><a id="index_e"></a>- e -</h3><ul>
 <li>embedded
-: <a class="el" href="_l_i_c_e_n_s_e___o_f_l_8txt.html#abfc696cb0af8662d015dcbfa3cc485a5">LICENSE_OFL.txt</a>
-, <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#a3e558a9bee0d22ff757e202c1cd70418">Liberation Font LICENSE.txt</a>
+: <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#a3e558a9bee0d22ff757e202c1cd70418">Liberation Font LICENSE.txt</a>
 </li>
 </ul>
 
 
 <h3><a id="index_f"></a>- f -</h3><ul>
 <li>fonts
-: <a class="el" href="_l_i_c_e_n_s_e___o_f_l_8txt.html#adba5702e08762b7dc82e001ea6f24756">LICENSE_OFL.txt</a>
-, <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#aab0e47ac77f97a93c763e9ceafe76522">Liberation Font LICENSE.txt</a>
+: <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#aab0e47ac77f97a93c763e9ceafe76522">Liberation Font LICENSE.txt</a>
 </li>
 </ul>
 
 
 <h3><a id="index_g"></a>- g -</h3><ul>
-<li>gfxcGPU
-: <a class="el" href="gfx__canvas_8c.html#a54a08a9b3b39fae32c9b36ece1be7f28">gfx_canvas.c</a>
-</li>
-<li>gfxcVirtualDisplayDriver
-: <a class="el" href="gfx__canvas_8c.html#aeea441c42ebf35146d095f2a4bce99ec">gfx_canvas.c</a>
-, <a class="el" href="gfx__canvas__api_8h.html#aeea441c42ebf35146d095f2a4bce99ec">gfx_canvas_api.h</a>
-</li>
-<li>gfxDispCtrlr
-: <a class="el" href="gfx__canvas_8c.html#a1aa99900a155ea48329a69d83710f40d">gfx_canvas.c</a>
-</li>
-<li>glcdDisplayDriver
-: <a class="el" href="gfx__canvas_8c.html#ae8c60c60263ffdab7c111e08106ef996">gfx_canvas.c</a>
-</li>
 <li>glyphRowDataSizeFn
 : <a class="el" href="legato__font_8c.html#a542ad58d317e542aa618089cbc36217e">legato_font.c</a>
 </li>
@@ -185,8 +174,7 @@ $(function() {
 
 <h3><a id="index_h"></a>- h -</h3><ul>
 <li>however
-: <a class="el" href="_l_i_c_e_n_s_e___o_f_l_8txt.html#a41473bad9ab170c277eda5a9027d9e73">LICENSE_OFL.txt</a>
-, <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#ad29748521f0118607e3138d02a6ccada">Liberation Font LICENSE.txt</a>
+: <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#ad29748521f0118607e3138d02a6ccada">Liberation Font LICENSE.txt</a>
 </li>
 </ul>
 
@@ -204,16 +192,7 @@ $(function() {
 , <a class="el" href="legato__color_8h.html#a7056c35fe72a1fe2b8fda2e745e266b6">legato_color.h</a>
 </li>
 <li>License
-: <a class="el" href="_l_i_c_e_n_s_e___o_f_l_8txt.html#a7d158290ef1b36f09be9921c5dbd472b">LICENSE_OFL.txt</a>
-, <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#ab7377f45e3c44db4750cc27efe78063c">Liberation Font LICENSE.txt</a>
-</li>
-</ul>
-
-
-<h3><a id="index_n"></a>- n -</h3><ul>
-<li>numLayers
-: <a class="el" href="gfx__canvas_8c.html#a200b450944f9007eecf899f3564910b2">gfx_canvas.c</a>
-, <a class="el" href="gfx__canvas_8h.html#a200b450944f9007eecf899f3564910b2">gfx_canvas.h</a>
+: <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#ab7377f45e3c44db4750cc27efe78063c">Liberation Font LICENSE.txt</a>
 </li>
 </ul>
 
@@ -237,16 +216,14 @@ $(function() {
 
 <h3><a id="index_s"></a>- s -</h3><ul>
 <li>studied
-: <a class="el" href="_l_i_c_e_n_s_e___o_f_l_8txt.html#a6086058ca5bfc1498c1874c96abd00cb">LICENSE_OFL.txt</a>
-, <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#a956b1c9632a829b9e046eadd6e0854f5">Liberation Font LICENSE.txt</a>
+: <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#a956b1c9632a829b9e046eadd6e0854f5">Liberation Font LICENSE.txt</a>
 </li>
 </ul>
 
 
 <h3><a id="index_u"></a>- u -</h3><ul>
 <li>used
-: <a class="el" href="_l_i_c_e_n_s_e___o_f_l_8txt.html#a4cb56486b063617328b2b931166469cf">LICENSE_OFL.txt</a>
-, <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#afe8ec5b1b35e8f8e37124ac07f3f026a">Liberation Font LICENSE.txt</a>
+: <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#afe8ec5b1b35e8f8e37124ac07f3f026a">Liberation Font LICENSE.txt</a>
 </li>
 </ul>
 
@@ -263,16 +240,18 @@ $(function() {
 
 <h3><a id="index_w"></a>- w -</h3><ul>
 <li>works
-: <a class="el" href="_l_i_c_e_n_s_e___o_f_l_8txt.html#a085528a26ee26d795f5376fe305852a8">LICENSE_OFL.txt</a>
-, <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#af97be89d964156952fddff6288b0641e">Liberation Font LICENSE.txt</a>
+: <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#af97be89d964156952fddff6288b0641e">Liberation Font LICENSE.txt</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.18
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['addbspsupport_3349',['addBSPSupport',['../namespacebsp__utils.html#ab640e6b6ad98d87bfdc1027b0b579cf9',1,'bsp_utils']]],
-  ['adddisplayintfsupport_3350',['addDisplayIntfSupport',['../namespacedisplay__utils.html#a31e361bb84d92de6fa29045682574570',1,'display_utils']]],
-  ['asyncmodeoptions_3351',['asyncModeOptions',['../namespace2dgpu.html#a2fe1946678a0fb4f1c4b8c499d0257a0',1,'2dgpu.asyncModeOptions()'],['../namespacegfx2d.html#a32d1371a9edeba9d7d4a649a94029d62',1,'gfx2d.asyncModeOptions()']]],
-  ['autoselectdmachannel_3352',['autoSelectDMAChannel',['../namespacelcc__controller.html#acdb50d7a5f06b0114b01e8b95e262788',1,'lcc_controller.autoSelectDMAChannel()'],['../namespacelcc__controller__pic32mz.html#acf9e389e0370c83a77dd15dd90a32bdf',1,'lcc_controller_pic32mz.autoSelectDMAChannel()']]]
+  ['copyright_1872',['Copyright',['../_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#ae30bcba8620d62c57561dd7ce2a68612',1,'Copyright(c) 2012 Red Hat:&#160;Liberation Font LICENSE.txt'],['../_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#ad19215793cafa7e50a643ff85668ecfb',1,'copyright(c) 2010 Google Corporation with Reserved Font Arimo:&#160;Liberation Font LICENSE.txt']]]
 ];

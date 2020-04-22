@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['num_5fbuttons_5432',['NUM_BUTTONS',['../legato__input_8h.html#a45add6b39f5b0c0137de978b90e26b5d',1,'legato_input.h']]],
-  ['num_5fkeys_5433',['NUM_KEYS',['../legato__input_8h.html#a9a8c7403a867e0c9543467ee8754050d',1,'legato_input.h']]]
+  ['trig_5fscalar_2957',['TRIG_SCALAR',['../legato__math_8c.html#a6f45d348cda68e8d19085dd48901581d',1,'legato_math.c']]]
 ];

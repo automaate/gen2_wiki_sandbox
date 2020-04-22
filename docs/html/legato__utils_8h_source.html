@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +50,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('legato__utils_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,11 +81,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_de5e0b774d976e64f2f79d0bc707fc81.html">common</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">legato_utils.h</div>  </div>
@@ -173,7 +189,7 @@ $(function() {
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">    Returns:</span></div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">        void</span></div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keywordtype">void</span> <a class="code" href="legato__utils_8h.html#afc430126e5f8dc264fc71dca47938836">leUtils_PointToScreenSpace</a>(<span class="keyword">const</span> <a class="code" href="structle_widget.html">leWidget</a>* <a class="code" href="namespacewidget.html">widget</a>,</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keywordtype">void</span> <a class="code" href="legato__utils_8h.html#afc430126e5f8dc264fc71dca47938836">leUtils_PointToScreenSpace</a>(<span class="keyword">const</span> <a class="code" href="structle_widget.html">leWidget</a>* widget,</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                <a class="code" href="structle_point.html">lePoint</a>* pnt);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">/*  Function:</span></div>
@@ -189,7 +205,7 @@ $(function() {
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment">    Returns:</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment">        void</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="keywordtype">void</span> <a class="code" href="legato__utils_8h.html#ad46d48a5cd5ee89cc3dbe756fc750754">leUtils_PointScreenToLocalSpace</a>(<span class="keyword">const</span> <a class="code" href="structle_widget.html">leWidget</a>* <a class="code" href="namespacewidget.html">widget</a>,</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="keywordtype">void</span> <a class="code" href="legato__utils_8h.html#ad46d48a5cd5ee89cc3dbe756fc750754">leUtils_PointScreenToLocalSpace</a>(<span class="keyword">const</span> <a class="code" href="structle_widget.html">leWidget</a>* widget,</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                                     <a class="code" href="structle_point.html">lePoint</a>* pnt);</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="comment">/*  Function:</span></div>
@@ -205,7 +221,7 @@ $(function() {
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="comment">    Returns:</span></div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="comment">        void</span></div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="keywordtype">void</span> <a class="code" href="legato__utils_8h.html#aa795e1d58a8b183aae7e9f1e35fa9034">leUtils_ClipRectToParent</a>(<span class="keyword">const</span> <a class="code" href="structle_widget.html">leWidget</a>* <a class="code" href="namespacewidget.html">widget</a>,</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="keywordtype">void</span> <a class="code" href="legato__utils_8h.html#aa795e1d58a8b183aae7e9f1e35fa9034">leUtils_ClipRectToParent</a>(<span class="keyword">const</span> <a class="code" href="structle_widget.html">leWidget</a>* widget,</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                              <a class="code" href="structle_rect.html">leRect</a>* rect);</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="comment">/*  Function:</span></div>
@@ -222,7 +238,7 @@ $(function() {
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="comment">    Returns:</span></div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="comment">        void</span></div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="keywordtype">void</span> <a class="code" href="legato__utils_8h.html#a88b0a9cc7d02727f2a53f0b64b3b4e00">leUtils_RectToParentSpace</a>(<span class="keyword">const</span> <a class="code" href="structle_widget.html">leWidget</a>* <a class="code" href="namespacewidget.html">widget</a>,</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="keywordtype">void</span> <a class="code" href="legato__utils_8h.html#a88b0a9cc7d02727f2a53f0b64b3b4e00">leUtils_RectToParentSpace</a>(<span class="keyword">const</span> <a class="code" href="structle_widget.html">leWidget</a>* widget,</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                               <a class="code" href="structle_rect.html">leRect</a>* rect);</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; </div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="comment">/*  Function:</span></div>
@@ -239,7 +255,7 @@ $(function() {
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment">    Returns:</span></div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment">        void</span></div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="keywordtype">void</span> <a class="code" href="legato__utils_8h.html#a81c6ec5efbec05a3ff2505e0f7d633db">leUtils_RectFromParentSpace</a>(<span class="keyword">const</span> <a class="code" href="structle_widget.html">leWidget</a>* <a class="code" href="namespacewidget.html">widget</a>,</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="keywordtype">void</span> <a class="code" href="legato__utils_8h.html#a81c6ec5efbec05a3ff2505e0f7d633db">leUtils_RectFromParentSpace</a>(<span class="keyword">const</span> <a class="code" href="structle_widget.html">leWidget</a>* widget,</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                                 <a class="code" href="structle_rect.html">leRect</a>* rect);</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160; </div>
@@ -256,7 +272,7 @@ $(function() {
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="comment">    Returns:</span></div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="comment">        void</span></div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="keywordtype">void</span> <a class="code" href="legato__utils_8h.html#acbf51abe41ee5fd4d77d6c0ef3e312e8">leUtils_RectToScreenSpace</a>(<span class="keyword">const</span> <a class="code" href="structle_widget.html">leWidget</a>* <a class="code" href="namespacewidget.html">widget</a>,</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="keywordtype">void</span> <a class="code" href="legato__utils_8h.html#acbf51abe41ee5fd4d77d6c0ef3e312e8">leUtils_RectToScreenSpace</a>(<span class="keyword">const</span> <a class="code" href="structle_widget.html">leWidget</a>* widget,</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                               <a class="code" href="structle_rect.html">leRect</a>* rect);</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160; </div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<span class="comment">/*  Function:</span></div>
@@ -400,8 +416,8 @@ $(function() {
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160; </div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="preprocessor">#endif // LEGATO_UTILS_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <div class="ttc" id="alegato__utils_8h_html_ad46d48a5cd5ee89cc3dbe756fc750754"><div class="ttname"><a href="legato__utils_8h.html#ad46d48a5cd5ee89cc3dbe756fc750754">leUtils_PointScreenToLocalSpace</a></div><div class="ttdeci">void leUtils_PointScreenToLocalSpace(const leWidget *widget, lePoint *pnt)</div><div class="ttdef"><b>Definition:</b> legato_utils.c:225</div></div>
-<div class="ttc" id="anamespacewidget_html"><div class="ttname"><a href="namespacewidget.html">widget</a></div><div class="ttdef"><b>Definition:</b> widget.py:1</div></div>
 <div class="ttc" id="alegato__utils_8h_html_a2f63a404a4d84a797bf79dc27d9a62b0"><div class="ttname"><a href="legato__utils_8h.html#a2f63a404a4d84a797bf79dc27d9a62b0">leUtils_Pick</a></div><div class="ttdeci">LIB_EXPORT leWidget * leUtils_Pick(int32_t x, int32_t y)</div><div class="ttdef"><b>Definition:</b> legato_utils.c:64</div></div>
 <div class="ttc" id="alegato__common_8h_html_aa99598706cf044d45a11026397558e1b"><div class="ttname"><a href="legato__common_8h.html#aa99598706cf044d45a11026397558e1b">leHAlignment</a></div><div class="ttdeci">leHAlignment</div><div class="ttdef"><b>Definition:</b> legato_common.h:179</div></div>
 <div class="ttc" id="astructle_list_html"><div class="ttname"><a href="structle_list.html">leList</a></div><div class="ttdef"><b>Definition:</b> legato_list.h:79</div></div>
@@ -424,10 +440,13 @@ $(function() {
 <div class="ttc" id="alegato__utils_8h_html_a78acf9fdd2b18d98a3b4b2c2fad1d2fa"><div class="ttname"><a href="legato__utils_8h.html#a78acf9fdd2b18d98a3b4b2c2fad1d2fa">leUtils_ArrangeRectangleRelative</a></div><div class="ttdeci">void leUtils_ArrangeRectangleRelative(leRect *sub, leRect obj, leRect bounds, leHAlignment hAlignment, leVAlignment vAlignment, leRelativePosition position, uint8_t leftMargin, uint8_t topMargin, uint8_t rightMargin, uint8_t bottomMargin, uint16_t rectMargin)</div><div class="ttdef"><b>Definition:</b> legato_utils.c:421</div></div>
 <div class="ttc" id="alegato__common_8h_html_a169e44baabeda5a3657e3e2e0e7f3c50"><div class="ttname"><a href="legato__common_8h.html#a169e44baabeda5a3657e3e2e0e7f3c50">leVAlignment</a></div><div class="ttdeci">leVAlignment</div><div class="ttdef"><b>Definition:</b> legato_common.h:159</div></div>
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.18
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="legato__utils_8h.html">legato_utils.h</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
+  </ul>
+</div>
 </body>
 </html>

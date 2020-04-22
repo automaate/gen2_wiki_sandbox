@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +51,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -64,27 +84,74 @@ $(function() {
 <div class="contents">
 <div class="textblock">Here is a list of all struct and union fields with links to the structures/unions they belong to:</div>
 
-<h3><a id="index__5F"></a>- _ -</h3><ul>
-<li>__init__()
-: <a class="el" href="classassetbatch_1_1_asset_batch.html#aeaae5f8315b089a3b133316f296d0b70">AssetBatch</a>
-, <a class="el" href="classassetheader_1_1_palette_def.html#aa0e447abfd78744fc582ad8b52cd3c9a">PaletteDef</a>
-, <a class="el" href="classbsp__utils_1_1bsp_support_obj.html#ade8271a72a58578a16d5f482b4a3132b">bspSupportObj</a>
-, <a class="el" href="classgenerate_1_1_file.html#ac1f269f187d7993a4459415dfc3f8666">File</a>
-, <a class="el" href="classscreen_1_1_radial_menu.html#a79ae61e706e88737425f0dbdfb1d6ed6">RadialMenu</a>
-, <a class="el" href="classscreen_1_1_radial_menu_item.html#acdcf11f8f5e79eb3c9976ba64ecb54d1">RadialMenuItem</a>
-, <a class="el" href="classscreen_1_1_radio_button_group.html#a1ba8e17161e2ff18c11af6f24a45ccf7">RadioButtonGroup</a>
-, <a class="el" href="classwidget_1_1_widget_default.html#ae64f0875afe3067b97ba370b354b9213">WidgetDefault</a>
+<h3><a id="index_a"></a>- a -</h3><ul>
+<li>absEndAngle
+: <a class="el" href="struct_arc_draw_state.html#ad848b3acceb99fc116d415b0eb9b482b">ArcDrawState</a>
 </li>
-<li>__lt__()
-: <a class="el" href="classscreen_1_1_radio_button_group.html#a5cb55c39fc998ce2c5e8ba48ec0c952c">RadioButtonGroup</a>
+<li>absStartAngle
+: <a class="el" href="struct_arc_draw_state.html#a2a3a25a24794265958db5a06a7fd9bf4">ArcDrawState</a>
+</li>
+<li>accepted
+: <a class="el" href="structle_widget_event.html#ada7d1e58b89e90cd86a5e9dabf62476d">leWidgetEvent</a>
+</li>
+<li>address
+: <a class="el" href="structle_stream_descriptor.html#ab96816d317aa5196e2ef198d9a8d621b">leStreamDescriptor</a>
+</li>
+<li>advance
+: <a class="el" href="structle_font_glyph.html#a515a9016c69e0446f46a1902d73c0006">leFontGlyph</a>
+</li>
+<li>align
+: <a class="el" href="structle_c_string_render_request.html#a9310e3d6d4d79e66f4dc40d30607811e">leCStringRenderRequest</a>
+, <a class="el" href="structle_string_render_request.html#a9310e3d6d4d79e66f4dc40d30607811e">leStringRenderRequest</a>
+, <a class="el" href="structle_u_string_render_request.html#a9310e3d6d4d79e66f4dc40d30607811e">leUStringRenderRequest</a>
+</li>
+<li>allocList
+: <a class="el" href="structle_variable_heap.html#aa553db509733b5368c8ed6b5994cdbb1">leVariableHeap</a>
+</li>
+<li>alpha
+: <a class="el" href="struct_arc_draw_state.html#a1264aae9a5f38be0f11d9305ec73de1e">ArcDrawState</a>
+, <a class="el" href="structle_color_mode_info.html#a1264aae9a5f38be0f11d9305ec73de1e">leColorModeInfo</a>
+, <a class="el" href="structle_c_string_render_request.html#a1264aae9a5f38be0f11d9305ec73de1e">leCStringRenderRequest</a>
+, <a class="el" href="structle_string_render_request.html#a1264aae9a5f38be0f11d9305ec73de1e">leStringRenderRequest</a>
+, <a class="el" href="structle_u_string_render_request.html#a1264aae9a5f38be0f11d9305ec73de1e">leUStringRenderRequest</a>
+</li>
+<li>alphaAmount
+: <a class="el" href="structle_widget.html#a5edb5a487fd20eb949feeabcad25e82b">leWidget</a>
+</li>
+<li>alphaEnabled
+: <a class="el" href="structle_widget.html#a2acbcb03bd958d6e13e122b18efa8d8c">leWidget</a>
+</li>
+<li>alphaMap
+: <a class="el" href="structle_image.html#ae7ad0207975bde0c8b37596df0b0de9b">leImage</a>
+</li>
+<li>angle
+: <a class="el" href="structle_raw_decode_state.html#ae326589338858b1ca614144b2ea02189">leRawDecodeState</a>
+</li>
+<li>arcArea
+: <a class="el" href="struct_arc_draw_state.html#a950408e130133b514fede2398a62f426">ArcDrawState</a>
+</li>
+<li>arcEndPt0
+: <a class="el" href="struct_arc_draw_state.html#af99beb1cf36786aff637bce0196638b9">ArcDrawState</a>
+</li>
+<li>arcEndPt1
+: <a class="el" href="struct_arc_draw_state.html#ab98bd913c7bd7f45b6d9bde666c71f1a">ArcDrawState</a>
+</li>
+<li>arcStartPt0
+: <a class="el" href="struct_arc_draw_state.html#aafb769b94306524b1db321a4108f9196">ArcDrawState</a>
+</li>
+<li>arcStartPt1
+: <a class="el" href="struct_arc_draw_state.html#ae6375261cf0119bfe7a515747f7727ac">ArcDrawState</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.18
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
+  </ul>
+</div>
 </body>
 </html>

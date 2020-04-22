@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +50,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('legato__renderer_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,11 +81,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_caa380c5dcd95e27fc800b54ac151db6.html">renderer</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">legato_renderer.h</div>  </div>
@@ -638,8 +654,8 @@ $(function() {
 <div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;<a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> <a class="code" href="legato__renderer_8h.html#a6b3d5367444072139d9224ed3b9f6980">leRenderer_FillArea</a>(int32_t x,</div>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;                             int32_t y,</div>
-<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;                             uint32_t <a class="code" href="namespacewidget__arc.html#a5558ace5433f9aabbf0a0ec059900d94">width</a>,</div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;                             uint32_t <a class="code" href="namespacewidget__arc.html#a509290c21d570ff479c1b9d9b1fe8810">height</a>,</div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;                             uint32_t width,</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;                             uint32_t height,</div>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;                             <a class="code" href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a> clr,</div>
 <div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;                             uint32_t a);</div>
 <div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160; </div>
@@ -671,8 +687,8 @@ $(function() {
 <div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;<a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> <a class="code" href="legato__renderer_8h.html#a3dd58ed1c06bcd5c95a5dfb0151d5d3b">leRenderer_FillArea_Safe</a>(int32_t x,</div>
 <div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;                                  int32_t y,</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;                                  uint32_t <a class="code" href="namespacewidget__arc.html#a5558ace5433f9aabbf0a0ec059900d94">width</a>,</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;                                  uint32_t <a class="code" href="namespacewidget__arc.html#a509290c21d570ff479c1b9d9b1fe8810">height</a>,</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;                                  uint32_t width,</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;                                  uint32_t height,</div>
 <div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;                                  <a class="code" href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a> clr,</div>
 <div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;                                  uint32_t a);</div>
 <div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160; </div>
@@ -1071,6 +1087,7 @@ $(function() {
 <div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160; </div>
 <div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;<span class="preprocessor">#endif // LEGATO_RENDERER_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <div class="ttc" id="alegato__renderer_8h_html_abbd66364d459d75aa0e83cc7f2834985ac61eb5ca590a65f1b2d899d203adba66"><div class="ttname"><a href="legato__renderer_8h.html#abbd66364d459d75aa0e83cc7f2834985ac61eb5ca590a65f1b2d899d203adba66">LE_FRAME_PRERECT</a></div><div class="ttdeci">@ LE_FRAME_PRERECT</div><div class="ttdef"><b>Definition:</b> legato_renderer.h:72</div></div>
 <div class="ttc" id="astructle_render_state_html_aa41f1291bd05b397b7d56468be4cf050"><div class="ttname"><a href="structle_render_state.html#aa41f1291bd05b397b7d56468be4cf050">leRenderState::frameDrawCount</a></div><div class="ttdeci">uint32_t frameDrawCount</div><div class="ttdef"><b>Definition:</b> legato_renderer.h:143</div></div>
 <div class="ttc" id="alegato__renderer_8h_html_abbd66364d459d75aa0e83cc7f2834985a84e1f906df23f0b715b936a2b4799ec6"><div class="ttname"><a href="legato__renderer_8h.html#abbd66364d459d75aa0e83cc7f2834985a84e1f906df23f0b715b936a2b4799ec6">LE_FRAME_PRELAYER</a></div><div class="ttdeci">@ LE_FRAME_PRELAYER</div><div class="ttdef"><b>Definition:</b> legato_renderer.h:71</div></div>
@@ -1115,7 +1132,6 @@ $(function() {
 <div class="ttc" id="astructle_render_state_html_ae6de0e6873ae96896732a7ce1cbd34d4"><div class="ttname"><a href="structle_render_state.html#ae6de0e6873ae96896732a7ce1cbd34d4">leRenderState::globalPalette</a></div><div class="ttdeci">lePalette * globalPalette</div><div class="ttdef"><b>Definition:</b> legato_renderer.h:154</div></div>
 <div class="ttc" id="alegato__common_8h_html_acd3365f0b79c37d8894559b5afed374b"><div class="ttname"><a href="legato__common_8h.html#acd3365f0b79c37d8894559b5afed374b">leBool</a></div><div class="ttdeci">leBool</div><div class="ttdef"><b>Definition:</b> legato_common.h:140</div></div>
 <div class="ttc" id="astructle_render_state_html_a1dc870d7100917ce70024819d48b1306"><div class="ttname"><a href="structle_render_state.html#a1dc870d7100917ce70024819d48b1306">leRenderState::drawCount</a></div><div class="ttdeci">uint32_t drawCount</div><div class="ttdef"><b>Definition:</b> legato_renderer.h:141</div></div>
-<div class="ttc" id="anamespacewidget__arc_html_a5558ace5433f9aabbf0a0ec059900d94"><div class="ttname"><a href="namespacewidget__arc.html#a5558ace5433f9aabbf0a0ec059900d94">widget_arc.width</a></div><div class="ttdeci">width</div><div class="ttdef"><b>Definition:</b> widget_arc.py:2</div></div>
 <div class="ttc" id="alegato__rectarray_8h_html"><div class="ttname"><a href="legato__rectarray_8h.html">legato_rectarray.h</a></div></div>
 <div class="ttc" id="alegato__color_8h_html_a34c67335816bec64a98c7d502be1414d"><div class="ttname"><a href="legato__color_8h.html#a34c67335816bec64a98c7d502be1414d">leColor</a></div><div class="ttdeci">uint32_t leColor</div><div class="ttdef"><b>Definition:</b> legato_color.h:51</div></div>
 <div class="ttc" id="alegato__renderer_8h_html_a2d7f9f6e7e68dfc9a9f8fad5604a761c"><div class="ttname"><a href="legato__renderer_8h.html#a2d7f9f6e7e68dfc9a9f8fad5604a761c">leRenderer_VertGradientRect</a></div><div class="ttdeci">leResult leRenderer_VertGradientRect(const leRect *rect, leColor clr1, leColor clr2, uint32_t a)</div><div class="ttdef"><b>Definition:</b> legato_draw_rect.c:116</div></div>
@@ -1137,7 +1153,6 @@ $(function() {
 <div class="ttc" id="alegato__rect_8h_html"><div class="ttname"><a href="legato__rect_8h.html">legato_rect.h</a></div></div>
 <div class="ttc" id="alegato__renderer_8h_html_a6b3d5367444072139d9224ed3b9f6980"><div class="ttname"><a href="legato__renderer_8h.html#a6b3d5367444072139d9224ed3b9f6980">leRenderer_FillArea</a></div><div class="ttdeci">leResult leRenderer_FillArea(int32_t x, int32_t y, uint32_t width, uint32_t height, leColor clr, uint32_t a)</div><div class="ttdef"><b>Definition:</b> legato_draw.c:199</div></div>
 <div class="ttc" id="astructle_gradient_html_a3b42ed95937ad35d7bc726dba2a8da09"><div class="ttname"><a href="structle_gradient.html#a3b42ed95937ad35d7bc726dba2a8da09">leGradient::c1</a></div><div class="ttdeci">leColor c1</div><div class="ttdef"><b>Definition:</b> legato_renderer.h:162</div></div>
-<div class="ttc" id="anamespacewidget__arc_html_a509290c21d570ff479c1b9d9b1fe8810"><div class="ttname"><a href="namespacewidget__arc.html#a509290c21d570ff479c1b9d9b1fe8810">widget_arc.height</a></div><div class="ttdeci">height</div><div class="ttdef"><b>Definition:</b> widget_arc.py:3</div></div>
 <div class="ttc" id="astructle_gradient_html_a58cffccd90ab1d739e31bf9e229d4a60"><div class="ttname"><a href="structle_gradient.html#a58cffccd90ab1d739e31bf9e229d4a60">leGradient::c2</a></div><div class="ttdeci">leColor c2</div><div class="ttdef"><b>Definition:</b> legato_renderer.h:163</div></div>
 <div class="ttc" id="alegato__renderer_8h_html_ab03df6a4d9e48bb0044a48f3a0a06bc2"><div class="ttname"><a href="legato__renderer_8h.html#ab03df6a4d9e48bb0044a48f3a0a06bc2">leRenderer_GetGlobalPalette</a></div><div class="ttdeci">lePalette * leRenderer_GetGlobalPalette()</div><div class="ttdef"><b>Definition:</b> legato_renderer.c:54</div></div>
 <div class="ttc" id="alegato__renderer_8h_html_abbd66364d459d75aa0e83cc7f2834985a467b56297f908b118641fba5bbe01bb9"><div class="ttname"><a href="legato__renderer_8h.html#abbd66364d459d75aa0e83cc7f2834985a467b56297f908b118641fba5bbe01bb9">LE_FRAME_POSTFRAME</a></div><div class="ttdeci">@ LE_FRAME_POSTFRAME</div><div class="ttdef"><b>Definition:</b> legato_renderer.h:79</div></div>
@@ -1166,10 +1181,13 @@ $(function() {
 <div class="ttc" id="alegato__renderer_8h_html_a7f26c2ccb229d4d3d7484ba268c9a235"><div class="ttname"><a href="legato__renderer_8h.html#a7f26c2ccb229d4d3d7484ba268c9a235">leRenderer_GetPixel</a></div><div class="ttdeci">leColor leRenderer_GetPixel(int32_t x, int32_t y)</div><div class="ttdef"><b>Definition:</b> legato_draw.c:46</div></div>
 <div class="ttc" id="alegato__renderer_8h_html_aaf32659c1642a59ba797f561ca6aaf2b"><div class="ttname"><a href="legato__renderer_8h.html#aaf32659c1642a59ba797f561ca6aaf2b">leRenderer_CircleDraw</a></div><div class="ttdeci">leResult leRenderer_CircleDraw(const leRect *rect, int32_t x, int32_t y, uint32_t radius, uint32_t thickness, leColor clr, uint32_t alpha)</div><div class="ttdef"><b>Definition:</b> legato_draw_arc.c:64</div></div>
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.18
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d10aa5f1e26260a914a037377583e9a7.html">renderer</a></li><li class="navelem"><a class="el" href="legato__renderer_8h.html">legato_renderer.h</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
+  </ul>
+</div>
 </body>
 </html>

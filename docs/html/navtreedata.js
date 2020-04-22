@@ -25,20 +25,11 @@
 var NAVTREE =
 [
   [ "My Project", "index.html", [
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
-        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ]
-      ] ]
-    ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
       [ "Data Fields", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", "functions_vars" ]
       ] ]
     ] ],
@@ -51,7 +42,7 @@ var NAVTREE =
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", "globals_eval" ],
-        [ "Macros", "globals_defs.html", "globals_defs" ]
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -59,23 +50,16 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"2dgpu_8py.html",
-"display_8py.html#a327820ab4a1381450e7095f438d152bf",
-"external__controller_2inc_2drv__gfx__ssd1963__cmd__defs_8h.html#a2fb6014142518ca1fbca7c6606d6f816",
-"glcd_8py.html#a26cd5d2720167159165b05d8750e5811",
-"le__files_8py.html#a793971109002ecdeed2d75cb9b6c8cea",
-"legato__color_8h.html#ae8d7567769600843b3d253ff899b7175",
-"legato__event__rtos_8h.html#af17184bfdc67ce907379609aa1a8ccb0",
-"legato__image__utils_8h.html#ad3b392182b610e442257959b5e187fc6",
-"legato__list_8c.html#aa8d1f31694661c7044a7a6ad8feb44c8",
-"legato__renderer_8c.html#a209f95bfb3e8623320b0fc226d7049c3",
-"legato__stringutils_8h.html#ade2ccfe97aaa5f3a83785ec1b7e1cd8c",
-"legato__widget_8h.html#a8a5744a10f4ef43c30ca2a995209fa15",
-"namespacegeneric.html",
-"plib__glcd_8h.html#a440af72e8f9ba9153b57367c83d1b2f0ac692579dac79c8f1f1288d238dccbcfb",
-"struct_g_f_x_c___c_a_n_v_a_s.html#a3e35e09b2f6bd91c4a95b8faee6250a1",
-"structle_scheme.html#a3485a50c9382860bee72364212231e69",
-"widget__circularslider_8py.html#a2dea2f390eb3f1ca2314dda3d3fa1498"
+"annotated.html",
+"legato__color_8h.html#a9a4439f13bbc1ce88017b20a61ec6956",
+"legato__event__rtos_8c.html",
+"legato__input_8c.html#a936c5b753f842c6133ff43613e24a672",
+"legato__math_8h.html#affc053dbf6d4b4c9e3b9665f38605722ad65b1455871ab1cd9d0655696d927c01",
+"legato__state_8c.html#aa65aff927a463e4edfcd0e11a87d40b3",
+"legato__variableheap_8c.html#aec7cfa4cdbc24e92bd9a8a316f984ae0",
+"legato__widget__imagerotate_8h.html",
+"structle_image_decoder.html#a9db8f902391c04b625315f98d7c5ce50",
+"structle_widget___resize_event.html#a2fa10c3c4a4f1068577f375bce680e84"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

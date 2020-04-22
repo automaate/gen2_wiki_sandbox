@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['_5fpaddr_5ft_4742',['_paddr_t',['../plib__glcd_8c.html#a22e8a0e8a858764cc7f0fcf4dc0a8924',1,'plib_glcd.c']]],
-  ['_5fvaddr_5ft_4743',['_vaddr_t',['../plib__glcd_8c.html#a1582d9d700a9e0afc3ba4c10482374ae',1,'plib_glcd.c']]]
+  ['arcdrawstate_2457',['ArcDrawState',['../legato__draw__arc_8c.html#adf2d8ef231dd881fff3f739dc3cd7d7e',1,'legato_draw_arc.c']]]
 ];

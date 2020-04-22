@@ -1,19 +1,13 @@
 var files_dup =
 [
-    [ "canvas", "dir_471b3ec8a66ce695e722122e188a3eea.html", "dir_471b3ec8a66ce695e722122e188a3eea" ],
-    [ "common", "dir_de5e0b774d976e64f2f79d0bc707fc81.html", "dir_de5e0b774d976e64f2f79d0bc707fc81" ],
-    [ "config", "dir_45dec4bb3cac3b49eeda3b6398659a37.html", "dir_45dec4bb3cac3b49eeda3b6398659a37" ],
-    [ "core", "dir_2ffb0da60e712493519db10c982697e0.html", "dir_2ffb0da60e712493519db10c982697e0" ],
-    [ "datastructure", "dir_2e96ed7d92bdeb04574e69ccea9fd3b5.html", "dir_2e96ed7d92bdeb04574e69ccea9fd3b5" ],
-    [ "driver", "dir_1284b95147afa48b330f502c8bbc0529.html", "dir_1284b95147afa48b330f502c8bbc0529" ],
-    [ "font", "dir_1c0da5cf3ea253280145b1a762e6b311.html", "dir_1c0da5cf3ea253280145b1a762e6b311" ],
-    [ "image", "dir_60ee2883bd6069d198d0fc48450edf0c.html", "dir_60ee2883bd6069d198d0fc48450edf0c" ],
-    [ "memory", "dir_4d578b433d37c2c5ad0f106f92794a01.html", "dir_4d578b433d37c2c5ad0f106f92794a01" ],
-    [ "plugins", "dir_8ae04e65ee931aae53b7759f040ee120.html", "dir_8ae04e65ee931aae53b7759f040ee120" ],
-    [ "renderer", "dir_caa380c5dcd95e27fc800b54ac151db6.html", "dir_caa380c5dcd95e27fc800b54ac151db6" ],
-    [ "string", "dir_9f271f39ce51d32336def9546c5087f2.html", "dir_9f271f39ce51d32336def9546c5087f2" ],
-    [ "templates", "dir_096b0de097b3e98f91191e9d894d4363.html", "dir_096b0de097b3e98f91191e9d894d4363" ],
-    [ "widget", "dir_a58e8a073169e561ad667dc02457dc5d.html", "dir_a58e8a073169e561ad667dc02457dc5d" ],
-    [ "module.py", "library_2module_8py.html", "library_2module_8py" ],
+    [ "common", "dir_bdd9a5d540de89e9fe90efdfc6973a4f.html", "dir_bdd9a5d540de89e9fe90efdfc6973a4f" ],
+    [ "core", "dir_4270bfced15e0e73154b13468c7c9ad9.html", "dir_4270bfced15e0e73154b13468c7c9ad9" ],
+    [ "datastructure", "dir_485def94d9d47ec400cfa3c13f568403.html", "dir_485def94d9d47ec400cfa3c13f568403" ],
+    [ "font", "dir_e6c54268d011365494e6c4da02774db2.html", "dir_e6c54268d011365494e6c4da02774db2" ],
+    [ "image", "dir_6de1940466803d61d2f9d1259cb01031.html", "dir_6de1940466803d61d2f9d1259cb01031" ],
+    [ "memory", "dir_267116d250309cbe7bd39c0026ee016a.html", "dir_267116d250309cbe7bd39c0026ee016a" ],
+    [ "renderer", "dir_d10aa5f1e26260a914a037377583e9a7.html", "dir_d10aa5f1e26260a914a037377583e9a7" ],
+    [ "string", "dir_76cf5d2c64440c8b33b2b96569e4a2eb.html", "dir_76cf5d2c64440c8b33b2b96569e4a2eb" ],
+    [ "widget", "dir_0c245a8c11489be7bfdc89f08db7c162.html", "dir_0c245a8c11489be7bfdc89f08db7c162" ],
     [ "legato.h", "legato_8h.html", null ]
 ];

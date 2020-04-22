@@ -7,6 +7,6 @@ var structle_image =
     [ "format", "structle_image.html#aa53f91e4fa7d7c5921dddf7c05fec871", null ],
     [ "header", "structle_image.html#ae3a04a78976831e29eff3623c45a1bde", null ],
     [ "map", "structle_image.html#a25e9918adc781810d4db75391225509f", null ],
-    [ "mask", "structle_image.html#adc5d2494d7c3cacd62867c8a85d78f39", null ],
+    [ "mask", "structle_image.html#a41b3be112369b9c0ecabf0e9b8fa77b8", null ],
     [ "palette", "structle_image.html#a9a9e617343918dfe850a1a32b6273ca7", null ]
 ];

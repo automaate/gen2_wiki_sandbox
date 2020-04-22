@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +50,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('legato__state_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,11 +81,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_2ffb0da60e712493519db10c982697e0.html">core</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">legato_state.h</div>  </div>
@@ -409,7 +425,7 @@ $(function() {
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="comment">  Remarks:    </span></div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="comment">    </span></div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<a class="code" href="legato__common_8h.html#ab628e42bb29ed7b1ca25e8c54aeb77d3">LIB_EXPORT</a> <a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> <a class="code" href="legato__state_8h.html#a1ff4b485ee94fec5967ecc08619aa063">leSetFocusWidget</a>(<a class="code" href="structle_widget.html">leWidget</a>* <a class="code" href="namespacewidget.html">widget</a>);</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<a class="code" href="legato__common_8h.html#ab628e42bb29ed7b1ca25e8c54aeb77d3">LIB_EXPORT</a> <a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> <a class="code" href="legato__state_8h.html#a1ff4b485ee94fec5967ecc08619aa063">leSetFocusWidget</a>(<a class="code" href="structle_widget.html">leWidget</a>* widget);</div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160; </div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="comment">// *****************************************************************************</span></div>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="comment">/* Function:</span></div>
@@ -455,7 +471,7 @@ $(function() {
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;<span class="comment">  Remarks:    </span></div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;<span class="comment">    </span></div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;<a class="code" href="legato__common_8h.html#ab628e42bb29ed7b1ca25e8c54aeb77d3">LIB_EXPORT</a> <a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> <a class="code" href="legato__state_8h.html#a776bd24e295a470b311dfd70a8b7ec81">leSetEditWidget</a>(<a class="code" href="structle_edit_widget.html">leEditWidget</a>* <a class="code" href="namespacewidget.html">widget</a>);</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;<a class="code" href="legato__common_8h.html#ab628e42bb29ed7b1ca25e8c54aeb77d3">LIB_EXPORT</a> <a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> <a class="code" href="legato__state_8h.html#a776bd24e295a470b311dfd70a8b7ec81">leSetEditWidget</a>(<a class="code" href="structle_edit_widget.html">leEditWidget</a>* widget);</div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    </div>
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;<span class="comment">// *****************************************************************************</span></div>
 <div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;<span class="comment">/* Function:</span></div>
@@ -743,6 +759,7 @@ $(function() {
 <div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160; </div>
 <div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* LEGATO_STATE_H */</span><span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <div class="ttc" id="alegato__state_8h_html_a369a84c218f7684bff5c956460260a93"><div class="ttname"><a href="legato__state_8h.html#a369a84c218f7684bff5c956460260a93">leState</a></div><div class="ttdeci">struct leState leState</div></div>
 <div class="ttc" id="alegato__state_8h_html_aef7def9e4241d753aae63092a72f29f0"><div class="ttname"><a href="legato__state_8h.html#aef7def9e4241d753aae63092a72f29f0">leUpdate</a></div><div class="ttdeci">LIB_EXPORT leResult leUpdate(uint32_t dt)</div><div class="ttdef"><b>Definition:</b> legato_state.c:332</div></div>
 <div class="ttc" id="alegato__state_8h_html_a5f6d0014d05bc0a9162b7a6cb8e98532"><div class="ttname"><a href="legato__state_8h.html#a5f6d0014d05bc0a9162b7a6cb8e98532">leShutdown</a></div><div class="ttdeci">LIB_EXPORT void leShutdown()</div><div class="ttdef"><b>Definition:</b> legato_state.c:279</div></div>
@@ -753,7 +770,6 @@ $(function() {
 <div class="ttc" id="astructle_edit_widget_html"><div class="ttname"><a href="structle_edit_widget.html">leEditWidget</a></div><div class="ttdef"><b>Definition:</b> legato_editwidget.h:90</div></div>
 <div class="ttc" id="astructle_state_html_a9b5fb1a36ceceb0f944ebe6b621385bc"><div class="ttname"><a href="structle_state.html#a9b5fb1a36ceceb0f944ebe6b621385bc">leState::stringTable</a></div><div class="ttdeci">const leStringTable * stringTable</div><div class="ttdef"><b>Definition:</b> legato_state.h:70</div></div>
 <div class="ttc" id="alegato__color_8h_html_a99a315210e3dcfc88bd239549745b140"><div class="ttname"><a href="legato__color_8h.html#a99a315210e3dcfc88bd239549745b140">leColorMode</a></div><div class="ttdeci">leColorMode</div><div class="ttdef"><b>Definition:</b> legato_color.h:131</div></div>
-<div class="ttc" id="anamespacewidget_html"><div class="ttname"><a href="namespacewidget.html">widget</a></div><div class="ttdef"><b>Definition:</b> widget.py:1</div></div>
 <div class="ttc" id="alegato__state_8h_html_a53d37a1507739e2dff0293e1ffe51bea"><div class="ttname"><a href="legato__state_8h.html#a53d37a1507739e2dff0293e1ffe51bea">leGetDisplayRect</a></div><div class="ttdeci">LIB_EXPORT leRect leGetDisplayRect()</div><div class="ttdef"><b>Definition:</b> legato_state.c:366</div></div>
 <div class="ttc" id="alegato__state_8h_html_ae1fdbdd6f59bedfb5a7c1ad39ca934a8"><div class="ttname"><a href="legato__state_8h.html#ae1fdbdd6f59bedfb5a7c1ad39ca934a8">leAddRootWidget</a></div><div class="ttdeci">LIB_EXPORT leResult leAddRootWidget(leWidget *wgt, uint32_t layer)</div><div class="ttdef"><b>Definition:</b> legato_state.c:500</div></div>
 <div class="ttc" id="astructle_state_html_af8827ef05e7eb5d954be7a53a297fe47"><div class="ttname"><a href="structle_state.html#af8827ef05e7eb5d954be7a53a297fe47">leState::widgetIDs</a></div><div class="ttdeci">uint32_t widgetIDs</div><div class="ttdef"><b>Definition:</b> legato_state.h:73</div></div>
@@ -799,10 +815,13 @@ $(function() {
 <div class="ttc" id="astructle_string_html"><div class="ttname"><a href="structle_string.html">leString</a></div><div class="ttdef"><b>Definition:</b> legato_string.h:108</div></div>
 <div class="ttc" id="alegato__state_8h_html_a1ff4b485ee94fec5967ecc08619aa063"><div class="ttname"><a href="legato__state_8h.html#a1ff4b485ee94fec5967ecc08619aa063">leSetFocusWidget</a></div><div class="ttdeci">LIB_EXPORT leResult leSetFocusWidget(leWidget *widget)</div><div class="ttdef"><b>Definition:</b> legato_state.c:429</div></div>
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.18
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="legato__state_8h.html">legato_state.h</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
+  </ul>
+</div>
 </body>
 </html>

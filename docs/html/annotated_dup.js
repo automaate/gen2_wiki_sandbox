@@ -1,14 +1,6 @@
 var annotated_dup =
 [
-    [ "assetbatch", "namespaceassetbatch.html", "namespaceassetbatch" ],
-    [ "assetheader", "namespaceassetheader.html", "namespaceassetheader" ],
-    [ "bsp_utils", "namespacebsp__utils.html", "namespacebsp__utils" ],
-    [ "generate", "namespacegenerate.html", "namespacegenerate" ],
-    [ "screen", "namespacescreen.html", "namespacescreen" ],
-    [ "widget", "namespacewidget.html", "namespacewidget" ],
     [ "ArcDrawState", "struct_arc_draw_state.html", "struct_arc_draw_state" ],
-    [ "GFX_DISP_INTF_SPI", "struct_g_f_x___d_i_s_p___i_n_t_f___s_p_i.html", "struct_g_f_x___d_i_s_p___i_n_t_f___s_p_i" ],
-    [ "GFXC_CANVAS", "struct_g_f_x_c___c_a_n_v_a_s.html", "struct_g_f_x_c___c_a_n_v_a_s" ],
     [ "laExternalEvent_t", "structla_external_event__t.html", "structla_external_event__t" ],
     [ "leArray", "structle_array.html", "structle_array" ],
     [ "leColorModeInfo", "structle_color_mode_info.html", "structle_color_mode_info" ],
@@ -71,7 +63,5 @@ var annotated_dup =
     [ "leWidgetEvent_TouchMove", "structle_widget_event___touch_move.html", "structle_widget_event___touch_move" ],
     [ "leWidgetEvent_TouchUp", "structle_widget_event___touch_up.html", "structle_widget_event___touch_up" ],
     [ "leWidgetEventFilter", "structle_widget_event_filter.html", "structle_widget_event_filter" ],
-    [ "leWidgetVTable", "structle_widget_v_table.html", null ],
-    [ "SSD1963_CMD_PARAM", "struct_s_s_d1963___c_m_d___p_a_r_a_m.html", "struct_s_s_d1963___c_m_d___p_a_r_a_m" ],
-    [ "SSD1963_DRV", "struct_s_s_d1963___d_r_v.html", "struct_s_s_d1963___d_r_v" ]
+    [ "leWidgetVTable", "structle_widget_v_table.html", null ]
 ];

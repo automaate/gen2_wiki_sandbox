@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +50,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('legato__widget_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,11 +81,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_a58e8a073169e561ad667dc02457dc5d.html">widget</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">legato_widget.h</div>  </div>
@@ -900,7 +916,7 @@ $(function() {
 <div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;<span class="comment">    leResult - the result of the operation</span></div>
 <div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;<a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> <a class="code" href="legato__widget_8h.html#ae06d360e61c1cb6369e9332c229f0427">_leWidget_SetWidth</a>(<a class="code" href="structle_widget.html">leWidget</a>* _this,</div>
-<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;                            uint32_t <a class="code" href="namespacewidget__arc.html#a5558ace5433f9aabbf0a0ec059900d94">width</a>);</div>
+<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;                            uint32_t width);</div>
 <div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160; </div>
 <div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;<span class="comment">// *****************************************************************************</span></div>
 <div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;<span class="comment">/* Virtual Member Function:</span></div>
@@ -945,7 +961,7 @@ $(function() {
 <div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;<span class="comment">    leResult - the result of the operation</span></div>
 <div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;<a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> <a class="code" href="legato__widget_8h.html#aac1a2713e045d5064d8488e0532700aa">_leWidget_SetHeight</a>(<a class="code" href="structle_widget.html">leWidget</a>* _this,</div>
-<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;                             uint32_t <a class="code" href="namespacewidget__arc.html#a509290c21d570ff479c1b9d9b1fe8810">height</a>);</div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;                             uint32_t height);</div>
 <div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160; </div>
 <div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;<span class="comment">// *****************************************************************************</span></div>
 <div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;<span class="comment">/* Virtual Member Function:</span></div>
@@ -971,8 +987,8 @@ $(function() {
 <div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;<span class="comment">    leResult - the result of the operation</span></div>
 <div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;<a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> <a class="code" href="legato__widget_8h.html#a34ca49b22dc0af6591eccee3e0a42544">_leWidget_SetSize</a>(<a class="code" href="structle_widget.html">leWidget</a>* _this,</div>
-<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;                           uint32_t <a class="code" href="namespacewidget__arc.html#a5558ace5433f9aabbf0a0ec059900d94">width</a>,</div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;                           uint32_t <a class="code" href="namespacewidget__arc.html#a509290c21d570ff479c1b9d9b1fe8810">height</a>);</div>
+<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;                           uint32_t width,</div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;                           uint32_t height);</div>
 <div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160; </div>
 <div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;<span class="comment">// *****************************************************************************</span></div>
 <div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;<span class="comment">/* Virtual Member Function:</span></div>
@@ -998,8 +1014,8 @@ $(function() {
 <div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;<span class="comment">    leResult - the result of the operation</span></div>
 <div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;<a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> <a class="code" href="legato__widget_8h.html#a86e4e064a4eb403cd9127aed3f832b8c">_leWidget_Resize</a>(<a class="code" href="structle_widget.html">leWidget</a>* _this,</div>
-<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;                          int32_t <a class="code" href="namespacewidget__arc.html#a5558ace5433f9aabbf0a0ec059900d94">width</a>,</div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;                          int32_t <a class="code" href="namespacewidget__arc.html#a509290c21d570ff479c1b9d9b1fe8810">height</a>);</div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;                          int32_t width,</div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;                          int32_t height);</div>
 <div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160; </div>
 <div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;<span class="comment">// *****************************************************************************</span></div>
 <div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;<span class="comment">/* Virtual Member Function:</span></div>
@@ -1557,7 +1573,7 @@ $(function() {
 <div class="line"><a name="l01485"></a><span class="lineno"> 1485</span>&#160;<span class="comment">    leResult - the result of the operation</span></div>
 <div class="line"><a name="l01486"></a><span class="lineno"> 1486</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l01487"></a><span class="lineno"> 1487</span>&#160;<a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> <a class="code" href="legato__widget_8h.html#a8ebdf1d0ac3149150267284fb3947260">_leWidget_SetScheme</a>(<a class="code" href="structle_widget.html">leWidget</a>* _this,</div>
-<div class="line"><a name="l01488"></a><span class="lineno"> 1488</span>&#160;                             <a class="code" href="structle_scheme.html">leScheme</a>* <a class="code" href="namespacescheme.html">scheme</a>);</div>
+<div class="line"><a name="l01488"></a><span class="lineno"> 1488</span>&#160;                             <a class="code" href="structle_scheme.html">leScheme</a>* scheme);</div>
 <div class="line"><a name="l01489"></a><span class="lineno"> 1489</span>&#160; </div>
 <div class="line"><a name="l01490"></a><span class="lineno"> 1490</span>&#160;<span class="comment">// *****************************************************************************</span></div>
 <div class="line"><a name="l01491"></a><span class="lineno"> 1491</span>&#160;<span class="comment">/* Virtual Member Function:</span></div>
@@ -2011,6 +2027,7 @@ $(function() {
 <div class="line"><a name="l01939"></a><span class="lineno"> 1939</span>&#160; </div>
 <div class="line"><a name="l01940"></a><span class="lineno"> 1940</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* LEGATO_WIDGET_H */</span><span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <div class="ttc" id="alegato__widget_8h_html_a859f11f6de98f409edd4150b45c0f5e9"><div class="ttname"><a href="legato__widget_8h.html#a859f11f6de98f409edd4150b45c0f5e9">_leWidget_SetAlphaAmount</a></div><div class="ttdeci">leResult _leWidget_SetAlphaAmount(leWidget *_this, uint32_t alpha)</div><div class="ttdef"><b>Definition:</b> legato_widget.c:565</div></div>
 <div class="ttc" id="astructle_widget_event_html_a666fc37c3a0c9e98325a33152b6593dc"><div class="ttname"><a href="structle_widget_event.html#a666fc37c3a0c9e98325a33152b6593dc">leWidgetEvent::owner</a></div><div class="ttdeci">leWidget * owner</div><div class="ttdef"><b>Definition:</b> legato_widget.h:304</div></div>
 <div class="ttc" id="astructle_widget___resize_event_html_a66e5013d14583604f04a0bc6055045ef"><div class="ttname"><a href="structle_widget___resize_event.html#a66e5013d14583604f04a0bc6055045ef">leWidget_ResizeEvent::oldWidth</a></div><div class="ttdeci">uint32_t oldWidth</div><div class="ttdef"><b>Definition:</b> legato_widget.h:287</div></div>
@@ -2054,7 +2071,6 @@ $(function() {
 <div class="ttc" id="astructle_widget___resize_event_html_ab09cb711fbe19bcf764d01446ebe7d40"><div class="ttname"><a href="structle_widget___resize_event.html#ab09cb711fbe19bcf764d01446ebe7d40">leWidget_ResizeEvent::oldHeight</a></div><div class="ttdeci">uint32_t oldHeight</div><div class="ttdef"><b>Definition:</b> legato_widget.h:288</div></div>
 <div class="ttc" id="alegato__widget_8h_html_a86e4e064a4eb403cd9127aed3f832b8c"><div class="ttname"><a href="legato__widget_8h.html#a86e4e064a4eb403cd9127aed3f832b8c">_leWidget_Resize</a></div><div class="ttdeci">leResult _leWidget_Resize(leWidget *_this, int32_t width, int32_t height)</div><div class="ttdef"><b>Definition:</b> legato_widget.c:428</div></div>
 <div class="ttc" id="alegato__widget_8h_html_aca17956c13c4cf397609f037267a855c"><div class="ttname"><a href="legato__widget_8h.html#aca17956c13c4cf397609f037267a855c">_leWidget_SetAlphaEnabled</a></div><div class="ttdeci">leResult _leWidget_SetAlphaEnabled(leWidget *_this, leBool enable)</div><div class="ttdef"><b>Definition:</b> legato_widget.c:503</div></div>
-<div class="ttc" id="anamespacescheme_html"><div class="ttname"><a href="namespacescheme.html">scheme</a></div><div class="ttdef"><b>Definition:</b> scheme.py:1</div></div>
 <div class="ttc" id="alegato__event_8h_html"><div class="ttname"><a href="legato__event_8h.html">legato_event.h</a></div></div>
 <div class="ttc" id="alegato__widget_8h_html_a235864d7915221a2fe77469a9fffec4d"><div class="ttname"><a href="legato__widget_8h.html#a235864d7915221a2fe77469a9fffec4d">_leWidget_ResizeEvent</a></div><div class="ttdeci">void _leWidget_ResizeEvent(leWidget *, leWidget_ResizeEvent *)</div><div class="ttdef"><b>Definition:</b> legato_widget.c:1234</div></div>
 <div class="ttc" id="alegato__common_8h_html_aa99598706cf044d45a11026397558e1b"><div class="ttname"><a href="legato__common_8h.html#aa99598706cf044d45a11026397558e1b">leHAlignment</a></div><div class="ttdeci">leHAlignment</div><div class="ttdef"><b>Definition:</b> legato_common.h:179</div></div>
@@ -2102,7 +2118,6 @@ $(function() {
 <div class="ttc" id="astructle_widget_html_afcaa42e24ce329d7d9bf354ca31b5432"><div class="ttname"><a href="structle_widget.html#afcaa42e24ce329d7d9bf354ca31b5432">leWidget::drawFunc</a></div><div class="ttdeci">leWidget_DrawFunction_FnPtr drawFunc</div><div class="ttdef"><b>Definition:</b> legato_widget.h:537</div></div>
 <div class="ttc" id="alegato__widget_8h_html_a41e78e6f1f2b492eb00aafa4b493f036"><div class="ttname"><a href="legato__widget_8h.html#a41e78e6f1f2b492eb00aafa4b493f036">_leWidget_GetBackgroundType</a></div><div class="ttdeci">leBackgroundType _leWidget_GetBackgroundType(const leWidget *_this)</div><div class="ttdef"><b>Definition:</b> legato_widget.c:923</div></div>
 <div class="ttc" id="alegato__widget_8h_html_ab9f84caf8b7e5bd3a487fd028afc7f44"><div class="ttname"><a href="legato__widget_8h.html#ab9f84caf8b7e5bd3a487fd028afc7f44">_leWidget_InvalidateBorderAreas</a></div><div class="ttdeci">void _leWidget_InvalidateBorderAreas(const leWidget *)</div><div class="ttdef"><b>Definition:</b> legato_widget.c:1394</div></div>
-<div class="ttc" id="anamespacewidget__arc_html_a5558ace5433f9aabbf0a0ec059900d94"><div class="ttname"><a href="namespacewidget__arc.html#a5558ace5433f9aabbf0a0ec059900d94">widget_arc.width</a></div><div class="ttdeci">width</div><div class="ttdef"><b>Definition:</b> widget_arc.py:2</div></div>
 <div class="ttc" id="astructle_widget_event___touch_move_html_a2acef4676f8d5477890d7229650156d1"><div class="ttname"><a href="structle_widget_event___touch_move.html#a2acef4676f8d5477890d7229650156d1">leWidgetEvent_TouchMove::prevX</a></div><div class="ttdeci">int32_t prevX</div><div class="ttdef"><b>Definition:</b> legato_widget.h:370</div></div>
 <div class="ttc" id="astructle_array_html"><div class="ttname"><a href="structle_array.html">leArray</a></div><div class="ttdef"><b>Definition:</b> legato_array.h:63</div></div>
 <div class="ttc" id="alegato__widget_8h_html_adb4053f2bc7637380eeb508d836140cb"><div class="ttname"><a href="legato__widget_8h.html#adb4053f2bc7637380eeb508d836140cb">_leWidget_SetHAlignment</a></div><div class="ttdeci">leResult _leWidget_SetHAlignment(leWidget *_this, leHAlignment align)</div><div class="ttdef"><b>Definition:</b> legato_widget.c:968</div></div>
@@ -2153,7 +2168,6 @@ $(function() {
 <div class="ttc" id="alegato__widget_8h_html_a940ca239f5a7517a43535498690f8ff5"><div class="ttname"><a href="legato__widget_8h.html#a940ca239f5a7517a43535498690f8ff5">leWidgetEvent_TouchUp</a></div><div class="ttdeci">struct leWidgetEvent_TouchUp leWidgetEvent_TouchUp</div></div>
 <div class="ttc" id="astructle_widget___move_event_html_a79e1af92aa3f881057213d7dd0b8db81"><div class="ttname"><a href="structle_widget___move_event.html#a79e1af92aa3f881057213d7dd0b8db81">leWidget_MoveEvent::oldY</a></div><div class="ttdeci">int32_t oldY</div><div class="ttdef"><b>Definition:</b> legato_widget.h:278</div></div>
 <div class="ttc" id="astructle_widget___resize_event_html_a333f10e00d45678933d04bc78024d4e2"><div class="ttname"><a href="structle_widget___resize_event.html#a333f10e00d45678933d04bc78024d4e2">leWidget_ResizeEvent::evt</a></div><div class="ttdeci">leEvent evt</div><div class="ttdef"><b>Definition:</b> legato_widget.h:285</div></div>
-<div class="ttc" id="anamespacewidget__arc_html_a509290c21d570ff479c1b9d9b1fe8810"><div class="ttname"><a href="namespacewidget__arc.html#a509290c21d570ff479c1b9d9b1fe8810">widget_arc.height</a></div><div class="ttdeci">height</div><div class="ttdef"><b>Definition:</b> widget_arc.py:3</div></div>
 <div class="ttc" id="astructle_widget_v_table_html"><div class="ttname"><a href="structle_widget_v_table.html">leWidgetVTable</a></div><div class="ttdef"><b>Definition:</b> legato_widget.h:476</div></div>
 <div class="ttc" id="astructle_widget___resize_event_html_a2fa10c3c4a4f1068577f375bce680e84"><div class="ttname"><a href="structle_widget___resize_event.html#a2fa10c3c4a4f1068577f375bce680e84">leWidget_ResizeEvent::newWidth</a></div><div class="ttdeci">uint32_t newWidth</div><div class="ttdef"><b>Definition:</b> legato_widget.h:289</div></div>
 <div class="ttc" id="alegato__widget_8h_html_abe84b1921ff0df6f42a7d594570369ec"><div class="ttname"><a href="legato__widget_8h.html#abe84b1921ff0df6f42a7d594570369ec">leWidgetEvent</a></div><div class="ttdeci">struct leWidgetEvent leWidgetEvent</div></div>
@@ -2198,10 +2212,13 @@ $(function() {
 <div class="ttc" id="alegato__widget_8h_html_abae1236ca5eed260c122c4b2a41fd239"><div class="ttname"><a href="legato__widget_8h.html#abae1236ca5eed260c122c4b2a41fd239">_leWidget_GetY</a></div><div class="ttdeci">int32_t _leWidget_GetY(const leWidget *_this)</div><div class="ttdef"><b>Definition:</b> legato_widget.c:217</div></div>
 <div class="ttc" id="astructle_widget___move_event_html"><div class="ttname"><a href="structle_widget___move_event.html">leWidget_MoveEvent</a></div><div class="ttdef"><b>Definition:</b> legato_widget.h:274</div></div>
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.18
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_0c245a8c11489be7bfdc89f08db7c162.html">widget</a></li><li class="navelem"><a class="el" href="legato__widget_8h.html">legato_widget.h</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
+  </ul>
+</div>
 </body>
 </html>
