@@ -1,6 +1,5 @@
 var legato__variableheap_8c =
 [
-    [ "leVariableHeapBlockHeader", "structle_variable_heap_block_header.html", "structle_variable_heap_block_header" ],
     [ "LE_VARIABLEHEAP_BLOCK_CHECKSUM", "legato__variableheap_8c.html#ae75a64a519cde0c69dc856c88fa5dadf", null ],
     [ "LE_VARIABLEHEAP_BLOCK_DATA_PTR", "legato__variableheap_8c.html#a9af588b967c3c96649770eeb35d93834", null ],
     [ "LE_VARIABLEHEAP_BLOCK_FOOTER_PTR", "legato__variableheap_8c.html#a600ecbfe4ec1372a64a922df188027dc", null ],

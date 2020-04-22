@@ -1,6 +1,5 @@
 var legato__draw__arc_8c =
 [
-    [ "ArcDrawState", "struct_arc_draw_state.html", "struct_arc_draw_state" ],
     [ "ArcDrawState", "legato__draw__arc_8c.html#adf2d8ef231dd881fff3f739dc3cd7d7e", null ],
     [ "POINT_LINE_POS", "legato__draw__arc_8c.html#ad67d69fcc4c678a0ea1edc49fc171f35", [
       [ "ON_LINE", "legato__draw__arc_8c.html#ad67d69fcc4c678a0ea1edc49fc171f35a315cfb9fb52108a0b61be1c5228d63a8", null ],

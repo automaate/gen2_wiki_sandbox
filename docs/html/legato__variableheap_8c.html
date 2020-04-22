@@ -83,7 +83,6 @@ $(document).ready(function(){initNavTree('legato__variableheap_8c.html',''); ini
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
@@ -96,22 +95,12 @@ $(document).ready(function(){initNavTree('legato__variableheap_8c.html',''); ini
 <code>#include &quot;<a class="el" href="legato__error_8h_source.html">gfx/legato/common/legato_error.h</a>&quot;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for legato_variableheap.c:</div>
-<div class="dyncontent">
-<div class="center"><img src="legato__variableheap_8c__incl.png" border="0" usemap="#_c_1_2_harmony3_2gfx_2middleware_2legato_2library_2src_2gfx_2legato_2memory_2legato__variableheap_8c" alt=""/></div>
-</div>
 </div>
 <p><a href="legato__variableheap_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a40acf354dfb0c3dc425629c21cc19e53"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#a40acf354dfb0c3dc425629c21cc19e53">LE_VARIABLEHEAP_BLOCK_HEADER_SIZE</a>&#160;&#160;&#160;(sizeof(<a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a>))</td></tr>
+<tr class="memitem:a40acf354dfb0c3dc425629c21cc19e53"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#a40acf354dfb0c3dc425629c21cc19e53">LE_VARIABLEHEAP_BLOCK_HEADER_SIZE</a>&#160;&#160;&#160;(sizeof(<a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a>))</td></tr>
 <tr class="separator:a40acf354dfb0c3dc425629c21cc19e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25cd70dcfbc0b4b5a4e33814c90e6843"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#a25cd70dcfbc0b4b5a4e33814c90e6843">LE_VARIABLEHEAP_BLOCK_FOOTER_SIZE</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a25cd70dcfbc0b4b5a4e33814c90e6843"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,7 +123,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a65c7a5dd833fb0f6267e99751bea1a3a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a></td></tr>
+<tr class="memitem:a65c7a5dd833fb0f6267e99751bea1a3a"><td class="memItemLeft" align="right" valign="top">typedef struct leVariableHeapBlockHeader&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a></td></tr>
 <tr class="separator:a65c7a5dd833fb0f6267e99751bea1a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -147,19 +136,19 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a211c78b4fd99d801ce76f0dc218280f1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="legato__common_8h.html#acd3365f0b79c37d8894559b5afed374b">leBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#a211c78b4fd99d801ce76f0dc218280f1">_areAdjacent</a> (<a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *l, <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *r)</td></tr>
+<tr class="memitem:a211c78b4fd99d801ce76f0dc218280f1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="legato__common_8h.html#acd3365f0b79c37d8894559b5afed374b">leBool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#a211c78b4fd99d801ce76f0dc218280f1">_areAdjacent</a> (<a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *l, <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *r)</td></tr>
 <tr class="separator:a211c78b4fd99d801ce76f0dc218280f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4b6ee688bb3135541e8146d6a901cc5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#ab4b6ee688bb3135541e8146d6a901cc5">_findSlot</a> (<a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *list, <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *blk)</td></tr>
+<tr class="memitem:ab4b6ee688bb3135541e8146d6a901cc5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#ab4b6ee688bb3135541e8146d6a901cc5">_findSlot</a> (<a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *list, <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *blk)</td></tr>
 <tr class="separator:ab4b6ee688bb3135541e8146d6a901cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a796e97911458f2141c3677bfb1333515"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#a796e97911458f2141c3677bfb1333515">_createBlock</a> (void *addr, uint32_t capacity, uint32_t size)</td></tr>
+<tr class="memitem:a796e97911458f2141c3677bfb1333515"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#a796e97911458f2141c3677bfb1333515">_createBlock</a> (void *addr, uint32_t capacity, uint32_t size)</td></tr>
 <tr class="separator:a796e97911458f2141c3677bfb1333515"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35351ee9ef66770f0035e9dad5c6c511"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#a35351ee9ef66770f0035e9dad5c6c511">_findFirstFit</a> (<a class="el" href="structle_variable_heap.html">leVariableHeap</a> *heap, uint32_t size)</td></tr>
+<tr class="memitem:a35351ee9ef66770f0035e9dad5c6c511"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#a35351ee9ef66770f0035e9dad5c6c511">_findFirstFit</a> (<a class="el" href="structle_variable_heap.html">leVariableHeap</a> *heap, uint32_t size)</td></tr>
 <tr class="separator:a35351ee9ef66770f0035e9dad5c6c511"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0ab060141ac1f25020eb5c0b98e8f4e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#ab0ab060141ac1f25020eb5c0b98e8f4e">_splitBlock</a> (<a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *blk, uint32_t capacity, uint32_t size)</td></tr>
+<tr class="memitem:ab0ab060141ac1f25020eb5c0b98e8f4e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#ab0ab060141ac1f25020eb5c0b98e8f4e">_splitBlock</a> (<a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *blk, uint32_t capacity, uint32_t size)</td></tr>
 <tr class="separator:ab0ab060141ac1f25020eb5c0b98e8f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2790a62ca863d0abf6f576266a54251"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#ab2790a62ca863d0abf6f576266a54251">_combineBlockPrev</a> (<a class="el" href="structle_variable_heap.html">leVariableHeap</a> *heap, <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *blk)</td></tr>
+<tr class="memitem:ab2790a62ca863d0abf6f576266a54251"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#ab2790a62ca863d0abf6f576266a54251">_combineBlockPrev</a> (<a class="el" href="structle_variable_heap.html">leVariableHeap</a> *heap, <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *blk)</td></tr>
 <tr class="separator:ab2790a62ca863d0abf6f576266a54251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad58f9f47422d91c3af6c7881099779cd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#ad58f9f47422d91c3af6c7881099779cd">_combineBlockNext</a> (<a class="el" href="structle_variable_heap.html">leVariableHeap</a> *heap, <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *blk)</td></tr>
+<tr class="memitem:ad58f9f47422d91c3af6c7881099779cd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#ad58f9f47422d91c3af6c7881099779cd">_combineBlockNext</a> (<a class="el" href="structle_variable_heap.html">leVariableHeap</a> *heap, <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *blk)</td></tr>
 <tr class="separator:ad58f9f47422d91c3af6c7881099779cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf3134055e812c6dbb6c1ab7a4636f56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="legato__variableheap_8c.html#abf3134055e812c6dbb6c1ab7a4636f56">leVariableHeap_Init</a> (<a class="el" href="structle_variable_heap.html">leVariableHeap</a> *heap, void *data, uint32_t size)</td></tr>
 <tr class="separator:abf3134055e812c6dbb6c1ab7a4636f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,7 +247,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define LE_VARIABLEHEAP_BLOCK_HEADER_SIZE&#160;&#160;&#160;(sizeof(<a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a>))</td>
+          <td class="memname">#define LE_VARIABLEHEAP_BLOCK_HEADER_SIZE&#160;&#160;&#160;(sizeof(<a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -367,7 +356,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a></td>
+          <td class="memname">typedef struct leVariableHeapBlockHeader leVariableHeapBlockHeader</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -409,13 +398,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="legato__common_8h.html#acd3365f0b79c37d8894559b5afed374b">leBool</a> _areAdjacent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *&#160;</td>
           <td class="paramname"><em>l</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *&#160;</td>
           <td class="paramname"><em>r</em>&#160;</td>
         </tr>
         <tr>
@@ -436,6 +425,15 @@ Functions</h2></td></tr>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_a211c78b4fd99d801ce76f0dc218280f1_icgraph.png" border="0" usemap="#legato__variableheap_8c_a211c78b4fd99d801ce76f0dc218280f1_icgraph" alt=""/></div>
+<map name="legato__variableheap_8c_a211c78b4fd99d801ce76f0dc218280f1_icgraph" id="legato__variableheap_8c_a211c78b4fd99d801ce76f0dc218280f1_icgraph">
+<area shape="rect" title=" " alt="" coords="659,31,757,57"/>
+<area shape="rect" href="legato__variableheap_8c.html#ad58f9f47422d91c3af6c7881099779cd" title=" " alt="" coords="472,5,611,32"/>
+<area shape="rect" href="legato__variableheap_8c.html#ab2790a62ca863d0abf6f576266a54251" title=" " alt="" coords="473,56,609,83"/>
+<area shape="rect" href="legato__variableheap_8h.html#aa1924b7cc36b0e02966c09c8b25fc95b" title=" " alt="" coords="281,31,424,57"/>
+<area shape="rect" href="legato__memory_8h.html#a9647f390df3a639e02ffdd5566d1721c" title=" " alt="" coords="175,31,233,57"/>
+<area shape="rect" href="legato__image_8h.html#ac373d84a7342665ed1804e1a20787641" title=" " alt="" coords="5,5,127,32"/>
+<area shape="rect" href="legato__image_8h.html#af05cda8d7125d09ed0ec1d1bf66c4966" title=" " alt="" coords="16,56,116,83"/>
+</map>
 </div>
 
 </div>
@@ -450,7 +448,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a>* _combineBlockNext </td>
+          <td class="memname">static <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a>* _combineBlockNext </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structle_variable_heap.html">leVariableHeap</a> *&#160;</td>
           <td class="paramname"><em>heap</em>, </td>
@@ -458,7 +456,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *&#160;</td>
           <td class="paramname"><em>blk</em>&#160;</td>
         </tr>
         <tr>
@@ -479,11 +477,23 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_ad58f9f47422d91c3af6c7881099779cd_cgraph.png" border="0" usemap="#legato__variableheap_8c_ad58f9f47422d91c3af6c7881099779cd_cgraph" alt=""/></div>
+<map name="legato__variableheap_8c_ad58f9f47422d91c3af6c7881099779cd_cgraph" id="legato__variableheap_8c_ad58f9f47422d91c3af6c7881099779cd_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,144,57"/>
+<area shape="rect" href="legato__variableheap_8c.html#a211c78b4fd99d801ce76f0dc218280f1" title=" " alt="" coords="192,5,291,32"/>
+<area shape="rect" href="legato__variableheap_8c.html#a796e97911458f2141c3677bfb1333515" title=" " alt="" coords="192,56,291,83"/>
+</map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_ad58f9f47422d91c3af6c7881099779cd_icgraph.png" border="0" usemap="#legato__variableheap_8c_ad58f9f47422d91c3af6c7881099779cd_icgraph" alt=""/></div>
+<map name="legato__variableheap_8c_ad58f9f47422d91c3af6c7881099779cd_icgraph" id="legato__variableheap_8c_ad58f9f47422d91c3af6c7881099779cd_icgraph">
+<area shape="rect" title=" " alt="" coords="472,31,611,57"/>
+<area shape="rect" href="legato__variableheap_8h.html#aa1924b7cc36b0e02966c09c8b25fc95b" title=" " alt="" coords="281,31,424,57"/>
+<area shape="rect" href="legato__memory_8h.html#a9647f390df3a639e02ffdd5566d1721c" title=" " alt="" coords="175,31,233,57"/>
+<area shape="rect" href="legato__image_8h.html#ac373d84a7342665ed1804e1a20787641" title=" " alt="" coords="5,5,127,32"/>
+<area shape="rect" href="legato__image_8h.html#af05cda8d7125d09ed0ec1d1bf66c4966" title=" " alt="" coords="16,56,116,83"/>
+</map>
 </div>
 
 </div>
@@ -498,7 +508,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a>* _combineBlockPrev </td>
+          <td class="memname">static <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a>* _combineBlockPrev </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structle_variable_heap.html">leVariableHeap</a> *&#160;</td>
           <td class="paramname"><em>heap</em>, </td>
@@ -506,7 +516,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *&#160;</td>
           <td class="paramname"><em>blk</em>&#160;</td>
         </tr>
         <tr>
@@ -527,11 +537,23 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_ab2790a62ca863d0abf6f576266a54251_cgraph.png" border="0" usemap="#legato__variableheap_8c_ab2790a62ca863d0abf6f576266a54251_cgraph" alt=""/></div>
+<map name="legato__variableheap_8c_ab2790a62ca863d0abf6f576266a54251_cgraph" id="legato__variableheap_8c_ab2790a62ca863d0abf6f576266a54251_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,141,57"/>
+<area shape="rect" href="legato__variableheap_8c.html#a211c78b4fd99d801ce76f0dc218280f1" title=" " alt="" coords="189,5,288,32"/>
+<area shape="rect" href="legato__variableheap_8c.html#a796e97911458f2141c3677bfb1333515" title=" " alt="" coords="189,56,288,83"/>
+</map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_ab2790a62ca863d0abf6f576266a54251_icgraph.png" border="0" usemap="#legato__variableheap_8c_ab2790a62ca863d0abf6f576266a54251_icgraph" alt=""/></div>
+<map name="legato__variableheap_8c_ab2790a62ca863d0abf6f576266a54251_icgraph" id="legato__variableheap_8c_ab2790a62ca863d0abf6f576266a54251_icgraph">
+<area shape="rect" title=" " alt="" coords="472,31,608,57"/>
+<area shape="rect" href="legato__variableheap_8h.html#aa1924b7cc36b0e02966c09c8b25fc95b" title=" " alt="" coords="281,31,424,57"/>
+<area shape="rect" href="legato__memory_8h.html#a9647f390df3a639e02ffdd5566d1721c" title=" " alt="" coords="175,31,233,57"/>
+<area shape="rect" href="legato__image_8h.html#ac373d84a7342665ed1804e1a20787641" title=" " alt="" coords="5,5,127,32"/>
+<area shape="rect" href="legato__image_8h.html#af05cda8d7125d09ed0ec1d1bf66c4966" title=" " alt="" coords="16,56,116,83"/>
+</map>
 </div>
 
 </div>
@@ -546,7 +568,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a>* _createBlock </td>
+          <td class="memname">static <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a>* _createBlock </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>addr</em>, </td>
@@ -581,6 +603,22 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_a796e97911458f2141c3677bfb1333515_icgraph.png" border="0" usemap="#legato__variableheap_8c_a796e97911458f2141c3677bfb1333515_icgraph" alt=""/></div>
+<map name="legato__variableheap_8c_a796e97911458f2141c3677bfb1333515_icgraph" id="legato__variableheap_8c_a796e97911458f2141c3677bfb1333515_icgraph">
+<area shape="rect" title=" " alt="" coords="681,93,780,120"/>
+<area shape="rect" href="legato__variableheap_8c.html#ad58f9f47422d91c3af6c7881099779cd" title=" " alt="" coords="495,17,633,44"/>
+<area shape="rect" href="legato__variableheap_8c.html#ab2790a62ca863d0abf6f576266a54251" title=" " alt="" coords="496,68,632,95"/>
+<area shape="rect" href="legato__variableheap_8c.html#ab0ab060141ac1f25020eb5c0b98e8f4e" title=" " alt="" coords="521,119,607,145"/>
+<area shape="rect" href="legato__variableheap_8h.html#abf3134055e812c6dbb6c1ab7a4636f56" title=" " alt="" coords="497,169,631,196"/>
+<area shape="rect" href="legato__variableheap_8h.html#aa1924b7cc36b0e02966c09c8b25fc95b" title=" " alt="" coords="303,43,445,69"/>
+<area shape="rect" href="legato__memory_8h.html#a9647f390df3a639e02ffdd5566d1721c" title=" " alt="" coords="185,43,243,69"/>
+<area shape="rect" href="legato__image_8h.html#ac373d84a7342665ed1804e1a20787641" title=" " alt="" coords="5,5,127,32"/>
+<area shape="rect" href="legato__image_8h.html#af05cda8d7125d09ed0ec1d1bf66c4966" title=" " alt="" coords="16,56,116,83"/>
+<area shape="rect" href="legato__variableheap_8h.html#a8e9167913bb9a5a0e36549e7f0eaac81" title=" " alt="" coords="301,119,447,145"/>
+<area shape="rect" href="legato__memory_8h.html#ade65fc8c21fd8519f63b01848a92dd88" title=" " alt="" coords="179,119,249,145"/>
+<area shape="rect" href="legato__memory_8h.html#a51bf085075cd105a0960cbe4e606659e" title=" " alt="" coords="29,119,103,145"/>
+<area shape="rect" href="legato__memory_8h.html#ac38c0f1de3cbbd9241ea502463708e95" title=" " alt="" coords="323,169,425,196"/>
+<area shape="rect" href="legato__state_8h.html#a1467181552ce6400971058ea64ca68bd" title=" " alt="" coords="175,169,253,196"/>
+</map>
 </div>
 
 </div>
@@ -595,7 +633,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a>* _findFirstFit </td>
+          <td class="memname">static <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a>* _findFirstFit </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structle_variable_heap.html">leVariableHeap</a> *&#160;</td>
           <td class="paramname"><em>heap</em>, </td>
@@ -624,6 +662,12 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_a35351ee9ef66770f0035e9dad5c6c511_icgraph.png" border="0" usemap="#legato__variableheap_8c_a35351ee9ef66770f0035e9dad5c6c511_icgraph" alt=""/></div>
+<map name="legato__variableheap_8c_a35351ee9ef66770f0035e9dad5c6c511_icgraph" id="legato__variableheap_8c_a35351ee9ef66770f0035e9dad5c6c511_icgraph">
+<area shape="rect" title=" " alt="" coords="440,5,531,32"/>
+<area shape="rect" href="legato__variableheap_8h.html#a8e9167913bb9a5a0e36549e7f0eaac81" title=" " alt="" coords="247,5,392,32"/>
+<area shape="rect" href="legato__memory_8h.html#ade65fc8c21fd8519f63b01848a92dd88" title=" " alt="" coords="128,5,199,32"/>
+<area shape="rect" href="legato__memory_8h.html#a51bf085075cd105a0960cbe4e606659e" title=" " alt="" coords="5,5,80,32"/>
+</map>
 </div>
 
 </div>
@@ -638,15 +682,15 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a>* _findSlot </td>
+          <td class="memname">static <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a>* _findSlot </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *&#160;</td>
           <td class="paramname"><em>list</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *&#160;</td>
           <td class="paramname"><em>blk</em>&#160;</td>
         </tr>
         <tr>
@@ -667,6 +711,16 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_ab4b6ee688bb3135541e8146d6a901cc5_icgraph.png" border="0" usemap="#legato__variableheap_8c_ab4b6ee688bb3135541e8146d6a901cc5_icgraph" alt=""/></div>
+<map name="legato__variableheap_8c_ab4b6ee688bb3135541e8146d6a901cc5_icgraph" id="legato__variableheap_8c_ab4b6ee688bb3135541e8146d6a901cc5_icgraph">
+<area shape="rect" title=" " alt="" coords="487,31,559,57"/>
+<area shape="rect" href="legato__variableheap_8h.html#a8e9167913bb9a5a0e36549e7f0eaac81" title=" " alt="" coords="293,5,439,32"/>
+<area shape="rect" href="legato__variableheap_8h.html#aa1924b7cc36b0e02966c09c8b25fc95b" title=" " alt="" coords="295,56,437,83"/>
+<area shape="rect" href="legato__memory_8h.html#ade65fc8c21fd8519f63b01848a92dd88" title=" " alt="" coords="175,5,245,32"/>
+<area shape="rect" href="legato__memory_8h.html#a51bf085075cd105a0960cbe4e606659e" title=" " alt="" coords="29,5,103,32"/>
+<area shape="rect" href="legato__memory_8h.html#a9647f390df3a639e02ffdd5566d1721c" title=" " alt="" coords="181,56,239,83"/>
+<area shape="rect" href="legato__image_8h.html#ac373d84a7342665ed1804e1a20787641" title=" " alt="" coords="5,56,127,83"/>
+<area shape="rect" href="legato__image_8h.html#af05cda8d7125d09ed0ec1d1bf66c4966" title=" " alt="" coords="16,107,116,133"/>
+</map>
 </div>
 
 </div>
@@ -683,7 +737,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">static <a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> _splitBlock </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structle_variable_heap_block_header.html">leVariableHeapBlockHeader</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">leVariableHeapBlockHeader</a> *&#160;</td>
           <td class="paramname"><em>blk</em>, </td>
         </tr>
         <tr>
@@ -716,11 +770,21 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_ab0ab060141ac1f25020eb5c0b98e8f4e_cgraph.png" border="0" usemap="#legato__variableheap_8c_ab0ab060141ac1f25020eb5c0b98e8f4e_cgraph" alt=""/></div>
+<map name="legato__variableheap_8c_ab0ab060141ac1f25020eb5c0b98e8f4e_cgraph" id="legato__variableheap_8c_ab0ab060141ac1f25020eb5c0b98e8f4e_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,92,32"/>
+<area shape="rect" href="legato__variableheap_8c.html#a796e97911458f2141c3677bfb1333515" title=" " alt="" coords="140,5,239,32"/>
+</map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_ab0ab060141ac1f25020eb5c0b98e8f4e_icgraph.png" border="0" usemap="#legato__variableheap_8c_ab0ab060141ac1f25020eb5c0b98e8f4e_icgraph" alt=""/></div>
+<map name="legato__variableheap_8c_ab0ab060141ac1f25020eb5c0b98e8f4e_icgraph" id="legato__variableheap_8c_ab0ab060141ac1f25020eb5c0b98e8f4e_icgraph">
+<area shape="rect" title=" " alt="" coords="440,5,527,32"/>
+<area shape="rect" href="legato__variableheap_8h.html#a8e9167913bb9a5a0e36549e7f0eaac81" title=" " alt="" coords="247,5,392,32"/>
+<area shape="rect" href="legato__memory_8h.html#ade65fc8c21fd8519f63b01848a92dd88" title=" " alt="" coords="128,5,199,32"/>
+<area shape="rect" href="legato__memory_8h.html#a51bf085075cd105a0960cbe4e606659e" title=" " alt="" coords="5,5,80,32"/>
+</map>
 </div>
 
 </div>
@@ -756,11 +820,24 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_a8e9167913bb9a5a0e36549e7f0eaac81_cgraph.png" border="0" usemap="#legato__variableheap_8c_a8e9167913bb9a5a0e36549e7f0eaac81_cgraph" alt=""/></div>
+<map name="legato__variableheap_8c_a8e9167913bb9a5a0e36549e7f0eaac81_cgraph" id="legato__variableheap_8c_a8e9167913bb9a5a0e36549e7f0eaac81_cgraph">
+<area shape="rect" title=" " alt="" coords="5,81,151,108"/>
+<area shape="rect" href="legato__variableheap_8c.html#a35351ee9ef66770f0035e9dad5c6c511" title=" " alt="" coords="235,5,325,32"/>
+<area shape="rect" href="legato__variableheap_8c.html#ab4b6ee688bb3135541e8146d6a901cc5" title=" " alt="" coords="244,56,316,83"/>
+<area shape="rect" href="legato__variableheap_8c.html#ab0ab060141ac1f25020eb5c0b98e8f4e" title=" " alt="" coords="237,107,323,133"/>
+<area shape="rect" href="legato__variableheap_8c.html#a9811cb0a94c753461c5d41ee4202ca93" title=" " alt="" coords="199,157,361,184"/>
+<area shape="rect" href="legato__variableheap_8c.html#a796e97911458f2141c3677bfb1333515" title=" " alt="" coords="409,107,508,133"/>
+</map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_a8e9167913bb9a5a0e36549e7f0eaac81_icgraph.png" border="0" usemap="#legato__variableheap_8c_a8e9167913bb9a5a0e36549e7f0eaac81_icgraph" alt=""/></div>
+<map name="legato__variableheap_8c_a8e9167913bb9a5a0e36549e7f0eaac81_icgraph" id="legato__variableheap_8c_a8e9167913bb9a5a0e36549e7f0eaac81_icgraph">
+<area shape="rect" title=" " alt="" coords="247,5,392,32"/>
+<area shape="rect" href="legato__memory_8h.html#ade65fc8c21fd8519f63b01848a92dd88" title=" " alt="" coords="128,5,199,32"/>
+<area shape="rect" href="legato__memory_8h.html#a51bf085075cd105a0960cbe4e606659e" title=" " alt="" coords="5,5,80,32"/>
+</map>
 </div>
 
 </div>
@@ -796,6 +873,13 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_a6fb37c550d04f62d574c069da6ef78b1_icgraph.png" border="0" usemap="#legato__variableheap_8c_a6fb37c550d04f62d574c069da6ef78b1_icgraph" alt=""/></div>
+<map name="legato__variableheap_8c_a6fb37c550d04f62d574c069da6ef78b1_icgraph" id="legato__variableheap_8c_a6fb37c550d04f62d574c069da6ef78b1_icgraph">
+<area shape="rect" title=" " alt="" coords="472,31,639,57"/>
+<area shape="rect" href="legato__variableheap_8h.html#aa1924b7cc36b0e02966c09c8b25fc95b" title=" " alt="" coords="281,31,424,57"/>
+<area shape="rect" href="legato__memory_8h.html#a9647f390df3a639e02ffdd5566d1721c" title=" " alt="" coords="175,31,233,57"/>
+<area shape="rect" href="legato__image_8h.html#ac373d84a7342665ed1804e1a20787641" title=" " alt="" coords="5,5,127,32"/>
+<area shape="rect" href="legato__image_8h.html#af05cda8d7125d09ed0ec1d1bf66c4966" title=" " alt="" coords="16,56,116,83"/>
+</map>
 </div>
 
 </div>
@@ -851,11 +935,27 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_aa1924b7cc36b0e02966c09c8b25fc95b_cgraph.png" border="0" usemap="#legato__variableheap_8c_aa1924b7cc36b0e02966c09c8b25fc95b_cgraph" alt=""/></div>
+<map name="legato__variableheap_8c_aa1924b7cc36b0e02966c09c8b25fc95b_cgraph" id="legato__variableheap_8c_aa1924b7cc36b0e02966c09c8b25fc95b_cgraph">
+<area shape="rect" title=" " alt="" coords="5,107,148,133"/>
+<area shape="rect" href="legato__variableheap_8c.html#ad58f9f47422d91c3af6c7881099779cd" title=" " alt="" coords="210,56,349,83"/>
+<area shape="rect" href="legato__variableheap_8c.html#ab2790a62ca863d0abf6f576266a54251" title=" " alt="" coords="211,5,347,32"/>
+<area shape="rect" href="legato__variableheap_8c.html#ab4b6ee688bb3135541e8146d6a901cc5" title=" " alt="" coords="243,107,315,133"/>
+<area shape="rect" href="legato__variableheap_8c.html#a6fb37c550d04f62d574c069da6ef78b1" title=" " alt="" coords="196,157,363,184"/>
+<area shape="rect" href="legato__variableheap_8c.html#a9811cb0a94c753461c5d41ee4202ca93" title=" " alt="" coords="198,208,361,235"/>
+<area shape="rect" href="legato__variableheap_8c.html#a211c78b4fd99d801ce76f0dc218280f1" title=" " alt="" coords="411,5,509,32"/>
+<area shape="rect" href="legato__variableheap_8c.html#a796e97911458f2141c3677bfb1333515" title=" " alt="" coords="411,56,509,83"/>
+</map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_aa1924b7cc36b0e02966c09c8b25fc95b_icgraph.png" border="0" usemap="#legato__variableheap_8c_aa1924b7cc36b0e02966c09c8b25fc95b_icgraph" alt=""/></div>
+<map name="legato__variableheap_8c_aa1924b7cc36b0e02966c09c8b25fc95b_icgraph" id="legato__variableheap_8c_aa1924b7cc36b0e02966c09c8b25fc95b_icgraph">
+<area shape="rect" title=" " alt="" coords="281,31,424,57"/>
+<area shape="rect" href="legato__memory_8h.html#a9647f390df3a639e02ffdd5566d1721c" title=" " alt="" coords="175,31,233,57"/>
+<area shape="rect" href="legato__image_8h.html#ac373d84a7342665ed1804e1a20787641" title=" " alt="" coords="5,5,127,32"/>
+<area shape="rect" href="legato__image_8h.html#af05cda8d7125d09ed0ec1d1bf66c4966" title=" " alt="" coords="16,56,116,83"/>
+</map>
 </div>
 
 </div>
@@ -897,11 +997,20 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_abf3134055e812c6dbb6c1ab7a4636f56_cgraph.png" border="0" usemap="#legato__variableheap_8c_abf3134055e812c6dbb6c1ab7a4636f56_cgraph" alt=""/></div>
+<map name="legato__variableheap_8c_abf3134055e812c6dbb6c1ab7a4636f56_cgraph" id="legato__variableheap_8c_abf3134055e812c6dbb6c1ab7a4636f56_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,139,32"/>
+<area shape="rect" href="legato__variableheap_8c.html#a796e97911458f2141c3677bfb1333515" title=" " alt="" coords="187,5,285,32"/>
+</map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_abf3134055e812c6dbb6c1ab7a4636f56_icgraph.png" border="0" usemap="#legato__variableheap_8c_abf3134055e812c6dbb6c1ab7a4636f56_icgraph" alt=""/></div>
+<map name="legato__variableheap_8c_abf3134055e812c6dbb6c1ab7a4636f56_icgraph" id="legato__variableheap_8c_abf3134055e812c6dbb6c1ab7a4636f56_icgraph">
+<area shape="rect" title=" " alt="" coords="283,5,416,32"/>
+<area shape="rect" href="legato__memory_8h.html#ac38c0f1de3cbbd9241ea502463708e95" title=" " alt="" coords="132,5,235,32"/>
+<area shape="rect" href="legato__state_8h.html#a1467181552ce6400971058ea64ca68bd" title=" " alt="" coords="5,5,84,32"/>
+</map>
 </div>
 
 </div>
@@ -937,6 +1046,10 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_a26ad98faf4627232c187b777147b490e_icgraph.png" border="0" usemap="#legato__variableheap_8c_a26ad98faf4627232c187b777147b490e_icgraph" alt=""/></div>
+<map name="legato__variableheap_8c_a26ad98faf4627232c187b777147b490e_icgraph" id="legato__variableheap_8c_a26ad98faf4627232c187b777147b490e_icgraph">
+<area shape="rect" title=" " alt="" coords="128,5,283,32"/>
+<area shape="rect" href="legato__memory_8h.html#a51bf085075cd105a0960cbe4e606659e" title=" " alt="" coords="5,5,80,32"/>
+</map>
 </div>
 
 </div>
@@ -982,6 +1095,17 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="legato__variableheap_8c_a9811cb0a94c753461c5d41ee4202ca93_icgraph.png" border="0" usemap="#legato__variableheap_8c_a9811cb0a94c753461c5d41ee4202ca93_icgraph" alt=""/></div>
+<map name="legato__variableheap_8c_a9811cb0a94c753461c5d41ee4202ca93_icgraph" id="legato__variableheap_8c_a9811cb0a94c753461c5d41ee4202ca93_icgraph">
+<area shape="rect" title=" " alt="" coords="504,56,667,83"/>
+<area shape="rect" href="legato__memory_8h.html#ad25b9c94f320a6a7592022cd03a1c8a9" title=" " alt="" coords="293,5,456,32"/>
+<area shape="rect" href="legato__variableheap_8h.html#a8e9167913bb9a5a0e36549e7f0eaac81" title=" " alt="" coords="302,56,447,83"/>
+<area shape="rect" href="legato__variableheap_8h.html#aa1924b7cc36b0e02966c09c8b25fc95b" title=" " alt="" coords="303,107,446,133"/>
+<area shape="rect" href="legato__memory_8h.html#ade65fc8c21fd8519f63b01848a92dd88" title=" " alt="" coords="175,56,245,83"/>
+<area shape="rect" href="legato__memory_8h.html#a51bf085075cd105a0960cbe4e606659e" title=" " alt="" coords="29,56,103,83"/>
+<area shape="rect" href="legato__memory_8h.html#a9647f390df3a639e02ffdd5566d1721c" title=" " alt="" coords="181,107,239,133"/>
+<area shape="rect" href="legato__image_8h.html#ac373d84a7342665ed1804e1a20787641" title=" " alt="" coords="5,107,127,133"/>
+<area shape="rect" href="legato__image_8h.html#af05cda8d7125d09ed0ec1d1bf66c4966" title=" " alt="" coords="16,157,116,184"/>
+</map>
 </div>
 
 </div>

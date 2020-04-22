@@ -1,7 +1,5 @@
 var legato__imagedecoder__raw__palette__internal_8c =
 [
-    [ "InternalPaletteStage", "struct_internal_palette_stage.html", "struct_internal_palette_stage" ],
-    [ "ImageRenderPostLookupStage", "struct_image_render_post_lookup_stage.html", "struct_image_render_post_lookup_stage" ],
     [ "_leRawImageDecoder_ImageRenderPostLookupStage", "legato__imagedecoder__raw__palette__internal_8c.html#ae16ead3f29790368f9a11d30ea0372ed", null ],
     [ "_leRawImageDecoder_InjectStage", "legato__imagedecoder__raw__palette__internal_8c.html#afe19a22091ec64bedbf79fe6f9fdedb2", null ],
     [ "_leRawImageDecoder_LookupStage_Internal", "legato__imagedecoder__raw__palette__internal_8c.html#a17fdeb573fac674e3aa8a299fcd1d575", null ],

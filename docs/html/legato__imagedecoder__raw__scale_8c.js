@@ -1,9 +1,5 @@
 var legato__imagedecoder__raw__scale_8c =
 [
-    [ "ScaleNearestNeighborPreReadStage", "struct_scale_nearest_neighbor_pre_read_stage.html", "struct_scale_nearest_neighbor_pre_read_stage" ],
-    [ "ScaleBilinearPreReadStage", "struct_scale_bilinear_pre_read_stage.html", "struct_scale_bilinear_pre_read_stage" ],
-    [ "PostReadStage", "struct_post_read_stage.html", "struct_post_read_stage" ],
-    [ "ScaleBilinearPostReadStage", "struct_scale_bilinear_post_read_stage.html", "struct_scale_bilinear_post_read_stage" ],
     [ "_leRawImageDecoder_InjectStage", "legato__imagedecoder__raw__scale_8c.html#afe19a22091ec64bedbf79fe6f9fdedb2", null ],
     [ "_leRawImageDecoder_PostReadStage", "legato__imagedecoder__raw__scale_8c.html#affa2da6eeda26e4ad49815f2e26ffda7", null ],
     [ "_leRawImageDecoder_ScaleBilinearPostReadStage", "legato__imagedecoder__raw__scale_8c.html#aedad5cc271a25c80f8994680928b31f6", null ],

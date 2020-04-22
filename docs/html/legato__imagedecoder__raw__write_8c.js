@@ -1,7 +1,5 @@
 var legato__imagedecoder__raw__write_8c =
 [
-    [ "FrameBufferWriteStage", "struct_frame_buffer_write_stage.html", "struct_frame_buffer_write_stage" ],
-    [ "ImageWriteStage", "struct_image_write_stage.html", "struct_image_write_stage" ],
     [ "_leRawImageDecoder_FrameBufferWriteStage", "legato__imagedecoder__raw__write_8c.html#aa304548661433ffbc1fa8654237a37f1", null ],
     [ "_leRawImageDecoder_ImageWriteStage", "legato__imagedecoder__raw__write_8c.html#a41a71fac438335bcbb442f21ee59bbc8", null ],
     [ "_leRawImageDecoder_InjectStage", "legato__imagedecoder__raw__write_8c.html#afe19a22091ec64bedbf79fe6f9fdedb2", null ],

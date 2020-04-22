@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['trig_5fscalar_3381',['TRIG_SCALAR',['../legato__math_8c.html#a6f45d348cda68e8d19085dd48901581d',1,'legato_math.c']]]
+  ['trig_5fscalar_3294',['TRIG_SCALAR',['../legato__math_8c.html#a6f45d348cda68e8d19085dd48901581d',1,'legato_math.c']]]
 ];

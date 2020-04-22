@@ -1,8 +1,5 @@
 var legato__imagedecoder__raw__rotate_8c =
 [
-    [ "RotateNearestNeighborPreReadStage", "struct_rotate_nearest_neighbor_pre_read_stage.html", "struct_rotate_nearest_neighbor_pre_read_stage" ],
-    [ "RotateBilinearPreReadStage", "struct_rotate_bilinear_pre_read_stage.html", "struct_rotate_bilinear_pre_read_stage" ],
-    [ "RotateBilinearPostReadStage", "struct_rotate_bilinear_post_read_stage.html", "struct_rotate_bilinear_post_read_stage" ],
     [ "_leRawImageDecoder_InjectStage", "legato__imagedecoder__raw__rotate_8c.html#afe19a22091ec64bedbf79fe6f9fdedb2", null ],
     [ "_leRawImageDecoder_RotateBilinearPostReadStage", "legato__imagedecoder__raw__rotate_8c.html#ad1788d330e55d45dd69d94cb8ce48131", null ],
     [ "_leRawImageDecoder_RotateBilinearPreReadStage", "legato__imagedecoder__raw__rotate_8c.html#aa539e0269f074747d19db7b0d452d520", null ],

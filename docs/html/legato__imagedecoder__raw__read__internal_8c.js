@@ -1,6 +1,5 @@
 var legato__imagedecoder__raw__read__internal_8c =
 [
-    [ "InternalReadStage", "struct_internal_read_stage.html", "struct_internal_read_stage" ],
     [ "_leRawImageDecoder_InjectStage", "legato__imagedecoder__raw__read__internal_8c.html#afe19a22091ec64bedbf79fe6f9fdedb2", null ],
     [ "_leRawImageDecoder_ReadStage_Internal", "legato__imagedecoder__raw__read__internal_8c.html#afc2a3e7180571030555a50171db7ee49", null ],
     [ "colorDecode", "legato__imagedecoder__raw__read__internal_8c.html#aafcb7463372ac88bc422c8c3c90d4798", null ],

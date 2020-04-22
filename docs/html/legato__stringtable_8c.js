@@ -1,8 +1,5 @@
 var legato__stringtable_8c =
 [
-    [ "leStringTableHeader", "structle_string_table_header.html", "structle_string_table_header" ],
-    [ "leStringTableIndex", "structle_string_table_index.html", "structle_string_table_index" ],
-    [ "leStringTableEntry", "structle_string_table_entry.html", "structle_string_table_entry" ],
     [ "leStringTableEntry", "legato__stringtable_8c.html#a7151c557c7a96e2dd11aa2efb19d7501", null ],
     [ "leStringTableHeader", "legato__stringtable_8c.html#ac9ae8a2cbc90a28f8bce69430855a608", null ],
     [ "leStringTableIndex", "legato__stringtable_8c.html#a588bcf836c99e4ff0de8d2d679a52865", null ],

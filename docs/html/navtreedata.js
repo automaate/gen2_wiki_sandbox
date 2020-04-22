@@ -52,15 +52,15 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "legato__color_8h.html#a7a4d6462701a6d37e1f2341e6b96ecd4",
-"legato__dynamicstring_8h.html#a20fce8feadb3035d0ec6651d37538a55",
-"legato__image__utils_8c.html#a14984f42092a8b4e113481e9e980339c",
-"legato__input_8h.html#a62a87ae69175b75991aca6a6ff7c95b3a5d9c9ba1d8f2c6f6737db37d3f449071",
-"legato__pixelbuffer_8c.html#a7a2124becfd4efc3ff059e4e784cb85f",
-"legato__state_8c.html#adde914336852313d1f6e12b3d09d9247",
-"legato__variableheap_8c.html#a8e9167913bb9a5a0e36549e7f0eaac81",
-"legato__widget__circle_8c.html",
-"struct_internal_read_stage.html#a01738d5d913bb1b4ac9c097c2a4d516f",
-"structle_scheme.html#a1b1e290951432cdbad26f27be7b2f66f"
+"legato__dynamicstring_8h.html",
+"legato__image__utils_8c.html#a018aa29293c1d330c8e32045992e3290",
+"legato__input_8h.html#a62a87ae69175b75991aca6a6ff7c95b3a5cacda1ad8e580a9e3e26d2980e68845",
+"legato__pixelbuffer_8c.html#a6aeceee3e4aae2f95ed66ab04bc7b86a",
+"legato__state_8c.html#acea130d1af885ccdd7d61eef6e1a1712",
+"legato__variableheap_8c.html#a7380b0c642c609734b7be05e788d4abf",
+"legato__widget__checkbox__skin__classic_8c.html",
+"structle_display_driver.html#a9ed735150e44eaee79a943bf48302b9a",
+"structle_touch_state.html#af6d3062751bd565decb1a2cd3b63bdb2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
