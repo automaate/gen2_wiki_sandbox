@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['on_5fline_3207',['ON_LINE',['../legato__draw__arc_8c.html#ad67d69fcc4c678a0ea1edc49fc171f35a315cfb9fb52108a0b61be1c5228d63a8',1,'legato_draw_arc.c']]]
+  ['ms_5falloc_5300',['MS_ALLOC',['../legato__variableheap_8c.html#ab04a0655cd1e3bcac5e8f48c18df1a57a2251db7b09289b53a5b88b629cc8552f',1,'legato_variableheap.c']]],
+  ['ms_5ffree_5301',['MS_FREE',['../legato__variableheap_8c.html#ab04a0655cd1e3bcac5e8f48c18df1a57a609bcfabc4feaebcc38197b5e67cd2bf',1,'legato_variableheap.c']]],
+  ['ms_5fpadding_5302',['MS_PADDING',['../legato__variableheap_8c.html#ab04a0655cd1e3bcac5e8f48c18df1a57ace143fa09ca52978491f5de68acee4a1',1,'legato_variableheap.c']]]
 ];

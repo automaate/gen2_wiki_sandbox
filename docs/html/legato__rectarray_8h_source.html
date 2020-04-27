@@ -1,22 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- HTML header for doxygen 1.8.13-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MPLAB Harmony Graphics Legato Library: C:/Harmony3/gfx/middleware/legato/library/src/gfx/legato/datastructure/legato_rectarray.h Source File</title>
+<title>MPLAB® Harmony Graphics Suite: legato/library/src/gfx/legato/datastructure/legato_rectarray.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="that_style.css" rel="stylesheet" type="text/css" />
+<script src="striped_bg.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -26,7 +23,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="mhgs.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">MPLAB Harmony Graphics Legato Library
+   <div id="projectname">MPLAB® Harmony Graphics Suite
    </div>
   </td>
  </tr>
@@ -50,23 +47,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('legato__rectarray_8h_source.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -81,6 +61,11 @@ $(document).ready(function(){initNavTree('legato__rectarray_8h_source.html','');
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_9714e88c704ebb5a5586b8460d5e7a95.html">legato</a></li><li class="navelem"><a class="el" href="dir_88073415edf92fb3d539e4e4f8178ac4.html">library</a></li><li class="navelem"><a class="el" href="dir_11b98e5144f5df6417e7a90531416401.html">src</a></li><li class="navelem"><a class="el" href="dir_c6e259119bdaf93f15e581911b560ba9.html">gfx</a></li><li class="navelem"><a class="el" href="dir_9eaf26c7a1a2eacb5672d28162d1bf41.html">legato</a></li><li class="navelem"><a class="el" href="dir_05f97959d76cf0f2ee2558db2e29876d.html">datastructure</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">legato_rectarray.h</div>  </div>
@@ -449,51 +434,49 @@ $(document).ready(function(){initNavTree('legato__rectarray_8h_source.html','');
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;<span class="comment">    leResult - the result of the operation</span></div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;<a class="code" href="legato__common_8h.html#ab628e42bb29ed7b1ca25e8c54aeb77d3">LIB_EXPORT</a> <a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> <a class="code" href="legato__rectarray_8h.html#a4afa7945ee58ea2a9a01d93890634af4">leRectArray_CropToArea</a>(<a class="code" href="structle_rect_array.html">leRectArray</a>* arr,</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                                           uint32_t width,</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;                                           uint32_t height);</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                                           uint32_t <a class="code" href="namespacewidget__arc.html#a5558ace5433f9aabbf0a0ec059900d94">width</a>,</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;                                           uint32_t <a class="code" href="namespacewidget__arc.html#a509290c21d570ff479c1b9d9b1fe8810">height</a>);</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;                                           </div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                                           </div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;<a class="code" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a> <a class="code" href="legato__rectarray_8h.html#a43b2719e4dd692ea0f9f273251cbe52a">leRectArray_CropToSize</a>(<a class="code" href="structle_rect_array.html">leRectArray</a>* arr, uint32_t size);</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160; </div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* LEGATO_RECTARRAY_H */</span><span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
-</div><!-- doc-content -->
-<div class="ttc" id="alegato__common_8h_html_af467b597a37f8d8851b61addcb8e2e0f"><div class="ttname"><a href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a></div><div class="ttdeci">leResult</div><div class="ttdef"><b>Definition:</b> <a href="legato__common_8h_source.html#l00120">legato_common.h:121</a></div></div>
-<div class="ttc" id="astructle_rect_array_html"><div class="ttname"><a href="structle_rect_array.html">leRectArray</a></div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8h_source.html#l00062">legato_rectarray.h:63</a></div></div>
+<div class="ttc" id="alegato__common_8h_html_af467b597a37f8d8851b61addcb8e2e0f"><div class="ttname"><a href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">leResult</a></div><div class="ttdeci">leResult</div><div class="ttdef"><b>Definition:</b> legato_common.h:121</div></div>
+<div class="ttc" id="astructle_rect_array_html"><div class="ttname"><a href="structle_rect_array.html">leRectArray</a></div><div class="ttdef"><b>Definition:</b> legato_rectarray.h:63</div></div>
 <div class="ttc" id="alegato__rectarray_8h_html_a21b1c1b869e07d057ef91480bd783d8a"><div class="ttname"><a href="legato__rectarray_8h.html#a21b1c1b869e07d057ef91480bd783d8a">leRectArray</a></div><div class="ttdeci">struct leRectArray leRectArray</div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_aa42239ee8f066e41c9d4a38a371e5928"><div class="ttname"><a href="legato__rectarray_8h.html#aa42239ee8f066e41c9d4a38a371e5928">leRectArray_RemoveDuplicates</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_RemoveDuplicates(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00258">legato_rectarray.c:258</a></div></div>
-<div class="ttc" id="astructle_rect_array_html_a391c992c66c3e5540265a85ec2b9216a"><div class="ttname"><a href="structle_rect_array.html#a391c992c66c3e5540265a85ec2b9216a">leRectArray::capacity</a></div><div class="ttdeci">uint32_t capacity</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8h_source.html#l00103">legato_rectarray.h:103</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_a2aa469d520f2786f718abfff5a634744"><div class="ttname"><a href="legato__rectarray_8h.html#a2aa469d520f2786f718abfff5a634744">leRectArray_PopFront</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_PopFront(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00139">legato_rectarray.c:139</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_a5fdf47c9b1d1d719dd05fe046f1e8b26"><div class="ttname"><a href="legato__rectarray_8h.html#a5fdf47c9b1d1d719dd05fe046f1e8b26">leRectArray_MergeSimilar</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_MergeSimilar(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00371">legato_rectarray.c:371</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_a36be2da2dc30b184e972a312601d1d3c"><div class="ttname"><a href="legato__rectarray_8h.html#a36be2da2dc30b184e972a312601d1d3c">leRectArray_RemoveOverlapping</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_RemoveOverlapping(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00393">legato_rectarray.c:393</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_a1e6341f70f90246584c3d0208c7f584a"><div class="ttname"><a href="legato__rectarray_8h.html#a1e6341f70f90246584c3d0208c7f584a">leRectArray_RemoveAt</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_RemoveAt(leRectArray *arr, uint32_t idx)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00199">legato_rectarray.c:199</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_a4afa7945ee58ea2a9a01d93890634af4"><div class="ttname"><a href="legato__rectarray_8h.html#a4afa7945ee58ea2a9a01d93890634af4">leRectArray_CropToArea</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_CropToArea(leRectArray *arr, uint32_t width, uint32_t height)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00415">legato_rectarray.c:415</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_ae876f11730dc25d0a9a80f4a81b86204"><div class="ttname"><a href="legato__rectarray_8h.html#ae876f11730dc25d0a9a80f4a81b86204">leRectArray_PopBack</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_PopBack(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00166">legato_rectarray.c:166</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_abf8435e5802f7f0ff22a40935470620f"><div class="ttname"><a href="legato__rectarray_8h.html#abf8435e5802f7f0ff22a40935470620f">leRectArray_Create</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_Create(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00082">legato_rectarray.c:82</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_aaf850fb71f50d95a0edd055680594136"><div class="ttname"><a href="legato__rectarray_8h.html#aaf850fb71f50d95a0edd055680594136">leRectArray_SortByX</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_SortByX(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00311">legato_rectarray.c:311</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_a39d1de4075ef16962e025d3cca14f30b"><div class="ttname"><a href="legato__rectarray_8h.html#a39d1de4075ef16962e025d3cca14f30b">leRectArray_SortByY</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_SortByY(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00341">legato_rectarray.c:341</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_afc556f36297620c3121f263c5214721d"><div class="ttname"><a href="legato__rectarray_8h.html#afc556f36297620c3121f263c5214721d">leRectArray_Clear</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_Clear(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00230">legato_rectarray.c:230</a></div></div>
-<div class="ttc" id="alegato__common_8h_html_ab628e42bb29ed7b1ca25e8c54aeb77d3"><div class="ttname"><a href="legato__common_8h.html#ab628e42bb29ed7b1ca25e8c54aeb77d3">LIB_EXPORT</a></div><div class="ttdeci">#define LIB_EXPORT</div><div class="ttdef"><b>Definition:</b> <a href="legato__common_8h_source.html#l00083">legato_common.h:82</a></div></div>
-<div class="ttc" id="astructle_rect_array_html_aadc261088163bd7d347f0a3475c47d15"><div class="ttname"><a href="structle_rect_array.html#aadc261088163bd7d347f0a3475c47d15">leRectArray::rects</a></div><div class="ttdeci">leRect * rects</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8h_source.html#l00101">legato_rectarray.h:101</a></div></div>
-<div class="ttc" id="astructle_rect_html"><div class="ttname"><a href="structle_rect.html">leRect</a></div><div class="ttdef"><b>Definition:</b> <a href="legato__common_8h_source.html#l00327">legato_common.h:328</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_a43b2719e4dd692ea0f9f273251cbe52a"><div class="ttname"><a href="legato__rectarray_8h.html#a43b2719e4dd692ea0f9f273251cbe52a">leRectArray_CropToSize</a></div><div class="ttdeci">leResult leRectArray_CropToSize(leRectArray *arr, uint32_t size)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00447">legato_rectarray.c:447</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_a2a10dfbed9232971218050c5c4240a37"><div class="ttname"><a href="legato__rectarray_8h.html#a2a10dfbed9232971218050c5c4240a37">leRectArray_InsertAt</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_InsertAt(leRectArray *arr, uint32_t idx, const leRect *rect)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00176">legato_rectarray.c:176</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_a33f61f9916fead1f2bdf6067206ac015"><div class="ttname"><a href="legato__rectarray_8h.html#a33f61f9916fead1f2bdf6067206ac015">leRectArray_PushFront</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_PushFront(leRectArray *arr, const leRect *rect)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00121">legato_rectarray.c:121</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_a32d6e7e1195ff0e89d5c71aedd913c5b"><div class="ttname"><a href="legato__rectarray_8h.html#a32d6e7e1195ff0e89d5c71aedd913c5b">leRectArray_Resize</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_Resize(leRectArray *arr, uint32_t sz)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00094">legato_rectarray.c:94</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_ae7e3d261685bbae473c36178272c0094"><div class="ttname"><a href="legato__rectarray_8h.html#ae7e3d261685bbae473c36178272c0094">leRectArray_Destroy</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_Destroy(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00240">legato_rectarray.c:240</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_a75b4d143c7def973f9d50207cf5c3397"><div class="ttname"><a href="legato__rectarray_8h.html#a75b4d143c7def973f9d50207cf5c3397">leRectArray_SortBySize</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_SortBySize(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00281">legato_rectarray.c:281</a></div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_aa42239ee8f066e41c9d4a38a371e5928"><div class="ttname"><a href="legato__rectarray_8h.html#aa42239ee8f066e41c9d4a38a371e5928">leRectArray_RemoveDuplicates</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_RemoveDuplicates(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:258</div></div>
+<div class="ttc" id="astructle_rect_array_html_a391c992c66c3e5540265a85ec2b9216a"><div class="ttname"><a href="structle_rect_array.html#a391c992c66c3e5540265a85ec2b9216a">leRectArray::capacity</a></div><div class="ttdeci">uint32_t capacity</div><div class="ttdef"><b>Definition:</b> legato_rectarray.h:103</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_a2aa469d520f2786f718abfff5a634744"><div class="ttname"><a href="legato__rectarray_8h.html#a2aa469d520f2786f718abfff5a634744">leRectArray_PopFront</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_PopFront(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:139</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_a5fdf47c9b1d1d719dd05fe046f1e8b26"><div class="ttname"><a href="legato__rectarray_8h.html#a5fdf47c9b1d1d719dd05fe046f1e8b26">leRectArray_MergeSimilar</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_MergeSimilar(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:371</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_a36be2da2dc30b184e972a312601d1d3c"><div class="ttname"><a href="legato__rectarray_8h.html#a36be2da2dc30b184e972a312601d1d3c">leRectArray_RemoveOverlapping</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_RemoveOverlapping(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:393</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_a1e6341f70f90246584c3d0208c7f584a"><div class="ttname"><a href="legato__rectarray_8h.html#a1e6341f70f90246584c3d0208c7f584a">leRectArray_RemoveAt</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_RemoveAt(leRectArray *arr, uint32_t idx)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:199</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_a4afa7945ee58ea2a9a01d93890634af4"><div class="ttname"><a href="legato__rectarray_8h.html#a4afa7945ee58ea2a9a01d93890634af4">leRectArray_CropToArea</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_CropToArea(leRectArray *arr, uint32_t width, uint32_t height)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:415</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_ae876f11730dc25d0a9a80f4a81b86204"><div class="ttname"><a href="legato__rectarray_8h.html#ae876f11730dc25d0a9a80f4a81b86204">leRectArray_PopBack</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_PopBack(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:166</div></div>
+<div class="ttc" id="anamespacewidget__arc_html_a5558ace5433f9aabbf0a0ec059900d94"><div class="ttname"><a href="namespacewidget__arc.html#a5558ace5433f9aabbf0a0ec059900d94">widget_arc.width</a></div><div class="ttdeci">width</div><div class="ttdef"><b>Definition:</b> widget_arc.py:2</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_abf8435e5802f7f0ff22a40935470620f"><div class="ttname"><a href="legato__rectarray_8h.html#abf8435e5802f7f0ff22a40935470620f">leRectArray_Create</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_Create(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:82</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_aaf850fb71f50d95a0edd055680594136"><div class="ttname"><a href="legato__rectarray_8h.html#aaf850fb71f50d95a0edd055680594136">leRectArray_SortByX</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_SortByX(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:311</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_a39d1de4075ef16962e025d3cca14f30b"><div class="ttname"><a href="legato__rectarray_8h.html#a39d1de4075ef16962e025d3cca14f30b">leRectArray_SortByY</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_SortByY(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:341</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_afc556f36297620c3121f263c5214721d"><div class="ttname"><a href="legato__rectarray_8h.html#afc556f36297620c3121f263c5214721d">leRectArray_Clear</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_Clear(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:230</div></div>
+<div class="ttc" id="alegato__common_8h_html_ab628e42bb29ed7b1ca25e8c54aeb77d3"><div class="ttname"><a href="legato__common_8h.html#ab628e42bb29ed7b1ca25e8c54aeb77d3">LIB_EXPORT</a></div><div class="ttdeci">#define LIB_EXPORT</div><div class="ttdef"><b>Definition:</b> legato_common.h:82</div></div>
+<div class="ttc" id="astructle_rect_array_html_aadc261088163bd7d347f0a3475c47d15"><div class="ttname"><a href="structle_rect_array.html#aadc261088163bd7d347f0a3475c47d15">leRectArray::rects</a></div><div class="ttdeci">leRect * rects</div><div class="ttdef"><b>Definition:</b> legato_rectarray.h:101</div></div>
+<div class="ttc" id="astructle_rect_html"><div class="ttname"><a href="structle_rect.html">leRect</a></div><div class="ttdef"><b>Definition:</b> legato_common.h:328</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_a43b2719e4dd692ea0f9f273251cbe52a"><div class="ttname"><a href="legato__rectarray_8h.html#a43b2719e4dd692ea0f9f273251cbe52a">leRectArray_CropToSize</a></div><div class="ttdeci">leResult leRectArray_CropToSize(leRectArray *arr, uint32_t size)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:447</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_a2a10dfbed9232971218050c5c4240a37"><div class="ttname"><a href="legato__rectarray_8h.html#a2a10dfbed9232971218050c5c4240a37">leRectArray_InsertAt</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_InsertAt(leRectArray *arr, uint32_t idx, const leRect *rect)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:176</div></div>
+<div class="ttc" id="anamespacewidget__arc_html_a509290c21d570ff479c1b9d9b1fe8810"><div class="ttname"><a href="namespacewidget__arc.html#a509290c21d570ff479c1b9d9b1fe8810">widget_arc.height</a></div><div class="ttdeci">height</div><div class="ttdef"><b>Definition:</b> widget_arc.py:3</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_a33f61f9916fead1f2bdf6067206ac015"><div class="ttname"><a href="legato__rectarray_8h.html#a33f61f9916fead1f2bdf6067206ac015">leRectArray_PushFront</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_PushFront(leRectArray *arr, const leRect *rect)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:121</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_a32d6e7e1195ff0e89d5c71aedd913c5b"><div class="ttname"><a href="legato__rectarray_8h.html#a32d6e7e1195ff0e89d5c71aedd913c5b">leRectArray_Resize</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_Resize(leRectArray *arr, uint32_t sz)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:94</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_ae7e3d261685bbae473c36178272c0094"><div class="ttname"><a href="legato__rectarray_8h.html#ae7e3d261685bbae473c36178272c0094">leRectArray_Destroy</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_Destroy(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:240</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_a75b4d143c7def973f9d50207cf5c3397"><div class="ttname"><a href="legato__rectarray_8h.html#a75b4d143c7def973f9d50207cf5c3397">leRectArray_SortBySize</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_SortBySize(leRectArray *arr)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:281</div></div>
 <div class="ttc" id="alegato__common_8h_html"><div class="ttname"><a href="legato__common_8h.html">legato_common.h</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_a5af019611d4316c2edcff6843d3971ad"><div class="ttname"><a href="legato__rectarray_8h.html#a5af019611d4316c2edcff6843d3971ad">leRectArray_PushBack</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_PushBack(leRectArray *arr, const leRect *rect)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00149">legato_rectarray.c:149</a></div></div>
-<div class="ttc" id="astructle_rect_array_html_ab2c6b258f02add8fdf4cfc7c371dd772"><div class="ttname"><a href="structle_rect_array.html#ab2c6b258f02add8fdf4cfc7c371dd772">leRectArray::size</a></div><div class="ttdeci">uint32_t size</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8h_source.html#l00102">legato_rectarray.h:102</a></div></div>
-<div class="ttc" id="alegato__rectarray_8h_html_a3135db416d1d4d842cfa3c5f367fea0b"><div class="ttname"><a href="legato__rectarray_8h.html#a3135db416d1d4d842cfa3c5f367fea0b">leRectArray_Copy</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_Copy(leRectArray *src, leRectArray *dest)</div><div class="ttdef"><b>Definition:</b> <a href="legato__rectarray_8c_source.html#l00209">legato_rectarray.c:209</a></div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_a5af019611d4316c2edcff6843d3971ad"><div class="ttname"><a href="legato__rectarray_8h.html#a5af019611d4316c2edcff6843d3971ad">leRectArray_PushBack</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_PushBack(leRectArray *arr, const leRect *rect)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:149</div></div>
+<div class="ttc" id="astructle_rect_array_html_ab2c6b258f02add8fdf4cfc7c371dd772"><div class="ttname"><a href="structle_rect_array.html#ab2c6b258f02add8fdf4cfc7c371dd772">leRectArray::size</a></div><div class="ttdeci">uint32_t size</div><div class="ttdef"><b>Definition:</b> legato_rectarray.h:102</div></div>
+<div class="ttc" id="alegato__rectarray_8h_html_a3135db416d1d4d842cfa3c5f367fea0b"><div class="ttname"><a href="legato__rectarray_8h.html#a3135db416d1d4d842cfa3c5f367fea0b">leRectArray_Copy</a></div><div class="ttdeci">LIB_EXPORT leResult leRectArray_Copy(leRectArray *src, leRectArray *dest)</div><div class="ttdef"><b>Definition:</b> legato_rectarray.c:209</div></div>
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_3a924b96366437974edfa9bf6ddad245.html">gfx</a></li><li class="navelem"><a class="el" href="dir_4a20292a2b12992f00d53f7edbd72d5d.html">middleware</a></li><li class="navelem"><a class="el" href="dir_b190f1068f9fbe431bd6ea3e2624de65.html">legato</a></li><li class="navelem"><a class="el" href="dir_b8c5731382094183e5c984a28433d558.html">library</a></li><li class="navelem"><a class="el" href="dir_0100ca59d57b37c13a541787d264e24a.html">src</a></li><li class="navelem"><a class="el" href="dir_1508051434a21666994f289764e37d02.html">gfx</a></li><li class="navelem"><a class="el" href="dir_9f5729dad30c3a99415d090dcffece40.html">legato</a></li><li class="navelem"><a class="el" href="dir_46bb90439f33e84bd3e96ef8140ea852.html">datastructure</a></li><li class="navelem"><a class="el" href="legato__rectarray_8h.html">legato_rectarray.h</a></li>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.18
+</small></address>
 </body>
 </html>

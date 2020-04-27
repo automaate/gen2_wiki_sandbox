@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['setpixel_5ffnptr_2902',['SetPixel_FnPtr',['../legato__pixelbuffer_8c.html#af99b9293da1f06bda7fc763154edea0b',1,'legato_pixelbuffer.c']]]
+  ['pixelbufferindexget_5ffnptr_4911',['PixelBufferIndexGet_FnPtr',['../legato__pixelbuffer_8c.html#a1863c027c130f2b7b900b6c04bad6a64',1,'legato_pixelbuffer.c']]],
+  ['pixelputfn_4912',['PixelPutFn',['../legato__draw_8c.html#acbbaea139e60bbb92702a66691cc5e32',1,'legato_draw.c']]]
 ];

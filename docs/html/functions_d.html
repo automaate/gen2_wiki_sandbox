@@ -1,22 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- HTML header for doxygen 1.8.13-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MPLAB Harmony Graphics Legato Library: Data Fields</title>
+<title>MPLAB® Harmony Graphics Suite: Data Fields</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="that_style.css" rel="stylesheet" type="text/css" />
+<script src="striped_bg.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -26,7 +23,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="mhgs.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">MPLAB Harmony Graphics Legato Library
+   <div id="projectname">MPLAB® Harmony Graphics Suite
    </div>
   </td>
  </tr>
@@ -51,22 +48,6 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('functions_d.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -90,6 +71,7 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 , <a class="el" href="structle_fixed_string.html#a0b86f0c5d54b9c6c43f16f64da0cdbf1">leFixedString</a>
 , <a class="el" href="structle_raw_source_read_operation.html#a9258220a9644c5826cba0ff608f85055">leRawSourceReadOperation</a>
 , <a class="el" href="structle_string_info.html#abe222f6d3581e7920dcad5306cc906a8">leStringInfo</a>
+, <a class="el" href="structle_string_table_entry.html#abe222f6d3581e7920dcad5306cc906a8">leStringTableEntry</a>
 , <a class="el" href="structle_variable_heap.html#a735984d41155bc1032e09bece8f8d66d">leVariableHeap</a>
 , <a class="el" href="structle_widget_event_filter.html#a735984d41155bc1032e09bece8f8d66d">leWidgetEventFilter</a>
 </li>
@@ -105,11 +87,20 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 <li>defaultScheme
 : <a class="el" href="structle_state.html#a3a960e8f4ab65fdde97532d6ebdb665d">leState</a>
 </li>
+<li>delta
+: <a class="el" href="struct_g_f_x_c___c_a_n_v_a_s.html#ab90adf2873f721fb4a969230dbcd7a59">GFXC_CANVAS</a>
+</li>
 <li>deltaTime
 : <a class="el" href="structle_render_state.html#a1b6a5f29e87217bc75e16464071a30e4">leRenderState</a>
 </li>
+<li>description
+: <a class="el" href="classgenerate_1_1_file.html#a2661f439a4a94ffdcd5e47ae1da0bb1d">File</a>
+</li>
 <li>destRect
 : <a class="el" href="structle_raw_decode_state.html#ac1a513ba4c89aa94e94b13392c7cf7b1">leRawDecodeState</a>
+</li>
+<li>dir
+: <a class="el" href="struct_arc_draw_state.html#a9311be3f961e6c1df4359e5c2f101bef">ArcDrawState</a>
 </li>
 <li>dirtyState
 : <a class="el" href="structle_widget.html#aef5e3925d56eca0ca091a74fafbfce50">leWidget</a>
@@ -142,16 +133,22 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 <li>drawState
 : <a class="el" href="structle_widget.html#a2105076eb684426249d51d0bc2442488">leWidget</a>
 </li>
+<li>drvSPIHandle
+: <a class="el" href="struct_g_f_x___d_i_s_p___i_n_t_f___s_p_i.html#abfba848b6ea24701c41a216dd6eb8d34">GFX_DISP_INTF_SPI</a>
+</li>
+<li>drvSPITransferHandle
+: <a class="el" href="struct_g_f_x___d_i_s_p___i_n_t_f___s_p_i.html#a28005284a6e756fc165136cbdb474560">GFX_DISP_INTF_SPI</a>
+</li>
+<li>drvSPITransStatus
+: <a class="el" href="struct_g_f_x___d_i_s_p___i_n_t_f___s_p_i.html#ab8435b64a1e2f6e86dcf48f239476fde">GFX_DISP_INTF_SPI</a>
+</li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.18
+</small></address>
 </body>
 </html>

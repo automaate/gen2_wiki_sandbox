@@ -1,22 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- HTML header for doxygen 1.8.13-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MPLAB Harmony Graphics Legato Library: Globals</title>
+<title>MPLAB® Harmony Graphics Suite: Globals</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="that_style.css" rel="stylesheet" type="text/css" />
+<script src="striped_bg.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -26,7 +23,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="mhgs.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">MPLAB Harmony Graphics Legato Library
+   <div id="projectname">MPLAB® Harmony Graphics Suite
    </div>
   </td>
  </tr>
@@ -51,22 +48,6 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -143,6 +124,9 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 </li>
 <li>laUpdate_RTOS()
 : <a class="el" href="legato__rtos_8h.html#a4d10145705700362409557032bea22f7">legato_rtos.h</a>
+</li>
+<li>LAYER_ID_INVALID
+: <a class="el" href="gfx__canvas_8h.html#af3edcdb379abbebd12e05bb774f7ab47">gfx_canvas.h</a>
 </li>
 <li>LE_ASSERT
 : <a class="el" href="legato__error_8h.html#ae135da43290ff7e3babc21a7c3764c0d">legato_error.h</a>
@@ -784,7 +768,7 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 : <a class="el" href="legato__widget_8h.html#a0cdd28606b9b77230c25905b1af68afb">legato_widget.h</a>
 </li>
 <li>leBitsPerPixel
-: <a class="el" href="legato__color_8h.html#a48f5a8f0906ac6c0f662c806aebc932b">legato_color.h</a>
+: <a class="el" href="legato__color_8h.html#a72813ff1ba771ef6d3c379fb1024839d">legato_color.h</a>
 </li>
 <li>leBool
 : <a class="el" href="legato__common_8h.html#acd3365f0b79c37d8894559b5afed374b">legato_common.h</a>
@@ -1236,16 +1220,16 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__math_8h.html#a0082f809b7e5da40dd3afb689eb5e66b">legato_math.h</a>
 </li>
 <li>leList
-: <a class="el" href="legato__utils_8h.html#a679fcccb971a4e62c693477c92990bd7">legato_utils.h</a>
-, <a class="el" href="legato__list_8h.html#a679fcccb971a4e62c693477c92990bd7">legato_list.h</a>
+: <a class="el" href="legato__list_8h.html#a679fcccb971a4e62c693477c92990bd7">legato_list.h</a>
+, <a class="el" href="legato__utils_8h.html#a679fcccb971a4e62c693477c92990bd7">legato_utils.h</a>
 </li>
 <li>leList_Assign()
 : <a class="el" href="legato__list_8c.html#af67ee73225ef0fe139f9e913b7567b34">legato_list.c</a>
 , <a class="el" href="legato__list_8h.html#a2836563911e8bbfba5913971766ee3ef">legato_list.h</a>
 </li>
 <li>leList_Clear()
-: <a class="el" href="legato__list_8c.html#a11cfedec02601afe9ae48ecba8820b81">legato_list.c</a>
-, <a class="el" href="legato__list_8h.html#ad870505edc19b8ce4ac0a89c1417e658">legato_list.h</a>
+: <a class="el" href="legato__list_8h.html#ad870505edc19b8ce4ac0a89c1417e658">legato_list.h</a>
+, <a class="el" href="legato__list_8c.html#a11cfedec02601afe9ae48ecba8820b81">legato_list.c</a>
 </li>
 <li>leList_Copy()
 : <a class="el" href="legato__list_8c.html#aeca709a5d3be86849ff57007eb14a427">legato_list.c</a>
@@ -1260,16 +1244,16 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__list_8h.html#ab62898f37fb364ca5e07b1b8b449ddf3">legato_list.h</a>
 </li>
 <li>leList_Find()
-: <a class="el" href="legato__list_8c.html#a2c10e0f2797b82a9378c9d47edbd9819">legato_list.c</a>
-, <a class="el" href="legato__list_8h.html#aa6869706c71936c05e1d42722949628a">legato_list.h</a>
+: <a class="el" href="legato__list_8h.html#aa6869706c71936c05e1d42722949628a">legato_list.h</a>
+, <a class="el" href="legato__list_8c.html#a2c10e0f2797b82a9378c9d47edbd9819">legato_list.c</a>
 </li>
 <li>leList_Get()
 : <a class="el" href="legato__list_8c.html#ad342a74c131119d80473acd0833b8652">legato_list.c</a>
 , <a class="el" href="legato__list_8h.html#a5d767ed097ab9362748a9e4015d75277">legato_list.h</a>
 </li>
 <li>leList_InsertAt()
-: <a class="el" href="legato__list_8c.html#a8c7177f5b6e049b23023e3b6dc569da0">legato_list.c</a>
-, <a class="el" href="legato__list_8h.html#ac27d0af9db9f051b3bda9f7d62c1b6f4">legato_list.h</a>
+: <a class="el" href="legato__list_8h.html#ac27d0af9db9f051b3bda9f7d62c1b6f4">legato_list.h</a>
+, <a class="el" href="legato__list_8c.html#a8c7177f5b6e049b23023e3b6dc569da0">legato_list.c</a>
 </li>
 <li>leList_PopBack()
 : <a class="el" href="legato__list_8h.html#afc7e0308b1fd537f30df6f67003c66ee">legato_list.h</a>
@@ -1279,8 +1263,8 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__list_8h.html#ac0b2646accca78c90cbc0004e707b483">legato_list.h</a>
 </li>
 <li>leList_PushBack()
-: <a class="el" href="legato__list_8h.html#a57dc79d0be5fb1f539188fa72417b5a3">legato_list.h</a>
-, <a class="el" href="legato__list_8c.html#aba7724f8892fd1f6fd4ee92b39e7f9ce">legato_list.c</a>
+: <a class="el" href="legato__list_8c.html#aba7724f8892fd1f6fd4ee92b39e7f9ce">legato_list.c</a>
+, <a class="el" href="legato__list_8h.html#a57dc79d0be5fb1f539188fa72417b5a3">legato_list.h</a>
 </li>
 <li>leList_PushFront()
 : <a class="el" href="legato__list_8c.html#ac0e3ae6a3d480e9845b50619e09055a6">legato_list.c</a>
@@ -1303,9 +1287,6 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 </li>
 <li>leMargin
 : <a class="el" href="legato__common_8h.html#aa999c92973890c40c9a0e0fd195de8ef">legato_common.h</a>
-</li>
-<li>leMargin_Zero
-: <a class="el" href="legato__common_8h.html#abf9bb24f8954d056041e55f3eb7e5945">legato_common.h</a>
 </li>
 <li>leMaxf()
 : <a class="el" href="legato__math_8c.html#a7ee1f2dddff91a81712b26136ff36cd6">legato_math.c</a>
@@ -1433,9 +1414,6 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 <li>lePoint
 : <a class="el" href="legato__common_8h.html#a4a0bf7067054416ed994d6fdbbcaf862">legato_common.h</a>
 </li>
-<li>lePoint_Zero
-: <a class="el" href="legato__common_8h.html#a6bc56e0f704c50afd9221c51b5227f9f">legato_common.h</a>
-</li>
 <li>lePolarToXY()
 : <a class="el" href="legato__math_8c.html#a1c17d8c4a68495b34232e3d0c006c980">legato_math.c</a>
 , <a class="el" href="legato__math_8h.html#af45f7f97a62ca241abbd8accf0c205e0">legato_math.h</a>
@@ -1462,36 +1440,33 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 <li>leRect
 : <a class="el" href="legato__common_8h.html#af81c1e3c8eff9aadb03a47a0e828b43a">legato_common.h</a>
 </li>
-<li>leRect_Zero
-: <a class="el" href="legato__rect_8h.html#a0ac46308047b4c56d15ca81c8fd4b7c0">legato_rect.h</a>
-</li>
 <li>leRectArray
 : <a class="el" href="legato__rectarray_8h.html#a21b1c1b869e07d057ef91480bd783d8a">legato_rectarray.h</a>
 , <a class="el" href="legato__widget_8h.html#a21b1c1b869e07d057ef91480bd783d8a">legato_widget.h</a>
 </li>
 <li>leRectArray_Clear()
-: <a class="el" href="legato__rectarray_8h.html#afc556f36297620c3121f263c5214721d">legato_rectarray.h</a>
-, <a class="el" href="legato__rectarray_8c.html#aefb5760879c2dc7ed659b1ed78e0138f">legato_rectarray.c</a>
+: <a class="el" href="legato__rectarray_8c.html#aefb5760879c2dc7ed659b1ed78e0138f">legato_rectarray.c</a>
+, <a class="el" href="legato__rectarray_8h.html#afc556f36297620c3121f263c5214721d">legato_rectarray.h</a>
 </li>
 <li>leRectArray_Copy()
-: <a class="el" href="legato__rectarray_8c.html#a9259b7d91575f4f34d7ecd4b705c56e2">legato_rectarray.c</a>
-, <a class="el" href="legato__rectarray_8h.html#a3135db416d1d4d842cfa3c5f367fea0b">legato_rectarray.h</a>
+: <a class="el" href="legato__rectarray_8h.html#a3135db416d1d4d842cfa3c5f367fea0b">legato_rectarray.h</a>
+, <a class="el" href="legato__rectarray_8c.html#a9259b7d91575f4f34d7ecd4b705c56e2">legato_rectarray.c</a>
 </li>
 <li>leRectArray_Create()
-: <a class="el" href="legato__rectarray_8h.html#abf8435e5802f7f0ff22a40935470620f">legato_rectarray.h</a>
-, <a class="el" href="legato__rectarray_8c.html#a7ee2cfb52c7b1d96b0f471dd6d8a13f3">legato_rectarray.c</a>
+: <a class="el" href="legato__rectarray_8c.html#a7ee2cfb52c7b1d96b0f471dd6d8a13f3">legato_rectarray.c</a>
+, <a class="el" href="legato__rectarray_8h.html#abf8435e5802f7f0ff22a40935470620f">legato_rectarray.h</a>
 </li>
 <li>leRectArray_CropToArea()
-: <a class="el" href="legato__rectarray_8c.html#aa475b6b1a16f1ec6a8712e5e7d09aa20">legato_rectarray.c</a>
-, <a class="el" href="legato__rectarray_8h.html#a4afa7945ee58ea2a9a01d93890634af4">legato_rectarray.h</a>
+: <a class="el" href="legato__rectarray_8h.html#a4afa7945ee58ea2a9a01d93890634af4">legato_rectarray.h</a>
+, <a class="el" href="legato__rectarray_8c.html#aa475b6b1a16f1ec6a8712e5e7d09aa20">legato_rectarray.c</a>
 </li>
 <li>leRectArray_CropToSize()
-: <a class="el" href="legato__rectarray_8h.html#a43b2719e4dd692ea0f9f273251cbe52a">legato_rectarray.h</a>
-, <a class="el" href="legato__rectarray_8c.html#a43b2719e4dd692ea0f9f273251cbe52a">legato_rectarray.c</a>
+: <a class="el" href="legato__rectarray_8c.html#a43b2719e4dd692ea0f9f273251cbe52a">legato_rectarray.c</a>
+, <a class="el" href="legato__rectarray_8h.html#a43b2719e4dd692ea0f9f273251cbe52a">legato_rectarray.h</a>
 </li>
 <li>leRectArray_Destroy()
-: <a class="el" href="legato__rectarray_8c.html#afff4182184d6e88dd382771348958cc3">legato_rectarray.c</a>
-, <a class="el" href="legato__rectarray_8h.html#ae7e3d261685bbae473c36178272c0094">legato_rectarray.h</a>
+: <a class="el" href="legato__rectarray_8h.html#ae7e3d261685bbae473c36178272c0094">legato_rectarray.h</a>
+, <a class="el" href="legato__rectarray_8c.html#afff4182184d6e88dd382771348958cc3">legato_rectarray.c</a>
 </li>
 <li>leRectArray_InsertAt()
 : <a class="el" href="legato__rectarray_8c.html#a086c3ec48ff57978a5c08769ad41dce4">legato_rectarray.c</a>
@@ -1502,28 +1477,28 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__rectarray_8h.html#a5fdf47c9b1d1d719dd05fe046f1e8b26">legato_rectarray.h</a>
 </li>
 <li>leRectArray_PopBack()
-: <a class="el" href="legato__rectarray_8h.html#ae876f11730dc25d0a9a80f4a81b86204">legato_rectarray.h</a>
-, <a class="el" href="legato__rectarray_8c.html#a3eb08ede07a74531f9dcacc7c72efa35">legato_rectarray.c</a>
+: <a class="el" href="legato__rectarray_8c.html#a3eb08ede07a74531f9dcacc7c72efa35">legato_rectarray.c</a>
+, <a class="el" href="legato__rectarray_8h.html#ae876f11730dc25d0a9a80f4a81b86204">legato_rectarray.h</a>
 </li>
 <li>leRectArray_PopFront()
-: <a class="el" href="legato__rectarray_8c.html#affc166c6cb4278d3632204f83f2ba6bd">legato_rectarray.c</a>
-, <a class="el" href="legato__rectarray_8h.html#a2aa469d520f2786f718abfff5a634744">legato_rectarray.h</a>
+: <a class="el" href="legato__rectarray_8h.html#a2aa469d520f2786f718abfff5a634744">legato_rectarray.h</a>
+, <a class="el" href="legato__rectarray_8c.html#affc166c6cb4278d3632204f83f2ba6bd">legato_rectarray.c</a>
 </li>
 <li>leRectArray_PushBack()
-: <a class="el" href="legato__rectarray_8h.html#a5af019611d4316c2edcff6843d3971ad">legato_rectarray.h</a>
-, <a class="el" href="legato__rectarray_8c.html#a1924fab32033596292d6a683ef16b118">legato_rectarray.c</a>
+: <a class="el" href="legato__rectarray_8c.html#a1924fab32033596292d6a683ef16b118">legato_rectarray.c</a>
+, <a class="el" href="legato__rectarray_8h.html#a5af019611d4316c2edcff6843d3971ad">legato_rectarray.h</a>
 </li>
 <li>leRectArray_PushFront()
-: <a class="el" href="legato__rectarray_8c.html#a8175e9a006ceeb9cdc6310e1ba511170">legato_rectarray.c</a>
-, <a class="el" href="legato__rectarray_8h.html#a33f61f9916fead1f2bdf6067206ac015">legato_rectarray.h</a>
+: <a class="el" href="legato__rectarray_8h.html#a33f61f9916fead1f2bdf6067206ac015">legato_rectarray.h</a>
+, <a class="el" href="legato__rectarray_8c.html#a8175e9a006ceeb9cdc6310e1ba511170">legato_rectarray.c</a>
 </li>
 <li>leRectArray_RemoveAt()
-: <a class="el" href="legato__rectarray_8h.html#a1e6341f70f90246584c3d0208c7f584a">legato_rectarray.h</a>
-, <a class="el" href="legato__rectarray_8c.html#a287bc59cdd942e1a184de2517078f3f2">legato_rectarray.c</a>
+: <a class="el" href="legato__rectarray_8c.html#a287bc59cdd942e1a184de2517078f3f2">legato_rectarray.c</a>
+, <a class="el" href="legato__rectarray_8h.html#a1e6341f70f90246584c3d0208c7f584a">legato_rectarray.h</a>
 </li>
 <li>leRectArray_RemoveDuplicates()
-: <a class="el" href="legato__rectarray_8c.html#adcf1f936fa6d912a350e7d8621d90092">legato_rectarray.c</a>
-, <a class="el" href="legato__rectarray_8h.html#aa42239ee8f066e41c9d4a38a371e5928">legato_rectarray.h</a>
+: <a class="el" href="legato__rectarray_8h.html#aa42239ee8f066e41c9d4a38a371e5928">legato_rectarray.h</a>
+, <a class="el" href="legato__rectarray_8c.html#adcf1f936fa6d912a350e7d8621d90092">legato_rectarray.c</a>
 </li>
 <li>leRectArray_RemoveOverlapping()
 : <a class="el" href="legato__rectarray_8c.html#ad855ee6cb3cd4de0bef81ef04058fded">legato_rectarray.c</a>
@@ -1534,28 +1509,28 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__rectarray_8h.html#a32d6e7e1195ff0e89d5c71aedd913c5b">legato_rectarray.h</a>
 </li>
 <li>leRectArray_SortBySize()
-: <a class="el" href="legato__rectarray_8h.html#a75b4d143c7def973f9d50207cf5c3397">legato_rectarray.h</a>
-, <a class="el" href="legato__rectarray_8c.html#ae1bba86d34a01c7edbea310d2382e984">legato_rectarray.c</a>
+: <a class="el" href="legato__rectarray_8c.html#ae1bba86d34a01c7edbea310d2382e984">legato_rectarray.c</a>
+, <a class="el" href="legato__rectarray_8h.html#a75b4d143c7def973f9d50207cf5c3397">legato_rectarray.h</a>
 </li>
 <li>leRectArray_SortByX()
-: <a class="el" href="legato__rectarray_8c.html#a044d1e1771f356a1d3b30e3216f76ece">legato_rectarray.c</a>
-, <a class="el" href="legato__rectarray_8h.html#aaf850fb71f50d95a0edd055680594136">legato_rectarray.h</a>
+: <a class="el" href="legato__rectarray_8h.html#aaf850fb71f50d95a0edd055680594136">legato_rectarray.h</a>
+, <a class="el" href="legato__rectarray_8c.html#a044d1e1771f356a1d3b30e3216f76ece">legato_rectarray.c</a>
 </li>
 <li>leRectArray_SortByY()
-: <a class="el" href="legato__rectarray_8h.html#a39d1de4075ef16962e025d3cca14f30b">legato_rectarray.h</a>
-, <a class="el" href="legato__rectarray_8c.html#aaacd991fe5805ba1ae38a8e3472b41f0">legato_rectarray.c</a>
+: <a class="el" href="legato__rectarray_8c.html#aaacd991fe5805ba1ae38a8e3472b41f0">legato_rectarray.c</a>
+, <a class="el" href="legato__rectarray_8h.html#a39d1de4075ef16962e025d3cca14f30b">legato_rectarray.h</a>
 </li>
 <li>leRectClip()
-: <a class="el" href="legato__rect_8c.html#ac19d2a378a0bed1eb149afa2c07256be">legato_rect.c</a>
-, <a class="el" href="legato__rect_8h.html#ab8a388d3e42d9ea4fa5bfe3a62bf95bc">legato_rect.h</a>
+: <a class="el" href="legato__rect_8h.html#ab8a388d3e42d9ea4fa5bfe3a62bf95bc">legato_rect.h</a>
+, <a class="el" href="legato__rect_8c.html#ac19d2a378a0bed1eb149afa2c07256be">legato_rect.c</a>
 </li>
 <li>leRectClipAdj()
-: <a class="el" href="legato__rect_8h.html#a3dc70a8b655662b92c4ca2fd2c5e3a81">legato_rect.h</a>
-, <a class="el" href="legato__rect_8c.html#a2d558c00bd20e442c53a04cc9db2edf0">legato_rect.c</a>
+: <a class="el" href="legato__rect_8c.html#a2d558c00bd20e442c53a04cc9db2edf0">legato_rect.c</a>
+, <a class="el" href="legato__rect_8h.html#a3dc70a8b655662b92c4ca2fd2c5e3a81">legato_rect.h</a>
 </li>
 <li>leRectCombine()
-: <a class="el" href="legato__rect_8c.html#a534b1791548521c3b921bde50afcc147">legato_rect.c</a>
-, <a class="el" href="legato__rect_8h.html#ae9ebad0216ea50650c8303bf7bbc7908">legato_rect.h</a>
+: <a class="el" href="legato__rect_8h.html#ae9ebad0216ea50650c8303bf7bbc7908">legato_rect.h</a>
+, <a class="el" href="legato__rect_8c.html#a534b1791548521c3b921bde50afcc147">legato_rect.c</a>
 </li>
 <li>leRectCompare()
 : <a class="el" href="legato__rect_8c.html#ae030d7d516a103b3e035a1a288169540">legato_rect.c</a>
@@ -1574,12 +1549,12 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__rect_8h.html#ad3104f51867f21ba9e2278e24727cf73">legato_rect.h</a>
 </li>
 <li>leRectIntersects()
-: <a class="el" href="legato__rect_8c.html#a3ae2e8d6ed6a3a5af11b9273fb02195d">legato_rect.c</a>
-, <a class="el" href="legato__rect_8h.html#a63557bcfff01c0a7663b43444a004cbf">legato_rect.h</a>
+: <a class="el" href="legato__rect_8h.html#a63557bcfff01c0a7663b43444a004cbf">legato_rect.h</a>
+, <a class="el" href="legato__rect_8c.html#a3ae2e8d6ed6a3a5af11b9273fb02195d">legato_rect.c</a>
 </li>
 <li>leRectsAreSimilar()
-: <a class="el" href="legato__rect_8c.html#ad3c83ccdc46d72245f34e1c151dcfe5c">legato_rect.c</a>
-, <a class="el" href="legato__rect_8h.html#a93bff7dab1ccc33fa0ff7f55cb7eac1a">legato_rect.h</a>
+: <a class="el" href="legato__rect_8h.html#a93bff7dab1ccc33fa0ff7f55cb7eac1a">legato_rect.h</a>
+, <a class="el" href="legato__rect_8c.html#ad3c83ccdc46d72245f34e1c151dcfe5c">legato_rect.c</a>
 </li>
 <li>leRectSplit()
 : <a class="el" href="legato__rect_8c.html#a81e4f07e48e1e183c9bb06828febdb58">legato_rect.c</a>
@@ -1594,15 +1569,15 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__state_8h.html#ac96a9abe81f687cf59959c8dbebf5ca8">legato_state.h</a>
 </li>
 <li>leRelativePosition
-: <a class="el" href="legato__common_8h.html#a425b883fdc3dd27894490bd5811f9b94">legato_common.h</a>
+: <a class="el" href="legato__common_8h.html#a7287966e977230339d485f034044709b">legato_common.h</a>
 </li>
 <li>leRemoveRootWidget()
-: <a class="el" href="legato__state_8c.html#a68c0adff809016bafc18b8e897560de5">legato_state.c</a>
-, <a class="el" href="legato__state_8h.html#a81d5339db134e5128f2c4d3893407c0d">legato_state.h</a>
+: <a class="el" href="legato__state_8h.html#a81d5339db134e5128f2c4d3893407c0d">legato_state.h</a>
+, <a class="el" href="legato__state_8c.html#a68c0adff809016bafc18b8e897560de5">legato_state.c</a>
 </li>
 <li>leRenderer_ArcFill()
-: <a class="el" href="legato__renderer_8h.html#ac76e1cb889dee55e58fe4d36d0301edb">legato_renderer.h</a>
-, <a class="el" href="legato__draw__arc_8c.html#a9f7699c12df52585cf6e5f29c8c97a88">legato_draw_arc.c</a>
+: <a class="el" href="legato__draw__arc_8c.html#a9f7699c12df52585cf6e5f29c8c97a88">legato_draw_arc.c</a>
+, <a class="el" href="legato__renderer_8h.html#ac76e1cb889dee55e58fe4d36d0301edb">legato_renderer.h</a>
 </li>
 <li>leRenderer_ArcLine()
 : <a class="el" href="legato__draw__arc_8c.html#a1f18d93ac63d91dccd13913e6fcc53a3">legato_draw_arc.c</a>
@@ -1621,8 +1596,8 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__renderer_8h.html#aaf32659c1642a59ba797f561ca6aaf2b">legato_renderer.h</a>
 </li>
 <li>leRenderer_CircleFill()
-: <a class="el" href="legato__draw__arc_8c.html#a40b57a70060e5e8a53088b4b864e8ead">legato_draw_arc.c</a>
-, <a class="el" href="legato__renderer_8h.html#a40b57a70060e5e8a53088b4b864e8ead">legato_renderer.h</a>
+: <a class="el" href="legato__renderer_8h.html#a40b57a70060e5e8a53088b4b864e8ead">legato_renderer.h</a>
+, <a class="el" href="legato__draw__arc_8c.html#a40b57a70060e5e8a53088b4b864e8ead">legato_draw_arc.c</a>
 </li>
 <li>leRenderer_ClipDrawRect()
 : <a class="el" href="legato__renderer_8c.html#ac36b73cb9733f69bd771a3cdf4131c8c">legato_renderer.c</a>
@@ -1633,16 +1608,16 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__renderer_8h.html#af04e1ea8f24c3768e71d64ae9df02901">legato_renderer.h</a>
 </li>
 <li>leRenderer_CullDrawPoint()
-: <a class="el" href="legato__renderer_8h.html#af25140185a935b0973d55d49eb480fcd">legato_renderer.h</a>
-, <a class="el" href="legato__renderer_8c.html#af25140185a935b0973d55d49eb480fcd">legato_renderer.c</a>
+: <a class="el" href="legato__renderer_8c.html#af25140185a935b0973d55d49eb480fcd">legato_renderer.c</a>
+, <a class="el" href="legato__renderer_8h.html#af25140185a935b0973d55d49eb480fcd">legato_renderer.h</a>
 </li>
 <li>leRenderer_CullDrawRect()
-: <a class="el" href="legato__renderer_8c.html#a44a51a15a56b9b06042807e28ccdbfa9">legato_renderer.c</a>
-, <a class="el" href="legato__renderer_8h.html#a44a51a15a56b9b06042807e28ccdbfa9">legato_renderer.h</a>
+: <a class="el" href="legato__renderer_8h.html#a44a51a15a56b9b06042807e28ccdbfa9">legato_renderer.h</a>
+, <a class="el" href="legato__renderer_8c.html#a44a51a15a56b9b06042807e28ccdbfa9">legato_renderer.c</a>
 </li>
 <li>leRenderer_CullDrawXY()
-: <a class="el" href="legato__renderer_8c.html#a679ab77db1e6d03532119f499a65b2ca">legato_renderer.c</a>
-, <a class="el" href="legato__renderer_8h.html#a679ab77db1e6d03532119f499a65b2ca">legato_renderer.h</a>
+: <a class="el" href="legato__renderer_8h.html#a679ab77db1e6d03532119f499a65b2ca">legato_renderer.h</a>
+, <a class="el" href="legato__renderer_8c.html#a679ab77db1e6d03532119f499a65b2ca">legato_renderer.c</a>
 </li>
 <li>leRenderer_DamageArea()
 : <a class="el" href="legato__renderer_8c.html#a770f9b81872402ad606748cc26c5647b">legato_renderer.c</a>
@@ -1661,16 +1636,16 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__renderer_8h.html#a6b3d5367444072139d9224ed3b9f6980">legato_renderer.h</a>
 </li>
 <li>leRenderer_FillArea_Safe()
-: <a class="el" href="legato__draw_8c.html#a3dd58ed1c06bcd5c95a5dfb0151d5d3b">legato_draw.c</a>
-, <a class="el" href="legato__renderer_8h.html#a3dd58ed1c06bcd5c95a5dfb0151d5d3b">legato_renderer.h</a>
+: <a class="el" href="legato__renderer_8h.html#a3dd58ed1c06bcd5c95a5dfb0151d5d3b">legato_renderer.h</a>
+, <a class="el" href="legato__draw_8c.html#a3dd58ed1c06bcd5c95a5dfb0151d5d3b">legato_draw.c</a>
 </li>
 <li>leRenderer_GetDisplayRect()
 : <a class="el" href="legato__renderer_8h.html#ab68e28a6a2f14cacb56af0025a387655">legato_renderer.h</a>
 , <a class="el" href="legato__renderer_8c.html#ab68e28a6a2f14cacb56af0025a387655">legato_renderer.c</a>
 </li>
 <li>leRenderer_GetDrawRect()
-: <a class="el" href="legato__renderer_8c.html#ab91ad7ca9e07300ad2a09a4c6d36f23b">legato_renderer.c</a>
-, <a class="el" href="legato__renderer_8h.html#ab91ad7ca9e07300ad2a09a4c6d36f23b">legato_renderer.h</a>
+: <a class="el" href="legato__renderer_8h.html#ab91ad7ca9e07300ad2a09a4c6d36f23b">legato_renderer.h</a>
+, <a class="el" href="legato__renderer_8c.html#ab91ad7ca9e07300ad2a09a4c6d36f23b">legato_renderer.c</a>
 </li>
 <li>leRenderer_GetGlobalPalette()
 : <a class="el" href="legato__renderer_8h.html#ab03df6a4d9e48bb0044a48f3a0a06bc2">legato_renderer.h</a>
@@ -1685,12 +1660,12 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__draw_8c.html#a24ee32367c6efff03894b9e9164e1654">legato_draw.c</a>
 </li>
 <li>leRenderer_GlobalPaletteLookup()
-: <a class="el" href="legato__renderer_8h.html#a209f95bfb3e8623320b0fc226d7049c3">legato_renderer.h</a>
-, <a class="el" href="legato__renderer_8c.html#a209f95bfb3e8623320b0fc226d7049c3">legato_renderer.c</a>
+: <a class="el" href="legato__renderer_8c.html#a209f95bfb3e8623320b0fc226d7049c3">legato_renderer.c</a>
+, <a class="el" href="legato__renderer_8h.html#a209f95bfb3e8623320b0fc226d7049c3">legato_renderer.h</a>
 </li>
 <li>leRenderer_HorzGradientRect()
-: <a class="el" href="legato__draw__rect_8c.html#a19d5030782cbff6dfc8f66ffab086a97">legato_draw_rect.c</a>
-, <a class="el" href="legato__renderer_8h.html#a19d5030782cbff6dfc8f66ffab086a97">legato_renderer.h</a>
+: <a class="el" href="legato__renderer_8h.html#a19d5030782cbff6dfc8f66ffab086a97">legato_renderer.h</a>
+, <a class="el" href="legato__draw__rect_8c.html#a19d5030782cbff6dfc8f66ffab086a97">legato_draw_rect.c</a>
 </li>
 <li>leRenderer_HorzLine()
 : <a class="el" href="legato__renderer_8h.html#a904f5edae621f46e126b138af87b4ccf">legato_renderer.h</a>
@@ -1705,20 +1680,20 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__renderer_8c.html#a5fe07fb3c2652107f7037359528d465d">legato_renderer.c</a>
 </li>
 <li>leRenderer_PutPixel()
-: <a class="el" href="legato__draw_8c.html#a5bd8b3cb9a506b9253c8f3dcf1b8df31">legato_draw.c</a>
-, <a class="el" href="legato__renderer_8h.html#a5bd8b3cb9a506b9253c8f3dcf1b8df31">legato_renderer.h</a>
+: <a class="el" href="legato__renderer_8h.html#a5bd8b3cb9a506b9253c8f3dcf1b8df31">legato_renderer.h</a>
+, <a class="el" href="legato__draw_8c.html#a5bd8b3cb9a506b9253c8f3dcf1b8df31">legato_draw.c</a>
 </li>
 <li>leRenderer_PutPixel_Safe()
-: <a class="el" href="legato__renderer_8h.html#ad6ff63d88f2bd640ae5748d03361dcbd">legato_renderer.h</a>
-, <a class="el" href="legato__draw_8c.html#ad6ff63d88f2bd640ae5748d03361dcbd">legato_draw.c</a>
+: <a class="el" href="legato__draw_8c.html#ad6ff63d88f2bd640ae5748d03361dcbd">legato_draw.c</a>
+, <a class="el" href="legato__renderer_8h.html#ad6ff63d88f2bd640ae5748d03361dcbd">legato_renderer.h</a>
 </li>
 <li>leRenderer_RectFill()
-: <a class="el" href="legato__draw__rect_8c.html#a432790e69305862f9c948d76b97c1972">legato_draw_rect.c</a>
-, <a class="el" href="legato__renderer_8h.html#a432790e69305862f9c948d76b97c1972">legato_renderer.h</a>
+: <a class="el" href="legato__renderer_8h.html#a432790e69305862f9c948d76b97c1972">legato_renderer.h</a>
+, <a class="el" href="legato__draw__rect_8c.html#a432790e69305862f9c948d76b97c1972">legato_draw_rect.c</a>
 </li>
 <li>leRenderer_RectLine()
-: <a class="el" href="legato__renderer_8h.html#a01df4c757ef6d0115cce222bfd81ae10">legato_renderer.h</a>
-, <a class="el" href="legato__draw__rect_8c.html#a01df4c757ef6d0115cce222bfd81ae10">legato_draw_rect.c</a>
+: <a class="el" href="legato__draw__rect_8c.html#a01df4c757ef6d0115cce222bfd81ae10">legato_draw_rect.c</a>
+, <a class="el" href="legato__renderer_8h.html#a01df4c757ef6d0115cce222bfd81ae10">legato_renderer.h</a>
 </li>
 <li>leRenderer_SetGlobalPalette()
 : <a class="el" href="legato__renderer_8h.html#a7e204cedaa556860878d897e575cc048">legato_renderer.h</a>
@@ -1743,8 +1718,8 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 : <a class="el" href="legato__common_8h.html#af467b597a37f8d8851b61addcb8e2e0f">legato_common.h</a>
 </li>
 <li>leRotatedRectBounds()
-: <a class="el" href="legato__math_8c.html#a159be5a07a7c920b406c888639b25891">legato_math.c</a>
-, <a class="el" href="legato__math_8h.html#a159be5a07a7c920b406c888639b25891">legato_math.h</a>
+: <a class="el" href="legato__math_8h.html#a159be5a07a7c920b406c888639b25891">legato_math.h</a>
+, <a class="el" href="legato__math_8c.html#a159be5a07a7c920b406c888639b25891">legato_math.c</a>
 </li>
 <li>leRotatePoint()
 : <a class="el" href="legato__math_8c.html#a74bd8aa8179412a74c2383660ab85e8c">legato_math.c</a>
@@ -1752,27 +1727,6 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 </li>
 <li>leRotationDirection
 : <a class="el" href="legato__common_8h.html#a01e0ab4992da03b447a41c3850331253">legato_common.h</a>
-</li>
-<li>lerp_argb8888()
-: <a class="el" href="legato__color__lerp_8c.html#a12e1da67f111035225d7f94d32c6526a">legato_color_lerp.c</a>
-</li>
-<li>lerp_gs8()
-: <a class="el" href="legato__color__lerp_8c.html#ad7376e959f146323de588d9bc7a726f8">legato_color_lerp.c</a>
-</li>
-<li>lerp_rgb332()
-: <a class="el" href="legato__color__lerp_8c.html#ac57fcc890c351f86ef9a63d3ee2b8756">legato_color_lerp.c</a>
-</li>
-<li>lerp_rgb565()
-: <a class="el" href="legato__color__lerp_8c.html#a346edaa5e642b2e0adac330c4a0d443d">legato_color_lerp.c</a>
-</li>
-<li>lerp_rgb888()
-: <a class="el" href="legato__color__lerp_8c.html#af59e18f791821c454660c2434adfaf4f">legato_color_lerp.c</a>
-</li>
-<li>lerp_rgba5551()
-: <a class="el" href="legato__color__lerp_8c.html#a3a040b8ed4b2d66f31c64f86fcaffa60">legato_color_lerp.c</a>
-</li>
-<li>lerp_rgba8888()
-: <a class="el" href="legato__color__lerp_8c.html#aafb89e1edbc2944dd10fdb1c3ee74c8a">legato_color_lerp.c</a>
 </li>
 <li>leScaleInteger()
 : <a class="el" href="legato__math_8c.html#acdca4b32bf211677dd6fb8adf815c1c2">legato_math.c</a>
@@ -1786,27 +1740,27 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 : <a class="el" href="legato__scheme_8h.html#a7dd6045cb50cd8e7f3cb4d36bc70c47b">legato_scheme.h</a>
 </li>
 <li>leScheme_Initialize()
-: <a class="el" href="legato__scheme_8c.html#a9183c0287fc59976e32b538e8eca45f6">legato_scheme.c</a>
-, <a class="el" href="legato__scheme_8h.html#a4c40c9a80c6871f00c6e9015dd4eeab5">legato_scheme.h</a>
+: <a class="el" href="legato__scheme_8h.html#a4c40c9a80c6871f00c6e9015dd4eeab5">legato_scheme.h</a>
+, <a class="el" href="legato__scheme_8c.html#a9183c0287fc59976e32b538e8eca45f6">legato_scheme.c</a>
 </li>
 <li>leSetEditWidget()
-: <a class="el" href="legato__state_8c.html#a81cc3a65d012a4c24da16f31e8202a3f">legato_state.c</a>
-, <a class="el" href="legato__state_8h.html#a776bd24e295a470b311dfd70a8b7ec81">legato_state.h</a>
+: <a class="el" href="legato__state_8h.html#a776bd24e295a470b311dfd70a8b7ec81">legato_state.h</a>
+, <a class="el" href="legato__state_8c.html#a81cc3a65d012a4c24da16f31e8202a3f">legato_state.c</a>
 </li>
 <li>leSetFocusWidget()
-: <a class="el" href="legato__state_8c.html#acea130d1af885ccdd7d61eef6e1a1712">legato_state.c</a>
-, <a class="el" href="legato__state_8h.html#a1ff4b485ee94fec5967ecc08619aa063">legato_state.h</a>
+: <a class="el" href="legato__state_8h.html#a1ff4b485ee94fec5967ecc08619aa063">legato_state.h</a>
+, <a class="el" href="legato__state_8c.html#acea130d1af885ccdd7d61eef6e1a1712">legato_state.c</a>
 </li>
 <li>leSetLanguageChangedCallback()
 : <a class="el" href="legato__state_8h.html#a2026f4c31ffe5b0b6f76b487df92057a">legato_state.h</a>
 </li>
 <li>leSetStringLanguage()
-: <a class="el" href="legato__state_8h.html#a282dfc8323bda9d01dc611faa1c27ba5">legato_state.h</a>
-, <a class="el" href="legato__state_8c.html#abe5c36a225545bec717742d2a83759d4">legato_state.c</a>
+: <a class="el" href="legato__state_8c.html#abe5c36a225545bec717742d2a83759d4">legato_state.c</a>
+, <a class="el" href="legato__state_8h.html#a282dfc8323bda9d01dc611faa1c27ba5">legato_state.h</a>
 </li>
 <li>leSetStringTable()
-: <a class="el" href="legato__state_8h.html#a317ab0ec83a8d50f1663dc7190b7b020">legato_state.h</a>
-, <a class="el" href="legato__state_8c.html#af17f6a1aa6df4e4739f5eb4d6b18a9e9">legato_state.c</a>
+: <a class="el" href="legato__state_8c.html#af17f6a1aa6df4e4739f5eb4d6b18a9e9">legato_state.c</a>
+, <a class="el" href="legato__state_8h.html#a317ab0ec83a8d50f1663dc7190b7b020">legato_state.h</a>
 </li>
 <li>leShutdown()
 : <a class="el" href="legato__state_8c.html#a224876fe3d279e00a27b6c41e6740442">legato_state.c</a>
@@ -1819,12 +1773,9 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 <li>leSize
 : <a class="el" href="legato__common_8h.html#a105b858254effe6359d4de41bbbc0f68">legato_common.h</a>
 </li>
-<li>leSize_Zero
-: <a class="el" href="legato__common_8h.html#a292128b4e76d32ee118e5ef1fd13ada0">legato_common.h</a>
-</li>
 <li>leSortPointsX()
-: <a class="el" href="legato__math_8c.html#abaceb63d086f56f5b7a73a7c1fade169">legato_math.c</a>
-, <a class="el" href="legato__math_8h.html#abaceb63d086f56f5b7a73a7c1fade169">legato_math.h</a>
+: <a class="el" href="legato__math_8h.html#abaceb63d086f56f5b7a73a7c1fade169">legato_math.h</a>
+, <a class="el" href="legato__math_8c.html#abaceb63d086f56f5b7a73a7c1fade169">legato_math.c</a>
 </li>
 <li>leSortPointsY()
 : <a class="el" href="legato__math_8h.html#a94c3e343d61512d000c0c26e427cb136">legato_math.h</a>
@@ -1846,22 +1797,22 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 : <a class="el" href="legato__string_8h.html#a22f7c06d0b6b948e977fb161fc4831ab">legato_string.h</a>
 </li>
 <li>leStringEncodingMode
-: <a class="el" href="legato__stringtable_8h.html#ac6a8cc998c4f85760fc144fa1cdb983e">legato_stringtable.h</a>
+: <a class="el" href="legato__stringtable_8h.html#a0e7d650aa553908158446c4666a60671">legato_stringtable.h</a>
 </li>
 <li>leStringInfo
 : <a class="el" href="legato__stringtable_8h.html#ac26d0a422875b97d53f3608921d27c85">legato_stringtable.h</a>
 </li>
 <li>leStringRenderer_DrawCString()
-: <a class="el" href="legato__string__renderer_8h.html#a4a4b12fb93ab88a53fe506b4fc800313">legato_string_renderer.h</a>
-, <a class="el" href="legato__string__renderer_8c.html#a4a4b12fb93ab88a53fe506b4fc800313">legato_string_renderer.c</a>
+: <a class="el" href="legato__string__renderer_8c.html#a4a4b12fb93ab88a53fe506b4fc800313">legato_string_renderer.c</a>
+, <a class="el" href="legato__string__renderer_8h.html#a4a4b12fb93ab88a53fe506b4fc800313">legato_string_renderer.h</a>
 </li>
 <li>leStringRenderer_DrawString()
 : <a class="el" href="legato__string__renderer_8h.html#afd77c367e313ce1f453368e134f2793d">legato_string_renderer.h</a>
 , <a class="el" href="legato__string__renderer_8c.html#afd77c367e313ce1f453368e134f2793d">legato_string_renderer.c</a>
 </li>
 <li>leStringRenderer_DrawUString()
-: <a class="el" href="legato__string__renderer_8h.html#a7b02fe78824d690efd75af51a78d1f87">legato_string_renderer.h</a>
-, <a class="el" href="legato__string__renderer_8c.html#a7b02fe78824d690efd75af51a78d1f87">legato_string_renderer.c</a>
+: <a class="el" href="legato__string__renderer_8c.html#a7b02fe78824d690efd75af51a78d1f87">legato_string_renderer.c</a>
+, <a class="el" href="legato__string__renderer_8h.html#a7b02fe78824d690efd75af51a78d1f87">legato_string_renderer.h</a>
 </li>
 <li>leStringRenderRequest
 : <a class="el" href="legato__string__renderer_8h.html#ab16df1b2d2d6ca1f49caf7b333813f6d">legato_string_renderer.h</a>
@@ -1874,28 +1825,28 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__stringtable_8c.html#a634a637268356ac8e7c91e196d7d098a">legato_stringtable.c</a>
 </li>
 <li>leStringTable_GetLanguageCount()
-: <a class="el" href="legato__stringtable_8c.html#a94707c13def8eb08d95ebfcf8bade95a">legato_stringtable.c</a>
-, <a class="el" href="legato__stringtable_8h.html#a10cdd7569b67e38fe6c39bb4d3b624c7">legato_stringtable.h</a>
+: <a class="el" href="legato__stringtable_8h.html#a10cdd7569b67e38fe6c39bb4d3b624c7">legato_stringtable.h</a>
+, <a class="el" href="legato__stringtable_8c.html#a94707c13def8eb08d95ebfcf8bade95a">legato_stringtable.c</a>
 </li>
 <li>leStringTable_GetStringCount()
-: <a class="el" href="legato__stringtable_8c.html#a325628fda63925fac8db1d087eb14d33">legato_stringtable.c</a>
-, <a class="el" href="legato__stringtable_8h.html#aad096871ac2ff46ebb8d06e0f97c6c4b">legato_stringtable.h</a>
+: <a class="el" href="legato__stringtable_8h.html#aad096871ac2ff46ebb8d06e0f97c6c4b">legato_stringtable.h</a>
+, <a class="el" href="legato__stringtable_8c.html#a325628fda63925fac8db1d087eb14d33">legato_stringtable.c</a>
 </li>
 <li>leStringTable_GetStringFont()
 : <a class="el" href="legato__stringtable_8c.html#a64083f5b824d581465a3065661a34d3d">legato_stringtable.c</a>
 , <a class="el" href="legato__stringtable_8h.html#a1dcbc93aee9be4c2295b57081ff059a0">legato_stringtable.h</a>
 </li>
 <li>leStringTable_GetStringLength()
-: <a class="el" href="legato__stringtable_8c.html#ab4ec14ee594e6d736ae100b0d36a963c">legato_stringtable.c</a>
-, <a class="el" href="legato__stringtable_8h.html#ab5f6009e3d25c35665186d6f2ae6a34f">legato_stringtable.h</a>
+: <a class="el" href="legato__stringtable_8h.html#ab5f6009e3d25c35665186d6f2ae6a34f">legato_stringtable.h</a>
+, <a class="el" href="legato__stringtable_8c.html#ab4ec14ee594e6d736ae100b0d36a963c">legato_stringtable.c</a>
 </li>
 <li>leStringTable_GetStringOffset()
 : <a class="el" href="legato__stringtable_8c.html#ac311952e52f2b4371eef4b22349c886e">legato_stringtable.c</a>
 , <a class="el" href="legato__stringtable_8h.html#ab8f3dfc9eebaa3e34aa267f1602ae262">legato_stringtable.h</a>
 </li>
 <li>leStringTable_StringLookup()
-: <a class="el" href="legato__stringtable_8c.html#a05e9daf9132770df65300793d1146498">legato_stringtable.c</a>
-, <a class="el" href="legato__stringtable_8h.html#a3701ae1a997b8841f12fbfae64ea4505">legato_stringtable.h</a>
+: <a class="el" href="legato__stringtable_8h.html#a3701ae1a997b8841f12fbfae64ea4505">legato_stringtable.h</a>
+, <a class="el" href="legato__stringtable_8c.html#a05e9daf9132770df65300793d1146498">legato_stringtable.c</a>
 </li>
 <li>leStringTableEntry
 : <a class="el" href="legato__stringtable_8c.html#a7151c557c7a96e2dd11aa2efb19d7501">legato_stringtable.c</a>
@@ -1911,8 +1862,8 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__stringutils_8c.html#a81116f080a1a853e9fb2342b2654dabe">legato_stringutils.c</a>
 </li>
 <li>leStringUtils_GetCharIndexAtPoint()
-: <a class="el" href="legato__stringutils_8c.html#ad1e03f42bea5eb754e4d82f755e281d9">legato_stringutils.c</a>
-, <a class="el" href="legato__stringutils_8h.html#ae8b2d7bca727982b30fb5597e5346fbe">legato_stringutils.h</a>
+: <a class="el" href="legato__stringutils_8h.html#ae8b2d7bca727982b30fb5597e5346fbe">legato_stringutils.h</a>
+, <a class="el" href="legato__stringutils_8c.html#ad1e03f42bea5eb754e4d82f755e281d9">legato_stringutils.c</a>
 </li>
 <li>leStringUtils_GetCharIndexAtPointCStr()
 : <a class="el" href="legato__stringutils_8h.html#a646176b7da1c91e8322da0161cfb6ea0">legato_stringutils.h</a>
@@ -1923,32 +1874,32 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__stringutils_8c.html#a0e98a5deaf8996c72afb78c46a1f31fb">legato_stringutils.c</a>
 </li>
 <li>leStringUtils_GetCharRectCStr()
-: <a class="el" href="legato__stringutils_8c.html#aecc5c61745d94d591c03af5644d0cb4d">legato_stringutils.c</a>
-, <a class="el" href="legato__stringutils_8h.html#abacca36c3befd4df95cc93461cd76498">legato_stringutils.h</a>
+: <a class="el" href="legato__stringutils_8h.html#abacca36c3befd4df95cc93461cd76498">legato_stringutils.h</a>
+, <a class="el" href="legato__stringutils_8c.html#aecc5c61745d94d591c03af5644d0cb4d">legato_stringutils.c</a>
 </li>
 <li>leStringUtils_GetLineCount()
-: <a class="el" href="legato__stringutils_8c.html#a6134642f72bbe923a8ae91509076217e">legato_stringutils.c</a>
-, <a class="el" href="legato__stringutils_8h.html#a068986502f04e1948ea2723d2984bb07">legato_stringutils.h</a>
+: <a class="el" href="legato__stringutils_8h.html#a068986502f04e1948ea2723d2984bb07">legato_stringutils.h</a>
+, <a class="el" href="legato__stringutils_8c.html#a6134642f72bbe923a8ae91509076217e">legato_stringutils.c</a>
 </li>
 <li>leStringUtils_GetLineCountCStr()
-: <a class="el" href="legato__stringutils_8h.html#a56cba514ea1cfa057649832a9885a47d">legato_stringutils.h</a>
-, <a class="el" href="legato__stringutils_8c.html#aa409ed663954589f377f315dad243403">legato_stringutils.c</a>
+: <a class="el" href="legato__stringutils_8c.html#aa409ed663954589f377f315dad243403">legato_stringutils.c</a>
+, <a class="el" href="legato__stringutils_8h.html#a56cba514ea1cfa057649832a9885a47d">legato_stringutils.h</a>
 </li>
 <li>leStringUtils_GetLineIndices()
-: <a class="el" href="legato__stringutils_8h.html#ad9350618a00acfc6cd33da98570e1ba2">legato_stringutils.h</a>
-, <a class="el" href="legato__stringutils_8c.html#aa6a5299c2b5b77b321ebbb05edfe4dfd">legato_stringutils.c</a>
+: <a class="el" href="legato__stringutils_8c.html#aa6a5299c2b5b77b321ebbb05edfe4dfd">legato_stringutils.c</a>
+, <a class="el" href="legato__stringutils_8h.html#ad9350618a00acfc6cd33da98570e1ba2">legato_stringutils.h</a>
 </li>
 <li>leStringUtils_GetLineIndicesCStr()
-: <a class="el" href="legato__stringutils_8c.html#ad030deb0876c703107667009aa17862f">legato_stringutils.c</a>
-, <a class="el" href="legato__stringutils_8h.html#a9bf627b47c8810aaa164509e5fb4e966">legato_stringutils.h</a>
+: <a class="el" href="legato__stringutils_8h.html#a9bf627b47c8810aaa164509e5fb4e966">legato_stringutils.h</a>
+, <a class="el" href="legato__stringutils_8c.html#ad030deb0876c703107667009aa17862f">legato_stringutils.c</a>
 </li>
 <li>leStringUtils_GetLineRect()
 : <a class="el" href="legato__stringutils_8c.html#a7e0f24adfc58e1a4a3bba232e7f1eedf">legato_stringutils.c</a>
 , <a class="el" href="legato__stringutils_8h.html#a233d327b07840b542a4e157e6fb502aa">legato_stringutils.h</a>
 </li>
 <li>leStringUtils_GetLineRectCStr()
-: <a class="el" href="legato__stringutils_8c.html#af92f583416f8f5b0e31528828d158f90">legato_stringutils.c</a>
-, <a class="el" href="legato__stringutils_8h.html#a2091fab76f3c38a5209b28ad6fddab0e">legato_stringutils.h</a>
+: <a class="el" href="legato__stringutils_8h.html#a2091fab76f3c38a5209b28ad6fddab0e">legato_stringutils.h</a>
+, <a class="el" href="legato__stringutils_8c.html#af92f583416f8f5b0e31528828d158f90">legato_stringutils.c</a>
 </li>
 <li>leStringUtils_GetRect()
 : <a class="el" href="legato__stringutils_8h.html#ac985af1aa4d9e5402d0c958eda4afc74">legato_stringutils.h</a>
@@ -1969,8 +1920,8 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 : <a class="el" href="legato__tablestring_8h.html#a3be4d829007024a4f15a2afbd22cf698">legato_tablestring.h</a>
 </li>
 <li>leTableString_Constructor()
-: <a class="el" href="legato__tablestring_8h.html#a6939bdb5fb365d9e35e38b76c6f490c0">legato_tablestring.h</a>
-, <a class="el" href="legato__tablestring_8c.html#a37b2511a16ef262bfa094cb47234d5df">legato_tablestring.c</a>
+: <a class="el" href="legato__tablestring_8c.html#a37b2511a16ef262bfa094cb47234d5df">legato_tablestring.c</a>
+, <a class="el" href="legato__tablestring_8h.html#a6939bdb5fb365d9e35e38b76c6f490c0">legato_tablestring.h</a>
 </li>
 <li>leTableString_New()
 : <a class="el" href="legato__tablestring_8c.html#af8d412345909ad86b0d48aa588acffa3">legato_tablestring.c</a>
@@ -1983,8 +1934,8 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 : <a class="el" href="legato__input_8h.html#a4a4755a2ca3f40b6835c5a8e8d09196a">legato_input.h</a>
 </li>
 <li>leUpdate()
-: <a class="el" href="legato__state_8h.html#aef7def9e4241d753aae63092a72f29f0">legato_state.h</a>
-, <a class="el" href="legato__state_8c.html#a11a4bdc4862590f21a99b906c43ec363">legato_state.c</a>
+: <a class="el" href="legato__state_8c.html#a11a4bdc4862590f21a99b906c43ec363">legato_state.c</a>
+, <a class="el" href="legato__state_8h.html#aef7def9e4241d753aae63092a72f29f0">legato_state.h</a>
 </li>
 <li>leUStringRenderRequest
 : <a class="el" href="legato__string__renderer_8h.html#a81109a1d386fed18c1c6185fcb2e6410">legato_string_renderer.h</a>
@@ -2002,36 +1953,36 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__utils_8h.html#ab7f6a109ac5051792d54dba716b8b9a1">legato_utils.h</a>
 </li>
 <li>leUtils_ClipRectToParent()
-: <a class="el" href="legato__utils_8c.html#aa795e1d58a8b183aae7e9f1e35fa9034">legato_utils.c</a>
-, <a class="el" href="legato__utils_8h.html#aa795e1d58a8b183aae7e9f1e35fa9034">legato_utils.h</a>
+: <a class="el" href="legato__utils_8h.html#aa795e1d58a8b183aae7e9f1e35fa9034">legato_utils.h</a>
+, <a class="el" href="legato__utils_8c.html#aa795e1d58a8b183aae7e9f1e35fa9034">legato_utils.c</a>
 </li>
 <li>leUtils_GetNextHighestWidget()
 : <a class="el" href="legato__utils_8h.html#aa467fab76bac89abd0fa020f59b7b8fb">legato_utils.h</a>
 , <a class="el" href="legato__utils_8c.html#aa467fab76bac89abd0fa020f59b7b8fb">legato_utils.c</a>
 </li>
 <li>leUtils_Pick()
-: <a class="el" href="legato__utils_8h.html#a2f63a404a4d84a797bf79dc27d9a62b0">legato_utils.h</a>
-, <a class="el" href="legato__utils_8c.html#ac59f58a3a3ca41c77d329290621feea7">legato_utils.c</a>
+: <a class="el" href="legato__utils_8c.html#ac59f58a3a3ca41c77d329290621feea7">legato_utils.c</a>
+, <a class="el" href="legato__utils_8h.html#a2f63a404a4d84a797bf79dc27d9a62b0">legato_utils.h</a>
 </li>
 <li>leUtils_PickFromWidget()
 : <a class="el" href="legato__utils_8c.html#a964e38388cb750f212ed6a31fc78150b">legato_utils.c</a>
 , <a class="el" href="legato__utils_8h.html#a565fd07a0142764d936c9bd540157f42">legato_utils.h</a>
 </li>
 <li>leUtils_PointScreenToLocalSpace()
-: <a class="el" href="legato__utils_8c.html#ad46d48a5cd5ee89cc3dbe756fc750754">legato_utils.c</a>
-, <a class="el" href="legato__utils_8h.html#ad46d48a5cd5ee89cc3dbe756fc750754">legato_utils.h</a>
+: <a class="el" href="legato__utils_8h.html#ad46d48a5cd5ee89cc3dbe756fc750754">legato_utils.h</a>
+, <a class="el" href="legato__utils_8c.html#ad46d48a5cd5ee89cc3dbe756fc750754">legato_utils.c</a>
 </li>
 <li>leUtils_PointToScreenSpace()
 : <a class="el" href="legato__utils_8h.html#afc430126e5f8dc264fc71dca47938836">legato_utils.h</a>
 , <a class="el" href="legato__utils_8c.html#afc430126e5f8dc264fc71dca47938836">legato_utils.c</a>
 </li>
 <li>leUtils_RectFromParentSpace()
-: <a class="el" href="legato__utils_8h.html#a81c6ec5efbec05a3ff2505e0f7d633db">legato_utils.h</a>
-, <a class="el" href="legato__utils_8c.html#a81c6ec5efbec05a3ff2505e0f7d633db">legato_utils.c</a>
+: <a class="el" href="legato__utils_8c.html#a81c6ec5efbec05a3ff2505e0f7d633db">legato_utils.c</a>
+, <a class="el" href="legato__utils_8h.html#a81c6ec5efbec05a3ff2505e0f7d633db">legato_utils.h</a>
 </li>
 <li>leUtils_RectToParentSpace()
-: <a class="el" href="legato__utils_8c.html#a88b0a9cc7d02727f2a53f0b64b3b4e00">legato_utils.c</a>
-, <a class="el" href="legato__utils_8h.html#a88b0a9cc7d02727f2a53f0b64b3b4e00">legato_utils.h</a>
+: <a class="el" href="legato__utils_8h.html#a88b0a9cc7d02727f2a53f0b64b3b4e00">legato_utils.h</a>
+, <a class="el" href="legato__utils_8c.html#a88b0a9cc7d02727f2a53f0b64b3b4e00">legato_utils.c</a>
 </li>
 <li>leUtils_RectToScreenSpace()
 : <a class="el" href="legato__utils_8c.html#acbf51abe41ee5fd4d77d6c0ef3e312e8">legato_utils.c</a>
@@ -2056,23 +2007,23 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__variableheap_8h.html#a1ce73cb81c5e48e62d97a0c45459acc9">legato_variableheap.h</a>
 </li>
 <li>leVariableHeap_Free()
-: <a class="el" href="legato__variableheap_8h.html#aa1924b7cc36b0e02966c09c8b25fc95b">legato_variableheap.h</a>
-, <a class="el" href="legato__variableheap_8c.html#aa1924b7cc36b0e02966c09c8b25fc95b">legato_variableheap.c</a>
+: <a class="el" href="legato__variableheap_8c.html#aa1924b7cc36b0e02966c09c8b25fc95b">legato_variableheap.c</a>
+, <a class="el" href="legato__variableheap_8h.html#aa1924b7cc36b0e02966c09c8b25fc95b">legato_variableheap.h</a>
 </li>
 <li>leVariableHeap_Init()
-: <a class="el" href="legato__variableheap_8c.html#abf3134055e812c6dbb6c1ab7a4636f56">legato_variableheap.c</a>
-, <a class="el" href="legato__variableheap_8h.html#abf3134055e812c6dbb6c1ab7a4636f56">legato_variableheap.h</a>
+: <a class="el" href="legato__variableheap_8h.html#abf3134055e812c6dbb6c1ab7a4636f56">legato_variableheap.h</a>
+, <a class="el" href="legato__variableheap_8c.html#abf3134055e812c6dbb6c1ab7a4636f56">legato_variableheap.c</a>
 </li>
 <li>leVariableHeap_SizeOf()
-: <a class="el" href="legato__variableheap_8c.html#a26ad98faf4627232c187b777147b490e">legato_variableheap.c</a>
-, <a class="el" href="legato__variableheap_8h.html#a26ad98faf4627232c187b777147b490e">legato_variableheap.h</a>
+: <a class="el" href="legato__variableheap_8h.html#a26ad98faf4627232c187b777147b490e">legato_variableheap.h</a>
+, <a class="el" href="legato__variableheap_8c.html#a26ad98faf4627232c187b777147b490e">legato_variableheap.c</a>
 </li>
 <li>leVariableHeap_Used()
 : <a class="el" href="legato__variableheap_8c.html#aec7cfa4cdbc24e92bd9a8a316f984ae0">legato_variableheap.c</a>
 </li>
 <li>leVariableHeap_Validate()
-: <a class="el" href="legato__variableheap_8c.html#a9811cb0a94c753461c5d41ee4202ca93">legato_variableheap.c</a>
-, <a class="el" href="legato__variableheap_8h.html#a9811cb0a94c753461c5d41ee4202ca93">legato_variableheap.h</a>
+: <a class="el" href="legato__variableheap_8h.html#a9811cb0a94c753461c5d41ee4202ca93">legato_variableheap.h</a>
+, <a class="el" href="legato__variableheap_8c.html#a9811cb0a94c753461c5d41ee4202ca93">legato_variableheap.c</a>
 </li>
 <li>leVariableHeapBlockHeader
 : <a class="el" href="legato__variableheap_8c.html#a65c7a5dd833fb0f6267e99751bea1a3a">legato_variableheap.c</a>
@@ -2081,9 +2032,9 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 : <a class="el" href="legato__memory_8h.html#a1edf74b14c337fbef56cdd62e193e26c">legato_memory.h</a>
 </li>
 <li>leWidget
-: <a class="el" href="legato__widget_8h.html#a1dad264a6f2d2701bc8a247670abaf82">legato_widget.h</a>
-, <a class="el" href="legato__utils_8h.html#a1dad264a6f2d2701bc8a247670abaf82">legato_utils.h</a>
+: <a class="el" href="legato__utils_8h.html#a1dad264a6f2d2701bc8a247670abaf82">legato_utils.h</a>
 , <a class="el" href="legato__event_8h.html#a1dad264a6f2d2701bc8a247670abaf82">legato_event.h</a>
+, <a class="el" href="legato__widget_8h.html#a1dad264a6f2d2701bc8a247670abaf82">legato_widget.h</a>
 </li>
 <li>leWidget_Constructor()
 : <a class="el" href="legato__widget_8c.html#ac59d0d9d2e3cdc584c117da199bf55e1">legato_widget.c</a>
@@ -2100,8 +2051,8 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 : <a class="el" href="legato__widget_8h.html#a3fc89fcf9c7dfb80c0c61c5d84592174">legato_widget.h</a>
 </li>
 <li>leWidget_New()
-: <a class="el" href="legato__widget_8h.html#a1d19fac6041cf9a32d41661a2705d2bb">legato_widget.h</a>
-, <a class="el" href="legato__widget_8c.html#ab57c7d3abefb97e93909c84450d2d2cb">legato_widget.c</a>
+: <a class="el" href="legato__widget_8c.html#ab57c7d3abefb97e93909c84450d2d2cb">legato_widget.c</a>
+, <a class="el" href="legato__widget_8h.html#a1d19fac6041cf9a32d41661a2705d2bb">legato_widget.h</a>
 </li>
 <li>leWidget_ResizeEvent
 : <a class="el" href="legato__widget_8h.html#a16af79e19279e41e2a633f777f711e81">legato_widget.h</a>
@@ -2135,8 +2086,8 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__widget__skin__classic__common_8h.html#a476fa0d1ab440332b1c0c96594d9e262">legato_widget_skin_classic_common.h</a>
 </li>
 <li>leWidget_SkinClassic_DrawLineBorder()
-: <a class="el" href="legato__widget__skin__classic__common_8h.html#a788ade3938977f3be82c7159291384b3">legato_widget_skin_classic_common.h</a>
-, <a class="el" href="legato__widget__skin__classic__common_8c.html#a788ade3938977f3be82c7159291384b3">legato_widget_skin_classic_common.c</a>
+: <a class="el" href="legato__widget__skin__classic__common_8c.html#a788ade3938977f3be82c7159291384b3">legato_widget_skin_classic_common.c</a>
+, <a class="el" href="legato__widget__skin__classic__common_8h.html#a788ade3938977f3be82c7159291384b3">legato_widget_skin_classic_common.h</a>
 </li>
 <li>leWidget_SkinClassic_DrawLineBorderBottom()
 : <a class="el" href="legato__widget__skin__classic__common_8h.html#ab748cc00f93cdd121f8f30ac055c7ef5">legato_widget_skin_classic_common.h</a>
@@ -2151,8 +2102,8 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 : <a class="el" href="legato__widget__skin__classic__common_8h.html#a100e40bbfc75d16384481ac579616467">legato_widget_skin_classic_common.h</a>
 </li>
 <li>leWidget_SkinClassic_DrawRoundCornerBackground()
-: <a class="el" href="legato__widget__skin__classic__common_8h.html#ab637287652c804c6a1e909b691e0dfac">legato_widget_skin_classic_common.h</a>
-, <a class="el" href="legato__widget__skin__classic__common_8c.html#ab38828d5892d3b9d15337fe4c20bff3e">legato_widget_skin_classic_common.c</a>
+: <a class="el" href="legato__widget__skin__classic__common_8c.html#ab38828d5892d3b9d15337fe4c20bff3e">legato_widget_skin_classic_common.c</a>
+, <a class="el" href="legato__widget__skin__classic__common_8h.html#ab637287652c804c6a1e909b691e0dfac">legato_widget_skin_classic_common.h</a>
 </li>
 <li>leWidget_SkinClassic_DrawRoundCornerLineBorder()
 : <a class="el" href="legato__widget__skin__classic__common_8c.html#ac96ca3486fa1a7f60ea942346611bd57">legato_widget_skin_classic_common.c</a>
@@ -2166,12 +2117,12 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 , <a class="el" href="legato__widget__skin__classic__common_8c.html#a5ce11dee3ae80715d29536e7fc8ca2c4">legato_widget_skin_classic_common.c</a>
 </li>
 <li>leWidget_SkinClassic_DrawStandardLineBorder()
-: <a class="el" href="legato__widget__skin__classic__common_8c.html#a8fe122596e0041fe5b8d5f35a115ac5d">legato_widget_skin_classic_common.c</a>
-, <a class="el" href="legato__widget__skin__classic__common_8h.html#a3b122d3bd3115184b352f822b372da94">legato_widget_skin_classic_common.h</a>
+: <a class="el" href="legato__widget__skin__classic__common_8h.html#a3b122d3bd3115184b352f822b372da94">legato_widget_skin_classic_common.h</a>
+, <a class="el" href="legato__widget__skin__classic__common_8c.html#a8fe122596e0041fe5b8d5f35a115ac5d">legato_widget_skin_classic_common.c</a>
 </li>
 <li>leWidget_SkinClassic_DrawStandardLoweredBorder()
-: <a class="el" href="legato__widget__skin__classic__common_8c.html#a8503c0da8db59d1a229c2a4772abb80e">legato_widget_skin_classic_common.c</a>
-, <a class="el" href="legato__widget__skin__classic__common_8h.html#a820d3998cb393dd05da8c3b8d17f0f9a">legato_widget_skin_classic_common.h</a>
+: <a class="el" href="legato__widget__skin__classic__common_8h.html#a820d3998cb393dd05da8c3b8d17f0f9a">legato_widget_skin_classic_common.h</a>
+, <a class="el" href="legato__widget__skin__classic__common_8c.html#a8503c0da8db59d1a229c2a4772abb80e">legato_widget_skin_classic_common.c</a>
 </li>
 <li>leWidget_SkinClassic_DrawStandardRaisedBorder()
 : <a class="el" href="legato__widget__skin__classic__common_8c.html#a13eb31a3faa73534531a8eefbe04b398">legato_widget_skin_classic_common.c</a>
@@ -2188,11 +2139,11 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 : <a class="el" href="legato__widget__skin__classic__common_8c.html#a2a7caae9761a9b6158a080297569a082">legato_widget_skin_classic_common.c</a>
 </li>
 <li>leWidget_SkinClassic_InvalidateBorderAreas()
-: <a class="el" href="legato__widget__skin__classic__common_8c.html#a19b6d5ea223f99b63b9389d037f933b4">legato_widget_skin_classic_common.c</a>
-, <a class="el" href="legato__widget__skin__classic__common_8h.html#a34c7045fe39d57f007f129cf807fee0f">legato_widget_skin_classic_common.h</a>
+: <a class="el" href="legato__widget__skin__classic__common_8h.html#a34c7045fe39d57f007f129cf807fee0f">legato_widget_skin_classic_common.h</a>
+, <a class="el" href="legato__widget__skin__classic__common_8c.html#a19b6d5ea223f99b63b9389d037f933b4">legato_widget_skin_classic_common.c</a>
 </li>
 <li>leWidgetDirtyState
-: <a class="el" href="legato__widget_8h.html#a0856baff1d89a6a6c7aeda62b63e77f8">legato_widget.h</a>
+: <a class="el" href="legato__widget_8h.html#a62d28f220fa58bdb7e1faa5c9940c28d">legato_widget.h</a>
 </li>
 <li>leWidgetDrawState
 : <a class="el" href="legato__widget_8h.html#a576c32a8191f870ba990eaa8089866eb">legato_widget.h</a>
@@ -2201,8 +2152,8 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 : <a class="el" href="legato__widget_8h.html#abe84b1921ff0df6f42a7d594570369ec">legato_widget.h</a>
 </li>
 <li>leWidgetEvent_Accept()
-: <a class="el" href="legato__widget_8h.html#a7bec460eb4c10f3b29172cdfd2edf42d">legato_widget.h</a>
-, <a class="el" href="legato__event_8c.html#a7bec460eb4c10f3b29172cdfd2edf42d">legato_event.c</a>
+: <a class="el" href="legato__event_8c.html#a7bec460eb4c10f3b29172cdfd2edf42d">legato_event.c</a>
+, <a class="el" href="legato__widget_8h.html#a7bec460eb4c10f3b29172cdfd2edf42d">legato_widget.h</a>
 </li>
 <li>leWidgetEvent_TouchDown
 : <a class="el" href="legato__widget_8h.html#abf0c3923fb199f65f8eea510023c5a8e">legato_widget.h</a>
@@ -2214,8 +2165,8 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 : <a class="el" href="legato__widget_8h.html#a940ca239f5a7517a43535498690f8ff5">legato_widget.h</a>
 </li>
 <li>leWidgetIsInScene()
-: <a class="el" href="legato__state_8c.html#aae117be3102728e25e7b663166073148">legato_state.c</a>
-, <a class="el" href="legato__state_8h.html#af2b010af93ec82d473068531e624650d">legato_state.h</a>
+: <a class="el" href="legato__state_8h.html#af2b010af93ec82d473068531e624650d">legato_state.h</a>
+, <a class="el" href="legato__state_8c.html#aae117be3102728e25e7b663166073148">legato_state.c</a>
 </li>
 <li>leWidgetType
 : <a class="el" href="legato__widget_8h.html#abf82ae790528207efacc789381645b99">legato_widget.h</a>
@@ -2227,30 +2178,22 @@ $(document).ready(function(){initNavTree('globals_l.html',''); initResizable(); 
 : <a class="el" href="legato__common_8h.html#ab628e42bb29ed7b1ca25e8c54aeb77d3">legato_common.h</a>
 </li>
 <li>License
-: <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#ab7377f45e3c44db4750cc27efe78063c">Liberation Font LICENSE.txt</a>
+: <a class="el" href="_l_i_c_e_n_s_e___o_f_l_8txt.html#a7d158290ef1b36f09be9921c5dbd472b">LICENSE_OFL.txt</a>
+, <a class="el" href="_liberation_01_font_01_l_i_c_e_n_s_e_8txt.html#ab7377f45e3c44db4750cc27efe78063c">Liberation Font LICENSE.txt</a>
 </li>
 <li>LINE_BREAK
 : <a class="el" href="legato__stringutils_8c.html#ae452d1931f9b23fb1a9750b64afc0f2b">legato_stringutils.c</a>
-</li>
-<li>lineBlendPixel()
-: <a class="el" href="legato__draw__line_8c.html#a1b51112eb5f19a13b8123ed37251ff49">legato_draw_line.c</a>
-</li>
-<li>linePutPixel()
-: <a class="el" href="legato__draw__line_8c.html#a96b404e6a7ebf9b403e787cb7b0c3c7f">legato_draw_line.c</a>
 </li>
 <li>LinePutPixelFn
 : <a class="el" href="legato__draw__line_8c.html#a36d6f572ef5d496d97ee64c11a5da13a">legato_draw_line.c</a>
 </li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.18
+</small></address>
 </body>
 </html>

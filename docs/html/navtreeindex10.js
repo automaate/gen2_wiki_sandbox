@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"structle_touch_state.html#af64066d134a77e01b3d6eb8da813627a":[0,0,46,2],
 "structle_touch_state.html#af6d3062751bd565decb1a2cd3b63bdb2":[0,0,46,1],
 "structle_u_string_render_request.html":[0,0,47],
 "structle_u_string_render_request.html#a1264aae9a5f38be0f11d9305ec73de1e":[0,0,47,1],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['getdiscretevalue_5ffnptr_2800',['getDiscreteValue_FnPtr',['../legato__image__utils_8c.html#a2bf54262451a6b2cf2aae8409c664822',1,'legato_image_utils.c']]],
-  ['getglyphrowdatasize_5ffnptr_2801',['getGlyphRowDataSize_FnPtr',['../legato__font_8c.html#af5cf229d7b1d94eceecd46d611566fb0',1,'legato_font.c']]],
-  ['getpixel_5ffnptr_2802',['GetPixel_FnPtr',['../legato__pixelbuffer_8c.html#aed300ef07c72fca2ce738521883563d9',1,'legato_pixelbuffer.c']]]
+  ['decodeglyph_5ffnptr_4808',['decodeGlyph_FnPtr',['../legato__stringutils_8c.html#a430e2b067b57e17252374fbdd8045927',1,'legato_stringutils.c']]],
+  ['drawglyphrow_5ffnptr_4809',['drawGlyphRow_FnPtr',['../legato__font_8c.html#ab15a4f519228c2115902a570153c4f2a',1,'legato_font.c']]]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"structle_display_driver.html#a9b10a383060938e0c61b0e4a158fd611":[0,0,4,9],
 "structle_display_driver.html#a9ed735150e44eaee79a943bf48302b9a":[0,0,4,6],
 "structle_display_driver.html#ac5d588839734a4f49f23a65d139b1eee":[0,0,4,2],
 "structle_display_driver.html#ae646d8152f3631e651452de3067c69a8":[0,0,4,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "structle_table_string.html#ae1b9103978b8e0c475d68564bb2e3a2f":[0,0,44,2],
 "structle_table_string_v_table.html":[0,0,45],
 "structle_touch_state.html":[0,0,46],
-"structle_touch_state.html#a2508f82318bdac6b715d548091b03055":[0,0,46,0],
-"structle_touch_state.html#af64066d134a77e01b3d6eb8da813627a":[0,0,46,2]
+"structle_touch_state.html#a2508f82318bdac6b715d548091b03055":[0,0,46,0]
 };

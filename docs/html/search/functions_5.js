@@ -1,18 +1,9 @@
 var searchData=
 [
-  ['get1byte_2094',['get1byte',['../legato__pixelbuffer_8c.html#aacf77b2a3c6fa20e2cabc6a358957ae0',1,'legato_pixelbuffer.c']]],
-  ['get2byte_2095',['get2byte',['../legato__pixelbuffer_8c.html#a404baab1b2782391cf7ecda2b5d6f221',1,'legato_pixelbuffer.c']]],
-  ['get3byte_2096',['get3byte',['../legato__pixelbuffer_8c.html#acdb9988f4159bc9f33393175765b6a67',1,'legato_pixelbuffer.c']]],
-  ['get4byte_2097',['get4byte',['../legato__pixelbuffer_8c.html#acc690b5a185e1347635532cc2b70c6cb',1,'legato_pixelbuffer.c']]],
-  ['getdiscretevalueatindex1_2098',['getDiscreteValueAtIndex1',['../legato__image__utils_8c.html#a14984f42092a8b4e113481e9e980339c',1,'legato_image_utils.c']]],
-  ['getdiscretevalueatindex4_2099',['getDiscreteValueAtIndex4',['../legato__image__utils_8c.html#a0803bfd4eaf562f23f0563f0b43119b6',1,'legato_image_utils.c']]],
-  ['getdiscretevalueatindex8_2100',['getDiscreteValueAtIndex8',['../legato__image__utils_8c.html#a1d7b1b31dbcf846fda98f8ea84abb6eb',1,'legato_image_utils.c']]],
-  ['getglyphrowdatasize1bpp_2101',['getGlyphRowDataSize1bpp',['../legato__font_8c.html#ab4e9c910c92e727ff1579aa967ac8857',1,'legato_font.c']]],
-  ['getglyphrowdatasize8bpp_2102',['getGlyphRowDataSize8bpp',['../legato__font_8c.html#aacc7a3d5cd8cc77fa1e7a70692621d72',1,'legato_font.c']]],
-  ['gs8_5fargb8888_2103',['gs8_argb8888',['../legato__color__convert_8c.html#ae8379428b3d4b73da0e450f0f2723466',1,'legato_color_convert.c']]],
-  ['gs8_5frgb332_2104',['gs8_rgb332',['../legato__color__convert_8c.html#a302131b70ed5fb09e5a59ff24118d07b',1,'legato_color_convert.c']]],
-  ['gs8_5frgb565_2105',['gs8_rgb565',['../legato__color__convert_8c.html#a2c4d619d1353ce6e61fc8a8380849213',1,'legato_color_convert.c']]],
-  ['gs8_5frgb888_2106',['gs8_rgb888',['../legato__color__convert_8c.html#abf07b7ab03c894906f164b80dd55250f',1,'legato_color_convert.c']]],
-  ['gs8_5frgba5551_2107',['gs8_rgba5551',['../legato__color__convert_8c.html#a3032d054e2039ddd797a6422a40a3fbd',1,'legato_color_convert.c']]],
-  ['gs8_5frgba8888_2108',['gs8_rgba8888',['../legato__color__convert_8c.html#ac9fce9102872c377d34c70e8140a81d5',1,'legato_color_convert.c']]]
+  ['e54cult_5feventhandlerssd1963_3461',['e54cult_eventHandlerSSD1963',['../namespace_support___b_s_p___s_a_m___e54___curiosity___ultra.html#a65273e5109f3bedc72f72fa1d26a12cd',1,'Support_BSP_SAM_E54_Curiosity_Ultra']]],
+  ['enableconfig_3462',['enableConfig',['../namespacelegato__gfx__mxt__cpro.html#ac56fc403bf57eb83ac56fbd532ee0b47',1,'legato_gfx_mxt_cpro.enableConfig()'],['../namespacelegato__gfx__pda__tm5000.html#a919b10fa138d989e67de1980154fc996',1,'legato_gfx_pda_tm5000.enableConfig()'],['../namespacelegato__gfx__pda__tm7000b.html#a183e942ce19de3896f2b02dc1beb5056',1,'legato_gfx_pda_tm7000b.enableConfig()'],['../namespacelegato__gfx__pda__tm4301b.html#a44939fc2b5689698454477ed07d66a9b',1,'legato_gfx_pda_tm4301b.enableConfig()']]],
+  ['enableconfigpins_3463',['enableConfigPins',['../namespacelegato__gfx__mxt__cpro.html#ac04c411e2a5d41c6ddc01dc53525154e',1,'legato_gfx_mxt_cpro.enableConfigPins()'],['../namespacelegato__gfx__pda__tm5000.html#aed1c2a9c6bfc1dcb03a63043a4757f70',1,'legato_gfx_pda_tm5000.enableConfigPins()'],['../namespacelegato__gfx__pda__tm7000b.html#a7a703bebe4d4ea6d1ccb31faacb9171e',1,'legato_gfx_pda_tm7000b.enableConfigPins()'],['../namespacelegato__gfx__pda__tm4301b.html#a5fb349240ea0c9be7ddcf6963d2fb112',1,'legato_gfx_pda_tm4301b.enableConfigPins()']]],
+  ['eventhandlerlcc_3464',['eventHandlerLCC',['../namespace_support___b_s_p___s_a_m___e70___xplained___ultra.html#a28b2f12fd8838584ae7482f746d83e44',1,'Support_BSP_SAM_E70_Xplained_Ultra']]],
+  ['eventhandlerssd1963_3465',['eventHandlerSSD1963',['../namespace_support___b_s_p___s_a_m___e70___xplained___ultra.html#ad71f87bab0a596efe4805c3e0037078a',1,'Support_BSP_SAM_E70_Xplained_Ultra']]],
+  ['extddreventhandler_3466',['extddrEventHandler',['../namespace_support___b_s_p___p_i_c32_m_z___d_a___starter___kit___m_e_b2.html#a2232052ea9589c191914e816ee654fbf',1,'Support_BSP_PIC32MZ_DA_Starter_Kit_MEB2']]]
 ];
