@@ -1,5 +1,0 @@
-var structle_size =
-[
-    [ "height", "structle_size.html#a5d8006e753a3e76ff637a4e092bbed71", null ],
-    [ "width", "structle_size.html#a395d15e7c2b09961c1bfd1da6179b64c", null ]
-];

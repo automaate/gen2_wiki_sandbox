@@ -1,0 +1,1 @@
+\page legato_qs_e54_cu_cpro_spi_X SAM E54 Curiosity
