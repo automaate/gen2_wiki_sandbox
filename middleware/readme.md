@@ -16,5 +16,5 @@ Graphics rendering is made available through a graphic library. The graphic libr
 
 
 ## Legato
-* [Legato API Reference and Overview](../docs/html/index.html) - Legato is the free 2D graphics library integrated with MPLAB Harmony Graphics Suite which provides common APIs that work across a variety of Microchip 32bit hardware.
+* [Legato API Reference and Overview](http://www.doxygen.nl/index.html) - Legato is the free 2D graphics library integrated with MPLAB Harmony Graphics Suite which provides common APIs that work across a variety of Microchip 32bit hardware.
 
