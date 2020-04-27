@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['releasenotes_2397',['ReleaseNotes',['../md_doc__release_notes.html',1,'']]],
   ['radialmenu_2398',['RadialMenu',['../classscreen_1_1_radial_menu.html',1,'screen']]],
   ['radialmenuitem_2399',['RadialMenuItem',['../classscreen_1_1_radial_menu_item.html',1,'screen']]],
   ['radialmenus_2400',['radialMenus',['../namespacescreen.html#a8141f5f29d62819bafe2e9350abeeefa',1,'screen']]],
