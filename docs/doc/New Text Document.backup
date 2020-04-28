@@ -1,0 +1,81 @@
+## Easy to use
+
+Creating a Graphics User Interface (GUI) is beautifully simple.
+
+The MPLAB Harmony Graphics Suite tools effectively provides graphics building tools in user friendly small footprint environment. You _do not_ need expertise in
+graphcs to use MPLAB Harmony Graphics Suite](.
+
+A few clicks in the designer tool can make complicated takes simple.
+
+## MPLAB Harmony Graphics Suite is extensive!
+
+#### Support for multiple display modules
+
+The Suite contains support for various display sizes including:
+- [wvga](\ref vector_mat)
+- [wqvga](\ref image_mat)
+- [qvga](\ref cv_mat)
+- and more.
+
+Each display timing can be hand-tuned by display manager.
+
+#### Support for various display controllers
+
+The Suite operates on common display controllers including:
+- [ssd1963](\ref vector_mat)
+- [ssd1953](\ref vector_mat)
+- [ili9488](\ref vector_mat)
+
+#### Extending MPLAB Harmony Graphics Suite
+
+The Suite can be used with its existing display and touch controllers integrated with the Suire or extended to use third-party external touch and display controllers.
+
+## Code once, run anywhere!
+
+With Microchip PIC32 and SAM devices, MPLAB Harmony Graphics Suite supports a board range of design needs to meet and scale to market requirements.
+
+Each MPLAB Harmony Graphics Suite installation comes with a comprehensive list of example applications :
+ - a getting started application (named `legato_quickstart`) for showing a quick easy UI with touch capability.
+ - a asset flashing application (named `legato_flash`) for external flash loading of assets.
+ - a cooking applicaiton (named `legato_cooker`) to demonstrate.
+
+## MPLAB Harmony Graphics Suite is highly efficient
+
+#### Code generation
+
+MPLAB Harmony Graphics Suite supports 
+
+You can get the best performance out of MPLAB Harmony Graphics Suite using [vectorization techniques](\ref vectorization).
+
+MPLAB Harmony Graphics Suite can also 
+
+#### Scratch Buffer
+
+MPLAB Harmony Graphics Suite performs 
+
+#### RTOS Support
+
+## Examples
+
+* [legato_quickstart](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki) (recommended)
+* [legato_cooker](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki) (recommended)
+
+## Product Support
+
+#### Free Community Options
+
+* [MPLAB Harmony Graphics Suite Wiki](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki) (recommended)
+* [MPLAB Harmony Forum](https://www.microchip.com/forums/f291.aspx)
+* [MPLAB Harmony Graphics Suite Feedback](https://github.com/Microchip-MPLAB-Harmony/gfx/issues)
+* [MPLAB® Harmony v3 software framework](https://microchipdeveloper.com/harmony3:start)
+
+#### Contact Microchip
+
+* If you need to contact Microchip for premium support, visit our
+[contact Microchip](https://www.microchip.com/about-us/contact-us) page.
+
+## License
+
+Microchip licenses to you the right to use, modify, copy and distribute Software only when embedded on a Microchip microcontroller or digital signal controller that is integrated into your product or third party product (pursuant to the sublicense terms in the accompanying license agreement).
+
+You should refer to the [license agreement](https://github.com/Microchip-MPLAB-Harmony/gfx/blob/master/mplab_harmony_license.md). accompanying this Software for additional information regarding your rights and obligations.
