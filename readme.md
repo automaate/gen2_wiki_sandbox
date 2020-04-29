@@ -77,7 +77,7 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 |      |   parallel_smc | Interface to the parallel smc registers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 |      |   spi | Interface to the spi registers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 | library    | legato | Graphics Library | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| designer | Legato MHGC |Harmony Graphics Composer for Legato| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| designer | legato MHGC |Harmony Graphics Composer for Legato| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 
 
 ## Blank library interface
@@ -86,8 +86,8 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 
 | Category | Item | Description | Release Type |
 | --- | --- | ---- |---- |
-| apps | blank_quickstart | Blank UI-less library quickstart example | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic |
-| interface| gfx_driver | Interface abstraction between a graphics library and graphics drivers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic |
+| apps | blank_quickstart | Blank UI-less library quickstart example | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| interface| gfx_driver | Interface abstraction between a graphics library and graphics drivers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 
 ## Graphics Drivers
 
