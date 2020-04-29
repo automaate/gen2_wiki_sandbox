@@ -53,32 +53,41 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 |------------|----------------------------------------------|
 | apps       | Example quickstart and utility applications |
 | display    | Supported displays |
-| doc        | Microsoft Compiled (CHM) help documentation |
 | docs       | HTML Help documentation                   |
 | input      | Input System and its associated drivers and services |
 | middleware | Supported User Interface (UI) libraries |
 | driver     | Display controller and graphics processor unit drivers |
 
 
-## Code Examples
+## Legato graphics library
 
-The following applications are provided to demonstrate the typical or interesting usage models of one or more Peripheral libraries.
+**Legato graphics library** - the performance improved graphics library for MPLAB Harmony Graphics Suite. Supports Microchip PIC32 and SAM microcontrollers.
 
-| Legato Examples | Status |
-| --- | :---: |
-| [legato_flash](apps/legato_flash/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
-| [legato_quickstart](apps/legato_quickstart/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
-| [legato_quickstart_ext_res](apps/legato_quickstart_ext_res/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| Category | Item | Description | Release Type |
+| --- | --- | ---- |---- |
+|  apps | legato_flash | Legato UI library quickstart flash writer example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+|  apps | legato_quickstart | Legato UI library quickstart example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+|      |  legato_quickstart_ext_res | Legato UI library external resource example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic)|
+| drivers|  external_controller | User generate-able external display driver | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+|      |   ili9488 | Display Driver for the ili9488 Controller |![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+|      |   LCC | Display Driver for the LCC software Controller| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+|      |   ssd1963 | Display Driver for the ssd1963 Controller | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+|      |   parallel_ebi | Interface to the parallel EBI registers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+|      |   parallel_portgroup | Inteface to the parallel portgroup registers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+|      |   parallel_smc | Interface to the parallel smc registers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+|      |   spi | Interface to the spi registers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| library    | legato | Graphics Library | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| designer | Legato MHGC |Harmony Graphics Composer for Legato| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 
-| Blank Examples | Status |
-| --- | :---: |
-| [blank_quickstart](apps/blank_quickstart/readme.md) | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
-## Graphics libraries
+## Blank library interface
 
-| Library | Status |
-| --- | :---: |
-| [Legato](middleware/legato/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+**Blank library interface** - the library interface which easily allows a third-party graphics library direct access to the display framebuffer.
+
+| Category | Item | Description | Release Type |
+| --- | --- | ---- |---- |
+| apps | blank_quickstart | Blank UI-less library quickstart example | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic |
+| interface| gfx_driver | Interface abstraction between a graphics library and graphics drivers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic |
 
 ## Graphics Drivers
 
@@ -90,6 +99,19 @@ The following applications are provided to demonstrate the typical or interestin
 | [generic_touch](input/driver/touch/generic_touch/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 | [maxtouch](input/driver/touch/maxtouch/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 | [ptc](input/driver/touch/ptc/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+
+## Misc items
+
+**Misc items** - items associated with the entire graphics suite.
+
+| Category | Item | Description | Release Type |
+| --- | --- | ---- |---- |
+|input | generic | Generic Touch Input Driver | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+|      | maxtouch | Microchip maXTouch Touch Input Driver | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| doc | Help | Application Help Documentation| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| docs| Help | Application Help Documentation HTML| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| templates   |  middleware | Board configuration scripts| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| display | boards | Productized display board support | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 
 ____
 
