@@ -21,7 +21,7 @@ Find multiple graphics application examples in the [gfx_apps](https://github.com
  - [MPLAB® Harmony License](mplab_harmony_license.md)
  - [MPLAB® Harmony 3 Graphics Wiki](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki)
  - [MPLAB® Harmony 3 Graphics Videos](https://www.youtube.com/playlist?list=PL9B4edd-p2ag5xsIIHhja-caKYY7AKPxe)
- - [MPLAB® Harmony 3 Graphics Graphics Suite](https://automaate.github.io/gen2_wiki_sandbox/)
+ - [MPLAB® Harmony 3 Graphics Suite](https://automaate.github.io/gen2_wiki_sandbox/)
  - [MPLAB® Harmony 3 Graphics Applications User Guide](https://microchip-mplab-harmony.github.io/gfx_apps)
  - [MPLAB® Harmony 3 Graphics Apps Repository](api.md)
 
