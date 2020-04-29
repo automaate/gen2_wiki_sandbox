@@ -108,7 +108,6 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 | --- | --- | ---- |---- |
 |input | generic | Generic Touch Input Driver | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 |      | maxtouch | Microchip maXTouch Touch Input Driver | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| doc | Help | Application Help Documentation| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 | docs| Help | Application Help Documentation HTML| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 | templates   |  middleware | Board configuration scripts| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 | display | boards | Productized display board support | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
