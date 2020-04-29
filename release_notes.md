@@ -3,75 +3,10 @@ title: Release notes
 nav_order: 99
 ---
 
-![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)
 ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png)
 
 # Microchip MPLAB® Harmony 3 Graphics Release Notes
 ## Graphics Release v3.6.0
-
-- **Graphics Contents** - This graphics release consists of graphics libraries, applications, utilities, drivers, hardware abstractions, input, middleware, templates, and documentation. The following table lists the contents:
-
-**Legato graphics library** - the performance improved graphics library for MPLAB Harmony Graphics Suite. Supports PIC32 and SAM microcontrollers.
-
-| Category | Item | Description | Release Type |
-| --- | --- | ---- |---- |
-|  apps | legato_quickstart | Legato UI library quickstart example | Beta |
-|      |  legato_quickstart_ext_res | Legato UI library external resource example | Beta|
-| drivers|  external_controller | User generate-able external display driver | Beta |
-|      |   ili9488 | Display Driver for the ili9488 Controller |Beta |
-|      |   LCC | Display Driver for the LCC software Controller| Beta |
-|      |   ssd1963 | Display Driver for the ssd1963 Controller | Beta |
-|      |   parallel_ebi | Interface to the parallel EBI registers | Beta |
-|      |   parallel_portgroup | Inteface to the parallel portgroup registers | Beta |
-|      |   parallel_smc | Interface to the parallel smc registers | Beta |
-|      |   spi | Interface to the spi registers | Beta |
-| library    | legato | Graphics Library | Beta |
-| designer | Legato MHGC |Harmony Graphics Composer for Legato| Beta |
-
-**Aria graphics library** - the feature-complete production library within MPLAB Harmony Graphics Suite. Supports PIC32 and SAM microcontroller and microprocessors.
-
-| Category | Item | Description | Release Type |
-| --- | --- | ---- |---- |
-| apps |  aria_flash  | Aria UI library flash writer | Production |
-|      |  aria_quickstart|Aria UI library quickstart example | Production|
-|      |  aria_quickstart_ext_res    | Aria UI library external resource example | Production|
-|drivers|  external_controller | User generate-able external display driver | Production |
-|      |  glcd | Graphics 3 Layer Display Driver | Production |
-|      |  ili9488| Display Driver for the ili9488 Controller |Production |
-|      |  LCC | Display Driver for the LCC software Controller| Production |
-|      |  LCDC | Display Driver for the LCDC Controller| Production |
-|      |  ssd1306 | Display Driver for the ssd1306 Controller  | Production |
-|      |  ssd1309 | Display Driver for the ssd1309 Controller  | Production |
-|      |  ssd1963 | Display Driver for the ssd1963 Controller | Production |
-|      |  parallel_ebi | Display interface using parallel EBI registers | Production |
-|      | parallel_portgroup | Display interface using parallel portgroup registers | Production |
-|      | parallel_smc | Display interface using parallel smc registers | Production |
-|      | spi | Display interface using spi registers | Production |
-|      | 2dgpu| Graphics Processor Driver for the 2DGPU peripheral |Production |
-|      | gfx2d | Graphics Processor Driver for the GFX2D peripheral |Production |
-| hal     | hal | Aria Hardware Abstraction Layer | Production |
-| library    | aria | Graphics Library | Production |
-| designer | Aria MHGC  | Harmony Graphics Composer for Aria| Production|
-
-**Blank library interface** - the library interface which easily allows a third-party graphics library direct access to the display framebuffer.
-
-| Category | Item | Description | Release Type |
-| --- | --- | ---- |---- |
-| apps | blank_quickstart | Blank UI-less library quickstart example | Beta |
-| interface| gfx_driver | Interface abstraction between a graphics library and graphics drivers | Beta |
-
-
-
-**Misc items** - items associated with the entire graphics suite.
-
-| Category | Item | Description | Release Type |
-| --- | --- | ---- |---- |
-|input | generic | Generic Touch Input Driver | Production |
-|      | maxtouch | Microchip maXTouch Touch Input Driver | Production |
-| doc | Help | Application Help Documentation| Production |
-| docs| Help | Application Help Documentation HTML| Production |
-| templates   |  middleware | Board configuration scripts| Beta |
-| display | boards | Productized display board support | Beta |
 
 ### Bug fixes and library updates for v3.6.0
 
