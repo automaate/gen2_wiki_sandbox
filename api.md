@@ -16,23 +16,23 @@ nav_order: 90
   <div class="col-sm-6 mb-3 mb-md-0">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Welcome to MPLAB Harmony Graphics Suite!</h5>
-        <p class="card-text">This contains documentation for the MPLAB Harmony Graphics Suite.</p>
-        <a href="https://automaate.github.io/gen2_wiki_sandbox/docs/html/" class="btn btn-primary">Documentation</a>
+        <h5 class="card-title">Welcome to MPLAB Harmony Graphics Suite Reference</h5>
+        <p class="card-text">This contains documentation for MPLAB Harmony Graphics Suite API and User Guide.</p>
+        <a href="https://automaate.github.io/gen2_wiki_sandbox/docs/html/" class="btn btn-primary">Reference Docs</a>
       </div>
     </div>
   </div>
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">API and User Guide</h5>
-        
-        <a href="https://automaate.github.io/gen2_wiki_sandbox/" class="btn btn-primary">Documentation</a>
+        <h5 class="card-title">Welcome to MPLAB Harmony Graphics Suite Wiki</h5>
+        <p class="card-text">This contains documentation for MPLAB Harmony Graphics Suite tutorials and how-to guides.</p>
+        <a href="https://github.com/Microchip-MPLAB-Harmony/gfx" class="btn btn-primary">Wiki Docs</a>
       </div>
     </div>
   </div>
 </div>    </div>
   </div>
-</div>  
+</div> 
 
 </body>
