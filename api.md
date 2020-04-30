@@ -4,8 +4,6 @@ nav_order: 90
 ---
 <html lang="en">
 
-
-
 <head>
 
 <link rel='stylesheet' id='compiled.css-css'  href='https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-4.17.0.min.css?ver=4.17.0' type='text/css' media='all' />
