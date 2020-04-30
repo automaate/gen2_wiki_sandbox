@@ -16,21 +16,21 @@ The reference manual is intended to provide all the necessary information to use
 
 ## Getting Started
 
-[Installing the Suite](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki)
-[Examples and Demonstrations](https://automaate.github.io/gen2_wiki_sandbox/docs/html/ExamplesDemonstrations.html)
+* [Installing the Suite](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki)
+* [Examples and Demonstrations](https://automaate.github.io/gen2_wiki_sandbox/docs/html/ExamplesDemonstrations.html)
 
 ## Tutorials
 
-[Application Quickstart Guides](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Application-QuickStart)
+* [Application Quickstart Guides](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Application-QuickStart)
 
 ## API Reference
 
-[Reference](https://automaate.github.io/gen2_wiki_sandbox/docs/html/)
+* [Reference](https://automaate.github.io/gen2_wiki_sandbox/docs/html/)
 
 ## User Guides
 
-[User Guides](https://automaate.github.io/gen2_wiki_sandbox/docs/html/)
+* [User Guides](https://automaate.github.io/gen2_wiki_sandbox/docs/html/)
 
 ## Development Tools
 
-[Development Tools](https://automaate.github.io/gen2_wiki_sandbox/docs/html/)
+* [Development Tools](https://automaate.github.io/gen2_wiki_sandbox/docs/html/)
