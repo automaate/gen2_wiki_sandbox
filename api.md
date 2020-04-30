@@ -24,17 +24,6 @@ nav_order: 90
       </div>
     </div>
   </div>
+</div>   
 
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">API and User Guide</h5>
-        
-        <a href="https://automaate.github.io/gen2_wiki_sandbox/" class="btn btn-primary">Documentation</a>
-      </div>
-    </div>
-  </div>
-</div>    </div>
-  </div>
-</div>
 </body>
