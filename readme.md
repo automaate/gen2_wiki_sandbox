@@ -104,9 +104,9 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 
 | Category | Item | Description | Release Type |
 | --- | --- | ---- |---- |
-|input | generic | Generic Touch Input Driver | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+|input | generic | Generic Touch Input Driver | ![app-beta](https://img.shields.io/badge/input-beta-orange?style=plastic) |
 |      | maxtouch | Microchip maXTouch Touch Input Driver | ![app-beta](https://img.shields.io/badge/input-beta-orange?style=plastic) |
-| docs| Help | Application Help Documentation HTML| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| docs| Help | Application Help Documentation HTML| ![app-beta](https://img.shields.io/badge/docs-beta-orange?style=plastic) |
 | templates   |  middleware | Board configuration scripts| ![app-beta](https://img.shields.io/badge/templates-beta-orange?style=plastic) |
 | display | boards | Productized display board support | ![app-beta](https://img.shields.io/badge/display-beta-orange?style=plastic) |
 | interface| gfx_driver | Interface abstraction between a graphics library and graphics drivers | ![app-beta](https://img.shields.io/badge/interface-beta-orange?style=plastic) |
@@ -114,10 +114,10 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 ____
 
 [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx/blob/master/mplab_harmony_license.md)
-[![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/aerospace.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx/releases/latest)
-[![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/aerospace.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx/releases/latest)
-[![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/aerospace.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx/graphs/commit-activity)
-[![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/aerospace.svg)]()
+![Latest release](https://img.shields.io/badge/release-v3.7.0-orange?style=plastic)
+![Latest release date](https://img.shields.io/badge/date-may-orange?style=plastic)
+![Commit activity](https://img.shields.io/badge/activity-43-orange?style=plastic)
+![Contributors](https://img.shields.io/badge/contributors-3-orange?style=plastic)
 
 ____
 
