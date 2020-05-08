@@ -67,16 +67,16 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 |  apps | legato_flash | Legato UI library quickstart flash writer example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 |  apps | legato_quickstart | Legato UI library quickstart example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 |      |  legato_quickstart_ext_res | Legato UI library external resource example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic)|
-| drivers|  external_controller | User generate-able external display driver | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-|      |   ili9488 | Display Driver for the ili9488 Controller |![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-|      |   LCC | Display Driver for the LCC software Controller| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-|      |   ssd1963 | Display Driver for the ssd1963 Controller | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-|      |   parallel_ebi | Interface to the parallel EBI registers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-|      |   parallel_portgroup | Inteface to the parallel portgroup registers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-|      |   parallel_smc | Interface to the parallel smc registers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-|      |   spi | Interface to the spi registers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| drivers|  external_controller | User generate-able external display driver | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   ili9488 | Display Driver for the ili9488 Controller |![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   LCC | Display Driver for the LCC software Controller| ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   ssd1963 | Display Driver for the ssd1963 Controller | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   parallel_ebi | Interface to the parallel EBI registers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   parallel_portgroup | Inteface to the parallel portgroup registers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   parallel_smc | Interface to the parallel smc registers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   spi | Interface to the spi registers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
 | library    | legato | Graphics Library | ![app-beta](https://img.shields.io/badge/library-beta-orange?style=plastic) |
-| designer | legato MHGC |Harmony Graphics Composer for Legato| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| designer | legato MHGC |Harmony Graphics Composer for Legato| ![app-beta](https://img.shields.io/badge/tool-beta-orange?style=plastic) |
 
 
 ## Blank library interface
@@ -85,19 +85,18 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 
 | Category | Item | Description | Release Type |
 | --- | --- | ---- |---- |
-| apps | blank_quickstart | Blank UI-less library quickstart example | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| interface| gfx_driver | Interface abstraction between a graphics library and graphics drivers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| apps | blank_quickstart | Blank UI-less library quickstart example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
 ## Graphics Drivers
 
 | Driver | Status |
 | --- | :---: |
-| [external_controller](middleware/legato/driver/controller/external_controller/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [glcd](middleware/legato/driver/controller/glcd/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [2dgpu](middleware/legato/driver/processor/2dgpu/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [generic_touch](input/driver/touch/generic_touch/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [maxtouch](input/driver/touch/maxtouch/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| [ptc](input/driver/touch/ptc/readme.md) | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| [external_controller](middleware/legato/driver/controller/external_controller/readme.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+| [glcd](middleware/legato/driver/controller/glcd/readme.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+| [2dgpu](middleware/legato/driver/processor/2dgpu/readme.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+| [generic_touch](input/driver/touch/generic_touch/readme.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+| [maxtouch](input/driver/touch/maxtouch/readme.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+| [ptc](input/driver/touch/ptc/readme.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
 
 ## Misc items
 
@@ -106,10 +105,11 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 | Category | Item | Description | Release Type |
 | --- | --- | ---- |---- |
 |input | generic | Generic Touch Input Driver | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-|      | maxtouch | Microchip maXTouch Touch Input Driver | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+|      | maxtouch | Microchip maXTouch Touch Input Driver | ![app-beta](https://img.shields.io/badge/input-beta-orange?style=plastic) |
 | docs| Help | Application Help Documentation HTML| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| templates   |  middleware | Board configuration scripts| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| display | boards | Productized display board support | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| templates   |  middleware | Board configuration scripts| ![app-beta](https://img.shields.io/badge/templates-beta-orange?style=plastic) |
+| display | boards | Productized display board support | ![app-beta](https://img.shields.io/badge/display-beta-orange?style=plastic) |
+| interface| gfx_driver | Interface abstraction between a graphics library and graphics drivers | ![app-beta](https://img.shields.io/badge/interface-beta-orange?style=plastic) |
 
 ____
 
