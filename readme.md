@@ -75,7 +75,7 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 |      |   parallel_portgroup | Inteface to the parallel portgroup registers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 |      |   parallel_smc | Interface to the parallel smc registers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 |      |   spi | Interface to the spi registers | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
-| library    | legato | Graphics Library | ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
+| library    | legato | Graphics Library | ![app-beta](https://img.shields.io/badge/library-beta-orange?style=plastic) |
 | designer | legato MHGC |Harmony Graphics Composer for Legato| ![app-beta](https://img.shields.io/badge/plib-beta-orange?style=plastic) |
 
 
