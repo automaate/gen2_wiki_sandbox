@@ -1,25 +1,10 @@
 var searchData=
 [
-  ['e54cult_5fssd1963activatelist_4299',['e54cult_ssd1963ActivateList',['../namespaceSupport__BSP__SAM__E54__Curiosity__Ultra.html#a979f6c5c462954ed9f759b8e019530df',1,'Support_BSP_SAM_E54_Curiosity_Ultra']]],
-  ['e54cult_5fssd1963autoconnectlist_4300',['e54cult_ssd1963AutoConnectList',['../namespaceSupport__BSP__SAM__E54__Curiosity__Ultra.html#a16105282f1ec3b4622eb352e88073595',1,'Support_BSP_SAM_E54_Curiosity_Ultra']]],
-  ['e54cult_5fssd1963pinconfig_4301',['e54cult_ssd1963PinConfig',['../namespaceSupport__BSP__SAM__E54__Curiosity__Ultra.html#a0b6c20584fc313e0cdf023772b36fbe2',1,'Support_BSP_SAM_E54_Curiosity_Ultra']]],
-  ['e54cult_5fxbspdisplayinterfacelist_4302',['e54cult_xbspDisplayInterfaceList',['../namespaceSupport__BSP__SAM__E54__Curiosity__Ultra.html#adec8da1c68855abab22cc620ea858dff',1,'Support_BSP_SAM_E54_Curiosity_Ultra']]],
-  ['edit_4303',['edit',['../structleState.html#ad585520671df05d6e92266d1304251bf',1,'leState']]],
-  ['effects_4304',['effects',['../structGFXC__CANVAS.html#aaed2baafcaf2bd8aabdef30ea94ce835',1,'GFXC_CANVAS']]],
-  ['embedded_4305',['embedded',['../LICENSE__OFL_8txt.html#abfc696cb0af8662d015dcbfa3cc485a5',1,'embedded():&#160;LICENSE_OFL.txt'],['../Liberation_01Font_01LICENSE_8txt.html#a3e558a9bee0d22ff757e202c1cd70418',1,'embedded():&#160;Liberation Font LICENSE.txt']]],
-  ['enabled_4306',['enabled',['../structleInputState.html#a14097338965388843259a127e5595e1a',1,'leInputState::enabled()'],['../structleWidget.html#a14097338965388843259a127e5595e1a',1,'leWidget::enabled()']]],
-  ['encodingmode_4307',['encodingMode',['../structleStringTable.html#acf387cfc47234b7c3714f3fee8278753',1,'leStringTable']]],
-  ['endalpha_4308',['endAlpha',['../structGFXC__CANVAS.html#a76de0319ced45a2dc0e6a7ab1847571a',1,'GFXC_CANVAS']]],
-  ['endangle_4309',['endAngle',['../structArcDrawState.html#a5e620d85255bd8aa9de842e9fff2ca6c',1,'ArcDrawState']]],
-  ['endx_4310',['endX',['../structGFXC__CANVAS.html#a366c61e3265c5164778b9b813469e745',1,'GFXC_CANVAS']]],
-  ['endy_4311',['endY',['../structGFXC__CANVAS.html#a925629c08f94d2b63a869dbdaeb7057c',1,'GFXC_CANVAS']]],
-  ['event_4312',['event',['../structleWidgetEvent__TouchDown.html#a393743bf2223a349e20dab3ba6b6198b',1,'leWidgetEvent_TouchDown::event()'],['../structleWidgetEvent__TouchUp.html#a393743bf2223a349e20dab3ba6b6198b',1,'leWidgetEvent_TouchUp::event()'],['../structleWidgetEvent__TouchMove.html#a393743bf2223a349e20dab3ba6b6198b',1,'leWidgetEvent_TouchMove::event()']]],
-  ['eventcallbackfxn_4313',['eventCallbackFxn',['../classbsp__utils_1_1bspSupportObj.html#a15af7b091543e18097bfedd3825fa95a',1,'bsp_utils::bspSupportObj']]],
-  ['eventfilters_4314',['eventFilters',['../structleWidget.html#a1fa9654c6805177db2ed15d8851d643b',1,'leWidget']]],
-  ['eventgeneratefunctions_4315',['eventGenerateFunctions',['../namespaceevent.html#a420e8ebf8352f81bb9c24efed01713db',1,'event']]],
-  ['events_4316',['events',['../structleEventState.html#a37d62a99f21e6f0b2a2f094927821071',1,'leEventState']]],
-  ['evt_4317',['evt',['../structleWidget__MoveEvent.html#a333f10e00d45678933d04bc78024d4e2',1,'leWidget_MoveEvent::evt()'],['../structleWidget__ResizeEvent.html#a333f10e00d45678933d04bc78024d4e2',1,'leWidget_ResizeEvent::evt()']]],
-  ['exec_4318',['exec',['../structleImageDecoder.html#a1ca11740ecc34dede9e0a3402d2f4a5f',1,'leImageDecoder::exec()'],['../structleRawDecodeStage.html#a21349bb03494ce62c14b980903fc4ef5',1,'leRawDecodeStage::exec()']]],
-  ['extddrpinconfig_4319',['extddrPinConfig',['../namespaceSupport__BSP__PIC32MZ__DA__Starter__Kit__MEB2.html#a915eb187121a23ceb8859139d2d9bfe1',1,'Support_BSP_PIC32MZ_DA_Starter_Kit_MEB2']]],
-  ['externalddrpartslist_4320',['externalDDRPartsList',['../namespaceSupport__BSP__PIC32MZ__DA__Starter__Kit__MEB2.html#acae5255c413dfbf13018fa9a260ddf35',1,'Support_BSP_PIC32MZ_DA_Starter_Kit_MEB2']]]
+  ['filter_1241',['filter',['../structleEventState.html#a1805a82b4032807643f004ae97bba5f8',1,'leEventState']]],
+  ['filterevent_1242',['filterEvent',['../structleWidgetEventFilter.html#a30e6fb35bea71785ea6e36450c83b6b3',1,'leWidgetEventFilter']]],
+  ['fn_1243',['fn',['../structleDynamicString.html#a62f64e3eb33c758ec050f4015cfd4cc4',1,'leDynamicString::fn()'],['../structleFixedString.html#a32478c4e943451d80a8edd34211d1d2e',1,'leFixedString::fn()'],['../structleString.html#a175423af1b8ad8ecf3c010f68b3efb28',1,'leString::fn()'],['../structleArcWidget.html#a0a1b033721ea1c5080ef213df6e27858',1,'leArcWidget::fn()']]],
+  ['focus_1244',['focus',['../structleState.html#a70ef295a1e602f171feb8d756ab2cdad',1,'leState']]],
+  ['font_1245',['font',['../structleDynamicString.html#ad74adcd20b15c39a96bec26a1dcf432f',1,'leDynamicString::font()'],['../structleFixedString.html#ad74adcd20b15c39a96bec26a1dcf432f',1,'leFixedString::font()']]],
+  ['format_1246',['format',['../structn2d__buffer.html#a1c307a27d17daa06c6bce5b278e08a94',1,'n2d_buffer']]],
+  ['free_1247',['free',['../structleImageDecoder.html#a6a63e411c52c60ea7640c657bd265174',1,'leImageDecoder']]]
 ];

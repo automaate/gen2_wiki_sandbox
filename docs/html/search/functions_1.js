@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['addbspsupport_3444',['addBSPSupport',['../namespacebsp__utils.html#ab640e6b6ad98d87bfdc1027b0b579cf9',1,'bsp_utils']]],
-  ['adddisplayintfsupport_3445',['addDisplayIntfSupport',['../namespacedisplay__utils.html#a31e361bb84d92de6fa29045682574570',1,'display_utils']]],
-  ['asyncmodeoptions_3446',['asyncModeOptions',['../namespace2dgpu.html#a2fe1946678a0fb4f1c4b8c499d0257a0',1,'2dgpu.asyncModeOptions()'],['../namespacegfx2d.html#a32d1371a9edeba9d7d4a649a94029d62',1,'gfx2d.asyncModeOptions()']]],
-  ['autoselectdmachannel_3447',['autoSelectDMAChannel',['../namespacelcc__controller.html#acdb50d7a5f06b0114b01e8b95e262788',1,'lcc_controller.autoSelectDMAChannel()'],['../namespacelcc__controller__pic32mz.html#acf9e389e0370c83a77dd15dd90a32bdf',1,'lcc_controller_pic32mz.autoSelectDMAChannel()']]]
+  ['append_929',['append',['../legato_2string_2legato__string_8h.html#ae06c96cf7d4c4c03c343f0e9255da3e0',1,'append(leString *_this, const struct leString *val):&#160;legato_string.h'],['../legato_01-_01Copy_2string_2legato__string_8h.html#ae06c96cf7d4c4c03c343f0e9255da3e0',1,'append(leString *_this, const struct leString *val):&#160;legato_string.h']]]
 ];

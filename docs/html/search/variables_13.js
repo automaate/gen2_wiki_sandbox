@@ -1,11 +1,6 @@
 var searchData=
 [
-  ['val_4818',['val',['../structleListNode.html#ab03f36f103bdec81305fd301f1f93885',1,'leListNode']]],
-  ['valid_4819',['valid',['../structleTouchState.html#a2508f82318bdac6b715d548091b03055',1,'leTouchState']]],
-  ['valign_4820',['valign',['../classwidget_1_1WidgetDefault.html#a2f80e7de060e54fa44971ddc3be43808',1,'widget.WidgetDefault.valign()'],['../structleWidget.html#a21d1364fd34a32230487603fa8e663e5',1,'leWidget::valign()']]],
-  ['values_4821',['values',['../structleArray.html#a6ee6b4f00a02c40d6f7d4b3bf0a21980',1,'leArray']]],
-  ['variableheap_4822',['variableHeap',['../legato__memory_8c.html#a04d7a92aa4b14654fb81e69883f11ab6',1,'legato_memory.c']]],
-  ['variableheapdata_4823',['variableHeapData',['../legato__memory_8c.html#a42315346d7eb33604f3273a4bd2d0586',1,'legato_memory.c']]],
-  ['variableheapreport_4824',['variableHeapReport',['../structleMemoryStatusReport.html#ae3afa410ef000b438cfabc56ae3dd9bf',1,'leMemoryStatusReport']]],
-  ['visible_4825',['visible',['../structleWidget.html#a121c61577ef4dcc581554bdb04ef2b08',1,'leWidget']]]
+  ['widget_1292',['widget',['../structleArcWidget.html#a027495769f792361c0c98ade93715ded',1,'leArcWidget']]],
+  ['widgetids_1293',['widgetIDs',['../structleState.html#af8827ef05e7eb5d954be7a53a297fe47',1,'leState']]],
+  ['width_1294',['width',['../structn2d__buffer.html#a5a61e0d2806d2ec5b092ee156f957b4a',1,'n2d_buffer::width()'],['../structleSize.html#a395d15e7c2b09961c1bfd1da6179b64c',1,'leSize::width()']]]
 ];

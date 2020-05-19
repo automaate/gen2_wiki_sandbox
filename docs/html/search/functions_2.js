@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['bsp_5fpic32mzef_5fcu_5feventhandler_3448',['bsp_pic32mzef_cu_EventHandler',['../namespaceSupport__BSP__PIC32MZ__EF__Curiosity.html#ae26e99e17e7a593c96818d2bddb7bdf5',1,'Support_BSP_PIC32MZ_EF_Curiosity']]],
-  ['bsp_5fpic32mzef_5fsk_5fmeb_5feventhandler_3449',['bsp_pic32mzef_sk_meb_EventHandler',['../namespaceSupport__BSP__PIC32MZ__EF__Starter__Kit__MEB2.html#a60116d1e9c7e6af053d48b7bef09b9b6',1,'Support_BSP_PIC32MZ_EF_Starter_Kit_MEB2']]]
+  ['charat_930',['charAt',['../legato_2string_2legato__string_8h.html#aec7d58a2e4f2cd0fed851685ab103370',1,'charAt(const leString *_this, uint32_t idx):&#160;legato_string.h'],['../legato_01-_01Copy_2string_2legato__string_8h.html#aec7d58a2e4f2cd0fed851685ab103370',1,'charAt(const leString *_this, uint32_t idx):&#160;legato_string.h']]],
+  ['clear_931',['clear',['../legato_2string_2legato__string_8h.html#acba8eef61054183ec3899f526a3a68ec',1,'clear(leString *_this):&#160;legato_string.h'],['../legato_01-_01Copy_2string_2legato__string_8h.html#acba8eef61054183ec3899f526a3a68ec',1,'clear(leString *_this):&#160;legato_string.h']]],
+  ['compare_932',['compare',['../legato_2string_2legato__string_8h.html#a9a0884614b95218aeeba25a9a5d9db33',1,'compare(const leString *_this, const struct leString *tgt):&#160;legato_string.h'],['../legato_01-_01Copy_2string_2legato__string_8h.html#a9a0884614b95218aeeba25a9a5d9db33',1,'compare(const leString *_this, const struct leString *tgt):&#160;legato_string.h']]]
 ];

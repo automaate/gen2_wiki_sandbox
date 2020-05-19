@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['advanced_20topics_5558',['Advanced Topics',['../AdvancedTopics.html',1,'']]]
+  ['adventure_1486',['Adventure',['../LegatoAdventure.html',1,'LegatoApplications']]]
 ];

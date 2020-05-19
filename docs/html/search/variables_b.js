@@ -1,22 +1,4 @@
 var searchData=
 [
-  ['managedcomment_4608',['managedComment',['../namespacele__config.html#a1ec88f5f5607a2cc8c15288fb0c05efd',1,'le_config']]],
-  ['managedcomment2_4609',['managedComment2',['../namespacele__config.html#a6368bfa2137c2ca550e66ea2a7cb2938',1,'le_config']]],
-  ['map_4610',['map',['../structleImage.html#a25e9918adc781810d4db75391225509f',1,'leImage']]],
-  ['margin_4611',['margin',['../structleWidget.html#a00f5eda9b0280fbe21d58dedc178b14e',1,'leWidget']]],
-  ['mask_4612',['mask',['../structleColorModeInfo.html#a1b538f4ce9cb14e074934b7099a2ab5c',1,'leColorModeInfo::mask()'],['../structleImage.html#adc5d2494d7c3cacd62867c8a85d78f39',1,'leImage::mask()']]],
-  ['masterclock_4613',['MasterClock',['../namespacessd1963__config.html#af76a18e9107a02f22d2a41dbd2aab5cb',1,'ssd1963_config']]],
-  ['maxnumcanvas_4614',['maxNumCanvas',['../namespacecanvas.html#a9c7d188303c61d056da3026eaf462682',1,'canvas']]],
-  ['maxnumcommands_4615',['MaXNumCommands',['../namespaceconfig.html#a0dfce3c912b836c89ffd3878bb93e5dc',1,'config']]],
-  ['maxnumparms_4616',['MaXNumParms',['../namespaceconfig.html#a5e5fc000cc3fa1b68691b635f02f7dc9',1,'config']]],
-  ['maxusage_4617',['maxUsage',['../structleVariableHeapUsageReport.html#a5b808771795df7f2674f6e0b4d87af47',1,'leVariableHeapUsageReport::maxUsage()'],['../structleFixedHeapUsageReport.html#a5b808771795df7f2674f6e0b4d87af47',1,'leFixedHeapUsageReport::maxUsage()'],['../structleVariableHeap.html#a5b808771795df7f2674f6e0b4d87af47',1,'leVariableHeap::maxUsage()']]],
-  ['mclk_5fdefaultvalue_5fhz_4618',['MCLK_DefaultValue_Hz',['../namespacessd1963__config.html#a03ea28d22e99e0429ccf9b0c5bacb9de',1,'ssd1963_config']]],
-  ['memorywritecommand_4619',['MemoryWriteCommand',['../namespaceconfig.html#a451b990875c2e7c85f046f85ca89279e',1,'config']]],
-  ['menu_4620',['menu',['../classscreen_1_1RadialMenu.html#a905479d79c2aa8410d2fc374bc75cc5b',1,'screen::RadialMenu']]],
-  ['mode_4621',['mode',['../structlePixelBuffer.html#aea8c4615bd9f2bfa9b920895e8d9b677',1,'lePixelBuffer::mode()'],['../structleRawDecodeState.html#a86289a1ec82d828ff5d3c0538dd7ab32',1,'leRawDecodeState::mode()']]],
-  ['move_4622',['move',['../structGFXC__CANVAS.html#ac5710716bd57c0a95660d9b482146277',1,'GFXC_CANVAS']]],
-  ['mzda_5fcu_5factivatelist_4623',['mzda_cu_activateList',['../namespaceSupport__BSP__PIC32MZ__DA__Curiosity.html#a70b7120dc06012b0af860d2632507db0',1,'Support_BSP_PIC32MZ_DA_Curiosity']]],
-  ['mzda_5fcu_5fconnectlist_4624',['mzda_cu_connectList',['../namespaceSupport__BSP__PIC32MZ__DA__Curiosity.html#a8b27bd0d60cf096307f472d3010dbf6e',1,'Support_BSP_PIC32MZ_DA_Curiosity']]],
-  ['mzda_5fcu_5finterfacelist_4625',['mzda_cu_interfaceList',['../namespaceSupport__BSP__PIC32MZ__DA__Curiosity.html#a5cbe2fb4410d0ad9cc376a43cbd63db8',1,'Support_BSP_PIC32MZ_DA_Curiosity']]],
-  ['mzda_5fcu_5fpinconfig_4626',['mzda_cu_pinConfig',['../namespaceSupport__BSP__PIC32MZ__DA__Curiosity.html#aa614c749519cb9f56e86f40c3566a65c',1,'Support_BSP_PIC32MZ_DA_Curiosity']]]
+  ['next_1267',['next',['../structleListNode.html#a43528a26a7e63158250d2fd61ea84af0',1,'leListNode']]]
 ];
