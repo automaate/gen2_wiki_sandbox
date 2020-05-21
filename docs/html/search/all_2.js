@@ -9,6 +9,6 @@ var searchData=
   ['bpp_73',['bpp',['../structleColorModeInfo.html#ac2987cad919bae7cfaa2b2a9122e5702',1,'leColorModeInfo']]],
   ['bppordinal_74',['bppOrdinal',['../structleColorModeInfo.html#a1f7f876b6cdab0036549c6f0b3c4187d',1,'leColorModeInfo']]],
   ['bspsupportobj_75',['bspSupportObj',['../classbsp__utils_1_1bspSupportObj.html',1,'bsp_utils']]],
-  ['bufferflags_76',['BufferFlags',['../legato_2common_2legato__pixelbuffer_8h.html#a19cab0989f730daa7ad67f06f483712f',1,'BufferFlags():&#160;legato_pixelbuffer.h'],['../legato_01-_01Copy_2common_2legato__pixelbuffer_8h.html#a19cab0989f730daa7ad67f06f483712f',1,'BufferFlags():&#160;legato_pixelbuffer.h']]],
+  ['bufferflags_76',['BufferFlags',['../legato__pixelbuffer_8h.html#a19cab0989f730daa7ad67f06f483712f',1,'legato_pixelbuffer.h']]],
   ['benchmark_77',['Benchmark',['../LegatoBenchmark.html',1,'LegatoApplications']]]
 ];

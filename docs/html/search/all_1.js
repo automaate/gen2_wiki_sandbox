@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['activestream_58',['activeStream',['../structleState.html#a5db79f56aafff363ef9d31d61b6d5af2',1,'leState']]],
-  ['address_59',['address',['../structleStreamDescriptor.html#a1816fd36586eddfffb4a60d1b907c9bc',1,'leStreamDescriptor']]],
-  ['append_60',['append',['../legato_2string_2legato__string_8h.html#ae06c96cf7d4c4c03c343f0e9255da3e0',1,'append(leString *_this, const struct leString *val):&#160;legato_string.h'],['../legato_01-_01Copy_2string_2legato__string_8h.html#ae06c96cf7d4c4c03c343f0e9255da3e0',1,'append(leString *_this, const struct leString *val):&#160;legato_string.h']]],
+  ['activestream_58',['activeStream',['../structleState.html#a0bc56c731a128426b8d18e244b8e10ed',1,'leState']]],
+  ['address_59',['address',['../structleStreamDescriptor.html#ab96816d317aa5196e2ef198d9a8d621b',1,'leStreamDescriptor']]],
+  ['append_60',['append',['../legato__string_8h.html#ae06c96cf7d4c4c03c343f0e9255da3e0',1,'legato_string.h']]],
   ['arcdrawstate_61',['ArcDrawState',['../structArcDrawState.html',1,'']]],
   ['argsetposition_62',['argSetPosition',['../structargSetPosition.html',1,'']]],
   ['argsetsize_63',['argSetSize',['../structargSetSize.html',1,'']]],
