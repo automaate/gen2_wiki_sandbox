@@ -1,3 +1,7 @@
+---
+nav_order: 2
+---
+
 # page `changelog` {#changelog}
 
 ## Version 1.0.1
