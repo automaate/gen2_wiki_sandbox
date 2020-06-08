@@ -1,3 +1,7 @@
+---
+nav_order: 2
+---
+
 # group `bicycle` {#group__bicycle}
 
 Bicycle module contains the bicycle class. Bicycles are a useful way of transporting oneself, without too much effort.
