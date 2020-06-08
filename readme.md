@@ -91,11 +91,11 @@ The key features of the MPLAB® Harmony Graphics Suite are the following:
 
 | Driver | Status |
 | --- | :---: |
-| [external_controller](middleware/legato/driver/controller/external_controller/readme.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-| [glcd](middleware/legato/driver/controller/glcd/readme.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-| [2dgpu](middleware/legato/driver/processor/2dgpu/readme.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-| [generic_touch](input/driver/touch/generic_touch/readme.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-| [maxtouch](input/driver/touch/maxtouch/readme.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+| [external_controller](api-bicycle.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+| [glcd](api-mountainbike.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+| [2dgpu](api-racingbike.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+| [generic_touch](page-overview.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+| [maxtouch](page-changelog.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
 | [ptc](input/driver/touch/ptc/readme.md) | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
 
 ## Misc items
