@@ -6,22 +6,87 @@ nav_order: 99
 ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png)
 
 # Microchip MPLAB® Harmony 3 Graphics Release Notes
-## Graphics Release v3.6.0
+## Graphics Release v3.7.0
 
-### Bug fixes and library updates for v3.6.0
+- **Graphics Contents** - This graphics release consists of graphics libraries, applications, utilities, drivers, hardware abstractions, input, middleware, templates, and documentation. The following table lists the contents:
+
+**Legato graphics library** - the performance improved graphics library for MPLAB Harmony Graphics Suite. Supports PIC32 and SAM microcontrollers.
+
+| Category | Item | Description | Release Type |
+| --- | --- | ---- |---- |
+|  apps | legato_quickstart | Legato UI library quickstart example | Beta |
+|      |  legato_quickstart_ext_res | Legato UI library external resource example | Beta|
+| drivers|  external_controller | User generate-able external display driver | Beta |
+|      |   ili9488 | Display Driver for the ili9488 Controller |Beta |
+|      |   LCC | Display Driver for the LCC software Controller| Beta |
+|      |   ssd1963 | Display Driver for the ssd1963 Controller | Beta |
+|      |   parallel_ebi | Interface to the parallel EBI registers | Beta |
+|      |   parallel_portgroup | Inteface to the parallel portgroup registers | Beta |
+|      |   parallel_smc | Interface to the parallel smc registers | Beta |
+|      |   spi | Interface to the spi registers | Beta |
+| library    | legato | Graphics Library | Beta |
+| designer | Legato MHGC |Harmony Graphics Composer for Legato| Beta |
+
+**Aria graphics library** - the feature-complete production library within MPLAB Harmony Graphics Suite. Supports PIC32 and SAM microcontroller and microprocessors.
+
+| Category | Item | Description | Release Type |
+| --- | --- | ---- |---- |
+| apps |  aria_flash  | Aria UI library flash writer | Production |
+|      |  aria_quickstart|Aria UI library quickstart example | Production|
+|      |  aria_quickstart_ext_res    | Aria UI library external resource example | Production|
+|drivers|  external_controller | User generate-able external display driver | Production |
+|      |  glcd | Graphics 3 Layer Display Driver | Production |
+|      |  ili9488| Display Driver for the ili9488 Controller |Production |
+|      |  LCC | Display Driver for the LCC software Controller| Production |
+|      |  LCDC | Display Driver for the LCDC Controller| Production |
+|      |  ssd1306 | Display Driver for the ssd1306 Controller  | Production |
+|      |  ssd1309 | Display Driver for the ssd1309 Controller  | Production |
+|      |  ssd1963 | Display Driver for the ssd1963 Controller | Production |
+|      |  parallel_ebi | Display interface using parallel EBI registers | Production |
+|      | parallel_portgroup | Display interface using parallel portgroup registers | Production |
+|      | parallel_smc | Display interface using parallel smc registers | Production |
+|      | spi | Display interface using spi registers | Production |
+|      | 2dgpu| Graphics Processor Driver for the 2DGPU peripheral |Production |
+|      | gfx2d | Graphics Processor Driver for the GFX2D peripheral |Production |
+| hal     | hal | Aria Hardware Abstraction Layer | Production |
+| library    | aria | Graphics Library | Production |
+| designer | Aria MHGC  | Harmony Graphics Composer for Aria| Production|
+
+**Blank library interface** - the library interface which easily allows a third-party graphics library direct access to the display framebuffer.
+
+| Category | Item | Description | Release Type |
+| --- | --- | ---- |---- |
+| apps | blank_quickstart | Blank UI-less library quickstart example | Beta |
+| interface| gfx_driver | Interface abstraction between a graphics library and graphics drivers | Beta |
+
+
+
+**Misc items** - items associated with the entire graphics suite.
+
+| Category | Item | Description | Release Type |
+| --- | --- | ---- |---- |
+|input | generic | Generic Touch Input Driver | Production |
+|      | maxtouch | Microchip maXTouch Touch Input Driver | Production |
+| doc | Help | Application Help Documentation| Production |
+| docs| Help | Application Help Documentation HTML| Production |
+| templates   |  middleware | Board configuration scripts| Beta |
+| display | boards | Productized display board support | Beta |
+
+### Bug fixes and library updates for v3.7.0
 
 - **Driver support** - The following table provides the list of updates for graphics and input drivers.
 
 | Driver | Description |
 | --- | --- |
-| LCC | MH3-23405 Graphics LCC driver hard codes DMA channel to zero  |
-| GLCD | MH3-24427 Default GLCD pixel clock divider produces distorted display |
-| GLCD | MH3-28757 Add PIC32MZ DA GLCD legato support to H3    |
-| GLCD | MH3-24689 GLCD: 8-bit LUT code is not being generated  |
+| maXTouch | MaxTouch Driver hard codes I2C instance |
+| maXTouch | Incorrect error message in MAXTOUCH driver code|
+| maXTouch | maxTouch driver always tries to open I2C Driver instance 0 (DRV_I2C_INDEX_0) |
+| LCDC | LCDC Component - Pixel Clock setting is not accurate|
+| GLCD | MHC Error when adding GLCD driver component |
 | GFX2D | MH3-24677 Build warnings in GFX2D code when building SAM9x60 project using XC32  |
 | all | MH3-29666 Add gfx_driver interface between library and drivers    |
 | 2DGPU | MH3-28778 Add PIC32MZ DA GPU legato support to H3  |
-| all | MH3-30018 Modify legato graphic controller drivers to support blank/3rd party graphics library        |
+| all | Add Global Alpha and Palette Features to GPU drivers |
 
 - **Application support** - The following table provides the list of updates for application configurations.
 
@@ -98,14 +163,14 @@ nav_order: 99
 
 | Applications | [SAM D21N Xplained Pro](https://www.microchip.com/DevelopmentTools/ProductDetails/ATSAMD21-XPRO) | [SAM C21N Xplained Pro](https://www.microchip.com/developmenttools/ProductDetails/PartNO/ATSAMC21-XPRO) | [SAM E54 Curiosity Ultra](https://www.microchip.com/Developmenttools/ProductDetails/DM320210)  | [SAM E70 Xplained Ultra](https://www.microchip.com/developmenttools/ProductDetails/PartNO/ATSAME70-XPLD) | [SAM A5D2 Xplained Ultra](https://www.microchip.com/developmenttools/ProductDetails/atsama5d2c-xult)  | [Multimedia Expansion Board II EF](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320005-5)  | [Multimedia Expansion Board II DA](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320005-5) | [SAM9X60-EK Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/DT100126) | [Curiosity PIC32MZ EF 2.0](https://www.microchip.com/Developmenttools/ProductDetails/DM320209) |
 | --- | --- |--- | --- | --- | --- | --- | --- |--- | --- |
-| legato_quickstart_ext_res    |   |   | x |   |   |   |   |   |   |
+| legato_quickstart_ext_res    |   |   | x | x |   |   |   | x |   |
 | aria_flash                   |   |   |   | x |   | x | x |   | x |
 | aria_quickstart              | x | x | x | x | x | x | x | x | x |
 | aria_quickstart_ext_res      |   |   |   | x |   |   | x |   | x |
 | blank_quickstart             |   |   | x | x |   |   | x |   | x |
-| legato_quickstart            |   |   | x | x |   | x | x | x | x |
-| legato_flash                 |   |   | x |   |   |   |   |   |   |
-| legato_quickstart_ext_res    |   |   | x |   |   |   |   |   |   |
+| legato_quickstart            | x | x | x | x | x | x | x | x | x |
+| legato_flash                 |   |   | x | x |   |   |   | x |   |
+| legato_quickstart_ext_res    |   |   | x | x |   |   |   | x |   |
 
 ### KNOWN ISSUES
 
@@ -118,7 +183,7 @@ In gfx.c the variable args is falsely detected in violation of Code 530: &quot;S
 * The Heap Estimator can be inaccurate with estimating PNG images that have high pixel fidelity.
 * Project regeneration from command line can remove Aria generated screens and widgets.
 * MHGC GAC does not generated a 2DGPU comaptible palette table. A translation step is required to create word values from little endian byte array.
-* When regenerating demo applications, keep all code between comments //CUSTOM CODE and //END OF CUSTOM CODE. Custom code is added to perform specific functionality.
+* When regenerating demo applications, keep all code between comments “//CUSTOM CODE…” and “//END OF CUSTOM CODE…”. Custom code is added to perform specific functionality.
 * PKOB4 debugging requires MPLAB v5.20.
 * Applications running on SAM E70 in combination with LCC will observe visual rendering artifacts on display during SD card R/W access. There is no loss in SD Card data.
 * Applications formatting SQI FAT in Linux use the following command: mkfs.fat -F12 /dev/$(device name)
@@ -131,15 +196,16 @@ In gfx.c the variable args is falsely detected in violation of Code 530: &quot;S
 
 | Tool | Version |
 | --- | --- |
-| [MPLAB® X IDE](https://www.microchip.com/mplab/mplab-x-ide) | v5.30 |
-| [MPLAB® XC32 C/C++ Compiler](https://www.microchip.com/mplab/compilers)      | v2.40 |
+| [MPLAB® X IDE](https://www.microchip.com/mplab/mplab-x-ide) | v5.40 |
+| [MPLAB® XC32 C/C++ Compiler](https://www.microchip.com/mplab/compilers)      | v2.41 |
 | MPLAB® X IDE plug-ins          |  |
-| MPLAB® Harmony Configurator (MHC) plug-in   | v3.3.1 |
-| [Harmony 3 BSP](https://github.com/Microchip-MPLAB-Harmony/bsp)   | v3.6.0 |
-| [Harmony 3 CSP](https://github.com/Microchip-MPLAB-Harmony/csp)  | v3.6.0 |
-| [Harmony 3 Core](https://github.com/Microchip-MPLAB-Harmony/core)  | v3.6.0 |
-| [Harmony 3 Graphics ](https://github.com/Microchip-MPLAB-Harmony/gfx)   | v3.6.0 |
-| [Harmony 3 Dev_Packs](https://github.com/Microchip-MPLAB-Harmony/dev_packs)   | v3.6.0 |
-| [Harmony 3 USB](https://github.com/Microchip-MPLAB-Harmony/usb)   | v3.4.0 |
+| MPLAB® Harmony Configurator (MHC) plug-in   | v3.4.1 |
+| [Harmony 3 BSP](https://github.com/Microchip-MPLAB-Harmony/bsp)   | v3.8.0 |
+| [Harmony 3 CSP](https://github.com/Microchip-MPLAB-Harmony/csp)  | v3.8.0 |
+| [Harmony 3 Core](https://github.com/Microchip-MPLAB-Harmony/core)  | v3.8.0 |
+| [Harmony 3 Graphics ](https://github.com/Microchip-MPLAB-Harmony/gfx)   | v3.7.0 |
+| [Harmony 3 Dev_Packs](https://github.com/Microchip-MPLAB-Harmony/dev_packs)   | v3.8.0 |
+| [Harmony 3 USB](https://github.com/Microchip-MPLAB-Harmony/usb)   | v3.6.0 |
 | [Harmony 3 CMSIS-FreeRTOS](https://github.com/ARM-software/CMSIS-FreeRTOS)   | v10.2.0 |
 | [IAR Embedded WorkBench ARM](https://www.iar.com/iar-embedded-workbench/#!?architecture=Arm)   | v8.40.1 |
+
