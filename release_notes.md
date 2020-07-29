@@ -96,9 +96,9 @@ For a list of post release issues that affect this release, refer to MPLAB Harmo
 ### Dependent Components
 
 * [BSP v3.7.0](https://github.com/Microchip-MPLAB-Harmony/bsp/releases/tag/v3.7.0)
-* [Core v3.7.2 ](https://github.com/Microchip-MPLAB-Harmony/core)  | v3.7.2
+* [Core v3.7.2 ](https://github.com/Microchip-MPLAB-Harmony/core/releases/tag/v3.7.2)
 * [dev_packs v3.7.0 ](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.7.0)
-* [Harmony 3 USB v3.6.0](https://github.com/Microchip-MPLAB-Harmony/usb)
+* [Harmony 3 USB v3.6.0](https://github.com/Microchip-MPLAB-Harmony/usb/releases/tag/v3.6.0)
 * [Harmony 3 CMSIS-FreeRTOS v10.2.0](https://github.com/ARM-software/CMSIS-FreeRTOS)
 * [IAR Embedded WorkBench ARM v8.40.1](https://www.iar.com/iar-embedded-workbench/#!?architecture=Arm)
 
