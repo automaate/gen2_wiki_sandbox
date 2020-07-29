@@ -83,7 +83,13 @@ nav_order: 99
 
 ### Known Issues
 
-* No known issues.
+* Code is compliant to MISRA C 2012 Mandatory guidelines, with the exception of Rule 9.1 (Code 530). In gfx.c, the variable args is falsely detected in violation of Code 530: "Symbol not initialized" at line 358. In fact, va_start at line 358 is exactly where args is initialized.
+* When regenerating demo applications, keep all code between comments “//CUSTOM CODE…” and “//END OF CUSTOM CODE…”. Custom code is added to perform specific functionality.
+* Applications running on SAM E70 in combination with LCC will observe visual rendering artifacts on display during SD card R/W access. There is no loss in SD Card data.
+* FreeRTOS osal has an incorrect include path that causes build failures in non-Windows environments.
+* SAM E54/D51 must be debugged using MPLABX v5.25
+    
+For a list of post release issues that affect this release, refer to MPLAB Harmony [GFX Issues and Errata](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Issues-and-Errata).
 
 ### Development Tools
 
