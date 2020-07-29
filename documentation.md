@@ -18,5 +18,3 @@ Here you'll find documentation for MPLAB Harmony Graphics Suite, a MPLAB Harmony
 **Archives**
 
 * [Aria Graphics](https://github.com/Microchip-MPLAB-Harmony/gfx/tree/master/doc) - Archive for documentation on previous Aria-based releases
-
-Documentation Archives - Archive for documentation on previous Aria-based releases and discontinued products. [Aria PDF and CHM](https://github.com/Microchip-MPLAB-Harmony/gfx/tree/master/doc)
