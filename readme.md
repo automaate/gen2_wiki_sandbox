@@ -3,9 +3,9 @@ title: Harmony 3 Graphics Package
 nav_order: 1
 ---
 
-# ![Microchip Technology](docs/images/mhgs.png) MPLABÂ® Harmony 3 Graphics Support Package
+# ![Microchip Technology](docs/images/mhgs.png) MPLAB® Harmony 3 Graphics Support Package
 
-MPLABÂ® Harmony 3 is an extension of the MPLABÂ® ecosystem for creating
+MPLABÂ® Harmony 3 is an extension of the MPLAB® ecosystem for creating
 embedded firmware solutions for Microchip 32-bit SAM and PIC microcontroller
 and microprocessor devices.  Refer to the following links for more information:
  - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit)
@@ -26,7 +26,7 @@ Find multiple graphics application examples in the [gfx_apps](https://github.com
 
 # Features
 
-The key features of the MPLABÂ® Harmony Graphics Suite are the following:
+The key features of the MPLAB Harmony Graphics Suite are the following:
 
 - Hardware optimized for use with Microchip 32-bit SAM and PIC devices
 - Compatible component for use with Microchip Harmony 3 Configurator (MHC)
@@ -64,11 +64,11 @@ The performance improved graphics for MPLAB Harmony Graphics Suite. Supports Mic
 |    | legato_quickstart | Legato UI library quickstart example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 |      |  legato_quickstart_ext_res | Legato UI library external resource example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic)|
 | drivers|  external_controller | User generate-able external display driver | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   GLCD | Driver for the GLCD display controller peripheral | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   2DGPU | Driver for the 2DGPU graphics processor |![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   LCC | Display Driver for the LCC software Controller| ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   GFX2D | Driver for the GFX2D graphics processor| ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   LCDC | Display Driver for the LCDC display controller peripheral | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   glcd | Driver for the GLCD display controller peripheral | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   2dgpu | Driver for the 2DGPU graphics processor |![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   lcc | Display Driver for the LCC software Controller| ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   gfx2d | Driver for the GFX2D graphics processor| ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   lcdc | Display Driver for the LCDC display controller peripheral | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
 |      |   external controller | Display Driver for the ssd1963 Controller | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
 |      |   parallel_ebi | Interface to the parallel EBI registers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
 |      |   parallel_portgroup | Inteface to the parallel portgroup registers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
@@ -102,7 +102,6 @@ The legacy graphics facilities for MPLAB Harmony Graphics Suite. Supports Microc
 | library    | legato | Graphics Library | ![app-production](https://img.shields.io/badge/library-production-blue?style=plastic) |
 | designer | legato MHGC |Harmony Graphics Composer for Legato| ![app-production](https://img.shields.io/badge/tool-production-blue?style=plastic) |
 
-
 ## Blank library interface
 
 **Blank library interface** - the library interface which easily allows a third-party graphics library direct access to the display framebuffer.
@@ -110,7 +109,6 @@ The legacy graphics facilities for MPLAB Harmony Graphics Suite. Supports Microc
 | Category | Item | Description | Release Type |
 | --- | --- | ---- |---- |
 | apps | blank_quickstart | Blank UI-less library quickstart example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
-
 
 ____
 
