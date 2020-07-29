@@ -22,9 +22,9 @@ nav_order: 99
 | [SAM E70 Xplained Ultra](https://www.microchip.com/developmenttools/ProductDetails/PartNO/ATSAME70-XPLD)  | [legato_flash](https://automaate.github.io/gen2_wiki_sandbox/docs/legato/html/LegatoFlash.html) |
 
 
-* MH3-23406    Fix hard coded I2C instance in MaxTouch Driver.
-* MH3-24597    Image plus widget fails to render image if it is on the application's first screen 
-* MH3-28630    SPI Index is not configurable in drv_gfx_disp_intf_spi4 
+* MH3-23406     Fix hard coded I2C instance in MaxTouch Driver.
+* MH3-24597     Image plus widget fails to render image if it is on the application's first screen 
+* MH3-28630     SPI Index is not configurable in drv_gfx_disp_intf_spi4 
 * MH3-28928 	Harmony3 Graphics Configurator VSYNC/ HSYNC polarity inversed 
 * MH3-29965 	Add option for 320x480 screen resolution in Legato Composer new project wizard 
 * MH3-30003 	Hard fault issue in using List Widget in Harmony 3 Graphic 
@@ -37,7 +37,7 @@ nav_order: 99
 * MH3-30372 	LCDC Component - Pixel Clock setting is not accurate 
 * MH3-31147 	External Graphics Controller generate issue caused by gfx_driver.h changes 
 * MH3-31167 	Aria Documentation missing files for library/utils/inc and library/utils/src folder 
-* MH3-31168 	MPLABÂ® Harmony 3 Graphics Apps Repository in readme.md is pointing to a bitbucket link 
+* MH3-31168 	MPLAB® Harmony 3 Graphics Apps Repository in readme.md is pointing to a bitbucket link 
 * MH3-31231 	GFX Canvas: Canvas framework code development 
 * MH3-31232 	GFX Canvas: add Legato framework APIs 
 * MH3-31234 	GFX Canvas: add per layer management to Composer and Legato library 
@@ -74,7 +74,7 @@ nav_order: 99
 * MH3-38035 	MHC regeneration hangs when Legato generated code is modified 
 * MH3-38131 	PIC32MK1024MCF064: laWidget_GetMargin vs laWidget_GetMargins 
 * MH3-38177 	Add Global Alpha and Palette Features to GPU drivers 
-* MH3-38257 	Legato/ Aria List widget wrong behavior with setItemVisible(0) function 
+* MH3-38257 	Legato/Aria List widget wrong behavior with setItemVisible(0) function 
 
 ### Known Issues
 
