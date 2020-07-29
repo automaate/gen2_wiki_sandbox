@@ -6,7 +6,7 @@ nav_order: 99
 ![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)
 ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png)
 
-# Microchip MPLABÂ® Harmony 3 Release Notes
+# Microchip MPLAB® Harmony 3 Release Notes
 
 ## Graphics Release v3.7.0
 ### New Features
@@ -88,10 +88,10 @@ For a list of post release issues that affect this release, refer to MPLAB Harmo
 
 ### Development Tools
 
-* [MPLABÂ® X IDE v5.40 or above](https://www.microchip.com/mplab/mplab-x-ide)
-* [MPLABÂ® XC32 C/C++ Compiler v2.41](https://www.microchip.com/mplab/compilers)
-* MPLABÂ® X IDE plug-ins:
-    * MPLABÂ® Harmony Configurator (MHC) v3.4.2 and above.
+* [MPLAB® X IDE v5.40 or above](https://www.microchip.com/mplab/mplab-x-ide)
+* [MPLAB® XC32 C/C++ Compiler v2.41](https://www.microchip.com/mplab/compilers)
+* MPLAB® X IDE plug-ins:
+    * MPLAB® Harmony Configurator (MHC) v3.4.2 and above.
 
 ### Dependent Components
 
