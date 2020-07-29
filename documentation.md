@@ -3,7 +3,7 @@ title: Documentation
 nav_order: 90
 ---
 
-# ![Microchip Technology](docs/images/mhgs.png) MPLABÂ® Harmony Graphics Suite Documentation
+# ![Microchip Technology](docs/images/mhgs.png) MPLAB® Harmony Graphics Suite Documentation
 
 Welcome to MPLAB Harmony Graphics Suite Docs!
 
