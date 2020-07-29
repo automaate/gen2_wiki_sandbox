@@ -16,7 +16,7 @@ nav_order: 99
 ## Graphics Release v3.7.0
 ### New Features
 
-* **Development kit and demo application support** - The following table provides number of peripheral library application available for different development kits
+* **Development kit and demo application support** - The following table provides number of applications available for different development kits
 
 | Development Kits | Number of applications |
 | --- | --- |
