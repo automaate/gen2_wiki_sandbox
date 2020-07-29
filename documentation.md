@@ -7,7 +7,7 @@ nav_order: 90
 
 Welcome to MPLAB Harmony Graphics Suite Docs!
 
-Here you'll find documentation for MPLAB Harmony Graphics Suite, a MPLAB Harmony graphics software development module for Microchip PIC32 and SAM devices.
+Here you'll find documentation for MPLAB Harmony Graphics Suite, an MPLAB Harmony graphics software development module for Microchip PIC32 and SAM devices.
 
 **Graphics Suite** 
 
