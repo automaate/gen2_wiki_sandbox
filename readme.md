@@ -101,8 +101,8 @@ The legacy graphics facilities for MPLAB Harmony Graphics Suite. Supports Microc
 |      |   parallel_smc | Interface to the parallel smc registers | ![app-production](https://img.shields.io/badge/driver-production-blue?style=plastic) |
 |      |   spi | Interface to the spi registers | ![app-production](https://img.shields.io/badge/driver-production-blue?style=plastic) |
 | hal     | hal | Aria Hardware Abstraction Layer | ![app-production](https://img.shields.io/badge/driver-production-blue?style=plastic) |
-| library    | legato | Graphics Library | ![app-production](https://img.shields.io/badge/library-production-blue?style=plastic) |
-| designer | legato MHGC |Harmony Graphics Composer for Legato| ![app-production](https://img.shields.io/badge/tool-production-blue?style=plastic) |
+| library    | Aria | Graphics Library | ![app-production](https://img.shields.io/badge/library-production-blue?style=plastic) |
+| designer | Aria MHGC |Harmony Graphics Composer for Aria| ![app-production](https://img.shields.io/badge/tool-production-blue?style=plastic) |
 
 ## Blank library interface
 
