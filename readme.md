@@ -10,19 +10,19 @@ embedded firmware solutions for Microchip 32-bit SAM and PIC microcontroller
 and microprocessor devices.  Refer to the following links for more information:
  - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit)
  - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus)
- - [Microchip MPLABÂ® X IDE](https://www.microchip.com/mplab/mplab-x-ide)
- - [Microchip MPLABÂ® Harmony](https://www.microchip.com/mplab/mplab-harmony)
- - [Microchip MPLABÂ® Harmony Pages](https://microchip-mplab-harmony.github.io/)
+ - [Microchip MPLAB® X IDE](https://www.microchip.com/mplab/mplab-x-ide)
+ - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
+ - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
 
 This repository contains the MPLABÂ® Harmony Graphics Suite.  The
 suite supports a free fast to market, graphics software development environment for Microchip MPLABÂ® 32-bit SAM and PIC microprocessor devices.  Refer to
 the following graphics links for release notes, home page, training materials, framework and application help.
 Find multiple graphics application examples in the [gfx_apps](https://github.com/Microchip-MPLAB-Harmony/gfx_apps/tree/master/apps) repository.
  - [Release Notes](./release_notes.md)
- - [MPLABÂ® Harmony License](mplab_harmony_license.md)
- - [MPLABÂ® Harmony 3 Graphics Wiki](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki)
- - [MPLABÂ® Harmony 3 Graphics Videos](https://www.youtube.com/playlist?list=PL9B4edd-p2ag5xsIIHhja-caKYY7AKPxe)
- - [MPLABÂ® Harmony 3 Graphics Suite Documentation](https://automaate.github.io/gen2_wiki_sandbox)
+ - [MPLAB® Harmony License](mplab_harmony_license.md)
+ - [MPLAB® Harmony 3 Graphics Wiki](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki)
+ - [MPLAB® Harmony 3 Graphics Videos](https://www.youtube.com/playlist?list=PL9B4edd-p2ag5xsIIHhja-caKYY7AKPxe)
+ - [MPLAB® Harmony 3 Graphics Suite Documentation](https://automaate.github.io/gen2_wiki_sandbox)
 
 # Features
 
@@ -50,8 +50,8 @@ The key features of the MPLAB Harmony Graphics Suite are the following:
 
 | Folder     | Description                                  |
 |------------|----------------------------------------------|
-| Legato graphics        | Legato graphics library, drivers, applications, and tools. |
-| Aria graphics      | Aria graphics library, drivers, applications, and tools |
+| Legato graphics            | Legato graphics library, drivers, applications, and tools. |
+| Aria graphics              | Aria graphics library, drivers, applications, and tools |
 | Blank graphics interface   | Blank graphics interface |
 
 ## Legato graphics
