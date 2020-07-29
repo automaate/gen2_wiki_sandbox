@@ -69,7 +69,9 @@ The performance improved graphics for MPLAB Harmony Graphics Suite. Supports Mic
 |      |   lcc | Display Driver for the LCC software Controller| ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
 |      |   gfx2d | Driver for the GFX2D graphics processor| ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
 |      |   lcdc | Display Driver for the LCDC display controller peripheral | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
-|      |   external controller | Display Driver for the ssd1963 Controller | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   external controller | Display Driver for the external Controller | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   ssd1963 | Display Driver for the ssd1963 Controller | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
+|      |   ili9488  | Display Driver for the ili9488 Controller | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
 |      |   parallel_ebi | Interface to the parallel EBI registers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
 |      |   parallel_portgroup | Inteface to the parallel portgroup registers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
 |      |   parallel_smc | Interface to the parallel smc registers | ![app-beta](https://img.shields.io/badge/driver-beta-orange?style=plastic) |
