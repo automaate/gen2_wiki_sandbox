@@ -18,21 +18,8 @@ nav_order: 99
 
 * **Development kit and demo application support** - The following table provides number of applications available for different development kits
 
-| Development Kits | Number of applications |
-| --- | --- |
-| [SAM A5D2 Xplained Ultra](https://www.microchip.com/developmenttools/ProductDetails/atsama5d2c-xult)     | legato_quickstart  |
-| [SAM9X60-EK Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/DT100126)          | legato_quickstart  |
-| [PIC32MZ DA Curiosity](https://www.microchip.com/developmenttools/ProductDetails/PartNO/ATSAME70-XPLD)   | legato_quickstart wqvga|
-| [PIC32MZ DA Curiosity](https://www.microchip.com/developmenttools/ProductDetails/PartNO/ATSAME70-XPLD)   | legato_quickstart wvga |
-| [Curiosity PIC32MZ EF 2.0](https://www.microchip.com/Developmenttools/ProductDetails/DM320209)           | legato_quickstart 3.5" |
-| [SAM E70 Xplained Ultra](https://www.microchip.com/developmenttools/ProductDetails/PartNO/ATSAME70-XPLD) | legato_flash WQVGA |
-| [Curiosity PIC32MZ EF 2.0](https://www.microchip.com/Developmenttools/ProductDetails/DM320209)           | legato_flash 3.5" |
-| [Curiosity PIC32MZ EF 2.0](https://www.microchip.com/Developmenttools/ProductDetails/DM320209)           | legato_quickstart_external_flash wqvga|
-| [Curiosity PIC32MZ EF 2.0](https://www.microchip.com/Developmenttools/ProductDetails/DM320209)           | legato_dashboard|
-| [Curiosity PIC32MZ EF 2.0](https://www.microchip.com/Developmenttools/ProductDetails/DM320209)           | legato_climate_control|
-
 | Development Kits     | Application|
-| ---   | --- |
+| ---  | --- |
 | [SAM A5D2 Xplained Ultra](https://www.microchip.com/developmenttools/ProductDetails/atsama5d2c-xult)      | [legato_quickstart](https://automaate.github.io/gen2_wiki_sandbox/docs/html/LegatoQuickstart.html)  |
 | [SAM9X60-EK Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/DT100126)           | [legato_quickstart](https://automaate.github.io/gen2_wiki_sandbox/docs/html/LegatoQuickstart.html)  |
 | [PIC32MZ DA Curiosity](https://www.microchip.com/developmenttools/ProductDetails/PartNO/ATSAME70-XPLD)    | [legato_quickstart](https://automaate.github.io/gen2_wiki_sandbox/docs/html/LegatoQuickstart.html) [legato_quickstart_external_resource](https://automaate.github.io/gen2_wiki_sandbox/docs/html/LegatoQuickstartExtRes.html) [legato_flash](https://automaate.github.io/gen2_wiki_sandbox/docs/html/LegatoFlash.html) |
@@ -40,9 +27,9 @@ nav_order: 99
 | [SAM E70 Xplained Ultra](https://www.microchip.com/developmenttools/ProductDetails/PartNO/ATSAME70-XPLD)  | [legato_flash](https://automaate.github.io/gen2_wiki_sandbox/docs/html/LegatoFlash.html) |
 
 
-* MH3-23406   Fix hard coded I2C instance in MaxTouch Driver.
-* MH3-24597   Image plus widget fails to render image if it is on the application's first screen 
-* MH3-28630   SPI Index is not configurable in drv_gfx_disp_intf_spi4 
+* MH3-23406    Fix hard coded I2C instance in MaxTouch Driver.
+* MH3-24597    Image plus widget fails to render image if it is on the application's first screen 
+* MH3-28630    SPI Index is not configurable in drv_gfx_disp_intf_spi4 
 * MH3-28928 	Harmony3 Graphics Configurator VSYNC/ HSYNC polarity inversed 
 * MH3-29965 	Add option for 320x480 screen resolution in Legato Composer new project wizard 
 * MH3-30003 	Hard fault issue in using List Widget in Harmony 3 Graphic 
@@ -107,9 +94,9 @@ nav_order: 99
 
 ### Dependent Components
 
-* [CSP v3.8.0](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.8.0)
-* [Core v3.8.0 ](https://github.com/Microchip-MPLAB-Harmony/core)  | v3.8.0
-* [dev_packs v3.8.0 ](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.7.0)
+* [BSP v3.7.0](https://github.com/Microchip-MPLAB-Harmony/bsp/releases/tag/v3.7.0)
+* [Core v3.7.2 ](https://github.com/Microchip-MPLAB-Harmony/core)  | v3.7.2
+* [dev_packs v3.7.0 ](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.7.0)
 * [Harmony 3 USB v3.6.0](https://github.com/Microchip-MPLAB-Harmony/usb)
 * [Harmony 3 CMSIS-FreeRTOS v10.2.0](https://github.com/ARM-software/CMSIS-FreeRTOS)
 * [IAR Embedded WorkBench ARM v8.40.1](https://www.iar.com/iar-embedded-workbench/#!?architecture=Arm)
